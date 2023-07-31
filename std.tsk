@@ -1,4 +1,4 @@
-<Task type="AAT" type="AAT" task_scored="0" aat_min_time="9000" start_max_speed="60" start_max_height="0" start_max_height_ref="MSL" finish_min_height="250" finish_min_height_ref="MSL" fai_finish="0" min_points="2" max_points="13" homogeneous_tps="0" is_closed="0">
+<Task type="AAT" type="AAT" task_scored="0" aat_min_time="150" start_max_speed="60" start_max_height="0" start_max_height_ref="MSL" finish_min_height="250" finish_min_height_ref="MSL" fai_finish="0" min_points="2" max_points="13" homogeneous_tps="0" is_closed="0">
 	<Point type="Start">
 		<Waypoint name="0048KoelkaerStn" altitude="51" id="0" comment="" >
 			<Location latitude="56.065283" longitude="9.084717"/>
