@@ -23,9 +23,27 @@
     </Waypoint>
     <ObservationZone type="Cylinder" radius="3000.0"/>
   </Point>
+  <Point type="Area">
+    <Waypoint name="052_ZA Herreros" id="0" comment="" altitude="1085.0">
+        <Location latitude="56.155833" longitude="9.009167"/>
+    </Waypoint>
+    <ObservationZone type="Cylinder" radius="3000.0"/>
+  </Point>
+  <Point type="Area">
+    <Waypoint name="052_ZA Herreros" id="0" comment="" altitude="1085.0">
+        <Location latitude="56.124717" longitude="9.717217"/>
+    </Waypoint>
+    <ObservationZone type="Cylinder" radius="3000.0"/>
+  </Point>
+  <Point type="Area">
+    <Waypoint name="052_ZA Herreros" id="0" comment="" altitude="1085.0">
+        <Location latitude="56.008333" longitude="9.111383"/>
+    </Waypoint>
+    <ObservationZone type="Cylinder" radius="3000.0"/>
+  </Point>
   <Point type="Finish">
     <Waypoint name="001_AD Garray" id="0" comment="" altitude="1036.0">
-        <Location latitude="56.155833" longitude="9.009167"/>
+        <Location latitude="56.01055" longitude="9.01445"/>
     </Waypoint>
     <ObservationZone type="Cylinder" radius="4000.0"/>
   </Point>
