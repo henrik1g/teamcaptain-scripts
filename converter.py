@@ -8,16 +8,7 @@ for file in ["club.txt", "std.txt"]:
         reader = csv.reader(f, delimiter="\t")
         for row in reader:
             lines.append(row[0].split(","))
-        # write as json with structure like
-        # [
-        #     {
-        #         "name": "John Smith",
-        #         "cn": "123",
-        #         "glider": "K6e",
-        #         "comp": "Club Class",
-        #         "flarm": ["DDEEFF"]
-        #     },
-        # ]
+
         with open(file.replace(".txt", ".json"), "w") as f:
             json.dump(
                 [
@@ -33,4 +24,3 @@ for file in ["club.txt", "std.txt"]:
                 f,
                 indent=4,
             )
-        
