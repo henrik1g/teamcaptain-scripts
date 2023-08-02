@@ -7,7 +7,7 @@ DDE264,,WE,,Alexandre Fierain
 DDABA8,,AP,,
 485DB0,,S4,,Lars van Breemen
 DD9FD9,,5I,,Alessandro Bassalti
-D0161A,,AG,,
+D0161A,,I,,Nils Heck
 DD9C23,,7E,,Gerrit Neugebauer
 DF0E18,,VW,,Tomáš Hynek
 DD4E35,,XD,,Elias Severholt Fourati
