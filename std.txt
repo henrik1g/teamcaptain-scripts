@@ -1,5 +1,5 @@
 ID,CALL,CN,TYPE,NAME
-DF1763,,JLA,,
+DF1763,,JLA,,🇩🇪 Jan-Lucas Aberle
 4B5171,,UB,,
 4B5190,,Z1,,
 4B51B5,,Z2,,
@@ -8,6 +8,7 @@ D02B96,,?96,,
 D00262,,HAL,,
 D00160,,W8,,
 FD621B,,?1B,,
-DDDC58,,C,,
+DDDC58,,C,,🇩🇪 Clemens Berger
 DDEF6F,,302,,
 D025E0,,EC,,
+DF17A7,,FJ,,
