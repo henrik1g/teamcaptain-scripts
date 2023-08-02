@@ -1,12 +1,11 @@
 ID,CALL,CN,TYPE,NAME
-DDDDCC,,PP,,
-D02720,,X29,,
-4B51B5,,Z2,,
+DDDDCC,,PP,,Robbe Van Brandt
+D02720,,X29,,Matthieu Hénin
 FD68CE,,?CE,,
 405A88,,? 88,,
 DDE264,,WE,,
 DDABA8,,AP,,
-485DB0,,S4,,
+485DB0,,S4,,Lars van Breemen
 DD9FD9,,5I,,
 D0161A,,AG,,
 DD9C23,,7E,,
@@ -14,8 +13,8 @@ DF0E18,,VW,,
 DD4E35,,XD,,
 DDC358,,JM,,
 DDEC47,,ISV,,
-485D93,,Au,,
-4859FE,,Ag,,
+485D93,,Au,,Tim Kremers
+4859FE,,Ag,,Wout Sliedregt
 D0075C,,CP,,
 D00D2F,,KT,,
 DDEE1F,,S5,,
@@ -25,8 +24,9 @@ D0054A,,GE,,
 DDDC94,,MD,,
 DDD8BF,,CB,,
 6E0733,,?33,,
-D0142A,,VJ,,
+D0142A,,VJ,,Jokubas Motuza
 FD63BD,,? BD,,
 D0208B,,CK,,
 4B4B30,,WG,,
 D01C39,,CX,,
+DD4FDF,,W4,,Titas Jovaiša
