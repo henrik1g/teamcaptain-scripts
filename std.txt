@@ -16,5 +16,5 @@ DF0E33,,MK,,🇩🇰 Jacob Bøgelund Lassen
 D008BF,,KE,,🇩🇰 Mathias Valentin
 38B61B,,AX,,🇫🇷 Theo Napoleon
 DDE312,,CA,,🇫🇷 Philippe LATA
-D0018B,,🇨🇿EU,,🇨🇿 Jaromír Macoun
+D0018B,,EU,,🇨🇿 Jaromír Macoun
 D001D4,,AU,,🇨🇿 Lukáš Kríž
