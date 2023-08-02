@@ -10,6 +10,6 @@ D00160,,W8,,
 FD621B,,?1B,,
 DDDC58,,C,,🇩🇪 Clemens Berger
 DDEF6F,,302,,
-D025E0,,EC,,
+D025E0,,EC,,🇩🇰 Lasse Edslev
 DF17A7,,FJ,,
 DF0E33,,MK,,🇩🇰 Jacob Bøgelund Lassen
