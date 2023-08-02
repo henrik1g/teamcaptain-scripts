@@ -6,7 +6,7 @@ DF1763,,JLA,,🇩🇪 Jan-Lucas Aberle
 D02B96,,?96,,
 485F92,,VNE,,🇳🇱 Niels van Nieuwland
 D00262,,HAL,,🇭🇺 Áron Érseki
-D00160,,W8,,
+D00160,,W8,,🇨🇿 Michaela Rendlova
 FD621B,,?1B,,
 DDDC58,,C,,🇩🇪 Clemens Berger
 DDEF6F,,302,,
@@ -14,3 +14,5 @@ D025E0,,EC,,🇩🇰 Lasse Edslev
 DF17A7,,FJ,,
 DF0E33,,MK,,🇩🇰 Jacob Bøgelund Lassen
 D008BF,,KE,,🇩🇰 Mathias Valentin
+38B61B,,AX,,🇫🇷 Theo Napoleon
+DDE312,,CA,,🇫🇷 Philippe LATA
