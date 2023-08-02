@@ -35,3 +35,4 @@ DF1045,,FT,,🇩🇪 Johannes Beyer
 DDDAAA,,AB,,🇸🇪 Ludvig Jauring
 D015EE,,CPI,,🇨🇿 Jan Štastný
 4DE18F,,212,,🇬🇧 Toby Freeland
+405ACF,,ENW,,🇬🇧 George White
