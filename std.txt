@@ -1,7 +1,7 @@
 ID,CALL,CN,TYPE,NAME
 DF1763,,JLA,,🇩🇪 Jan-Lucas Aberle
-4B5171,,UB,,
-4B5190,,Z1,,
+4B5171,,UB,,🇨🇭 Raphael Lutz
+4B5190,,Z1,,🇨🇭 Claudio Etterli
 4B51B5,,Z2,,
 D02B96,,?96,,
 485F92,,VNE,,
@@ -12,3 +12,4 @@ DDDC58,,C,,🇩🇪 Clemens Berger
 DDEF6F,,302,,
 D025E0,,EC,,
 DF17A7,,FJ,,
+DF0E33,,MK,,🇩🇰 Jacob Bøgelund Lassen
