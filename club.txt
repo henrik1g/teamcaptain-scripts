@@ -8,7 +8,7 @@ DDABA8,,AP,,
 485DB0,,S4,,Lars van Breemen
 DD9FD9,,5I,,
 D0161A,,AG,,
-DD9C23,,7E,,
+DD9C23,,7E,,Gerrit Neugebauer
 DF0E18,,VW,,
 DD4E35,,XD,,
 DDC358,,JM,,
@@ -26,7 +26,9 @@ DDD8BF,,CB,,
 6E0733,,?33,,
 D0142A,,VJ,,Jokubas Motuza
 FD63BD,,? BD,,
-D0208B,,CK,,
+D0208B,,CK,,Šimon Šiška
 4B4B30,,WG,,
 D01C39,,CX,,
 DD4FDF,,W4,,Titas Jovaiša
+D027B1,,LN,,Maciej Kowalski
+
