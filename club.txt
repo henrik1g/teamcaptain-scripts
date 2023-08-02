@@ -6,11 +6,11 @@ FD68CE,,?CE,,
 DDE264,,WE,,Alexandre Fierain
 DDABA8,,AP,,
 485DB0,,S4,,Lars van Breemen
-DD9FD9,,5I,,
+DD9FD9,,5I,,Alessandro Bassalti
 D0161A,,AG,,
 DD9C23,,7E,,Gerrit Neugebauer
-DF0E18,,VW,,
-DD4E35,,XD,,
+DF0E18,,VW,,Tomáš Hynek
+DD4E35,,XD,,Elias Severholt Fourati
 DDC358,,JM,,
 DDEC47,,ISV,,
 485D93,,Au,,Tim Kremers
@@ -31,4 +31,4 @@ D0208B,,CK,,Šimon Šiška
 D01C39,,CX,,
 DD4FDF,,W4,,Titas Jovaiša
 D027B1,,LN,,Maciej Kowalski
-
+DF1045,,FT,,Johannes Beyer
