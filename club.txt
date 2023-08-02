@@ -15,12 +15,12 @@ DDC358,,JM,,
 DDEC47,,ISV,,Jakob Prior
 485D93,,Au,,Tim Kremers
 4859FE,,Ag,,Wout Sliedregt
-D0075C,,CP,,
-D00D2F,,KT,,
+D0075C,,CP,,Dylan Osolian
+D00D2F,,KT,,Kim Toppari
 DDEE1F,,S5,,
 DD51FA,,TM,,
-DDDAB6,,HV,,
-D0054A,,GE,,
+DDDAB6,,HV,,Sara Salonen
+D0054A,,GE,,Mikko Ylihärsilä
 DDDC94,,MD,,
 DDD8BF,,CB,,
 6E0733,,?33,,
@@ -32,3 +32,4 @@ D01C39,,CX,,
 DD4FDF,,W4,,Titas Jovaiša
 D027B1,,LN,,Maciej Kowalski
 DF1045,,FT,,Johannes Beyer
+DDDAAA,,AB,,Ludvig Jauring
