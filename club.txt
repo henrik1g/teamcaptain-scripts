@@ -28,8 +28,9 @@ D0142A,,VJ,,🇱🇹 Jokubas Motuza
 FD63BD,,? BD,,
 D0208B,,CK,,🇸🇰 Šimon Šiška
 4B4B30,,WG,,🇨🇭 Matteo Merk
-D01C39,,CX,,
+D01C39,,CX,,🇨🇿 Vladimir Hammer
 DD4FDF,,W4,,🇱🇹 Titas Jovaiša
 D027B1,,LN,,🇵🇱 Maciej Kowalski
 DF1045,,FT,,🇩🇪 Johannes Beyer
 DDDAAA,,AB,,🇸🇪 Ludvig Jauring
+D015EE,,CPI,,🇨🇿 Jan Štastný
