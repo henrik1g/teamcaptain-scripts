@@ -3,7 +3,7 @@
 		<Waypoint altitude="51" name="0048KoelkaerStn">
 			<Location latitude="56.065283" longitude="9.084717"/>
 		</Waypoint>
-		<ObservationZone length="10000" type="Cylinder"/>
+		<ObservationZone length="10000" type="Line"/>
 	</Point>
 	<Point type="Turn">
 		<Waypoint altitude="122" name="0012N.SnedeVjX">
