@@ -27,7 +27,7 @@
         ]
     },
     {
-        "name": "",
+        "name": "\ud83c\udde8\ud83c\udded S\u00f6nke Ahlborn",
         "cn": "Z2",
         "glider": "",
         "comp": "Z2",
@@ -72,30 +72,12 @@
         ]
     },
     {
-        "name": "",
-        "cn": "?1B",
-        "glider": "",
-        "comp": "?1B",
-        "flarm": [
-            "FD621B"
-        ]
-    },
-    {
         "name": "\ud83c\udde9\ud83c\uddea Clemens Berger",
         "cn": "\ud83c\udde9\ud83c\uddeaC",
         "glider": "",
         "comp": "\ud83c\udde9\ud83c\uddeaC",
         "flarm": [
             "DDDC58"
-        ]
-    },
-    {
-        "name": "",
-        "cn": "302",
-        "glider": "",
-        "comp": "302",
-        "flarm": [
-            "DDEF6F"
         ]
     },
     {
@@ -168,6 +150,15 @@
         "comp": "AU",
         "flarm": [
             "D001D4"
+        ]
+    },
+    {
+        "name": "\ud83c\uddec\ud83c\udde7 Ben Edkins",
+        "cn": "302",
+        "glider": "",
+        "comp": "302",
+        "flarm": [
+            "DDEF6F"
         ]
     }
 ]

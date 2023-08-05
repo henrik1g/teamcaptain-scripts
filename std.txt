@@ -7,7 +7,6 @@ D02B96,,?96,,
 485F92,,VNE,,🇳🇱 Niels van Nieuwland
 D00262,,HAL,,🇭🇺 Áron Érseki
 D00160,,W8,,🇨🇿 Michaela Rendlova
-FD621B,,?1B,,
 DDDC58,,🇩🇪C,,🇩🇪 Clemens Berger
 D025E0,,EC,,🇩🇰 Lasse Edslev
 DF17A7,,🇩🇪FJ,,🇩🇪 Nuno Ferrera
