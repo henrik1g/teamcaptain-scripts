@@ -18,3 +18,4 @@ D008BF,,KE,,🇩🇰 Mathias Valentin
 DDE312,,CA,,🇫🇷 Philippe LATA
 D0018B,,EU,,🇨🇿 Jaromír Macoun
 D001D4,,AU,,🇨🇿 Lukáš Kríž
+DDEF6F,,302,,🇬🇧 Ben Edkins

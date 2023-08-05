@@ -6,44 +6,50 @@
 		<ObservationZone length="10000" type="Line"/>
 	</Point>
 	<Point type="Turn">
-		<Waypoint altitude="122" name="0012N.SnedeVjX">
-			<Location latitude="55.96445" longitude="9.39445"/>
+		<Waypoint altitude="28" name="0088EjstruphedeFlp">
+			<Location latitude="56.021383" longitude="8.691117"/>
 		</Waypoint>
 		<ObservationZone radius="500" type="Cylinder"/>
 	</Point>
 	<Point type="Turn">
-		<Waypoint altitude="95" name="0945PaarupMbro">
-			<Location latitude="56.129717" longitude="9.352217"/>
+		<Waypoint altitude="57" name="0812HaunstrupKrk">
+			<Location latitude="56.119717" longitude="8.806117"/>
 		</Waypoint>
 		<ObservationZone radius="500" type="Cylinder"/>
 	</Point>
 	<Point type="Turn">
-		<Waypoint altitude="46" name="0835SindingKrk">
-			<Location latitude="56.205" longitude="8.8625"/>
+		<Waypoint altitude="68" name="0468HoerbylundeVbro">
+			<Location latitude="56.138617" longitude="9.40805"/>
 		</Waypoint>
 		<ObservationZone radius="500" type="Cylinder"/>
 	</Point>
 	<Point type="Turn">
-		<Waypoint altitude="36" name="0050KibaekStn">
-			<Location latitude="56.0325" longitude="8.85195"/>
+		<Waypoint altitude="13" name="0478KastbjergVjT">
+			<Location latitude="56.646117" longitude="10.161667"/>
 		</Waypoint>
 		<ObservationZone radius="500" type="Cylinder"/>
 	</Point>
 	<Point type="Turn">
-		<Waypoint altitude="75" name="0224EjstrupholmKrk">
-			<Location latitude="55.982783" longitude="9.28695"/>
+		<Waypoint altitude="74" name="0815HundslundKrk">
+			<Location latitude="55.915283" longitude="10.048883"/>
 		</Waypoint>
 		<ObservationZone radius="500" type="Cylinder"/>
 	</Point>
 	<Point type="Turn">
-		<Waypoint altitude="44" name="0971HerningRndk">
-			<Location latitude="56.155833" longitude="9.009167"/>
+		<Waypoint altitude="32" name="0079SilkeborgStn">
+			<Location latitude="56.164167" longitude="9.544167"/>
 		</Waypoint>
 		<ObservationZone radius="500" type="Cylinder"/>
 	</Point>
 	<Point type="Turn">
-		<Waypoint altitude="26" name="0051SkarrildRndk">
-			<Location latitude="55.978333" longitude="8.897783"/>
+		<Waypoint altitude="78" name="0013MattrupGds">
+			<Location latitude="55.924167" longitude="9.542217"/>
+		</Waypoint>
+		<ObservationZone radius="500" type="Cylinder"/>
+	</Point>
+	<Point type="Turn">
+		<Waypoint altitude="52" name="0047FasterholtBanX">
+			<Location latitude="56.008333" longitude="9.111383"/>
 		</Waypoint>
 		<ObservationZone radius="500" type="Cylinder"/>
 	</Point>
