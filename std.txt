@@ -3,7 +3,6 @@ DF1763,,🇩🇪JLA,,🇩🇪 Jan-Lucas Aberle
 4B5171,,UB,,🇨🇭 Raphael Lutz
 4B5190,,Z1,,🇨🇭 Claudio Etterli
 4B51B5,,Z2,,🇨🇭 Sönke Ahlborn
-D02B96,,?96,,
 485F92,,VNE,,🇳🇱 Niels van Nieuwland
 D00262,,HAL,,🇭🇺 Áron Érseki
 D00160,,W8,,🇨🇿 Michaela Rendlova
