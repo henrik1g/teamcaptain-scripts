@@ -36,15 +36,6 @@
         ]
     },
     {
-        "name": "",
-        "cn": "?96",
-        "glider": "",
-        "comp": "?96",
-        "flarm": [
-            "D02B96"
-        ]
-    },
-    {
         "name": "\ud83c\uddf3\ud83c\uddf1 Niels van Nieuwland",
         "cn": "VNE",
         "glider": "",
@@ -159,6 +150,15 @@
         "comp": "302",
         "flarm": [
             "DDEF6F"
+        ]
+    },
+    {
+        "name": "\ud83c\uddec\ud83c\udde7 Freddie Turner",
+        "cn": "325",
+        "glider": "",
+        "comp": "325",
+        "flarm": [
+            "D02B96"
         ]
     }
 ]
