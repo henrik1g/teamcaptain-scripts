@@ -1,4 +1,4 @@
-<Task type="RT">
+<Task type="AAT">
 	<Point type="Start">
 		<Waypoint altitude="49" name="0049BrandeStn">
 			<Location latitude="55.945" longitude="9.128883"/>
@@ -6,52 +6,34 @@
 		<ObservationZone length="10000" type="Line"/>
 	</Point>
 	<Point type="Turn">
-		<Waypoint altitude="113" name="0014BraedstrupKrk">
-			<Location latitude="55.96695" longitude="9.608333"/>
+		<Waypoint altitude="96" name="0220ChristianshedeFlp">
+			<Location latitude="56.10445" longitude="9.39305"/>
 		</Waypoint>
-		<ObservationZone radius="500" type="Cylinder"/>
+		<ObservationZone radius="10000" type="Cylinder"/>
 	</Point>
 	<Point type="Turn">
-		<Waypoint altitude="55" name="0071VildbjergStn">
-			<Location latitude="56.19805" longitude="8.768617"/>
+		<Waypoint altitude="56" name="0986VindKrk">
+			<Location latitude="56.26195" longitude="8.545283"/>
 		</Waypoint>
-		<ObservationZone radius="500" type="Cylinder"/>
+		<ObservationZone radius="10000" type="Cylinder"/>
+	</Point>
+	<Point type="Turn">
+		<Waypoint altitude="17" name="0215BorrisStn">
+			<Location latitude="55.958617" longitude="8.644167"/>
+		</Waypoint>
+		<ObservationZone radius="10000" type="Cylinder"/>
+	</Point>
+	<Point type="Turn">
+		<Waypoint altitude="54" name="0793SkibbildBanX">
+			<Location latitude="56.169167" longitude="8.847783"/>
+		</Waypoint>
+		<ObservationZone radius="5000" type="Cylinder"/>
 	</Point>
 	<Point type="Turn">
 		<Waypoint altitude="26" name="0051SkarrildRndk">
 			<Location latitude="55.978333" longitude="8.897783"/>
 		</Waypoint>
-		<ObservationZone radius="500" type="Cylinder"/>
-	</Point>
-	<Point type="Turn">
-		<Waypoint altitude="32" name="0079SilkeborgStn">
-			<Location latitude="56.164167" longitude="9.544167"/>
-		</Waypoint>
-		<ObservationZone radius="500" type="Cylinder"/>
-	</Point>
-	<Point type="Turn">
-		<Waypoint altitude="26" name="1120StevnstrupVjT">
-			<Location latitude="56.433333" longitude="9.945833"/>
-		</Waypoint>
-		<ObservationZone radius="500" type="Cylinder"/>
-	</Point>
-	<Point type="Turn">
-		<Waypoint altitude="19" name="0008HadstenStn">
-			<Location latitude="56.32695" longitude="10.048617"/>
-		</Waypoint>
-		<ObservationZone radius="500" type="Cylinder"/>
-	</Point>
-	<Point type="Turn">
-		<Waypoint altitude="26" name="1118SaltenLangsoe">
-			<Location latitude="56.06195" longitude="9.648333"/>
-		</Waypoint>
-		<ObservationZone radius="500" type="Cylinder"/>
-	</Point>
-	<Point type="Turn">
-		<Waypoint altitude="52" name="0047FasterholtBanX">
-			<Location latitude="56.008333" longitude="9.111383"/>
-		</Waypoint>
-		<ObservationZone radius="500" type="Cylinder"/>
+		<ObservationZone radius="2000" type="Cylinder"/>
 	</Point>
 	<Point type="Finish">
 		<Waypoint altitude="38" name="0851ArnborgFlp">
