@@ -38,3 +38,5 @@ D015EE,,CPI,,🇨🇿 Jan Štastný
 405ACF,,ENW,,🇬🇧 George White
 D01971,,IAG,,🇫🇷 Guillaume Ottolini
 4DE185,,ENW,,🇬🇧 George White
+4DE531,,212,,🇬🇧 Toby Freeland
+4DECC1,,ENW,,🇬🇧 George White
