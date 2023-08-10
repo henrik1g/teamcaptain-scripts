@@ -1,4 +1,4 @@
-<Task type="AAT">
+<Task type="RT">
 	<Point type="Start">
 		<Waypoint altitude="51" name="0048KoelkaerStn">
 			<Location latitude="56.065283" longitude="9.084717"/>
@@ -6,39 +6,51 @@
 		<ObservationZone length="10000" type="Line"/>
 	</Point>
 	<Point type="Turn">
-		<Waypoint altitude="37" name="0843FasterlundVjT">
-			<Location latitude="56.01555" longitude="8.603617"/>
+		<Waypoint altitude="55" name="0820HoerningStn">
+			<Location latitude="56.0825" longitude="10.038617"/>
 		</Waypoint>
-		<ObservationZone radius="10000" type="Cylinder"/>
+		<ObservationZone radius="500" type="Cylinder"/>
+	</Point>
+	<Point type="Turn">
+		<Waypoint altitude="98" name="0819HvilstedKrk">
+			<Location latitude="56.007217" longitude="10.055833"/>
+		</Waypoint>
+		<ObservationZone radius="500" type="Cylinder"/>
+	</Point>
+	<Point type="Turn">
+		<Waypoint altitude="51" name="0048KoelkaerStn">
+			<Location latitude="56.065283" longitude="9.084717"/>
+		</Waypoint>
+		<ObservationZone radius="500" type="Cylinder"/>
 	</Point>
 	<Point type="Turn">
 		<Waypoint altitude="49" name="0049BrandeStn">
 			<Location latitude="55.945" longitude="9.128883"/>
 		</Waypoint>
-		<ObservationZone radius="5000" type="Cylinder"/>
+		<ObservationZone radius="500" type="Cylinder"/>
 	</Point>
 	<Point type="Turn">
-		<Waypoint altitude="56" name="0986VindKrk">
-			<Location latitude="56.26195" longitude="8.545283"/>
+		<Waypoint altitude="74" name="0815HundslundKrk">
+			<Location latitude="55.915283" longitude="10.048883"/>
 		</Waypoint>
-		<ObservationZone radius="5000" type="Cylinder"/>
+		<ObservationZone radius="500" type="Cylinder"/>
 	</Point>
 	<Point type="Turn">
-		<Waypoint altitude="25" name="0808DejbjergGlfb">
-			<Location latitude="55.997783" longitude="8.474167"/>
+		<Waypoint altitude="115" name="0169ThemSilo">
+			<Location latitude="56.096117" longitude="9.543333"/>
 		</Waypoint>
-		<ObservationZone radius="5000" type="Cylinder"/>
+		<ObservationZone radius="500" type="Cylinder"/>
 	</Point>
 	<Point type="Turn">
-		<Waypoint altitude="26" name="0051SkarrildRndk">
-			<Location latitude="55.978333" longitude="8.897783"/>
+		<Waypoint altitude="52" name="0047FasterholtBanX">
+			<Location latitude="56.008333" longitude="9.111383"/>
 		</Waypoint>
-		<ObservationZone radius="2000" type="Cylinder"/>
+		<ObservationZone radius="500" type="Cylinder"/>
 	</Point>
 	<Point type="Finish">
 		<Waypoint altitude="38" name="0851ArnborgFlp">
 			<Location latitude="56.01055" longitude="9.01445"/>
 		</Waypoint>
-		<ObservationZone radius="4" type="Cylinder"/>
+		<ObservationZone radius="4000" type="Cylinder"/>
 	</Point>
 </Task>
