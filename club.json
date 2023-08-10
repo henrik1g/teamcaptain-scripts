@@ -73,18 +73,18 @@
     },
     {
         "name": "\ud83c\udde9\ud83c\uddea Nils Heck",
-        "cn": "I",
+        "cn": "\ud83c\udde9\ud83c\uddeaI",
         "glider": "",
-        "comp": "I",
+        "comp": "\ud83c\udde9\ud83c\uddeaI",
         "flarm": [
             "D0161A"
         ]
     },
     {
         "name": "\ud83c\udde9\ud83c\uddea Gerrit Neugebauer",
-        "cn": "7E",
+        "cn": "\ud83c\udde9\ud83c\uddea7E",
         "glider": "",
-        "comp": "7E",
+        "comp": "\ud83c\udde9\ud83c\uddea7E",
         "flarm": [
             "DD9C23"
         ]
@@ -289,9 +289,9 @@
     },
     {
         "name": "\ud83c\udde9\ud83c\uddea Johannes Beyer",
-        "cn": "FT",
+        "cn": "\ud83c\udde9\ud83c\uddeaFT",
         "glider": "",
-        "comp": "FT",
+        "comp": "\ud83c\udde9\ud83c\uddeaFT",
         "flarm": [
             "DF1045"
         ]
