@@ -9,25 +9,25 @@
 		<Waypoint altitude="76" name="0037HovedgaardStn">
 			<Location latitude="55.945833" longitude="9.962783"/>
 		</Waypoint>
-		<ObservationZone radius="10000" type="FAISector"/>
+		<ObservationZone radius="10000" type="Cylinder"/>
 	</Point>
 	<Point type="Turn">
 		<Waypoint altitude="39" name="0001ArnborgRndk">
 			<Location latitude="56.014167" longitude="8.997217"/>
 		</Waypoint>
-		<ObservationZone radius="13000" type="FAISector"/>
+		<ObservationZone radius="13000" type="Cylinder"/>
 	</Point>
 	<Point type="Turn">
 		<Waypoint altitude="40" name="0765RyKrk">xa
 			<Location latitude="56.091117" longitude="9.766117"/>
 		</Waypoint>
-		<ObservationZone radius="15000" type="FAISector"/>
+		<ObservationZone radius="15000" type="Cylinder"/>
 	</Point>
 	<Point type="Turn">
 		<Waypoint altitude="52" name="0047FasterholtBanX">
 			<Location latitude="56.008333" longitude="9.111383"/>
 		</Waypoint>
-		<ObservationZone radius="500" type="FAISector"/>
+		<ObservationZone radius="500" type="Cylinder"/>
 	</Point>
 	<Point type="Finish">
 		<Waypoint altitude="39" name="0001ArnborgRndk">
