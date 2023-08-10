@@ -1,51 +1,33 @@
-<Task type="RT">
+<Task type="AAT" task_scored="0" aat_min_time="150" start_max_speed="300" start_max_height="0" start_max_height_ref="MSL" finish_min_height="250" finish_min_height_ref="MSL" fai_finish="0" min_points="2" max_points="13" homogeneous_tps="0" is_closed="0">
 	<Point type="Start">
 		<Waypoint altitude="49" name="0049BrandeStn">
 			<Location latitude="55.945" longitude="9.128883"/>
 		</Waypoint>
-		<ObservationZone length="10000" type="Line"/>
+		<ObservationZone Length="10000" type="LINE"/>
 	</Point>
 	<Point type="Turn">
 		<Waypoint altitude="56" name="0108Danish CrownSlgt">
 			<Location latitude="55.914167" longitude="9.825833"/>
 		</Waypoint>
-		<ObservationZone radius="500" type="Cylinder"/>
+		<ObservationZone radius="10000" type="Cylinder"/>
 	</Point>
 	<Point type="Turn">
-		<Waypoint altitude="88" name="0590VoerladegaardKrk">
-			<Location latitude="56.026117" longitude="9.73555"/>
+		<Waypoint altitude="51" name="0048KoelkaerStn">
+			<Location latitude="56.065283" longitude="9.084717"/>
 		</Waypoint>
-		<ObservationZone radius="500" type="Cylinder"/>
+		<ObservationZone radius="15000" type="Cylinder"/>
 	</Point>
 	<Point type="Turn">
-		<Waypoint altitude="66" name="0752IsenvadKrk">
-			<Location latitude="56.096667" longitude="9.205"/>
+		<Waypoint altitude="47" name="0083SkanderborgStn">
+			<Location latitude="56.043617" longitude="9.925"/>
 		</Waypoint>
-		<ObservationZone radius="500" type="Cylinder"/>
-	</Point>
-	<Point type="Turn">
-		<Waypoint altitude="39" name="0001ArnborgRndk">
-			<Location latitude="56.014167" longitude="8.997217"/>
-		</Waypoint>
-		<ObservationZone radius="500" type="Cylinder"/>
-	</Point>
-	<Point type="Turn">
-		<Waypoint altitude="125" name="0162OvstedKrk">
-			<Location latitude="55.972217" longitude="9.85555"/>
-		</Waypoint>
-		<ObservationZone radius="500" type="Cylinder"/>
-	</Point>
-	<Point type="Turn">
-		<Waypoint altitude="75" name="0832VengSkle">
-			<Location latitude="56.096117" longitude="9.898333"/>
-		</Waypoint>
-		<ObservationZone radius="500" type="Cylinder"/>
+		<ObservationZone radius="15000" type="Cylinder"/>
 	</Point>
 	<Point type="Turn">
 		<Waypoint altitude="81" name="0214BordingStn">
 			<Location latitude="56.14695" longitude="9.27805"/>
 		</Waypoint>
-		<ObservationZone radius="500" type="Cylinder"/>
+		<ObservationZone radius="5000" type="Cylinder"/>
 	</Point>
 	<Point type="Turn">
 		<Waypoint altitude="52" name="0047FasterholtBanX">
@@ -54,8 +36,8 @@
 		<ObservationZone radius="500" type="Cylinder"/>
 	</Point>
 	<Point type="Finish">
-		<Waypoint altitude="39" name="0001ArnborgRndk">
-			<Location latitude="56.014167" longitude="8.997217"/>
+		<Waypoint altitude="38" name="0851ArnborgFlp">
+			<Location latitude="56.01055" longitude="9.01445"/>
 		</Waypoint>
 		<ObservationZone radius="4000" type="Cylinder"/>
 	</Point>
