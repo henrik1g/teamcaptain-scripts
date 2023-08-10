@@ -349,5 +349,23 @@
         "flarm": [
             "4DE185"
         ]
+    },
+    {
+        "name": "\ud83c\uddec\ud83c\udde7 Toby Freeland",
+        "cn": "212",
+        "glider": "",
+        "comp": "212",
+        "flarm": [
+            "4DE531"
+        ]
+    },
+    {
+        "name": "\ud83c\uddec\ud83c\udde7 George White",
+        "cn": "ENW",
+        "glider": "",
+        "comp": "ENW",
+        "flarm": [
+            "4DECC1"
+        ]
     }
 ]
