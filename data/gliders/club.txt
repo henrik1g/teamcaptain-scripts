@@ -1,5 +1,5 @@
 ID,CALL,CN,TYPE,NAME
-DDDDCC,,PP,,🇧🇪 Robbe Van Brandt
+DDDDCC,,PP,,🇧🇪 Robbe Van Brand
 D02720,,X29,,🇫🇷 Matthieu Hénin
 FD68CE,,?CE,,
 405A88,,? 88,,
