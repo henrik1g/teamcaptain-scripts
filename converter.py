@@ -6,7 +6,7 @@ classes: list = [
     "std"
     ]
 
-classes = [f"data/{c}.txt" for c in classes]
+classes = [f"data/gliders/{c}.txt" for c in classes]
 
 for file in classes:
     lines = []
