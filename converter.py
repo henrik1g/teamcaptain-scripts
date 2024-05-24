@@ -1,7 +1,14 @@
 import csv
 import json
 
-for file in ["club.txt", "std.txt"]:
+classes: list = [
+    "club", 
+    "std"
+    ]
+
+classes = [f"data/{c}.txt" for c in classes]
+
+for file in classes:
     lines = []
     # read as csv with ID,CALL,CN,TYPE,NAME
     with open(file, "r") as f:
@@ -24,3 +31,8 @@ for file in ["club.txt", "std.txt"]:
                 f,
                 indent=4,
             )
+
+
+
+
+
