@@ -1,6 +1,6 @@
 [
     {
-        "name": "\ud83c\udde7\ud83c\uddea Robbe Van Brandt",
+        "name": "\u00f0\u0178\u2021\u00a7\u00f0\u0178\u2021\u00aa Robbe Van Brandt",
         "cn": "PP",
         "glider": "",
         "comp": "PP",
@@ -9,7 +9,7 @@
         ]
     },
     {
-        "name": "\ud83c\uddeb\ud83c\uddf7 Matthieu H\u00e9nin",
+        "name": "\u00f0\u0178\u2021\u00ab\u00f0\u0178\u2021\u00b7 Matthieu H\u00c3\u00a9nin",
         "cn": "X29",
         "glider": "",
         "comp": "X29",
@@ -36,7 +36,7 @@
         ]
     },
     {
-        "name": "\ud83c\uddeb\ud83c\uddf7 Alexandre Fierain",
+        "name": "\u00f0\u0178\u2021\u00ab\u00f0\u0178\u2021\u00b7 Alexandre Fierain",
         "cn": "WE",
         "glider": "",
         "comp": "WE",
@@ -54,7 +54,7 @@
         ]
     },
     {
-        "name": "\ud83c\uddf3\ud83c\uddf1 Lars van Breemen",
+        "name": "\u00f0\u0178\u2021\u00b3\u00f0\u0178\u2021\u00b1 Lars van Breemen",
         "cn": "S4",
         "glider": "",
         "comp": "S4",
@@ -63,7 +63,7 @@
         ]
     },
     {
-        "name": "\ud83c\uddee\ud83c\uddf9 Alessandro Bassalti",
+        "name": "\u00f0\u0178\u2021\u00ae\u00f0\u0178\u2021\u00b9 Alessandro Bassalti",
         "cn": "5I",
         "glider": "",
         "comp": "5I",
@@ -72,25 +72,25 @@
         ]
     },
     {
-        "name": "\ud83c\udde9\ud83c\uddea Nils Heck",
-        "cn": "\ud83c\udde9\ud83c\uddeaI",
+        "name": "\u00f0\u0178\u2021\u00a9\u00f0\u0178\u2021\u00aa Nils Heck",
+        "cn": "\u00f0\u0178\u2021\u00a9\u00f0\u0178\u2021\u00aaI",
         "glider": "",
-        "comp": "\ud83c\udde9\ud83c\uddeaI",
+        "comp": "\u00f0\u0178\u2021\u00a9\u00f0\u0178\u2021\u00aaI",
         "flarm": [
             "D0161A"
         ]
     },
     {
-        "name": "\ud83c\udde9\ud83c\uddea Gerrit Neugebauer",
-        "cn": "\ud83c\udde9\ud83c\uddea7E",
+        "name": "\u00f0\u0178\u2021\u00a9\u00f0\u0178\u2021\u00aa Gerrit Neugebauer",
+        "cn": "\u00f0\u0178\u2021\u00a9\u00f0\u0178\u2021\u00aa7E",
         "glider": "",
-        "comp": "\ud83c\udde9\ud83c\uddea7E",
+        "comp": "\u00f0\u0178\u2021\u00a9\u00f0\u0178\u2021\u00aa7E",
         "flarm": [
             "DD9C23"
         ]
     },
     {
-        "name": "\ud83c\udde8\ud83c\uddff Tom\u00e1\u0161 Hynek",
+        "name": "\u00f0\u0178\u2021\u00a8\u00f0\u0178\u2021\u00bf Tom\u00c3\u00a1\u00c5\u00a1 Hynek",
         "cn": "VW",
         "glider": "",
         "comp": "VW",
@@ -99,7 +99,7 @@
         ]
     },
     {
-        "name": "\ud83c\uddf8\ud83c\uddea Elias Severholt Fourati",
+        "name": "\u00f0\u0178\u2021\u00b8\u00f0\u0178\u2021\u00aa Elias Severholt Fourati",
         "cn": "XD",
         "glider": "",
         "comp": "XD",
@@ -108,7 +108,7 @@
         ]
     },
     {
-        "name": "\ud83c\udded\ud83c\uddfa Lilla Szamosujv\u00e1ri",
+        "name": "\u00f0\u0178\u2021\u00ad\u00f0\u0178\u2021\u00ba Lilla Szamosujv\u00c3\u00a1ri",
         "cn": "JM",
         "glider": "",
         "comp": "JM",
@@ -117,7 +117,7 @@
         ]
     },
     {
-        "name": "\ud83c\udde6\ud83c\uddf9 Jakob Prior",
+        "name": "\u00f0\u0178\u2021\u00a6\u00f0\u0178\u2021\u00b9 Jakob Prior",
         "cn": "ISV",
         "glider": "",
         "comp": "ISV",
@@ -126,7 +126,7 @@
         ]
     },
     {
-        "name": "\ud83c\uddf3\ud83c\uddf1 Tim Kremers",
+        "name": "\u00f0\u0178\u2021\u00b3\u00f0\u0178\u2021\u00b1 Tim Kremers",
         "cn": "Au",
         "glider": "",
         "comp": "Au",
@@ -135,7 +135,7 @@
         ]
     },
     {
-        "name": "\ud83c\uddf3\ud83c\uddf1 Wout Sliedregt",
+        "name": "\u00f0\u0178\u2021\u00b3\u00f0\u0178\u2021\u00b1 Wout Sliedregt",
         "cn": "Ag",
         "glider": "",
         "comp": "Ag",
@@ -144,7 +144,7 @@
         ]
     },
     {
-        "name": "\ud83c\uddf8\ud83c\uddea Dylan Osolian",
+        "name": "\u00f0\u0178\u2021\u00b8\u00f0\u0178\u2021\u00aa Dylan Osolian",
         "cn": "CP",
         "glider": "",
         "comp": "CP",
@@ -153,7 +153,7 @@
         ]
     },
     {
-        "name": "\ud83c\uddeb\ud83c\uddee Kim Toppari",
+        "name": "\u00f0\u0178\u2021\u00ab\u00f0\u0178\u2021\u00ae Kim Toppari",
         "cn": "KT",
         "glider": "",
         "comp": "KT",
@@ -162,7 +162,7 @@
         ]
     },
     {
-        "name": "\ud83c\udde8\ud83c\udded Valeria Huber",
+        "name": "\u00f0\u0178\u2021\u00a8\u00f0\u0178\u2021\u00ad Valeria Huber",
         "cn": "S5",
         "glider": "",
         "comp": "S5",
@@ -171,7 +171,7 @@
         ]
     },
     {
-        "name": "\ud83c\udde9\ud83c\uddf0 Jens Andersen",
+        "name": "\u00f0\u0178\u2021\u00a9\u00f0\u0178\u2021\u00b0 Jens Andersen",
         "cn": "TM",
         "glider": "",
         "comp": "TM",
@@ -180,7 +180,7 @@
         ]
     },
     {
-        "name": "\ud83c\uddeb\ud83c\uddee Sara Salonen",
+        "name": "\u00f0\u0178\u2021\u00ab\u00f0\u0178\u2021\u00ae Sara Salonen",
         "cn": "HV",
         "glider": "",
         "comp": "HV",
@@ -189,7 +189,7 @@
         ]
     },
     {
-        "name": "\ud83c\uddeb\ud83c\uddee Mikko Ylih\u00e4rsil\u00e4",
+        "name": "\u00f0\u0178\u2021\u00ab\u00f0\u0178\u2021\u00ae Mikko Ylih\u00c3\u00a4rsil\u00c3\u00a4",
         "cn": "GE",
         "glider": "",
         "comp": "GE",
@@ -198,7 +198,7 @@
         ]
     },
     {
-        "name": "\ud83c\udde9\ud83c\uddf0 Oskar Minds",
+        "name": "\u00f0\u0178\u2021\u00a9\u00f0\u0178\u2021\u00b0 Oskar Minds",
         "cn": "MD",
         "glider": "",
         "comp": "MD",
@@ -207,7 +207,7 @@
         ]
     },
     {
-        "name": "\ud83c\udde9\ud83c\uddf0 Miles Chalk Kj\u00e6r",
+        "name": "\u00f0\u0178\u2021\u00a9\u00f0\u0178\u2021\u00b0 Miles Chalk Kj\u00c3\u00a6r",
         "cn": "CB",
         "glider": "",
         "comp": "CB",
@@ -225,7 +225,7 @@
         ]
     },
     {
-        "name": "\ud83c\uddf1\ud83c\uddf9 Jokubas Motuza",
+        "name": "\u00f0\u0178\u2021\u00b1\u00f0\u0178\u2021\u00b9 Jokubas Motuza",
         "cn": "VJ",
         "glider": "",
         "comp": "VJ",
@@ -243,7 +243,7 @@
         ]
     },
     {
-        "name": "\ud83c\uddf8\ud83c\uddf0 \u0160imon \u0160i\u0161ka",
+        "name": "\u00f0\u0178\u2021\u00b8\u00f0\u0178\u2021\u00b0 \u00c5\u00a0imon \u00c5\u00a0i\u00c5\u00a1ka",
         "cn": "CK",
         "glider": "",
         "comp": "CK",
@@ -252,7 +252,7 @@
         ]
     },
     {
-        "name": "\ud83c\udde8\ud83c\udded Matteo Merk",
+        "name": "\u00f0\u0178\u2021\u00a8\u00f0\u0178\u2021\u00ad Matteo Merk",
         "cn": "WG",
         "glider": "",
         "comp": "WG",
@@ -261,7 +261,7 @@
         ]
     },
     {
-        "name": "\ud83c\udde8\ud83c\uddff Vladimir Hammer",
+        "name": "\u00f0\u0178\u2021\u00a8\u00f0\u0178\u2021\u00bf Vladimir Hammer",
         "cn": "CX",
         "glider": "",
         "comp": "CX",
@@ -270,7 +270,7 @@
         ]
     },
     {
-        "name": "\ud83c\uddf1\ud83c\uddf9 Titas Jovai\u0161a",
+        "name": "\u00f0\u0178\u2021\u00b1\u00f0\u0178\u2021\u00b9 Titas Jovai\u00c5\u00a1a",
         "cn": "W4",
         "glider": "",
         "comp": "W4",
@@ -279,7 +279,7 @@
         ]
     },
     {
-        "name": "\ud83c\uddf5\ud83c\uddf1 Maciej Kowalski",
+        "name": "\u00f0\u0178\u2021\u00b5\u00f0\u0178\u2021\u00b1 Maciej Kowalski",
         "cn": "LN",
         "glider": "",
         "comp": "LN",
@@ -288,16 +288,16 @@
         ]
     },
     {
-        "name": "\ud83c\udde9\ud83c\uddea Johannes Beyer",
-        "cn": "\ud83c\udde9\ud83c\uddeaFT",
+        "name": "\u00f0\u0178\u2021\u00a9\u00f0\u0178\u2021\u00aa Johannes Beyer",
+        "cn": "\u00f0\u0178\u2021\u00a9\u00f0\u0178\u2021\u00aaFT",
         "glider": "",
-        "comp": "\ud83c\udde9\ud83c\uddeaFT",
+        "comp": "\u00f0\u0178\u2021\u00a9\u00f0\u0178\u2021\u00aaFT",
         "flarm": [
             "DF1045"
         ]
     },
     {
-        "name": "\ud83c\uddf8\ud83c\uddea Ludvig Jauring",
+        "name": "\u00f0\u0178\u2021\u00b8\u00f0\u0178\u2021\u00aa Ludvig Jauring",
         "cn": "AB",
         "glider": "",
         "comp": "AB",
@@ -306,7 +306,7 @@
         ]
     },
     {
-        "name": "\ud83c\udde8\ud83c\uddff Jan \u0160tastn\u00fd",
+        "name": "\u00f0\u0178\u2021\u00a8\u00f0\u0178\u2021\u00bf Jan \u00c5\u00a0tastn\u00c3\u00bd",
         "cn": "CPI",
         "glider": "",
         "comp": "CPI",
@@ -315,7 +315,7 @@
         ]
     },
     {
-        "name": "\ud83c\uddec\ud83c\udde7 Toby Freeland",
+        "name": "\u00f0\u0178\u2021\u00ac\u00f0\u0178\u2021\u00a7 Toby Freeland",
         "cn": "212",
         "glider": "",
         "comp": "212",
@@ -324,7 +324,7 @@
         ]
     },
     {
-        "name": "\ud83c\uddec\ud83c\udde7 George White",
+        "name": "\u00f0\u0178\u2021\u00ac\u00f0\u0178\u2021\u00a7 George White",
         "cn": "ENW",
         "glider": "",
         "comp": "ENW",
@@ -333,7 +333,7 @@
         ]
     },
     {
-        "name": "\ud83c\uddeb\ud83c\uddf7 Guillaume Ottolini",
+        "name": "\u00f0\u0178\u2021\u00ab\u00f0\u0178\u2021\u00b7 Guillaume Ottolini",
         "cn": "IAG",
         "glider": "",
         "comp": "IAG",
@@ -342,7 +342,7 @@
         ]
     },
     {
-        "name": "\ud83c\uddec\ud83c\udde7 George White",
+        "name": "\u00f0\u0178\u2021\u00ac\u00f0\u0178\u2021\u00a7 George White",
         "cn": "ENW",
         "glider": "",
         "comp": "ENW",
@@ -351,7 +351,7 @@
         ]
     },
     {
-        "name": "\ud83c\uddec\ud83c\udde7 Toby Freeland",
+        "name": "\u00f0\u0178\u2021\u00ac\u00f0\u0178\u2021\u00a7 Toby Freeland",
         "cn": "212",
         "glider": "",
         "comp": "212",
@@ -360,7 +360,7 @@
         ]
     },
     {
-        "name": "\ud83c\uddec\ud83c\udde7 George White",
+        "name": "\u00f0\u0178\u2021\u00ac\u00f0\u0178\u2021\u00a7 George White",
         "cn": "ENW",
         "glider": "",
         "comp": "ENW",
