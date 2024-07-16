@@ -1,4 +1,5 @@
 ID,CALL,CN,TYPE,NAME
+
 DDDDCC,,PP,,🇧🇪 Robbe Van Bran
 D02720,,X29,,🇫🇷 Matthieu Hénin
 FD68CE,,?CE,,
@@ -40,3 +41,45 @@ D01971,,IAG,,🇫🇷 Guillaume Ottolini
 4DE185,,ENW,,🇬🇧 George White
 4DE531,,212,,🇬🇧 Toby Freeland
 4DECC1,,ENW,,🇬🇧 George White
+
+,,CP,,🇸🇮 Viktor Becan
+,,AG,,🇫🇷 Nicolas Bernhard
+,,UKN,,🇳🇴	Sondre Bjørø
+LAB	Lapo Alessandro Busi	ITA
+HG	Hugo CORBILLE	FRA
+LK	Roelof Corporaal	NED
+KW	Felipe Cvitanich	DEN
+IX	Giacomo Dall'Olio	ITA
+311	David Darnady	SVK
+MX	Marcus Dawert	GER
+LE	Uffe Edslev	DEN
+364	James Ewence	GBR
+FLS	Jacek Flis	POL
+	Frane Franić	ZZZ
+212	Toby Freeland	GBR
+MN	Simon Gantner	CHE
+AD	György Gulyás	HUN
+YYY	Ringaudas Kikalas	LTU
+IKW	Jozef Kožár	SVK
+LL	Michal Lešinger	CZE
+	Andrii Lohvynchuk	UKR
+FY	Alexandre Melot	BEL
+UWE	Uwe Melzer	GER
+	Christer Ervik Mjøs	NOR
+CRN	Yves Müller	CHE
+CP	Dylan Osolian	SWE
+44	Jaume Prats	ESP
+TI	Samuel Richardsson	SWE
+5	Gvidas Sabeckis	LTU
+JO	Diana Schuit	LUX
+Y2	Alin Simion	ROM
+CX	Tomáš Suchánek	CZE
+XW	Ferenc TAMÁS	HUN
+A3	Jaroslav Tomaňa	CZE
+KT	Kim Toppari	FIN
+24	Jelle Vandebeeck	BEL
+8M	Pop Victor-Alex	ROM
+RY	Roman Yermakov	UKR
+GE	Mikko Ylihärsilä	FIN
+HR3	Dani Zaninovic	HRV
+PP	Mikołaj Zdun	POL
