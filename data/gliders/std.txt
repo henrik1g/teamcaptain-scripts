@@ -1,19 +1,35 @@
 ID,CALL,CN,TYPE,NAME
-DF1763,,🇩🇪JLA,,🇩🇪 Jan-Lucas Aberle
-4B5171,,UB,,🇨🇭 Raphael Lutz
-4B5190,,Z1,,🇨🇭 Claudio Etterli
-4B51B5,,Z2,,🇨🇭 Sönke Ahlborn
-485F92,,VNE,,🇳🇱 Niels van Nieuwland
-D00262,,HAL,,🇭🇺 Áron Érseki
-D00160,,W8,,🇨🇿 Michaela Rendlova
-DDDC58,,🇩🇪C,,🇩🇪 Clemens Berger
-D025E0,,EC,,🇩🇰 Lasse Edslev
-DF17A7,,🇩🇪FJ,,🇩🇪 Nuno Ferrera
-DF0E33,,MK,,🇩🇰 Jacob Bøgelund Lassen
-D008BF,,KE,,🇩🇰 Mathias Valentin
-38B61B,,AX,,🇫🇷 Theo Napoleon
-DDE312,,CA,,🇫🇷 Philippe LATA
-D0018B,,EU,,🇨🇿 Jaromír Macoun
-D001D4,,AU,,🇨🇿 Lukáš Kríž
-DDEF6F,,302,,🇬🇧 Ben Edkins
-D02B96,,325,,🇬🇧 Freddie Turner
+,,I,,🇵🇱 Łukasz Błaszczyk
+DD99AF,,🇩🇪SB,,🇩🇪 Simon Briel
+,,JB,,🇨🇿 Miloslav Cink
+,,D,,🇸🇰 Maroš Divok
+,,AA,,🇩🇰 Erik Jensen
+,,JPA,,🇫🇷 Julien Duboc
+,,EC,,🇩🇰 Lasse Edslev
+,,L4,,🇬🇧 Paul Fritche
+,,TS,,🇨🇭 Davide Giovanelli
+,,E5,,🇳🇱 Frank Hiemstra
+405841,,95,,🇬🇧 Henry Inigo-Jones
+D0016B,,GX,,🇦🇷 Carlos Liucci
+,,LT,,🇧🇪 Jef Kell
+,,YU,,🇧🇪 Jeroen Jennen
+,,JS,,🇫🇮 Antti Koskiniemi
+,,Y	,,🇵🇱 Maciej Kowalski
+D028C8,,AU,,🇨🇿 Lukáš Kříž
+,,GM,,🇭🇷 Grozdan Meglaj
+,,B9,,🇮🇹 Lorenzo Monti
+,,TA,,🇸🇪 Jan-Ola Nord
+,,FX,,🇨🇿 Jan Pavlík
+,,LK,,🇫🇮 Sami Rissanen
+,,YB,,🇷🇴 Norbert Scarlat
+,,DI,,🇸🇰 Edmund Schuller
+,,1	,,🇸🇪 Elias Severholt
+3EF92D,,🇩🇪RA,,🇩🇪 Robin Sittmann
+,,VNE,,🇳🇱	Robin Smit
+,,H8,,🇱🇹 Andrius Tamulenas
+,,ALB,,🇭🇺 Geza Toth
+,,YA,,🇷🇴 Ionut Tudor
+,,ET,,🇫🇷 Aude Untersee
+,,LR,,🇮🇹 Luca Urbani
+DD4EFB,,MG,,🇱🇹 Joris Vainius
+,,HUN,,🇭🇺 Szabolcs Veigli

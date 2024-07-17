@@ -1,42 +1,31 @@
 ID,CALL,CN,TYPE,NAME
-DDDDCC,,PP,,🇧🇪 Robbe Van Bran
-D02720,,X29,,🇫🇷 Matthieu Hénin
-FD68CE,,?CE,,
-405A88,,? 88,,
-DDE264,,WE,,🇫🇷 Alexandre Fierain
-DDABA8,,AP,,
-485DB0,,S4,,🇳🇱 Lars van Breemen
-DD9FD9,,5I,,🇮🇹 Alessandro Bassalti
-D0161A,,🇩🇪I,,🇩🇪 Nils Heck
-DD9C23,,🇩🇪7E,,🇩🇪 Gerrit Neugebauer
-DF0E18,,VW,,🇨🇿 Tomáš Hynek
-DD4E35,,XD,,🇸🇪 Elias Severholt Fourati
-DDC358,,JM,,🇭🇺 Lilla Szamosujvári
-DDEC47,,ISV,,🇦🇹 Jakob Prior
-485D93,,Au,,🇳🇱 Tim Kremers
-4859FE,,Ag,,🇳🇱 Wout Sliedregt
-D0075C,,CP,,🇸🇪 Dylan Osolian
-D00D2F,,KT,,🇫🇮 Kim Toppari
-DDEE1F,,S5,,🇨🇭 Valeria Huber
-DD51FA,,TM,,🇩🇰 Jens Andersen
-DDDAB6,,HV,,🇫🇮 Sara Salonen
-D0054A,,GE,,🇫🇮 Mikko Ylihärsilä
-DDDC94,,MD,,🇩🇰 Oskar Minds
-DDD8BF,,CB,,🇩🇰 Miles Chalk Kjær
-6E0733,,?33,,
-D0142A,,VJ,,🇱🇹 Jokubas Motuza
-FD63BD,,? BD,,
-D0208B,,CK,,🇸🇰 Šimon Šiška
-4B4B30,,WG,,🇨🇭 Matteo Merk
-D01C39,,CX,,🇨🇿 Vladimir Hammer
-DD4FDF,,W4,,🇱🇹 Titas Jovaiša
-D027B1,,LN,,🇵🇱 Maciej Kowalski
-DF1045,,🇩🇪FT,,🇩🇪 Johannes Beyer
-DDDAAA,,AB,,🇸🇪 Ludvig Jauring
-D015EE,,CPI,,🇨🇿 Jan Štastný
-4DE18F,,212,,🇬🇧 Toby Freeland
-405ACF,,ENW,,🇬🇧 George White
-D01971,,IAG,,🇫🇷 Guillaume Ottolini
-4DE185,,ENW,,🇬🇧 George White
-4DE531,,212,,🇬🇧 Toby Freeland
-4DECC1,,ENW,,🇬🇧 George White
+,,ES,,🇦🇹 Paul Bernhard
+,,12,,🇩🇰 Filip Bojanowski
+,,LEO,,🇮🇹 Riccardo Brigliadori
+,,VZ,,🇸🇪 Peter Cutting
+,,	,,🇭🇺 Elek Czigler
+,,M7,,🇱🇹 Gintaras Drevinskas
+,,IR,,🇫🇷 Kévin Faur
+,,3,,🇸🇰 Vladimir Foltin
+,,LD,,🇮🇹 Lorenzo Fornari
+,,VG,,🇫🇷 Eric Garnier
+,,RP,,🇵🇱 Łukasz Grabowski
+,,EY,,🇳🇱 Stephan Grunder
+,,MK,,🇨🇭 Mark Kaeppeli
+,,LX,,🇧🇪 Thomas Leduc
+,,XM,,🇨🇿 Pavel Loužecký
+,,UJ,,🇯🇵 Takeshi Maruyama
+,,	,,🇬🇧 Owen McCormack
+,,85,,🇬🇧 Neil McLaughlin
+,,VV,,🇧🇷 Henrique Navarro
+,,AX,,🇨🇿 Karel Novák
+,,RX,,🇩🇰 Rasmus Ørskov
+,,BB,,🇱🇹 Marius Pluščauskas
+,,GI,,🇩🇪 Marc Schick
+,,MM,,🇱🇺 George Schuit
+,,FS,,🇧🇪 Daan Spruyt
+,,3F,,🇫🇮 Tapio Tourula
+,,V8,,🇭🇺 Tamás Vámosi
+,,29,,🇳🇱 Sikko Vermeer
+3ED053,,🇩🇪3V,,🇩🇪 Uwe Wahlig
+,,PL	,,🇵🇱 Paweł Wojciechowski
