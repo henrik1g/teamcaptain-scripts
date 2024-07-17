@@ -2,7 +2,9 @@ import csv
 import json
 
 classes: list = [
-    "club"
+    "club",
+    "std",
+    "15m"
     ]
 
 classes = [f"data/gliders/{c}.txt" for c in classes]
@@ -10,12 +12,12 @@ classes = [f"data/gliders/{c}.txt" for c in classes]
 for file in classes:
     lines = []
     # read as csv with ID,CALL,CN,TYPE,NAME
-    with open(file, "r") as f:
+    with open(file, "r" ,encoding="utf-8") as f:
         reader = csv.reader(f, delimiter="\t")
         for row in reader:
             lines.append(row[0].split(","))
 
-        with open(file.replace(".txt", ".json"), "w") as f:
+        with open(file.replace(".txt", ".json"), "w" ,encoding="utf-8") as f:
             json.dump(
                 [
                     {

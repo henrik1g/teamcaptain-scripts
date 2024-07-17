@@ -3,7 +3,7 @@ ID,CALL,CN,TYPE,NAME
 ,,12,,🇩🇰 Filip Bojanowski
 ,,LEO,,🇮🇹 Riccardo Brigliadori
 ,,VZ,,🇸🇪 Peter Cutting
-,,	,,🇭🇺 Elek Czigler
+,,,,🇭🇺 Elek Czigler
 ,,M7,,🇱🇹 Gintaras Drevinskas
 ,,IR,,🇫🇷 Kévin Faur
 ,,3,,🇸🇰 Vladimir Foltin
@@ -15,7 +15,7 @@ ID,CALL,CN,TYPE,NAME
 ,,LX,,🇧🇪 Thomas Leduc
 ,,XM,,🇨🇿 Pavel Loužecký
 ,,UJ,,🇯🇵 Takeshi Maruyama
-,,	,,🇬🇧 Owen McCormack
+,,,,🇬🇧 Owen McCormack
 ,,85,,🇬🇧 Neil McLaughlin
 ,,VV,,🇧🇷 Henrique Navarro
 ,,AX,,🇨🇿 Karel Novák
@@ -28,4 +28,4 @@ ID,CALL,CN,TYPE,NAME
 ,,V8,,🇭🇺 Tamás Vámosi
 ,,29,,🇳🇱 Sikko Vermeer
 3ED053,,🇩🇪3V,,🇩🇪 Uwe Wahlig
-,,PL	,,🇵🇱 Paweł Wojciechowski
+,,PL,,🇵🇱 Paweł Wojciechowski

@@ -1,6 +1,6 @@
 [
     {
-        "name": "\u00f0\u0178\u2021\u00b8\u00f0\u0178\u2021\u00ae Viktor Becan",
+        "name": "\ud83c\uddf8\ud83c\uddee Viktor Becan",
         "cn": "CP",
         "glider": "",
         "comp": "CP",
@@ -9,7 +9,7 @@
         ]
     },
     {
-        "name": "\u00f0\u0178\u2021\u00ab\u00f0\u0178\u2021\u00b7 Nicolas Bernhard",
+        "name": "\ud83c\uddeb\ud83c\uddf7 Nicolas Bernhard",
         "cn": "AG",
         "glider": "",
         "comp": "AG",
@@ -18,7 +18,7 @@
         ]
     },
     {
-        "name": "\u00f0\u0178\u2021\u00b3\u00f0\u0178\u2021\u00b4 Sondre Bj\u00c3\u00b8r\u00c3\u00b8",
+        "name": "\ud83c\uddf3\ud83c\uddf4 Sondre Bj\u00f8r\u00f8",
         "cn": "",
         "glider": "",
         "comp": "",
@@ -27,7 +27,7 @@
         ]
     },
     {
-        "name": "\u00f0\u0178\u2021\u00ae\u00f0\u0178\u2021\u00b9 Lapo Alessandro Busi",
+        "name": "\ud83c\uddee\ud83c\uddf9 Lapo Alessandro Busi",
         "cn": "LAB",
         "glider": "",
         "comp": "LAB",
@@ -36,7 +36,7 @@
         ]
     },
     {
-        "name": "\u00f0\u0178\u2021\u00ab\u00f0\u0178\u2021\u00b7 Hugo Corbille",
+        "name": "\ud83c\uddeb\ud83c\uddf7 Hugo Corbille",
         "cn": "HG",
         "glider": "",
         "comp": "HG",
@@ -45,7 +45,7 @@
         ]
     },
     {
-        "name": "\u00f0\u0178\u2021\u00b3\u00f0\u0178\u2021\u00b1 Roelof Corporaal",
+        "name": "\ud83c\uddf3\ud83c\uddf1 Roelof Corporaal",
         "cn": "LK",
         "glider": "",
         "comp": "LK",
@@ -54,7 +54,7 @@
         ]
     },
     {
-        "name": "\u00f0\u0178\u2021\u00a9\u00f0\u0178\u2021\u00b0 Felipe Cvitanich",
+        "name": "\ud83c\udde9\ud83c\uddf0 Felipe Cvitanich",
         "cn": "KW",
         "glider": "",
         "comp": "KW",
@@ -63,7 +63,7 @@
         ]
     },
     {
-        "name": "\u00f0\u0178\u2021\u00ae\u00f0\u0178\u2021\u00b9 Giacomo Dall'Olio",
+        "name": "\ud83c\uddee\ud83c\uddf9 Giacomo Dall'Olio",
         "cn": "IX",
         "glider": "",
         "comp": "IX",
@@ -72,7 +72,7 @@
         ]
     },
     {
-        "name": "\u00f0\u0178\u2021\u00b8\u00f0\u0178\u2021\u00b0 David Darnady",
+        "name": "\ud83c\uddf8\ud83c\uddf0 David Darnady",
         "cn": "311",
         "glider": "",
         "comp": "311",
@@ -81,16 +81,16 @@
         ]
     },
     {
-        "name": "\u00f0\u0178\u2021\u00a9\u00f0\u0178\u2021\u00aa Marcus Dawert",
-        "cn": "\u00f0\u0178\u2021\u00a9\u00f0\u0178\u2021\u00aaMX",
+        "name": "\ud83c\udde9\ud83c\uddea Marcus Dawert",
+        "cn": "\ud83c\udde9\ud83c\uddeaMX",
         "glider": "",
-        "comp": "\u00f0\u0178\u2021\u00a9\u00f0\u0178\u2021\u00aaMX",
+        "comp": "\ud83c\udde9\ud83c\uddeaMX",
         "flarm": [
             ""
         ]
     },
     {
-        "name": "\u00f0\u0178\u2021\u00a9\u00f0\u0178\u2021\u00b0 Uffe Edslev",
+        "name": "\ud83c\udde9\ud83c\uddf0 Uffe Edslev",
         "cn": "LE",
         "glider": "",
         "comp": "LE",
@@ -99,7 +99,7 @@
         ]
     },
     {
-        "name": "\u00f0\u0178\u2021\u00ac\u00f0\u0178\u2021\u00a7 James Ewence",
+        "name": "\ud83c\uddec\ud83c\udde7 James Ewence",
         "cn": "364",
         "glider": "",
         "comp": "364",
@@ -108,7 +108,7 @@
         ]
     },
     {
-        "name": "\u00f0\u0178\u2021\u00b5\u00f0\u0178\u2021\u00b1 Jacek Flis",
+        "name": "\ud83c\uddf5\ud83c\uddf1 Jacek Flis",
         "cn": "FLS",
         "glider": "",
         "comp": "FLS",
@@ -117,7 +117,7 @@
         ]
     },
     {
-        "name": "\u00f0\u0178\u2021\u00ad\u00f0\u0178\u2021\u00b7 Frane Frani\u00c4\u2021",
+        "name": "\ud83c\udded\ud83c\uddf7 Frane Frani\u0107",
         "cn": "",
         "glider": "",
         "comp": "",
@@ -126,7 +126,7 @@
         ]
     },
     {
-        "name": "\u00f0\u0178\u2021\u00ac\u00f0\u0178\u2021\u00a7 Toby Freeland",
+        "name": "\ud83c\uddec\ud83c\udde7 Toby Freeland",
         "cn": "212",
         "glider": "",
         "comp": "212",
@@ -135,7 +135,7 @@
         ]
     },
     {
-        "name": "\u00f0\u0178\u2021\u00a8\u00f0\u0178\u2021\u00ad Simon Gantner",
+        "name": "\ud83c\udde8\ud83c\udded Simon Gantner",
         "cn": "MN",
         "glider": "",
         "comp": "MN",
@@ -144,7 +144,7 @@
         ]
     },
     {
-        "name": "\u00f0\u0178\u2021\u00ad\u00f0\u0178\u2021\u00ba Gy\u00c3\u00b6rgy Guly\u00c3\u00a1s",
+        "name": "\ud83c\udded\ud83c\uddfa Gy\u00f6rgy Guly\u00e1s",
         "cn": "AD",
         "glider": "",
         "comp": "AD",
@@ -153,7 +153,7 @@
         ]
     },
     {
-        "name": "\u00f0\u0178\u2021\u00b1\u00f0\u0178\u2021\u00b9 Ringaudas Kikalas",
+        "name": "\ud83c\uddf1\ud83c\uddf9 Ringaudas Kikalas",
         "cn": "YYY",
         "glider": "",
         "comp": "YYY",
@@ -162,7 +162,7 @@
         ]
     },
     {
-        "name": "\u00f0\u0178\u2021\u00b8\u00f0\u0178\u2021\u00b0 Jozef Ko\u00c5\u00be\u00c3\u00a1r",
+        "name": "\ud83c\uddf8\ud83c\uddf0 Jozef Ko\u017e\u00e1r",
         "cn": "IKW",
         "glider": "",
         "comp": "IKW",
@@ -171,7 +171,7 @@
         ]
     },
     {
-        "name": "\u00f0\u0178\u2021\u00a8\u00f0\u0178\u2021\u00bf Michal Le\u00c5\u00a1inger",
+        "name": "\ud83c\udde8\ud83c\uddff Michal Le\u0161inger",
         "cn": "LL",
         "glider": "",
         "comp": "LL",
@@ -180,7 +180,7 @@
         ]
     },
     {
-        "name": "\u00f0\u0178\u2021\u00ba\u00f0\u0178\u2021\u00a6 Andrii Lohvynchuk",
+        "name": "\ud83c\uddfa\ud83c\udde6 Andrii Lohvynchuk",
         "cn": "",
         "glider": "",
         "comp": "",
@@ -189,7 +189,7 @@
         ]
     },
     {
-        "name": "\u00f0\u0178\u2021\u00a7\u00f0\u0178\u2021\u00aa Alexandre Melot",
+        "name": "\ud83c\udde7\ud83c\uddea Alexandre Melot",
         "cn": "FY",
         "glider": "",
         "comp": "FY",
@@ -198,16 +198,16 @@
         ]
     },
     {
-        "name": "\u00f0\u0178\u2021\u00a9\u00f0\u0178\u2021\u00aa Uwe Melzer",
-        "cn": "\u00f0\u0178\u2021\u00a9\u00f0\u0178\u2021\u00aaUWE",
+        "name": "\ud83c\udde9\ud83c\uddea Uwe Melzer",
+        "cn": "\ud83c\udde9\ud83c\uddeaUWE",
         "glider": "",
-        "comp": "\u00f0\u0178\u2021\u00a9\u00f0\u0178\u2021\u00aaUWE",
+        "comp": "\ud83c\udde9\ud83c\uddeaUWE",
         "flarm": [
             ""
         ]
     },
     {
-        "name": "\u00f0\u0178\u2021\u00b3\u00f0\u0178\u2021\u00b4 Christer Ervik Mj\u00c3\u00b8s",
+        "name": "\ud83c\uddf3\ud83c\uddf4 Christer Ervik Mj\u00f8s",
         "cn": "",
         "glider": "",
         "comp": "",
@@ -216,7 +216,7 @@
         ]
     },
     {
-        "name": "\u00f0\u0178\u2021\u00a8\u00f0\u0178\u2021\u00ad",
+        "name": "\ud83c\udde8\ud83c\udded",
         "cn": "CRN",
         "glider": "",
         "comp": "CRN",
@@ -225,7 +225,7 @@
         ]
     },
     {
-        "name": "\u00f0\u0178\u2021\u00b8\u00f0\u0178\u2021\u00aa Dylan Osolian",
+        "name": "\ud83c\uddf8\ud83c\uddea Dylan Osolian",
         "cn": "CP",
         "glider": "",
         "comp": "CP",
@@ -234,7 +234,7 @@
         ]
     },
     {
-        "name": "\u00f0\u0178\u2021\u00aa\u00f0\u0178\u2021\u00b8 Jaume Prat",
+        "name": "\ud83c\uddea\ud83c\uddf8 Jaume Prat",
         "cn": "44",
         "glider": "",
         "comp": "44",
@@ -243,7 +243,7 @@
         ]
     },
     {
-        "name": "\u00f0\u0178\u2021\u00b8\u00f0\u0178\u2021\u00aa Samuel Richardsson",
+        "name": "\ud83c\uddf8\ud83c\uddea Samuel Richardsson",
         "cn": "TI",
         "glider": "",
         "comp": "TI",
@@ -252,7 +252,7 @@
         ]
     },
     {
-        "name": "\u00f0\u0178\u2021\u00b1\u00f0\u0178\u2021\u00b9 Gvidas Sabeckis",
+        "name": "\ud83c\uddf1\ud83c\uddf9 Gvidas Sabeckis",
         "cn": "5",
         "glider": "",
         "comp": "5",
@@ -261,7 +261,7 @@
         ]
     },
     {
-        "name": "\u00f0\u0178\u2021\u00b1\u00f0\u0178\u2021\u00ba Diana Schuit",
+        "name": "\ud83c\uddf1\ud83c\uddfa Diana Schuit",
         "cn": "JO",
         "glider": "",
         "comp": "JO",
@@ -270,7 +270,7 @@
         ]
     },
     {
-        "name": "\u00f0\u0178\u2021\u00b7\u00f0\u0178\u2021\u00b4 Alin Simion",
+        "name": "\ud83c\uddf7\ud83c\uddf4 Alin Simion",
         "cn": "Y2",
         "glider": "",
         "comp": "Y2",
@@ -279,7 +279,7 @@
         ]
     },
     {
-        "name": "\u00f0\u0178\u2021\u00a8\u00f0\u0178\u2021\u00bf Tom\u00c3\u00a1\u00c5\u00a1 Such\u00c3\u00a1nek",
+        "name": "\ud83c\udde8\ud83c\uddff Tom\u00e1\u0161 Such\u00e1nek",
         "cn": "CX",
         "glider": "",
         "comp": "CX",
@@ -288,7 +288,7 @@
         ]
     },
     {
-        "name": "\u00f0\u0178\u2021\u00ad\u00f0\u0178\u2021\u00ba Ferenc Tam\u00c3\u00a1s",
+        "name": "\ud83c\udded\ud83c\uddfa Ferenc Tam\u00e1s",
         "cn": "XW",
         "glider": "",
         "comp": "XW",
@@ -297,7 +297,7 @@
         ]
     },
     {
-        "name": "\u00f0\u0178\u2021\u00a8\u00f0\u0178\u2021\u00bf Jaroslav Toma\u00c5\u02c6a",
+        "name": "\ud83c\udde8\ud83c\uddff Jaroslav Toma\u0148a",
         "cn": "A3",
         "glider": "",
         "comp": "A3",
@@ -306,7 +306,7 @@
         ]
     },
     {
-        "name": "\u00f0\u0178\u2021\u00ab\u00f0\u0178\u2021\u00ae Kim Toppari",
+        "name": "\ud83c\uddeb\ud83c\uddee Kim Toppari",
         "cn": "KT",
         "glider": "",
         "comp": "KT",
@@ -315,7 +315,7 @@
         ]
     },
     {
-        "name": "\u00f0\u0178\u2021\u00a7\u00f0\u0178\u2021\u00aa Jelle Vandebeeck",
+        "name": "\ud83c\udde7\ud83c\uddea Jelle Vandebeeck",
         "cn": "24",
         "glider": "",
         "comp": "24",
@@ -324,7 +324,7 @@
         ]
     },
     {
-        "name": "\u00f0\u0178\u2021\u00b7\u00f0\u0178\u2021\u00b4 Pop Victor-Alex",
+        "name": "\ud83c\uddf7\ud83c\uddf4 Pop Victor-Alex",
         "cn": "8M",
         "glider": "",
         "comp": "8M",
@@ -333,7 +333,7 @@
         ]
     },
     {
-        "name": "\u00f0\u0178\u2021\u00ba\u00f0\u0178\u2021\u00a6 Roman Yermakov",
+        "name": "\ud83c\uddfa\ud83c\udde6 Roman Yermakov",
         "cn": "RY",
         "glider": "",
         "comp": "RY",
@@ -342,7 +342,7 @@
         ]
     },
     {
-        "name": "\u00f0\u0178\u2021\u00ab\u00f0\u0178\u2021\u00ae Mikko Ylih\u00c3\u00a4rsil\u00c3\u00a4",
+        "name": "\ud83c\uddeb\ud83c\uddee Mikko Ylih\u00e4rsil\u00e4",
         "cn": "GE",
         "glider": "",
         "comp": "GE",
@@ -351,7 +351,7 @@
         ]
     },
     {
-        "name": "\u00f0\u0178\u2021\u00ad\u00f0\u0178\u2021\u00b7 Dani Zaninovic",
+        "name": "\ud83c\udded\ud83c\uddf7 Dani Zaninovic",
         "cn": "HR3",
         "glider": "",
         "comp": "HR3",
@@ -360,7 +360,7 @@
         ]
     },
     {
-        "name": "\u00f0\u0178\u2021\u00b5\u00f0\u0178\u2021\u00b1 Miko\u00c5\u201aaj Zdun",
+        "name": "\ud83c\uddf5\ud83c\uddf1 Miko\u0142aj Zdun",
         "cn": "PP",
         "glider": "",
         "comp": "PP",
