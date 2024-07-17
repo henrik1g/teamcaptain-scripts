@@ -2,8 +2,7 @@ import csv
 import json
 
 classes: list = [
-    "club", 
-    "std"
+    "club"
     ]
 
 classes = [f"data/gliders/{c}.txt" for c in classes]
