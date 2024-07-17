@@ -1,7 +1,7 @@
 ID,CALL,CN,TYPE,NAME
 ,,CP,,🇸🇮 Viktor Becan
 ,,AG,,🇫🇷 Nicolas Bernhard
-,,	,,🇳🇴 Sondre Bjørø
+,,,,🇳🇴 Sondre Bjørø
 ,,LAB,,🇮🇹 Lapo Alessandro Busi
 ,,HG,,🇫🇷 Hugo Corbille
 ,,LK,,🇳🇱 Roelof Corporaal
@@ -12,22 +12,22 @@ ID,CALL,CN,TYPE,NAME
 ,,LE,,🇩🇰 Uffe Edslev
 ,,364,,🇬🇧 James Ewence
 ,,FLS,,🇵🇱 Jacek Flis
-,,	,,🇭🇷 Frane Franić
+,,,,🇭🇷 Frane Franić
 ,,212,,🇬🇧 Toby Freeland
 ,,MN,,🇨🇭 Simon Gantner
 ,,AD,,🇭🇺 György Gulyás
 ,,YYY,,🇱🇹 Ringaudas Kikalas
 ,,IKW,,🇸🇰 Jozef Kožár
 ,,LL,,🇨🇿 Michal Lešinger
-,,	,,🇺🇦 Andrii Lohvynchuk
+,,,,🇺🇦 Andrii Lohvynchuk
 ,,FY,,🇧🇪 Alexandre Melot
 ,,🇩🇪UWE,,🇩🇪 Uwe Melzer
-,,	,,🇳🇴 Christer Ervik Mjøs
+,,,,🇳🇴 Christer Ervik Mjøs
 ,,CRN,,🇨🇭	Yves Müller
 ,,CP,,🇸🇪 Dylan Osolian
 ,,44,,🇪🇸 Jaume Prat
 ,,TI,,🇸🇪 Samuel Richardsson
-,,5	,,🇱🇹 Gvidas Sabeckis
+,,5,,🇱🇹 Gvidas Sabeckis
 ,,JO,,🇱🇺 Diana Schuit
 ,,Y2,,🇷🇴 Alin Simion
 D01C39,,CX,,🇨🇿 Tomáš Suchánek
