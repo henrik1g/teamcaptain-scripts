@@ -1,44 +1,26 @@
 <Task type="RT">
 	<Point type="Start">
-		<Waypoint altitude="46" name="0052RindKrk">
-			<Location latitude="56.09055" longitude="8.95805"/>
+		<Waypoint altitude="437" name="010SPDLOUHALHOTA">
+			<Location latitude="49.35445" longitude="14.789167"/>
 		</Waypoint>
-		<ObservationZone length="10000" type="Line"/>
+		<ObservationZone length="20000.0" type="Line"/>
 	</Point>
 	<Point type="Turn">
-		<Waypoint altitude="40" name="0002VidebaekKrk">
-			<Location latitude="56.0925" longitude="8.626117"/>
+		<Waypoint altitude="525" name="555TEMELIN">
+			<Location latitude="49.179167" longitude="14.376667"/>
 		</Waypoint>
-		<ObservationZone radius="500" type="Cylinder"/>
+		<ObservationZone radius="20000" type="Keyhole"/>
 	</Point>
 	<Point type="Turn">
-		<Waypoint altitude="31" name="0794KarstoftVjT">
-			<Location latitude="55.9375" longitude="8.936117"/>
+		<Waypoint altitude="505" name="231JHRADEC">
+			<Location latitude="49.150283" longitude="14.975"/>
 		</Waypoint>
-		<ObservationZone radius="500" type="Cylinder"/>
-	</Point>
-	<Point type="Turn">
-		<Waypoint altitude="76" name="0037HovedgaardStn">
-			<Location latitude="55.945833" longitude="9.962783"/>
-		</Waypoint>
-		<ObservationZone radius="500" type="Cylinder"/>
-	</Point>
-	<Point type="Turn">
-		<Waypoint altitude="68" name="0468HoerbylundeVbro">
-			<Location latitude="56.138617" longitude="9.40805"/>
-		</Waypoint>
-		<ObservationZone radius="500" type="Cylinder"/>
-	</Point>
-	<Point type="Turn">
-		<Waypoint altitude="52" name="0047FasterholtBanX">
-			<Location latitude="56.008333" longitude="9.111383"/>
-		</Waypoint>
-		<ObservationZone radius="500" type="Cylinder"/>
+		<ObservationZone radius="20000" type="Keyhole"/>
 	</Point>
 	<Point type="Finish">
-		<Waypoint altitude="38" name="0851ArnborgFlp">
-			<Location latitude="56.01055" longitude="9.01445"/>
+		<Waypoint altitude="431" name="001SPTABOR">
+			<Location latitude="49.394167" longitude="14.702783"/>
 		</Waypoint>
-		<ObservationZone radius="4000" type="Cylinder"/>
+		<ObservationZone radius="3000.0" type="Cylinder"/>
 	</Point>
 </Task>
