@@ -1,13 +1,13 @@
 ID,CALL,CN,TYPE,NAME
 ,,ES,,🇦🇹 Paul Bernhard
-,,12,,🇩🇰 Filip Bojanowski
+49B099,,12,,🇩🇰 Filip Bojanowski
 ,,LEO,,🇮🇹 Riccardo Brigliadori
 ,,VZ,,🇸🇪 Peter Cutting
 ,,,,🇭🇺 Elek Czigler
 ,,M7,,🇱🇹 Gintaras Drevinskas
 ,,IR,,🇫🇷 Kévin Faur
 ,,3,,🇸🇰 Vladimir Foltin
-,,LD,,🇮🇹 Lorenzo Fornari
+DF0D6E,,LD,,🇮🇹 Lorenzo Fornari
 ,,VG,,🇫🇷 Eric Garnier
 ,,RP,,🇵🇱 Łukasz Grabowski
 ,,EY,,🇳🇱 Stephan Grunder
@@ -21,7 +21,7 @@ ID,CALL,CN,TYPE,NAME
 ,,AX,,🇨🇿 Karel Novák
 ,,RX,,🇩🇰 Rasmus Ørskov
 ,,BB,,🇱🇹 Marius Pluščauskas
-,,GI,,🇩🇪 Marc Schick
+D02CD6,,🇩🇪GI,,🇩🇪 Marc Schick
 ,,MM,,🇱🇺 George Schuit
 ,,FS,,🇧🇪 Daan Spruyt
 ,,3F,,🇫🇮 Tapio Tourula

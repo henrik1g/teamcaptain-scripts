@@ -14,7 +14,7 @@
         "glider": "",
         "comp": "12",
         "flarm": [
-            ""
+            "49B099"
         ]
     },
     {
@@ -77,7 +77,7 @@
         "glider": "",
         "comp": "LD",
         "flarm": [
-            ""
+            "DF0D6E"
         ]
     },
     {
@@ -199,11 +199,11 @@
     },
     {
         "name": "\ud83c\udde9\ud83c\uddea Marc Schick",
-        "cn": "GI",
+        "cn": "\ud83c\udde9\ud83c\uddeaGI",
         "glider": "",
-        "comp": "GI",
+        "comp": "\ud83c\udde9\ud83c\uddeaGI",
         "flarm": [
-            ""
+            "D02CD6"
         ]
     },
     {

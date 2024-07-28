@@ -5,11 +5,11 @@ ID,CALL,CN,TYPE,NAME
 ,,LAB,,🇮🇹 Lapo Alessandro Busi
 ,,HG,,🇫🇷 Hugo Corbille
 ,,LK,,🇳🇱 Roelof Corporaal
-,,KW,,🇩🇰 Felipe Cvitanich
+DDEDF9,,KW,,🇩🇰 Felipe Cvitanich
 ,,IX,,🇮🇹 Giacomo Dall'Olio
 ,,311,,🇸🇰 David Darnady
 ,,🇩🇪MX,,🇩🇪 Marcus Dawert
-,,LE,,🇩🇰 Uffe Edslev
+D00E21,,LE,,🇩🇰 Uffe Edslev
 ,,364,,🇬🇧 James Ewence
 ,,FLS,,🇵🇱 Jacek Flis
 ,,,,🇭🇷 Frane Franić
@@ -34,8 +34,8 @@ D01C39,,CX,,🇨🇿 Tomáš Suchánek
 ,,XW,,🇭🇺 Ferenc Tamás
 ,,A3,,🇨🇿 Jaroslav Tomaňa
 ,,KT,,🇫🇮 Kim Toppari
-,,24,,🇧🇪 Jelle Vandebeeck
-,,8M,,🇷🇴 Pop Victor-Alex
+4848B9,,24,,🇧🇪 Jelle Vandebeeck
+DDF0BD,,8M,,🇷🇴 Pop Victor-Alex
 ,,RY,,🇺🇦 Roman Yermakov
 ,,GE,,🇫🇮 Mikko Ylihärsilä
 ,,HR3,,🇭🇷 Dani Zaninovic
