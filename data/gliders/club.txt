@@ -13,7 +13,7 @@ D00E21,,LE,,🇩🇰 Uffe Edslev
 D021F5,,364,,🇬🇧 James Ewence
 ,,FLS,,🇵🇱 Jacek Flis
 ,,,,🇭🇷 Frane Franić
-,,212,,🇬🇧 Toby Freeland
+405A87,,212,,🇬🇧 Toby Freeland
 ,,MN,,🇨🇭 Simon Gantner
 ,,AD,,🇭🇺 György Gulyás
 ,,YYY,,🇱🇹 Ringaudas Kikalas
