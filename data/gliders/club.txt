@@ -1,7 +1,7 @@
 ID,CALL,CN,TYPE,NAME
 ,,CP,,🇸🇮 Viktor Becan
 D01971,,AG,,🇫🇷 Nicolas Bernhard
-,,,,🇳🇴 Sondre Bjørø
+DD8DCE,,TE,,🇳🇴 Sondre Bjørø
 ,,LAB,,🇮🇹 Lapo Alessandro Busi
 ,,HG,,🇫🇷 Hugo Corbille
 ,,LK,,🇳🇱 Roelof Corporaal
@@ -22,7 +22,7 @@ D021F5,,364,,🇬🇧 James Ewence
 ,,,,🇺🇦 Andrii Lohvynchuk
 D02A1A,,FY,,🇧🇪 Alexandre Melot
 ,,🇩🇪UWE,,🇩🇪 Uwe Melzer
-,,,,🇳🇴 Christer Ervik Mjøs
+D00FEA,,UF,,🇳🇴 Christer Ervik Mjøs
 ,,CRN,,🇨🇭	Yves Müller
 ,,CP,,🇸🇪 Dylan Osolian
 ,,44,,🇪🇸 Jaume Prat
@@ -37,6 +37,6 @@ D01C39,,CX,,🇨🇿 Tomáš Suchánek
 4848B9,,24,,🇧🇪 Jelle Vandebeeck
 DDF0BD,,8M,,🇷🇴 Pop Victor-Alex
 ,,RY,,🇺🇦 Roman Yermakov
-,,GE,,🇫🇮 Mikko Ylihärsilä
+D0054A,,GE,,🇫🇮 Mikko Ylihärsilä
 ,,HR3,,🇭🇷 Dani Zaninovic
 ,,PP,,🇵🇱 Mikołaj Zdun

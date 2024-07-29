@@ -19,11 +19,11 @@
     },
     {
         "name": "\ud83c\uddf3\ud83c\uddf4 Sondre Bj\u00f8r\u00f8",
-        "cn": "",
+        "cn": "TE",
         "glider": "",
-        "comp": "",
+        "comp": "TE",
         "flarm": [
-            ""
+            "DD8DCE"
         ]
     },
     {
@@ -208,11 +208,11 @@
     },
     {
         "name": "\ud83c\uddf3\ud83c\uddf4 Christer Ervik Mj\u00f8s",
-        "cn": "",
+        "cn": "UF",
         "glider": "",
-        "comp": "",
+        "comp": "UF",
         "flarm": [
-            ""
+            "D00FEA"
         ]
     },
     {
@@ -347,7 +347,7 @@
         "glider": "",
         "comp": "GE",
         "flarm": [
-            ""
+            "D0054A"
         ]
     },
     {

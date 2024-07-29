@@ -15,7 +15,7 @@ D02953,,EY,,🇳🇱 Stephan Grunder
 ,,LX,,🇧🇪 Thomas Leduc
 ,,XM,,🇨🇿 Pavel Loužecký
 ,,UJ,,🇯🇵 Takeshi Maruyama
-,,,,🇬🇧 Owen McCormack
+4077F5,,77,,🇬🇧 Owen McCormack
 ,,85,,🇬🇧 Neil McLaughlin
 ,,VV,,🇧🇷 Henrique Navarro
 ,,AX,,🇨🇿 Karel Novák

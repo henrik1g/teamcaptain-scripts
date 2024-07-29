@@ -4,7 +4,7 @@ DD99AF,,🇩🇪SB,,🇩🇪 Simon Briel
 ,,JB,,🇨🇿 Miloslav Cink
 ,,D,,🇸🇰 Maroš Divok
 DDEBC9,,AA,,🇩🇰 Erik Jensen
-,,JPA,,🇫🇷 Julien Duboc
+D00DC4,,JPA,,🇫🇷 Julien Duboc
 D025E0,,EC,,🇩🇰 Lasse Edslev
 D021F5,,L4,,🇬🇧 Paul Fritche
 ,,TS,,🇨🇭 Davide Giovanelli
