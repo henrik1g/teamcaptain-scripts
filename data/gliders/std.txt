@@ -1,20 +1,20 @@
 ID,CALL,CN,TYPE,NAME
-,,I,,🇵🇱 Łukasz Błaszczyk
+EDEE77,,I,,🇵🇱 Łukasz Błaszczyk
 DD99AF,,🇩🇪SB,,🇩🇪 Simon Briel
 ,,JB,,🇨🇿 Miloslav Cink
 ,,D,,🇸🇰 Maroš Divok
 ,,AA,,🇩🇰 Erik Jensen
 ,,JPA,,🇫🇷 Julien Duboc
 ,,EC,,🇩🇰 Lasse Edslev
-,,L4,,🇬🇧 Paul Fritche
+D021F5,,L4,,🇬🇧 Paul Fritche
 ,,TS,,🇨🇭 Davide Giovanelli
 ,,E5,,🇳🇱 Frank Hiemstra
 405841,,95,,🇬🇧 Henry Inigo-Jones
 D0016B,,GX,,🇦🇷 Carlos Liucci
-,,LT,,🇧🇪 Jef Kell
+DDEA4B,,LT,,🇧🇪 Jef Kell
 ,,YU,,🇧🇪 Jeroen Jennen
 ,,JS,,🇫🇮 Antti Koskiniemi
-,,Y	,,🇵🇱 Maciej Kowalski
+,,Y,,🇵🇱 Maciej Kowalski
 D028C8,,AU,,🇨🇿 Lukáš Kříž
 ,,GM,,🇭🇷 Grozdan Meglaj
 ,,B9,,🇮🇹 Lorenzo Monti
@@ -25,11 +25,11 @@ D028C8,,AU,,🇨🇿 Lukáš Kříž
 ,,DI,,🇸🇰 Edmund Schuller
 ,,1,,🇸🇪 Elias Severholt
 3EF92D,,🇩🇪RA,,🇩🇪 Robin Sittmann
-485F92,,VNE,,🇳🇱	Robin Smit
+485F92,,VNE,,🇳🇱 Robin Smit
 ,,H8,,🇱🇹 Andrius Tamulenas
 ,,ALB,,🇭🇺 Geza Toth
 ,,YA,,🇷🇴 Ionut Tudor
-,,ET,,🇫🇷 Aude Untersee
+DDF12C,,ET,,🇫🇷 Aude Untersee
 ,,LR,,🇮🇹 Luca Urbani
 DD4EFB,,MG,,🇱🇹 Joris Vainius
 ,,HUN,,🇭🇺 Szabolcs Veigli

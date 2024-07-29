@@ -1,6 +1,6 @@
 ID,CALL,CN,TYPE,NAME
 ,,CP,,🇸🇮 Viktor Becan
-,,AG,,🇫🇷 Nicolas Bernhard
+D01971,,AG,,🇫🇷 Nicolas Bernhard
 ,,,,🇳🇴 Sondre Bjørø
 ,,LAB,,🇮🇹 Lapo Alessandro Busi
 ,,HG,,🇫🇷 Hugo Corbille
@@ -8,9 +8,9 @@ ID,CALL,CN,TYPE,NAME
 DDEDF9,,KW,,🇩🇰 Felipe Cvitanich
 ,,IX,,🇮🇹 Giacomo Dall'Olio
 ,,311,,🇸🇰 David Darnady
-,,🇩🇪MX,,🇩🇪 Marcus Dawert
+DF08D4,,🇩🇪MX,,🇩🇪 Marcus Dawert
 D00E21,,LE,,🇩🇰 Uffe Edslev
-,,364,,🇬🇧 James Ewence
+D021F5,,364,,🇬🇧 James Ewence
 ,,FLS,,🇵🇱 Jacek Flis
 ,,,,🇭🇷 Frane Franić
 ,,212,,🇬🇧 Toby Freeland
@@ -20,7 +20,7 @@ D00E21,,LE,,🇩🇰 Uffe Edslev
 ,,IKW,,🇸🇰 Jozef Kožár
 ,,LL,,🇨🇿 Michal Lešinger
 ,,,,🇺🇦 Andrii Lohvynchuk
-,,FY,,🇧🇪 Alexandre Melot
+D02A1A,,FY,,🇧🇪 Alexandre Melot
 ,,🇩🇪UWE,,🇩🇪 Uwe Melzer
 ,,,,🇳🇴 Christer Ervik Mjøs
 ,,CRN,,🇨🇭	Yves Müller
@@ -28,7 +28,7 @@ D00E21,,LE,,🇩🇰 Uffe Edslev
 ,,44,,🇪🇸 Jaume Prat
 ,,TI,,🇸🇪 Samuel Richardsson
 ,,5,,🇱🇹 Gvidas Sabeckis
-,,JO,,🇱🇺 Diana Schuit
+3EE383,,JO,,🇱🇺 Diana Schuit
 ,,Y2,,🇷🇴 Alin Simion
 D01C39,,CX,,🇨🇿 Tomáš Suchánek
 ,,XW,,🇭🇺 Ferenc Tamás
