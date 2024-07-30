@@ -1,26 +1,32 @@
 <Task type="RT">
 	<Point type="Start">
-		<Waypoint altitude="437" name="010SPDLOUHALHOTA">
-			<Location latitude="49.35445" longitude="14.789167"/>
+		<Waypoint altitude="458" name="007SPKOSICE">
+			<Location latitude="49.326667" longitude="14.751667"/>
 		</Waypoint>
-		<ObservationZone length="20000.0" type="Line"/>
+		<ObservationZone length="15000.0" type="Line"/>
 	</Point>
 	<Point type="Turn">
-		<Waypoint altitude="525" name="555TEMELIN">
-			<Location latitude="49.179167" longitude="14.376667"/>
+		<Waypoint altitude="513" name="132FRATRES">
+			<Location latitude="48.98" longitude="15.3475"/>
 		</Waypoint>
-		<ObservationZone radius="20000" type="Keyhole"/>
+		<ObservationZone radius="500" type="Cylinder"/>
 	</Point>
 	<Point type="Turn">
-		<Waypoint altitude="505" name="231JHRADEC">
-			<Location latitude="49.150283" longitude="14.975"/>
+		<Waypoint altitude="381" name="643ZELIVKA">
+			<Location latitude="49.67805" longitude="15.14805"/>
 		</Waypoint>
-		<ObservationZone radius="20000" type="Keyhole"/>
+		<ObservationZone radius="500" type="Cylinder"/>
+	</Point>
+	<Point type="Turn">
+		<Waypoint altitude="594" name="180HOMOLKA">
+			<Location latitude="49.023883" longitude="14.98305"/>
+		</Waypoint>
+		<ObservationZone radius="500" type="Cylinder"/>
 	</Point>
 	<Point type="Finish">
 		<Waypoint altitude="431" name="001SPTABOR">
 			<Location latitude="49.394167" longitude="14.702783"/>
 		</Waypoint>
-		<ObservationZone radius="3000.0" type="Cylinder"/>
+		<ObservationZone radius="5000.0" type="Cylinder"/>
 	</Point>
 </Task>

@@ -4,7 +4,7 @@ ID,CALL,CN,TYPE,NAME
 ,,LEO,,🇮🇹 Riccardo Brigliadori
 ,,VZ,,🇸🇪 Peter Cutting
 ,,,,🇭🇺 Elek Czigler
-,,M7,,🇱🇹 Gintaras Drevinskas
+DDD93F,,M7,,🇱🇹 Gintaras Drevinskas
 ,,IR,,🇫🇷 Kévin Faur
 ,,3,,🇸🇰 Vladimir Foltin
 DF0D6E,,LD,,🇮🇹 Lorenzo Fornari
@@ -16,7 +16,7 @@ D02953,,EY,,🇳🇱 Stephan Grunder
 ,,XM,,🇨🇿 Pavel Loužecký
 ,,UJ,,🇯🇵 Takeshi Maruyama
 4077F5,,77,,🇬🇧 Owen McCormack
-,,85,,🇬🇧 Neil McLaughlin
+405763,,85,,🇬🇧 Neil McLaughlin
 ,,VV,,🇧🇷 Henrique Navarro
 ,,AX,,🇨🇿 Karel Novák
 ,,RX,,🇩🇰 Rasmus Ørskov
