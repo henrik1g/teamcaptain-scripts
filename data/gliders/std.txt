@@ -12,7 +12,7 @@ D021F5,,L4,,🇬🇧 Paul Fritche
 405841,,95,,🇬🇧 Henry Inigo-Jones
 D0016B,,GX,,🇦🇷 Carlos Liucci
 DDEA4B,,LT,,🇧🇪 Jef Kell
-,,YU,,🇧🇪 Jeroen Jennen
+DDED3C,,YU,,🇧🇪 Jeroen Jennen
 ,,JS,,🇫🇮 Antti Koskiniemi
 ,,Y,,🇵🇱 Maciej Kowalski
 D028C8,,AU,,🇨🇿 Lukáš Kříž
