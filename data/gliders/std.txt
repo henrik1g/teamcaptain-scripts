@@ -23,7 +23,7 @@ D028C8,,AU,,🇨🇿 Lukáš Kříž
 465BA0,,LK,,🇫🇮 Sami Rissanen
 ,,YB,,🇷🇴 Norbert Scarlat
 ,,DI,,🇸🇰 Edmund Schuller
-,,1,,🇸🇪 Elias Severholt
+D0073B,,1,,🇸🇪 Elias Severholt
 3EF92D,,🇩🇪RA,,🇩🇪 Robin Sittmann
 485F92,,VNE,,🇳🇱 Robin Smit
 ,,H8,,🇱🇹 Andrius Tamulenas
