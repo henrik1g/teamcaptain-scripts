@@ -13,12 +13,12 @@ DF0D6E,,LD,,🇮🇹 Lorenzo Fornari
 D02953,,EY,,🇳🇱 Stephan Grunder
 4B4F4B,,MK,,🇨🇭 Mark Kaeppeli
 ,,LX,,🇧🇪 Thomas Leduc
-,,XM,,🇨🇿 Pavel Loužecký
+DF2125,,XM,,🇨🇿 Pavel Loužecký
 D006F7,,UJ,,🇯🇵 Takeshi Maruyama
 4077F5,,77,,🇬🇧 Owen McCormack
 405763,,85,,🇬🇧 Neil McLaughlin
 D009BF,,VV,,🇧🇷 Henrique Navarro
-,,AX,,🇨🇿 Karel Novák
+DDEFB9,,AX,,🇨🇿 Karel Novák
 D02C72,,RX,,🇩🇰 Rasmus Ørskov
 D00B1B,,BB,,🇱🇹 Marius Pluščauskas
 D02CD6,,🇩🇪GI,,🇩🇪 Marc Schick

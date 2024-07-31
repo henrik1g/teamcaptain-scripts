@@ -12,16 +12,16 @@ DF08D4,,🇩🇪MX,,🇩🇪 Marcus Dawert
 D00E21,,LE,,🇩🇰 Uffe Edslev
 D021F5,,364,,🇬🇧 James Ewence
 D01CB6,,FLS,,🇵🇱 Jacek Flis
-,,3C,,🇭🇷 Frane Franić
+DDF001,,3C,,🇭🇷 Frane Franić
 405A87,,212,,🇬🇧 Toby Freeland
 4B4BD2,,MN,,🇨🇭 Simon Gantner
-,,AD,,🇭🇺 György Gulyás
+D017E9,,AD,,🇭🇺 György Gulyás
 ,,YYY,,🇱🇹 Ringaudas Kikalas
 D00BC4,,IKW,,🇸🇰 Jozef Kožár
 ,,LL,,🇨🇿 Michal Lešinger
 ,,,,🇺🇦 Andrii Lohvynchuk
 D02A1A,,FY,,🇧🇪 Alexandre Melot
-,,🇩🇪UWE,,🇩🇪 Uwe Melzer
+DF11D3,,🇩🇪UWE,,🇩🇪 Uwe Melzer
 D00FEA,,UF,,🇳🇴 Christer Ervik Mjøs
 4B5067,,CRN,,🇨🇭 Yves Müller
 ,,CP,,🇸🇪 Dylan Osolian
@@ -31,7 +31,7 @@ D00FEA,,UF,,🇳🇴 Christer Ervik Mjøs
 3EE383,,JO,,🇱🇺 Diana Schuit
 ,,Y2,,🇷🇴 Alin Simion
 D01C39,,CX,,🇨🇿 Tomáš Suchánek
-,,XW,,🇭🇺 Ferenc Tamás
+DF2125,,XW,,🇭🇺 Ferenc Tamás
 ,,A3,,🇨🇿 Jaroslav Tomaňa
 ,,KT,,🇫🇮 Kim Toppari
 4848B9,,24,,🇧🇪 Jelle Vandebeeck

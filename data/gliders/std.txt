@@ -19,10 +19,10 @@ D028C8,,AU,,🇨🇿 Lukáš Kříž
 ,,GM,,🇭🇷 Grozdan Meglaj
 ,,B9,,🇮🇹 Lorenzo Monti
 ,,TA,,🇸🇪 Jan-Ola Nord
-,,FX,,🇨🇿 Jan Pavlík
+D02AE6,,FX,,🇨🇿 Jan Pavlík
 465BA0,,LK,,🇫🇮 Sami Rissanen
 ,,YB,,🇷🇴 Norbert Scarlat
-,,DI,,🇸🇰 Edmund Schuller
+D00382,,DI,,🇸🇰 Edmund Schuller
 D0073B,,1,,🇸🇪 Elias Severholt
 3EF92D,,🇩🇪RA,,🇩🇪 Robin Sittmann
 485F92,,VNE,,🇳🇱 Robin Smit
