@@ -1,4 +1,4 @@
-<Task aat_min_time="10800" type="AAT">
+<Task aat_min_time="7200" type="AAT">
 	<Point type="Start">
 		<Waypoint altitude="497" name="005SPRATIBOR">
 			<Location latitude="49.463617" longitude="14.768617"/>

@@ -1,4 +1,4 @@
-<Task aat_min_time="10800" type="AAT">
+<Task aat_min_time="7200" type="AAT">
 	<Point type="Start">
 		<Waypoint altitude="458" name="007SPKOSICE">
 			<Location latitude="49.326667" longitude="14.751667"/>
