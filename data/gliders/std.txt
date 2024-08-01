@@ -26,7 +26,7 @@ D00382,,DI,,🇸🇰 Edmund Schuller
 D0073B,,1,,🇸🇪 Elias Severholt
 3EF92D,,🇩🇪RA,,🇩🇪 Robin Sittmann
 485F92,,VNE,,🇳🇱 Robin Smit
-,,H8,,🇱🇹 Andrius Tamulenas
+DDEFEB,,H8,,🇱🇹 Andrius Tamulenas
 DDF022,,ALB,,🇭🇺 Geza Toth
 ,,YA,,🇷🇴 Ionut Tudor
 DDF12C,,ET,,🇫🇷 Aude Untersee

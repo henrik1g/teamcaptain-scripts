@@ -1,27 +1,27 @@
-<Task type="RT">
+<Task aat_min_time="10800" type="AAT">
 	<Point type="Start">
-		<Waypoint altitude="458" name="007SPKOSICE">
-			<Location latitude="49.326667" longitude="14.751667"/>
+		<Waypoint altitude="460" name="002SPZELEC">
+			<Location latitude="49.316117" longitude="14.644167"/>
 		</Waypoint>
-		<ObservationZone length="15000.0" type="Line"/>
+		<ObservationZone length="7500.0" type="Line"/>
 	</Point>
 	<Point type="Turn">
-		<Waypoint altitude="513" name="132FRATRES">
-			<Location latitude="48.98" longitude="15.3475"/>
+		<Waypoint altitude="482" name="070BREZNICE">
+			<Location latitude="49.558333" longitude="13.96305"/>
 		</Waypoint>
-		<ObservationZone radius="500" type="Cylinder"/>
+		<ObservationZone radius="30000.0" type="Cylinder"/>
 	</Point>
 	<Point type="Turn">
-		<Waypoint altitude="381" name="643ZELIVKA">
-			<Location latitude="49.67805" longitude="15.14805"/>
+		<Waypoint altitude="413" name="642ZELIV">
+			<Location latitude="49.5225" longitude="15.218617"/>
 		</Waypoint>
-		<ObservationZone radius="500" type="Cylinder"/>
+		<ObservationZone radius="25000.0" type="Cylinder"/>
 	</Point>
 	<Point type="Turn">
-		<Waypoint altitude="594" name="180HOMOLKA">
-			<Location latitude="49.023883" longitude="14.98305"/>
+		<Waypoint altitude="556" name="288KUNZAK">
+			<Location latitude="49.163617" longitude="15.11945"/>
 		</Waypoint>
-		<ObservationZone radius="500" type="Cylinder"/>
+		<ObservationZone radius="14000.0" type="Cylinder"/>
 	</Point>
 	<Point type="Finish">
 		<Waypoint altitude="431" name="001SPTABOR">

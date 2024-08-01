@@ -16,7 +16,7 @@ DDF001,,3C,,🇭🇷 Frane Franić
 405A87,,212,,🇬🇧 Toby Freeland
 4B4BD2,,MN,,🇨🇭 Simon Gantner
 D017E9,,AD,,🇭🇺 György Gulyás
-,,YYY,,🇱🇹 Ringaudas Kikalas
+DDD7EB,,YYY,,🇱🇹 Ringaudas Kikalas
 D00BC4,,IKW,,🇸🇰 Jozef Kožár
 ,,LL,,🇨🇿 Michal Lešinger
 ,,,,🇺🇦 Andrii Lohvynchuk
