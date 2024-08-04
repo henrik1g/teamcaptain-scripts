@@ -1,9 +1,9 @@
 [
     {
         "name": "\ud83c\uddf8\ud83c\uddee Viktor Becan",
-        "cn": "CP",
+        "cn": "CR",
         "glider": "",
-        "comp": "CP",
+        "comp": "CR",
         "flarm": [
             ""
         ]
@@ -46,9 +46,9 @@
     },
     {
         "name": "\ud83c\uddf3\ud83c\uddf1 Roelof Corporaal",
-        "cn": "LK",
+        "cn": "IK",
         "glider": "",
-        "comp": "LK",
+        "comp": "IK",
         "flarm": [
             ""
         ]
@@ -158,7 +158,7 @@
         "glider": "",
         "comp": "YYY",
         "flarm": [
-            ""
+            "DDD7EB"
         ]
     },
     {
@@ -175,15 +175,6 @@
         "cn": "LL",
         "glider": "",
         "comp": "LL",
-        "flarm": [
-            ""
-        ]
-    },
-    {
-        "name": "\ud83c\uddfa\ud83c\udde6 Andrii Lohvynchuk",
-        "cn": "",
-        "glider": "",
-        "comp": "",
         "flarm": [
             ""
         ]
@@ -315,6 +306,15 @@
         ]
     },
     {
+        "name": "\ud83c\uddeb\ud83c\uddee Tapio Tourula",
+        "cn": "PF",
+        "glider": "",
+        "comp": "PF",
+        "flarm": [
+            ""
+        ]
+    },
+    {
         "name": "\ud83c\udde7\ud83c\uddea Jelle Vandebeeck",
         "cn": "24",
         "glider": "",
@@ -330,15 +330,6 @@
         "comp": "8M",
         "flarm": [
             "DDF0BD"
-        ]
-    },
-    {
-        "name": "\ud83c\uddfa\ud83c\udde6 Roman Yermakov",
-        "cn": "RY",
-        "glider": "",
-        "comp": "RY",
-        "flarm": [
-            ""
         ]
     },
     {

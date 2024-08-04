@@ -1,10 +1,10 @@
 ID,CALL,CN,TYPE,NAME
-,,CP,,🇸🇮 Viktor Becan
+,,CR,,🇸🇮 Viktor Becan
 D01971,,AG,,🇫🇷 Nicolas Bernhard
 DD8DCE,,TE,,🇳🇴 Sondre Bjørø
 D026A3,,LAB,,🇮🇹 Lapo Alessandro Busi
 ,,HG,,🇫🇷 Hugo Corbille
-,,LK,,🇳🇱 Roelof Corporaal
+,,IK,,🇳🇱 Roelof Corporaal
 DDEDF9,,KW,,🇩🇰 Felipe Cvitanich
 ,,IX,,🇮🇹 Giacomo Dall'Olio
 ,,311,,🇸🇰 David Darnady
@@ -19,7 +19,6 @@ D017E9,,AD,,🇭🇺 György Gulyás
 DDD7EB,,YYY,,🇱🇹 Ringaudas Kikalas
 D00BC4,,IKW,,🇸🇰 Jozef Kožár
 ,,LL,,🇨🇿 Michal Lešinger
-,,,,🇺🇦 Andrii Lohvynchuk
 D02A1A,,FY,,🇧🇪 Alexandre Melot
 DF11D3,,🇩🇪UWE,,🇩🇪 Uwe Melzer
 D00FEA,,UF,,🇳🇴 Christer Ervik Mjøs
@@ -34,9 +33,9 @@ D01C39,,CX,,🇨🇿 Tomáš Suchánek
 DF2125,,XW,,🇭🇺 Ferenc Tamás
 ,,A3,,🇨🇿 Jaroslav Tomaňa
 ,,KT,,🇫🇮 Kim Toppari
+,,PF,,🇫🇮 Tapio Tourula
 4848B9,,24,,🇧🇪 Jelle Vandebeeck
 DDF0BD,,8M,,🇷🇴 Pop Victor-Alex
-,,RY,,🇺🇦 Roman Yermakov
 D0054A,,GE,,🇫🇮 Mikko Ylihärsilä
 D01854,,HR3,,🇭🇷 Dani Zaninovic
 ,,PP,,🇵🇱 Mikołaj Zdun

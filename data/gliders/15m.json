@@ -37,20 +37,11 @@
     },
     {
         "name": "\ud83c\udded\ud83c\uddfa Elek Czigler",
-        "cn": "",
+        "cn": "C",
         "glider": "",
-        "comp": "",
+        "comp": "C",
         "flarm": [
             ""
-        ]
-    },
-    {
-        "name": "\ud83c\uddf1\ud83c\uddf9 Vladas Motuza",
-        "cn": "M7",
-        "glider": "",
-        "comp": "M7",
-        "flarm": [
-            "DDD93F"
         ]
     },
     {
@@ -162,6 +153,15 @@
         ]
     },
     {
+        "name": "\ud83c\uddf1\ud83c\uddf9 Vladas Motuza",
+        "cn": "M7",
+        "glider": "",
+        "comp": "M7",
+        "flarm": [
+            "DDD93F"
+        ]
+    },
+    {
         "name": "\ud83c\udde7\ud83c\uddf7 Henrique Navarro",
         "cn": "VV",
         "glider": "",
@@ -225,15 +225,6 @@
         ]
     },
     {
-        "name": "\ud83c\uddeb\ud83c\uddee Tapio Tourula",
-        "cn": "3F",
-        "glider": "",
-        "comp": "3F",
-        "flarm": [
-            ""
-        ]
-    },
-    {
         "name": "\ud83c\udded\ud83c\uddfa Tam\u00e1s V\u00e1mosi",
         "cn": "V8",
         "glider": "",
@@ -262,9 +253,9 @@
     },
     {
         "name": "\ud83c\uddf5\ud83c\uddf1 Pawe\u0142 Wojciechowski",
-        "cn": "PL",
+        "cn": "ZJ",
         "glider": "",
-        "comp": "PL",
+        "comp": "ZJ",
         "flarm": [
             ""
         ]

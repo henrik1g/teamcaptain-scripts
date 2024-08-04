@@ -3,8 +3,7 @@ ID,CALL,CN,TYPE,NAME
 49B099,,12,,🇩🇰 Filip Bojanowski
 ,,LEO,,🇮🇹 Riccardo Brigliadori
 D00BC4,,VZ,,🇸🇪 Peter Cutting
-,,,,🇭🇺 Elek Czigler
-DDD93F,,M7,,🇱🇹 Vladas Motuza
+,,C,,🇭🇺 Elek Czigler
 ,,IR,,🇫🇷 Kévin Faur
 ,,3,,🇸🇰 Vladimir Foltin
 DF0D6E,,LD,,🇮🇹 Lorenzo Fornari
@@ -17,6 +16,7 @@ DF2125,,XM,,🇨🇿 Pavel Loužecký
 D006F7,,UJ,,🇯🇵 Takeshi Maruyama
 4077F5,,77,,🇬🇧 Owen McCormack
 405763,,85,,🇬🇧 Neil McLaughlin
+DDD93F,,M7,,🇱🇹 Vladas Motuza
 D009BF,,VV,,🇧🇷 Henrique Navarro
 DDEFB9,,AX,,🇨🇿 Karel Novák
 D02C72,,RX,,🇩🇰 Rasmus Ørskov
@@ -24,8 +24,7 @@ D00B1B,,BB,,🇱🇹 Marius Pluščauskas
 D02CD6,,🇩🇪GI,,🇩🇪 Marc Schick
 4D0373,,MM,,🇱🇺 George Schuit
 ,,FS,,🇧🇪 Daan Spruyt
-,,3F,,🇫🇮 Tapio Tourula
 D001C4,,V8,,🇭🇺 Tamás Vámosi
 484F9D,,29,,🇳🇱 Sikko Vermeer
 3ED053,,🇩🇪3V,,🇩🇪 Uwe Wahlig
-,,PL,,🇵🇱 Paweł Wojciechowski
+,,ZJ,,🇵🇱 Paweł Wojciechowski
