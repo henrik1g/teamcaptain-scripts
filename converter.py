@@ -4,7 +4,8 @@ import json
 classes: list = [
     "club",
     "std",
-    "15m"
+    "15m",
+    "all"
     ]
 
 classes = [f"data/gliders/{c}.txt" for c in classes]

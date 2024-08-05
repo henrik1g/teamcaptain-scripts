@@ -23,7 +23,7 @@ D02A1A,,FY,,🇧🇪 Alexandre Melot
 DF11D3,,🇩🇪UWE,,🇩🇪 Uwe Melzer
 D00FEA,,UF,,🇳🇴 Christer Ervik Mjøs
 4B5067,,CRN,,🇨🇭 Yves Müller
-,,CP,,🇸🇪 Dylan Osolian
+D0075C,,CP,,🇸🇪 Dylan Osolian
 ,,44,,🇪🇸 Jaume Prat
 4AD689,,TI,,🇸🇪 Samuel Richardsson
 ,,5,,🇱🇹 Gvidas Sabeckis
@@ -32,7 +32,7 @@ D00FEA,,UF,,🇳🇴 Christer Ervik Mjøs
 D01C39,,CX,,🇨🇿 Tomáš Suchánek
 DF2125,,XW,,🇭🇺 Ferenc Tamás
 ,,A3,,🇨🇿 Jaroslav Tomaňa
-,,KT,,🇫🇮 Kim Toppari
+D00D2F,,KT,,🇫🇮 Kim Toppari
 ,,PF,,🇫🇮 Tapio Tourula
 4848B9,,24,,🇧🇪 Jelle Vandebeeck
 DDF0BD,,8M,,🇷🇴 Pop Victor-Alex
