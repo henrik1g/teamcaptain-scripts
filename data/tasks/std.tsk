@@ -1,27 +1,27 @@
-<Task aat_min_time="7200" type="AAT">
+<Task type="AAT">
 	<Point type="Start">
 		<Waypoint altitude="497" name="005SPRATIBOR">
 			<Location latitude="49.463617" longitude="14.768617"/>
 		</Waypoint>
-		<ObservationZone length="7500.0" type="Line"/>
+		<ObservationZone length="15000.0" type="Line"/>
 	</Point>
 	<Point type="Turn">
-		<Waypoint altitude="482" name="070BREZNICE">
-			<Location latitude="49.558333" longitude="13.96305"/>
+		<Waypoint altitude="379" name="440PRESTICE">
+			<Location latitude="49.575833" longitude="13.322217"/>
 		</Waypoint>
-		<ObservationZone radius="30000.0" type="Cylinder"/>
+		<ObservationZone radius="50000.0" type="Cylinder"/>
 	</Point>
 	<Point type="Turn">
-		<Waypoint altitude="591" name="198HUMPOLEC">
-			<Location latitude="49.526383" longitude="15.349167"/>
+		<Waypoint altitude="511" name="365NACERADEC">
+			<Location latitude="49.61" longitude="14.90445"/>
 		</Waypoint>
-		<ObservationZone radius="20000.0" type="Cylinder"/>
+		<ObservationZone radius="24000.0" type="Cylinder"/>
 	</Point>
 	<Point type="Turn">
-		<Waypoint altitude="556" name="288KUNZAK">
-			<Location latitude="49.163617" longitude="15.11945"/>
+		<Waypoint altitude="502" name="013CP29">
+			<Location latitude="49.3375" longitude="14.877783"/>
 		</Waypoint>
-		<ObservationZone radius="15000.0" type="Cylinder"/>
+		<ObservationZone radius="5000.0" type="Cylinder"/>
 	</Point>
 	<Point type="Finish">
 		<Waypoint altitude="431" name="001SPTABOR">
