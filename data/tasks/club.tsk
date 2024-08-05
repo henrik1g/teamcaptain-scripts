@@ -1,4 +1,4 @@
-<Task type="AAT">
+<Task aat_min_time="7200" type="AAT">
 	<Point type="Start">
 		<Waypoint altitude="435" name="003SPBECICE">
 			<Location latitude="49.38305" longitude="14.554167"/>

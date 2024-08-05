@@ -1,13 +1,13 @@
 ID,CALL,CN,TYPE,NAME
-,,CR,,🇸🇮 Viktor Becan
+D015EE,,CR,,🇸🇮 Viktor Becan
 D01971,,AG,,🇫🇷 Nicolas Bernhard
 DD8DCE,,TE,,🇳🇴 Sondre Bjørø
 D026A3,,LAB,,🇮🇹 Lapo Alessandro Busi
-,,HG,,🇫🇷 Hugo Corbille
-,,IK,,🇳🇱 Roelof Corporaal
+D012D5,,HG,,🇫🇷 Hugo Corbille
+4864CA,,IK,,🇳🇱 Roelof Corporaal
 DDEDF9,,KW,,🇩🇰 Felipe Cvitanich
 ,,IX,,🇮🇹 Giacomo Dall'Olio
-,,311,,🇸🇰 David Darnady
+3E7A8A,,311,,🇸🇰 David Darnady
 DF08D4,,🇩🇪MX,,🇩🇪 Marcus Dawert
 D00E21,,LE,,🇩🇰 Uffe Edslev
 D021F5,,364,,🇬🇧 James Ewence
@@ -18,7 +18,7 @@ DDF001,,3C,,🇭🇷 Frane Franić
 D017E9,,AD,,🇭🇺 György Gulyás
 DDD7EB,,YYY,,🇱🇹 Ringaudas Kikalas
 D00BC4,,IKW,,🇸🇰 Jozef Kožár
-,,LL,,🇨🇿 Michal Lešinger
+D006D5,,LL,,🇨🇿 Michal Lešinger
 D02A1A,,FY,,🇧🇪 Alexandre Melot
 DF11D3,,🇩🇪UWE,,🇩🇪 Uwe Melzer
 D00FEA,,UF,,🇳🇴 Christer Ervik Mjøs
@@ -26,14 +26,14 @@ D00FEA,,UF,,🇳🇴 Christer Ervik Mjøs
 D0075C,,CP,,🇸🇪 Dylan Osolian
 ,,44,,🇪🇸 Jaume Prat
 4AD689,,TI,,🇸🇪 Samuel Richardsson
-,,5,,🇱🇹 Gvidas Sabeckis
+DDEB1F,,5,,🇱🇹 Gvidas Sabeckis
 3EE383,,JO,,🇱🇺 Diana Schuit
 ,,Y2,,🇷🇴 Alin Simion
 D01C39,,CX,,🇨🇿 Tomáš Suchánek
 DF2125,,XW,,🇭🇺 Ferenc Tamás
-,,A3,,🇨🇿 Jaroslav Tomaňa
+D0291F,,A3,,🇨🇿 Jaroslav Tomaňa
 D00D2F,,KT,,🇫🇮 Kim Toppari
-,,PF,,🇫🇮 Tapio Tourula
+D01990,,PF,,🇫🇮 Tapio Tourula
 4848B9,,24,,🇧🇪 Jelle Vandebeeck
 DDF0BD,,8M,,🇷🇴 Pop Victor-Alex
 D0054A,,GE,,🇫🇮 Mikko Ylihärsilä
