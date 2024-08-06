@@ -8,11 +8,11 @@ D00403,,IR,,🇫🇷 Kévin Faur
 D00992,,3,,🇸🇰 Vladimir Foltin
 DF0D6E,,LD,,🇮🇹 Lorenzo Fornari
 3E7462,,VG,,🇫🇷 Eric Garnier
-,,RP,,🇵🇱 Łukasz Grabowski
+101212,,RP,,🇵🇱 Łukasz Grabowski
 D02953,,EY,,🇳🇱 Stephan Grunder
 4B4F4B,,MK,,🇨🇭 Mark Kaeppeli
 DDEBBE,,LX,,🇧🇪 Thomas Leduc
-DF2125,,XM,,🇨🇿 Pavel Loužecký
+D01C5A,,XM,,🇨🇿 Pavel Loužecký
 D006F7,,UJ,,🇯🇵 Takeshi Maruyama
 4077F5,,77,,🇬🇧 Owen McCormack
 405763,,85,,🇬🇧 Neil McLaughlin

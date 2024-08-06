@@ -38,4 +38,4 @@ D01990,,PF,,🇫🇮 Tapio Tourula
 DDF0BD,,8M,,🇷🇴 Pop Victor-Alex
 D0054A,,GE,,🇫🇮 Mikko Ylihärsilä
 D01854,,HR3,,🇭🇷 Dani Zaninovic
-,,PP,,🇵🇱 Mikołaj Zdun
+DDD212,,PP,,🇵🇱 Mikołaj Zdun
