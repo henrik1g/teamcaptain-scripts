@@ -35,7 +35,7 @@ D026A3,,LAB,,🇮🇹 Lapo Alessandro Busi
 D012D5,,HG,,🇫🇷 Hugo Corbille
 4864CA,,IK,,🇳🇱 Roelof Corporaal
 DDEDF9,,KW,,🇩🇰 Felipe Cvitanich
-,,IX,,🇮🇹 Giacomo Dall'Olio
+DD953A,,IX,,🇮🇹 Giacomo Dall'Olio
 3E7A8A,,311,,🇸🇰 David Darnady
 DF08D4,,🇩🇪MX,,🇩🇪 Marcus Dawert
 D00E21,,LE,,🇩🇰 Uffe Edslev
@@ -46,7 +46,7 @@ DDF001,,3C,,🇭🇷 Frane Franić
 4B4BD2,,MN,,🇨🇭 Simon Gantner
 D017E9,,AD,,🇭🇺 György Gulyás
 DDD7EB,,YYY,,🇱🇹 Ringaudas Kikalas
-D00BC4,,IKW,,🇸🇰 Jozef Kožár
+D01D2F,,IKW,,🇸🇰 Jozef Kožár
 D006D5,,LL,,🇨🇿 Michal Lešinger
 D02A1A,,FY,,🇧🇪 Alexandre Melot
 DF11D3,,🇩🇪UWE,,🇩🇪 Uwe Melzer
@@ -57,7 +57,7 @@ D0075C,,CP,,🇸🇪 Dylan Osolian
 4AD689,,TI,,🇸🇪 Samuel Richardsson
 DDEB1F,,5,,🇱🇹 Gvidas Sabeckis
 3EE383,,JO,,🇱🇺 Diana Schuit
-,,Y2,,🇷🇴 Alin Simion
+D00CF4,,Y2,,🇷🇴 Alin Simion
 D01C39,,CX,,🇨🇿 Tomáš Suchánek
 DF2125,,XW,,🇭🇺 Ferenc Tamás
 D0291F,,A3,,🇨🇿 Jaroslav Tomaňa
