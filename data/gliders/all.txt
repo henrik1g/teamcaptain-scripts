@@ -23,7 +23,7 @@ D02C72,,RX,,🇩🇰 Rasmus Ørskov
 D00B1B,,BB,,🇱🇹 Marius Pluščauskas
 D02CD6,,🇩🇪GI,,🇩🇪 Marc Schick
 4D0373,,MM,,🇱🇺 George Schuit
-,,FS,,🇧🇪 Daan Spruyt
+3F06E5,,FS,,🇧🇪 Daan Spruyt
 D001C4,,V8,,🇭🇺 Tamás Vámosi
 484F9D,,29,,🇳🇱 Sikko Vermeer
 3ED053,,🇩🇪3V,,🇩🇪 Uwe Wahlig
