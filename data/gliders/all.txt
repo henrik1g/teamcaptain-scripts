@@ -92,7 +92,7 @@ D02AE6,,FX,,🇨🇿 Jan Pavlík
 465BA0,,LK,,🇫🇮 Sami Rissanen
 D01074,,YB,,🇷🇴 Norbert Scarlat
 D00382,,DI,,🇸🇰 Edmund Schuller
-D0073B,,1,,🇸🇪 Elias Severholt
+D00EBA,,1,,🇸🇪 Elias Severholt
 3EF92D,,🇩🇪RA,,🇩🇪 Robin Sittmann
 485F92,,VNE,,🇳🇱 Robin Smit
 DDEFEB,,H8,,🇱🇹 Andrius Tamulenas
