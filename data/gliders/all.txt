@@ -39,7 +39,7 @@ DD953A,,IX,,🇮🇹 Giacomo Dall'Olio
 3E7A8A,,311,,🇸🇰 David Darnady
 DF08D4,,🇩🇪MX,,🇩🇪 Marcus Dawert
 D00E21,,LE,,🇩🇰 Uffe Edslev
-D021F5,,364,,🇬🇧 James Ewence
+40541C,,364,,🇬🇧 James Ewence
 D01CB6,,FLS,,🇵🇱 Jacek Flis
 DDF001,,3C,,🇭🇷 Frane Franić
 405A87,,212,,🇬🇧 Toby Freeland
