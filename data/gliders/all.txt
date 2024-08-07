@@ -53,7 +53,7 @@ DF11D3,,🇩🇪UWE,,🇩🇪 Uwe Melzer
 D00FEA,,UF,,🇳🇴 Christer Ervik Mjøs
 4B5067,,CRN,,🇨🇭 Yves Müller
 D0075C,,CP,,🇸🇪 Dylan Osolian
-,,44,,🇪🇸 Jaume Prat
+DF1882,,44,,🇪🇸 Jaume Prat
 4AD689,,TI,,🇸🇪 Samuel Richardsson
 DDEB1F,,5,,🇱🇹 Gvidas Sabeckis
 3EE383,,JO,,🇱🇺 Diana Schuit
