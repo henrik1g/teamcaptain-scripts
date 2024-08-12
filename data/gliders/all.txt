@@ -34,7 +34,7 @@ DD8DCE,,TE,,🇳🇴 Sondre Bjørø
 D026A3,,LAB,,🇮🇹 Lapo Alessandro Busi
 D012D5,,HG,,🇫🇷 Hugo Corbille
 4864CA,,IK,,🇳🇱 Roelof Corporaal
-DDEDF9,,KW,,🇩🇰 Felipe Cvitanich
+49C03F,,KW,,🇩🇰 Felipe Cvitanich
 DD953A,,IX,,🇮🇹 Giacomo Dall'Olio
 3E7A8A,,311,,🇸🇰 David Darnady
 DF08D4,,🇩🇪MX,,🇩🇪 Marcus Dawert
