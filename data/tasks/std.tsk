@@ -1,31 +1,31 @@
 <Task aat_min_time="7200" type="AAT">
   <Point type="Start">
     <Waypoint altitude="500" name="005SPRATIBOR">
-      <Location latitude="0.86330297077768" longitude="0.25776098679824"/>
+      <Location latitude="49.46361666666691" longitude="14.768616666666482"/>
     </Waypoint>
     <ObservationZone length="7500" type="Line"/>
   </Point>
   <Point type="Turn">
     <Waypoint altitude="428" name="047BITOV">
-      <Location latitude="0.85421736846821" longitude="0.27405538069486"/>
+      <Location latitude="48.94304999999996" longitude="15.702216666666537"/>
     </Waypoint>
     <ObservationZone radius="20000" type="Cylinder"/>
   </Point>
   <Point type="Turn">
     <Waypoint altitude="530" name="314LITSCHAU">
-      <Location latitude="0.85420776915732" longitude="0.26258478596255"/>
+      <Location latitude="48.94249999999973" longitude="15.045000000000181"/>
     </Waypoint>
     <ObservationZone radius="20000" type="Cylinder"/>
   </Point>
   <Point type="Turn">
     <Waypoint altitude="572" name="566TREST">
-      <Location latitude="0.86033591104929" longitude="0.2701091912561"/>
+      <Location latitude="49.29361666666692" longitude="15.476116666666488"/>
     </Waypoint>
     <ObservationZone radius="20000" type="Cylinder"/>
   </Point>
   <Point type="Finish">
     <Waypoint altitude="428" name="001SPTABOR">
-      <Location latitude="0.86209083961217" longitude="0.25661197837401"/>
+      <Location latitude="49.39416666666691" longitude="14.702783333333127"/>
     </Waypoint>
     <ObservationZone radius="5000" type="Cylinder"/>
   </Point>
