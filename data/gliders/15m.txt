@@ -11,7 +11,7 @@ D02D23,,EMI,🇧🇷 Gustavo Shigueno
 4B4E94,,LR,🇨🇭 Yves Gerster
 DDEFB9,,AX,🇨🇿 Karel Novák
 ,,ZE,🇨🇿 Pavel Trybenekr
-,,🇩🇪SG,🇩🇪 Steffen Göttler
+DF14A3,,🇩🇪SG,🇩🇪 Steffen Göttler
 D0103C,,🇩🇪L7,🇩🇪 Steffen Schwarzer
 D009CF,,14,🇩🇰 Henrik Breidahl
 45A308,,RJ,🇩🇰 Jonathan Bülow-Olsen
