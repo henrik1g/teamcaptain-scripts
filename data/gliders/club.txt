@@ -10,7 +10,7 @@ D02A1A,,FY,🇧🇪 Alexandre Mélot
 ,,A3,🇨🇿 Ivan Harašta
 ,,CX,🇨🇿 Tomas Suchanek
 DF2044,,🇩🇪SF,🇩🇪 Stefan Langer
-,,🇩🇪SN,🇩🇪 Uwe Wahlig
+3EEB98,,🇩🇪SN,🇩🇪 Uwe Wahlig
 ,,YC,🇩🇰 Filip Bojanowski
 ,,W,🇩🇰 Michael Mix
 DF1882,,44,🇪🇸 Jaume Prats
