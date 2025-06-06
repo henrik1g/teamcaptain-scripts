@@ -1,32 +1,32 @@
 <Task aat_min_time="7200" type="AAT">
-	<Point type="Start">
-		<Waypoint altitude="435" name="003SPBECICE">
-			<Location latitude="49.38305" longitude="14.554167"/>
-		</Waypoint>
-		<ObservationZone length="15000.0" type="Line"/>
-	</Point>
-	<Point type="Turn">
-		<Waypoint altitude="379" name="440PRESTICE">
-			<Location latitude="49.575833" longitude="13.322217"/>
-		</Waypoint>
-		<ObservationZone radius="50000.0" type="Cylinder"/>
-	</Point>
-	<Point type="Turn">
-		<Waypoint altitude="511" name="365NACERADEC">
-			<Location latitude="49.61" longitude="14.90445"/>
-		</Waypoint>
-		<ObservationZone radius="24000.0" type="Cylinder"/>
-	</Point>
-	<Point type="Turn">
-		<Waypoint altitude="502" name="013CP29">
-			<Location latitude="49.3375" longitude="14.877783"/>
-		</Waypoint>
-		<ObservationZone radius="5000.0" type="Cylinder"/>
-	</Point>
-	<Point type="Finish">
-		<Waypoint altitude="431" name="001SPTABOR">
-			<Location latitude="49.394167" longitude="14.702783"/>
-		</Waypoint>
-		<ObservationZone radius="5000.0" type="Cylinder"/>
-	</Point>
+  <Point type="Start">
+    <Waypoint altitude="461" name="012SPSMOLEC">
+      <Location latitude="0.86059276533754" longitude="0.25387762921256"/>
+    </Waypoint>
+    <ObservationZone length="7500" type="Line"/>
+  </Point>
+  <Point type="Turn">
+    <Waypoint altitude="428" name="047BITOV">
+      <Location latitude="0.85421736846821" longitude="0.27405538069486"/>
+    </Waypoint>
+    <ObservationZone radius="20000" type="Cylinder"/>
+  </Point>
+  <Point type="Turn">
+    <Waypoint altitude="530" name="314LITSCHAU">
+      <Location latitude="0.85420776915732" longitude="0.26258478596255"/>
+    </Waypoint>
+    <ObservationZone radius="20000" type="Cylinder"/>
+  </Point>
+  <Point type="Turn">
+    <Waypoint altitude="572" name="566TREST">
+      <Location latitude="0.86033591104929" longitude="0.2701091912561"/>
+    </Waypoint>
+    <ObservationZone radius="20000" type="Cylinder"/>
+  </Point>
+  <Point type="Finish">
+    <Waypoint altitude="428" name="001SPTABOR">
+      <Location latitude="0.86209083961217" longitude="0.25661197837401"/>
+    </Waypoint>
+    <ObservationZone radius="5000" type="Cylinder"/>
+  </Point>
 </Task>
