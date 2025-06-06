@@ -1,96 +1,15 @@
 [
     {
-        "name": "\ud83c\udde6\ud83c\uddf9 Paul Bernhard",
-        "cn": "ES",
+        "name": "",
+        "cn": "FE",
         "glider": "",
-        "comp": "ES",
+        "comp": "FE",
         "flarm": [
-            "3F00D6"
+            "D02A46"
         ]
     },
     {
-        "name": "\ud83c\udde9\ud83c\uddf0 Filip Bojanowski",
-        "cn": "12",
-        "glider": "",
-        "comp": "12",
-        "flarm": [
-            "49B099"
-        ]
-    },
-    {
-        "name": "\ud83c\uddee\ud83c\uddf9 Riccardo Brigliadori",
-        "cn": "LEO",
-        "glider": "",
-        "comp": "LEO",
-        "flarm": [
-            "D025FA"
-        ]
-    },
-    {
-        "name": "\ud83c\uddf8\ud83c\uddea Peter Cutting",
-        "cn": "VZ",
-        "glider": "",
-        "comp": "VZ",
-        "flarm": [
-            "D00BC4"
-        ]
-    },
-    {
-        "name": "\ud83c\udded\ud83c\uddfa Elek Czigler",
-        "cn": "C",
-        "glider": "",
-        "comp": "C",
-        "flarm": [
-            "D0073B"
-        ]
-    },
-    {
-        "name": "\ud83c\uddeb\ud83c\uddf7 K\u00e9vin Faur",
-        "cn": "IR",
-        "glider": "",
-        "comp": "IR",
-        "flarm": [
-            "D00403"
-        ]
-    },
-    {
-        "name": "\ud83c\uddf8\ud83c\uddf0 Vladimir Foltin",
-        "cn": "3",
-        "glider": "",
-        "comp": "3",
-        "flarm": [
-            "D00992"
-        ]
-    },
-    {
-        "name": "\ud83c\uddee\ud83c\uddf9 Lorenzo Fornari",
-        "cn": "LD",
-        "glider": "",
-        "comp": "LD",
-        "flarm": [
-            "DF0D6E"
-        ]
-    },
-    {
-        "name": "\ud83c\uddeb\ud83c\uddf7 Eric Garnier",
-        "cn": "VG",
-        "glider": "",
-        "comp": "VG",
-        "flarm": [
-            "3E7462"
-        ]
-    },
-    {
-        "name": "\ud83c\uddf5\ud83c\uddf1 \u0141ukasz Grabowski",
-        "cn": "RP",
-        "glider": "",
-        "comp": "RP",
-        "flarm": [
-            "101212"
-        ]
-    },
-    {
-        "name": "\ud83c\uddf3\ud83c\uddf1 Stephan Grunder",
+        "name": "",
         "cn": "EY",
         "glider": "",
         "comp": "EY",
@@ -99,16 +18,34 @@
         ]
     },
     {
-        "name": "\ud83c\udde8\ud83c\udded Mark Kaeppeli",
-        "cn": "MK",
+        "name": "",
+        "cn": "XK",
         "glider": "",
-        "comp": "MK",
+        "comp": "XK",
         "flarm": [
-            "4B4F4B"
+            "DF0EC9"
         ]
     },
     {
-        "name": "\ud83c\udde7\ud83c\uddea Thomas Leduc",
+        "name": "",
+        "cn": "EK",
+        "glider": "",
+        "comp": "EK",
+        "flarm": [
+            "45ACB8"
+        ]
+    },
+    {
+        "name": "",
+        "cn": "WX",
+        "glider": "",
+        "comp": "WX",
+        "flarm": [
+            "D021CA"
+        ]
+    },
+    {
+        "name": "",
         "cn": "LX",
         "glider": "",
         "comp": "LX",
@@ -117,52 +54,16 @@
         ]
     },
     {
-        "name": "\ud83c\udde8\ud83c\uddff Pavel Lou\u017eeck\u00fd",
-        "cn": "XM",
+        "name": "",
+        "cn": "MMI",
         "glider": "",
-        "comp": "XM",
+        "comp": "MMI",
         "flarm": [
-            "D01C5A"
+            "D00C86"
         ]
     },
     {
-        "name": "\ud83c\uddef\ud83c\uddf5 Takeshi Maruyama",
-        "cn": "UJ",
-        "glider": "",
-        "comp": "UJ",
-        "flarm": [
-            "D006F7"
-        ]
-    },
-    {
-        "name": "\ud83c\uddec\ud83c\udde7 Owen McCormack",
-        "cn": "77",
-        "glider": "",
-        "comp": "77",
-        "flarm": [
-            "4077F5"
-        ]
-    },
-    {
-        "name": "\ud83c\uddec\ud83c\udde7 Neil McLaughlin",
-        "cn": "85",
-        "glider": "",
-        "comp": "85",
-        "flarm": [
-            "405763"
-        ]
-    },
-    {
-        "name": "\ud83c\uddf1\ud83c\uddf9 Vladas Motuza",
-        "cn": "M7",
-        "glider": "",
-        "comp": "M7",
-        "flarm": [
-            "DDD93F"
-        ]
-    },
-    {
-        "name": "\ud83c\udde7\ud83c\uddf7 Henrique Navarro",
+        "name": "",
         "cn": "VV",
         "glider": "",
         "comp": "VV",
@@ -171,7 +72,25 @@
         ]
     },
     {
-        "name": "\ud83c\udde8\ud83c\uddff Karel Nov\u00e1k",
+        "name": "",
+        "cn": "EMI",
+        "glider": "",
+        "comp": "EMI",
+        "flarm": [
+            "D02D23"
+        ]
+    },
+    {
+        "name": "",
+        "cn": "LR",
+        "glider": "",
+        "comp": "LR",
+        "flarm": [
+            "4B4E94"
+        ]
+    },
+    {
+        "name": "",
         "cn": "AX",
         "glider": "",
         "comp": "AX",
@@ -180,52 +99,115 @@
         ]
     },
     {
-        "name": "\ud83c\udde9\ud83c\uddf0 Rasmus \u00d8rskov",
-        "cn": "RX",
+        "name": "",
+        "cn": "ZE",
         "glider": "",
-        "comp": "RX",
+        "comp": "ZE",
         "flarm": [
-            "D02C72"
+            ""
         ]
     },
     {
-        "name": "\ud83c\uddf1\ud83c\uddf9 Marius Plu\u0161\u010dauskas",
-        "cn": "BB",
+        "name": "",
+        "cn": "\ud83c\udde9\ud83c\uddeaSG",
         "glider": "",
-        "comp": "BB",
+        "comp": "\ud83c\udde9\ud83c\uddeaSG",
         "flarm": [
-            "D00B1B"
+            ""
         ]
     },
     {
-        "name": "\ud83c\udde9\ud83c\uddea Marc Schick",
-        "cn": "\ud83c\udde9\ud83c\uddeaGI",
+        "name": "",
+        "cn": "\ud83c\udde9\ud83c\uddeaL7",
         "glider": "",
-        "comp": "\ud83c\udde9\ud83c\uddeaGI",
+        "comp": "\ud83c\udde9\ud83c\uddeaL7",
         "flarm": [
-            "D02CD6"
+            "D0103C"
         ]
     },
     {
-        "name": "\ud83c\uddf1\ud83c\uddfa George Schuit",
-        "cn": "MM",
+        "name": "",
+        "cn": "14",
         "glider": "",
-        "comp": "MM",
+        "comp": "14",
         "flarm": [
-            "4D0373"
+            "D009CF"
         ]
     },
     {
-        "name": "\ud83c\udde7\ud83c\uddea Daan Spruyt",
-        "cn": "FS",
+        "name": "",
+        "cn": "RJ",
         "glider": "",
-        "comp": "FS",
+        "comp": "RJ",
         "flarm": [
-            "3F06E5"
+            "45A308"
         ]
     },
     {
-        "name": "\ud83c\udded\ud83c\uddfa Tam\u00e1s V\u00e1mosi",
+        "name": "",
+        "cn": "3J",
+        "glider": "",
+        "comp": "3J",
+        "flarm": [
+            "D01387"
+        ]
+    },
+    {
+        "name": "",
+        "cn": "3F",
+        "glider": "",
+        "comp": "3F",
+        "flarm": [
+            "D01CE6"
+        ]
+    },
+    {
+        "name": "",
+        "cn": "LB",
+        "glider": "",
+        "comp": "LB",
+        "flarm": [
+            "D00900"
+        ]
+    },
+    {
+        "name": "",
+        "cn": "KW",
+        "glider": "",
+        "comp": "KW",
+        "flarm": [
+            "DDEDF9"
+        ]
+    },
+    {
+        "name": "",
+        "cn": "DW",
+        "glider": "",
+        "comp": "DW",
+        "flarm": [
+            "D009DF"
+        ]
+    },
+    {
+        "name": "",
+        "cn": "LE",
+        "glider": "",
+        "comp": "LE",
+        "flarm": [
+            "D00CA4"
+        ]
+    },
+    {
+        "name": "",
+        "cn": "HAB",
+        "glider": "",
+        "comp": "HAB",
+        "flarm": [
+            ""
+        ]
+    },
+    {
+        "name": "",
         "cn": "V8",
         "glider": "",
         "comp": "V8",
@@ -234,30 +216,102 @@
         ]
     },
     {
-        "name": "\ud83c\uddf3\ud83c\uddf1 Sikko Vermeer",
-        "cn": "29",
+        "name": "",
+        "cn": "AI",
         "glider": "",
-        "comp": "29",
+        "comp": "AI",
         "flarm": [
-            "484F9D"
+            ""
         ]
     },
     {
-        "name": "\ud83c\udde9\ud83c\uddea Uwe Wahlig",
-        "cn": "\ud83c\udde9\ud83c\uddea3V",
+        "name": "",
+        "cn": "RY",
         "glider": "",
-        "comp": "\ud83c\udde9\ud83c\uddea3V",
+        "comp": "RY",
         "flarm": [
-            "3ED053"
+            "D00C04"
         ]
     },
     {
-        "name": "\ud83c\uddf5\ud83c\uddf1 Pawe\u0142 Wojciechowski",
+        "name": "",
+        "cn": "M7",
+        "glider": "",
+        "comp": "M7",
+        "flarm": [
+            ""
+        ]
+    },
+    {
+        "name": "",
+        "cn": "BB",
+        "glider": "",
+        "comp": "BB",
+        "flarm": [
+            "D02B81"
+        ]
+    },
+    {
+        "name": "",
+        "cn": "MM",
+        "glider": "",
+        "comp": "MM",
+        "flarm": [
+            "D00C86"
+        ]
+    },
+    {
+        "name": "",
+        "cn": "JV",
+        "glider": "",
+        "comp": "JV",
+        "flarm": [
+            "3E7D9A"
+        ]
+    },
+    {
+        "name": "",
+        "cn": "RP",
+        "glider": "",
+        "comp": "RP",
+        "flarm": [
+            ""
+        ]
+    },
+    {
+        "name": "",
         "cn": "ZJ",
         "glider": "",
         "comp": "ZJ",
         "flarm": [
             "101211"
+        ]
+    },
+    {
+        "name": "",
+        "cn": "3",
+        "glider": "",
+        "comp": "3",
+        "flarm": [
+            ""
+        ]
+    },
+    {
+        "name": "",
+        "cn": "73",
+        "glider": "",
+        "comp": "73",
+        "flarm": [
+            "D00DE8"
+        ]
+    },
+    {
+        "name": "",
+        "cn": "AF",
+        "glider": "",
+        "comp": "AF",
+        "flarm": [
+            "DDEFD0"
         ]
     }
 ]

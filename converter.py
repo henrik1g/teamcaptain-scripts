@@ -8,7 +8,7 @@ classes: list = [
     "all"
     ]
 
-classes = [f"jegc2023/data/gliders/{c}.txt" for c in classes]
+classes = [f"data/gliders/{c}.txt" for c in classes]
 
 for file in classes:
     lines = []
@@ -33,8 +33,3 @@ for file in classes:
                 f,
                 indent=4,
             )
-
-
-
-
-
