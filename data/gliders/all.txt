@@ -33,11 +33,11 @@ D02AE6,,FX,🇨🇿 Jan Pavlík
 DDEFB9,,AX,🇨🇿 Karel Novák
 ,,ZE,🇨🇿 Pavel Trybenekr
 DF2044,,🇩🇪SF,🇩🇪 Stefan Langer
-,,🇩🇪SN,🇩🇪 Uwe Wahlig
+3EEB98,,🇩🇪SN,🇩🇪 Uwe Wahlig
 D004BF,,🇩🇪JK,🇩🇪 Jan Kretzschmar
 DDFA01,,🇩🇪GP,🇩🇪 Philipp Lauer
 DD8750,,🇩🇪AR,🇩🇪 Max Maslak
-,,🇩🇪SG,🇩🇪 Steffen Göttler
+DF14A3,,🇩🇪SG,🇩🇪 Steffen Göttler
 D0103C,,🇩🇪L7,🇩🇪 Steffen Schwarzer
 ,,YC,🇩🇰 Filip Bojanowski
 ,,W,🇩🇰 Michael Mix

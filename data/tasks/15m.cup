@@ -1,0 +1,14 @@
+name,code,country,lat,lon,elev,style,rwdir,rwlen,freq,desc
+"010SPDLOUHALHOTA","","", 4921.267N, 01447.350E, 445m,1,,,,,""
+"047BITOV","","", 4856.583N, 01542.133E, 428m,1,,,,,""
+"314LITSCHAU","","", 4856.550N, 01502.700E, 530m,1,,,,,""
+"566TREST","","", 4917.617N, 01528.567E, 572m,1,,,,,""
+"001SPTABOR","","", 4923.650N, 01442.167E, 428m,1,,,,,""
+-----Related Tasks-----
+"Task on 2025-06-06","","010SPDLOUHALHOTA","047BITOV","314LITSCHAU","566TREST","001SPTABOR",""
+Options
+ObsZone=0,Style=2,R1=7500m,A1=180,Line=1
+ObsZone=1,Style=3,R1=20000m,A1=180
+ObsZone=2,Style=3,R1=20000m,A1=180
+ObsZone=3,Style=3,R1=20000m,A1=180
+ObsZone=4,Style=3,R1=5000m,A1=180
