@@ -1,0 +1,59 @@
+{
+    "type": "RT",
+    "points": [
+        {
+            "type": "Next",
+            "name": "BASingstoke",
+            "altitude": 106.98480224609,
+            "lat": 51.25803230567,
+            "lng": -1.0648833742742,
+            "radius": 5000,
+            "angle": 90
+        },
+        {
+            "type": "Symmetric",
+            "name": "PEWsey",
+            "altitude": 128.01600646973,
+            "lat": 51.342634443824,
+            "lng": -1.7702500299095,
+            "radius": 10000,
+            "cylinder": 500,
+            "angle": 180
+        },
+        {
+            "type": "Symmetric",
+            "name": "DIDcot",
+            "altitude": 57.911998748779,
+            "lat": 51.621616935567,
+            "lng": -1.2609666861227,
+            "radius": 10000,
+            "angle": 180
+        },
+        {
+            "type": "Symmetric",
+            "name": "SHV-Shrivenham N",
+            "altitude": 102.10800170898,
+            "lat": 51.615565387963,
+            "lng": -1.6365833345741,
+            "radius": 10000,
+            "angle": 180
+        },
+        {
+            "type": "Symmetric",
+            "name": "LA5-Lasham West",
+            "altitude": 167.03039550781,
+            "lat": 51.184966357023,
+            "lng": -1.1060000458606,
+            "radius": 20000,
+            "angle": 90
+        },
+        {
+            "type": "Cylinder",
+            "name": "ARP-Airfield Reference Point",
+            "altitude": 188.36639404297,
+            "lat": 51.186667074126,
+            "lng": -1.0319999621237,
+            "radius": 3000
+        }
+    ]
+}
