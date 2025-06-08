@@ -518,41 +518,73 @@ def convert_odp_to_pdf(odp_path):
         print(f"❌ PDF conversion error: {e}")
         return None
 
+# Function to wait for an element to be present in the DOM
+def wait_for_element(driver, by, value, timeout=30, poll_frequency=0.2):
+    import time
+    end_time = time.time() + timeout
+    while True:
+        try:
+            element = driver.find_element(by, value)
+            return element
+        except NoSuchElementException:
+            if time.time() > end_time:
+                break
+            time.sleep(poll_frequency)
+    return None
+
+# Function to send the latest weather briefing PDF to a WhatsApp group
 def send_pdf_to_whatsapp_group(group_name, message, pdf_path):
     print(f"⚙️  Sending latest weather briefing to WhatsApp group '{group_name}'")
     try:
-        # Open Chrome with the specified user data directory in headless mode
-        driver = open_chrome(chromedriver_user_data_dir, False)  # Set to True if you want to run in headless mode
+        driver = open_chrome(chromedriver_user_data_dir, False)
         driver.get("https://web.whatsapp.com/")
-        time.sleep(10)
-        
-        # Search for the group
-        search_box = driver.find_element(By.XPATH, '//div[@contenteditable="true"][@data-tab="3"]')
+
+        # Wait for WhatsApp Web to load (minimized sleep, responsive)
+        search_box = wait_for_element(driver, By.XPATH, '//div[@contenteditable="true"][@data-tab="3"]', timeout=30, poll_frequency=0.2)
+        if not search_box:
+            print("❌ WhatsApp Web did not load properly. Please check your internet connection and try again.")
+            driver.quit()
+            return
+
         search_box.click()
         search_box.send_keys(group_name)
-        time.sleep(2)
-        group = driver.find_element(By.XPATH, f'//span[@title="{group_name}"]')
+
+        group = wait_for_element(driver, By.XPATH, f'//span[@title="{group_name}"]', timeout=10, poll_frequency=0.2)
+        if not group:
+            print(f"❌ Could not find WhatsApp group '{group_name}'.")
+            driver.quit()
+            return
         group.click()
-        time.sleep(1)
 
         # Attach file
-        attach_btn = driver.find_element(By.CSS_SELECTOR, "span[data-icon='plus-rounded']")
+        attach_btn = wait_for_element(driver, By.CSS_SELECTOR, "span[data-icon='plus-rounded']", timeout=10, poll_frequency=0.2)
+        if not attach_btn:
+            print("❌ Could not find attach button.")
+            driver.quit()
+            return
         attach_btn.click()
-        time.sleep(1)
-        file_input = driver.find_element(By.CSS_SELECTOR, "input[type='file']")
-        file_input.send_keys(os.path.abspath(pdf_path))
-        time.sleep(2)
 
-        # Prompt for a message
-        # Find the message input box and send the message
-        msg_box = driver.find_element(By.XPATH, '//div[@contenteditable="true"][@aria-placeholder="Add a caption"]')
+        file_input = wait_for_element(driver, By.CSS_SELECTOR, "input[type='file']", timeout=5, poll_frequency=0.2)
+        if not file_input:
+            print("❌ Could not find file input.")
+            driver.quit()
+            return
+        file_input.send_keys(os.path.abspath(pdf_path))
+
+        # Message input (caption)
+        msg_box = wait_for_element(driver, By.XPATH, '//div[@contenteditable="true"][@aria-placeholder="Add a caption"]', timeout=5, poll_frequency=0.2)
+        if not msg_box:
+            print("❌ Could not find message input box.")
+            driver.quit()
+            return
         msg_box.click()
         msg_box.send_keys(message)
         msg_box.send_keys(u'\ue007')  # Press Enter
 
-        print("✅ PDF sent to WhatsApp group.")
-        time.sleep(5)
+        # Wait for the message to be sent
+        time.sleep(5)  # Wait for a few seconds to ensure the message is sent
         driver.quit()
+        print("✅ PDF sent to WhatsApp group.")
     except Exception as e:
         print(f"❌ Error sending PDF to WhatsApp group. Please check if the group name is correct and you are logged in to WhatsApp Web. Error: {e}")
         try:
