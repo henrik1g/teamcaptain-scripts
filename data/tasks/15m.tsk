@@ -1,27 +1,27 @@
 <Task aat_min_time="7200" type="AAT">
   <Point type="Start">
-    <Waypoint altitude="477" name="002SPZELEC">
-      <Location latitude="49.316116666666424" longitude="14.64416666666688"/>
+    <Waypoint altitude="445" name="010SPDLOUHALHOTA">
+      <Location latitude="49.354449999999694" longitude="14.78916666666678"/>
     </Waypoint>
     <ObservationZone length="7500" type="Line"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="403" name="448PROTIVIN">
-      <Location latitude="49.20083333333314" longitude="14.213616666666399"/>
+    <Waypoint altitude="428" name="047BITOV">
+      <Location latitude="48.94304999999996" longitude="15.702216666666537"/>
     </Waypoint>
-    <ObservationZone radius="15000" type="Cylinder"/>
+    <ObservationZone radius="20000" type="Cylinder"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="450" name="545SVIHOV">
-      <Location latitude="49.473616666666935" longitude="13.290833333333351"/>
+    <Waypoint altitude="530" name="314LITSCHAU">
+      <Location latitude="48.94249999999973" longitude="15.045000000000181"/>
     </Waypoint>
-    <ObservationZone radius="30000" type="Cylinder"/>
+    <ObservationZone radius="20000" type="Cylinder"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="579" name="657KRASNAHORA">
-      <Location latitude="49.57236666666668" longitude="14.293300000000258"/>
+    <Waypoint altitude="572" name="566TREST">
+      <Location latitude="49.29361666666692" longitude="15.476116666666488"/>
     </Waypoint>
-    <ObservationZone radius="15000" type="Cylinder"/>
+    <ObservationZone radius="20000" type="Cylinder"/>
   </Point>
   <Point type="Finish">
     <Waypoint altitude="428" name="001SPTABOR">
