@@ -431,25 +431,46 @@ def open_tab_in_chrome(driver, url, first_tab):
 
 # Function to open Chrome tabs from the url file
 def open_chrome_tabs_from_file():
-    # Open Chrome and load URLs from the file
-    driver = open_chrome(None, False)  # Set to True if you want to run in headless mode
-
+    # Parse URLs and their desired window numbers
+    win_urls = {}  # {window_number: [url1, url2, ...]}
     with open(url_file, "r", encoding="utf-8") as f:
-        urls = [line.strip() for line in f if line.strip() and not line.strip().startswith("#")]
+        for line in f:
+            line = line.strip()
+            if not line or line.startswith("#"):
+                continue
+            if line.startswith("{WIN:"):
+                try:
+                    win_part, url = line.split("}", 1)
+                    win_num = int(win_part.replace("{WIN:", ""))
+                    win_urls.setdefault(win_num, []).append(url.strip())
+                except Exception:
+                    continue
+            else:
+                win_urls.setdefault(0, []).append(line)
 
-    first_tab = True
-    for url in urls:
-        if "{taskID}" in url or "{classURL}" in url or "{classFile}" in url:
-            for class_name in classes:
-                task_id = selected_task_ids.get(class_name, False)
-                classURL = url_map.get(class_name, False)
-                fileURL = filename_map.get(class_name, False)
-                url_filled = url.replace("{taskID}", task_id)
-                url_filled = url_filled.replace("{classURL}", classURL)
-                url_filled = url_filled.replace("{classFile}", fileURL)
-                first_tab = open_tab_in_chrome(driver, url_filled, first_tab)
-        else:
-            first_tab = open_tab_in_chrome(driver, url, first_tab)
+    # Open each window and load its URLs (each URL in a new tab in that window)
+    for win_num in sorted(win_urls.keys()):
+        driver = open_chrome(None, False)
+        urls = win_urls[win_num]
+        first_tab = True
+        for url in urls:
+            # Placeholder replacement logic
+            if "{taskID}" in url or "{classURL}" in url or "{classFile}" in url:
+                for class_name in classes:
+                    task_id = selected_task_ids.get(class_name, False)
+                    classURL = url_map.get(class_name, False)
+                    fileURL = filename_map.get(class_name, False)
+                    replacements = {
+                        "{taskID}": task_id,
+                        "{classURL}": classURL,
+                        "{classFile}": fileURL
+                    }
+                    url_filled = url
+                    for key, value in replacements.items():
+                        url_filled = url_filled.replace(key, value)
+                    first_tab = open_tab_in_chrome(driver, url_filled, first_tab)
+            else:
+                first_tab = open_tab_in_chrome(driver, url, first_tab)
 
 # Get the folgder path for the latest weather briefing
 def get_latest_weather_briefing_folderPath():
