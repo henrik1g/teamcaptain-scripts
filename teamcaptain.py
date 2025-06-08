@@ -513,10 +513,10 @@ choice = input("\n❓ Do you want to open tabs from the URL file and the latest 
 if choice == "y":
     # Ensure the URL file exists
     if not os.path.exists(url_file):
-        print(f"❌ URL file '{url_file}' does not exist. Skipping opening Chrome tabs.")
+        print(f"❌ URL file '{url_file}' does not exist. Skipping opening tabs and latest weather briefing.")
     else:
         # Open Chrome tabs from the URL file
-        print(f"⚙️  Opening Chrome tabs from URL file")
+        print(f"⚙️  Opening tabs from URL file and latest weather briefing")
         open_chrome_tabs_from_file()
         open_latest_weather_briefing()
 elif choice == "n":
