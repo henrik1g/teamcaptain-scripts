@@ -19,6 +19,7 @@ from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
+from selenium.common.exceptions import NoSuchElementException
 import psutil
 import time
 
@@ -68,8 +69,8 @@ resultstable_map = {
     '15 Meter': '15 meter Class'
 }
 
-# Get the latest task IDs for each class
-def get_task_ids(class_name):
+# Get the all available task IDs for a given class
+def get_class_task_ids(class_name):
     url_comp_results = f'{base_url}/results'
     soup = BeautifulSoup(requests.get(url_comp_results).text, "html.parser")
     result_class_all = soup.find_all('table', class_='result-overview')
@@ -93,56 +94,48 @@ def get_task_ids(class_name):
     latest = task_ids_sorted[-1] if task_ids_sorted else None
     return task_ids_sorted, latest
 
-# Prompt user for task ID selection
-def select_task_id_for_classes():
-    choice = input("\n❓ Do you want to select latest task IDs? (default is latest, select specific IDs if N) (Y/N)?").strip().lower()
+# Select task IDs for each class
+def menu_select_task_ids():
+    print("\n⚙️  Selecting task IDs for each class...")
     selected_task_ids = {}
-
-    if choice == "y":
-        for class_name in classes:
-            _, latest_task_id = get_task_ids(class_name)
+    for class_name in classes:
+        all_task_ids, latest_task_id = get_class_task_ids(class_name)
+        print(f"\n📋 Available task IDs for {class_name}:")
+        for idx, tid in enumerate(all_task_ids):
+            print(f"\t{idx+1}: {tid}")
+        sel = input(f"❓ Select task ID for {class_name} (1-{len(all_task_ids)}) [default: latest]: ").strip()
+        if sel.isdigit() and 1 <= int(sel) <= len(all_task_ids):
+            selected_task_ids[class_name] = all_task_ids[int(sel)-1]
+        else:
             selected_task_ids[class_name] = latest_task_id
-    elif choice == "n":
-        for class_name in classes:
-            all_task_ids, latest_task_id = get_task_ids(class_name)
-            print(f"\n📋 Available task IDs for {class_name}:")
-            for idx, tid in enumerate(all_task_ids):
-                print(f"\t{idx+1}: {tid}")
-            sel = input(f"❓ Select task ID for {class_name} (1-{len(all_task_ids)}) [default: latest]: ").strip()
-            if sel.isdigit() and 1 <= int(sel) <= len(all_task_ids):
-                selected_task_ids[class_name] = all_task_ids[int(sel)-1]
-            else:
-                selected_task_ids[class_name] = latest_task_id
-    else:
-        print("ℹ️  Invalid choice, using latest for all classes.")
-        for class_name in classes:
-            _, latest_task_id = get_task_ids(class_name)
-            selected_task_ids[class_name] = latest_task_id
+        print(f"\t✅ Selected task ID for {class_name}: {selected_task_ids[class_name]}")
 
-    return selected_task_ids
+    if commitAndPushToGit == True:
+        commit_and_push_task_and_glider_files()
+
 
 # Function to return the latest task IDs for each class
 def return_latest_task_ids_for_classes():
     latest_task_ids = {}
     for class_name in classes:
-        _, latest_task_id = get_task_ids(class_name)
+        _, latest_task_id = get_class_task_ids(class_name)
         latest_task_ids[class_name] = latest_task_id
     return latest_task_ids
 
 # Fetch task data for a given class from SoaringSpot
 def fetch_task_data(class_name):
     task_id = selected_task_ids[class_name]
-    print(f"\t🔍 Fetching task data with task_id '{task_id}'")
+    print(f"\t\t🔍 Fetching task data with task_id '{task_id}'")
     classURL = url_map.get(class_name, False)
     if not classURL:
-        print(f"\t\t❌ No URL mapping found")
+        print(f"\t❌ No URL mapping found")
         return None
     
     url = f"{base_url}/tasks/{classURL}/{task_id}"
     
     response = requests.get(url)
     if response.status_code != 200:
-        print(f"\t\t❌ Failed to fetch {url} (HTTP {response.status_code})")
+        print(f"\t❌ Failed to fetch {url} (HTTP {response.status_code})")
         return None
     else:
         return response
@@ -155,14 +148,14 @@ def extract_json_from_html(html_response):
     soup = BeautifulSoup(html_response.content, 'html.parser')
     script_tag = soup.find('script', string=re.compile(r'var taskData'))
     if not script_tag:
-        print(f"\t\t❌ taskData not found")
+        print(f"\t❌ taskData not found")
         return None
 
     # Extract the JSON data from the script tag
     script_content = script_tag.string
     match = re.search(r'var taskData = Map\.SoaringSpot\.taskNormalize\((\{.*?\})\);', script_content, re.DOTALL)
     if not match:
-        print(f"\t\t❌ taskData JSON not found in script")
+        print(f"\t❌ taskData JSON not found in script")
         return None
 
     # Extract the JSON string and clean it up
@@ -174,7 +167,7 @@ def extract_json_from_html(html_response):
     try:
         return json.loads(json_str)
     except json.JSONDecodeError as e:
-        print(f"\t\t❌ JSON parsing error: {e}")
+        print(f"\t❌ JSON parsing error: {e}")
         return None
 
 # Create and save a task .tsk file from the fetched data
@@ -220,7 +213,7 @@ def create_task_json_file(soaringspot_json_data, class_name):
     
     json_data = convert_json_to_glideandseek_format(soaringspot_json_data)
     if not json_data:
-        print(f"\t\t❌ Failed to convert JSON data for {class_name}")
+        print(f"\t❌ Failed to convert JSON data for {class_name}")
         return
     
     with open(filepath, "w", encoding='utf-8') as f:
@@ -280,16 +273,9 @@ def create_task_cup_file(class_name):
             f.write(response.content)
         print(f"\t\t✅ Saved .cup task file at '{filepath.replace(os.sep, '/')}'")
     else:
-        print(f"\t\t❌ Failed to download .cup task file (status code: {response.status_code})")
+        print(f"\t❌ Failed to download .cup task file (status code: {response.status_code})")
 
-# Create task files for each class
-def create_task_files(class_name):
-    task_data = fetch_task_data(class_name)
-    if task_data:
-        soaringspot_json_data = extract_json_from_html(task_data)
-        create_task_json_file(soaringspot_json_data, class_name)
-        create_task_tsk_file(soaringspot_json_data, class_name)
-        create_task_cup_file(class_name)
+
     
 def create_glider_txt_file(class_name):
     print(f"\t\t📄 Creating glider .txt file")
@@ -355,32 +341,22 @@ def create_glider_json_file(class_name):
             )
     print(f"\t\t✅ Saved .json glider file at '{outputfilename.replace(os.sep, '/')}'")
 
-def create_glider_files(class_name):
-    print(f"\t🔍 Fetching glider data")
-    create_glider_txt_file(class_name)
-    create_glider_json_file(class_name)
-
 def commit_and_push_task_and_glider_files():
-    answer = input("\n❓ Do you want to commit and push all changes to task and glider files? [Y/N]: ").strip().lower()
-    if answer == "y":
-        try:
-            repo = Repo(os.getcwd())
-            repo.git.add(["data/"])
-            if repo.is_dirty(index=True, working_tree=False, untracked_files=False):
-                print(f"⚙️  Committing task and glider files")
-                repo.index.commit("Update tasks and gliders")
-                origin = repo.remote(name='origin')
-                origin.push()
-                print("✅ Changes committed and pushed successfully.")
-            else:
-                print("ℹ️  No changes to commit.")
-        except GitCommandError as e:
-            print(f"❌ Commit or push failed: {e}")
-    else:
-        print(f"ℹ️  No changes were committed or pushed.")
+    try:
+        repo = Repo(os.getcwd())
+        repo.git.add(["data/"])
+        if repo.is_dirty(index=True, working_tree=False, untracked_files=False):
+            print(f"⚙️  Committing/pushing task and glider files")
+            repo.index.commit("Update tasks and gliders")
+            origin = repo.remote(name='origin')
+            origin.push()
+            print("✅ Changes committed and pushed successfully.")
+        else:
+            print("ℹ️  No changes to commit.")
+    except GitCommandError as e:
+        print(f"❌ Commit or push failed: {e}")
 
 def open_chrome(userData, runHeadless):
-    
     # Set up Chrome options
     chrome_options = Options()
 
@@ -416,6 +392,21 @@ def close_chrome_with_userdata(chromedriver_user_data_dir):
         except (psutil.NoSuchProcess, psutil.AccessDenied):
             continue
 
+def close_all_chrome_windows():
+    print("⚠️  Closing all Chrome windows...")
+    closed = 0
+    for proc in psutil.process_iter(['name']):
+        try:
+            if proc.info['name'] and 'chrome' in proc.info['name'].lower():
+                proc.terminate()
+                closed += 1
+        except (psutil.NoSuchProcess, psutil.AccessDenied):
+            continue
+    if closed:
+        print(f"✅ Closed {closed} Chrome process(es).")
+    else:
+        print("ℹ️  No Chrome processes found.")
+
 # Function to open a URL in Chrome, handling the first tab differently
 def open_tab_in_chrome(driver, url, first_tab):
     if first_tab:
@@ -430,47 +421,55 @@ def open_tab_in_chrome(driver, url, first_tab):
     return first_tab
 
 # Function to open Chrome tabs from the url file
-def open_chrome_tabs_from_file():
+def menu_open_chrome_tabs():
     # Parse URLs and their desired window numbers
-    win_urls = {}  # {window_number: [url1, url2, ...]}
-    with open(url_file, "r", encoding="utf-8") as f:
-        for line in f:
-            line = line.strip()
-            if not line or line.startswith("#"):
-                continue
-            if line.startswith("{WIN:"):
-                try:
-                    win_part, url = line.split("}", 1)
-                    win_num = int(win_part.replace("{WIN:", ""))
-                    win_urls.setdefault(win_num, []).append(url.strip())
-                except Exception:
+    if not os.path.exists(url_file):
+        print(f"❌ URL file '{url_file}' does not exist. Skipping opening tabs and latest weather briefing.")
+    else:
+        print("⚙️  Opening Chrome tabs from URL file...")
+    try:
+        win_urls = {}  # {window_number: [url1, url2, ...]}
+        with open(url_file, "r", encoding="utf-8") as f:
+            for line in f:
+                line = line.strip()
+                if not line or line.startswith("#"):
                     continue
-            else:
-                win_urls.setdefault(0, []).append(line)
+                if line.startswith("{WIN:"):
+                    try:
+                        win_part, url = line.split("}", 1)
+                        win_num = int(win_part.replace("{WIN:", ""))
+                        win_urls.setdefault(win_num, []).append(url.strip())
+                    except Exception:
+                        continue
+                else:
+                    win_urls.setdefault(0, []).append(line)
 
-    # Open each window and load its URLs (each URL in a new tab in that window)
-    for win_num in sorted(win_urls.keys()):
-        driver = open_chrome(None, False)
-        urls = win_urls[win_num]
-        first_tab = True
-        for url in urls:
-            # Placeholder replacement logic
-            if "{taskID}" in url or "{classURL}" in url or "{classFile}" in url:
-                for class_name in classes:
-                    task_id = selected_task_ids.get(class_name, False)
-                    classURL = url_map.get(class_name, False)
-                    fileURL = filename_map.get(class_name, False)
-                    replacements = {
-                        "{taskID}": task_id,
-                        "{classURL}": classURL,
-                        "{classFile}": fileURL
-                    }
-                    url_filled = url
-                    for key, value in replacements.items():
-                        url_filled = url_filled.replace(key, value)
-                    first_tab = open_tab_in_chrome(driver, url_filled, first_tab)
-            else:
-                first_tab = open_tab_in_chrome(driver, url, first_tab)
+        # Open each window and load its URLs (each URL in a new tab in that window)
+        for win_num in sorted(win_urls.keys()):
+            driver = open_chrome(None, False)
+            urls = win_urls[win_num]
+            first_tab = True
+            for url in urls:
+                # Placeholder replacement logic
+                if "{taskID}" in url or "{classURL}" in url or "{classFile}" in url:
+                    for class_name in classes:
+                        task_id = selected_task_ids.get(class_name, False)
+                        classURL = url_map.get(class_name, False)
+                        fileURL = filename_map.get(class_name, False)
+                        replacements = {
+                            "{taskID}": task_id,
+                            "{classURL}": classURL,
+                            "{classFile}": fileURL
+                        }
+                        url_filled = url
+                        for key, value in replacements.items():
+                            url_filled = url_filled.replace(key, value)
+                        first_tab = open_tab_in_chrome(driver, url_filled, first_tab)
+                else:
+                    first_tab = open_tab_in_chrome(driver, url, first_tab)
+        print("✅ Chrome tabs opened successfully.")
+    except Exception as e:
+        print(f"❌ Error opening Chrome tabs: {e}") 
 
 # Get the folgder path for the latest weather briefing
 def get_latest_weather_briefing_folderPath():
@@ -485,18 +484,20 @@ def get_latest_weather_briefing_fullPath():
     return fullFilepath
 
 # Function to open the latest weather briefing
-def open_latest_weather_briefing():
+def menu_open_weather_briefing():
     # Open the latest weather briefing
+    print("⚙️  Opening latest weather briefing")
     filepath = get_latest_weather_briefing_folderPath()
     fullFilepath = get_latest_weather_briefing_fullPath()
     if os.path.exists(filepath):
         open_in_libreoffice(fullFilepath)
+        print(f"✅ Latest weather briefing opened")
     else:
         print("❌ Latest weather briefing not found. Please generate it first.")
 
 def open_in_libreoffice(filepath):
     try:
-        subprocess.Popen([soffice_path, "--impress", filepath])
+        subprocess.Popen([soffice_path, "--norestore", "--impress", filepath])
     except Exception as e:
         print(f"❌ Could not open file in LibreOffice: {e}")
 
@@ -518,40 +519,51 @@ def convert_odp_to_pdf(odp_path):
         return None
 
 def send_pdf_to_whatsapp_group(group_name, message, pdf_path):
-    driver = open_chrome(chromedriver_user_data_dir, True)  # Set to True if you want to run in headless mode
-    driver.get("https://web.whatsapp.com/")
-    time.sleep(5)
+    print(f"⚙️  Sending latest weather briefing to WhatsApp group '{group_name}'")
+    try:
+        # Open Chrome with the specified user data directory in headless mode
+        driver = open_chrome(chromedriver_user_data_dir, False)  # Set to True if you want to run in headless mode
+        driver.get("https://web.whatsapp.com/")
+        time.sleep(10)
+        
+        # Search for the group
+        search_box = driver.find_element(By.XPATH, '//div[@contenteditable="true"][@data-tab="3"]')
+        search_box.click()
+        search_box.send_keys(group_name)
+        time.sleep(2)
+        group = driver.find_element(By.XPATH, f'//span[@title="{group_name}"]')
+        group.click()
+        time.sleep(1)
 
-    # Search for the group
-    search_box = driver.find_element(By.XPATH, '//div[@contenteditable="true"][@data-tab="3"]')
-    search_box.click()
-    search_box.send_keys(group_name)
-    time.sleep(2)
-    group = driver.find_element(By.XPATH, f'//span[@title="{group_name}"]')
-    group.click()
-    time.sleep(1)
+        # Attach file
+        attach_btn = driver.find_element(By.CSS_SELECTOR, "span[data-icon='plus-rounded']")
+        attach_btn.click()
+        time.sleep(1)
+        file_input = driver.find_element(By.CSS_SELECTOR, "input[type='file']")
+        file_input.send_keys(os.path.abspath(pdf_path))
+        time.sleep(2)
 
-    # Attach file
-    attach_btn = driver.find_element(By.CSS_SELECTOR, "span[data-icon='plus-rounded']")
-    attach_btn.click()
-    time.sleep(1)
-    file_input = driver.find_element(By.CSS_SELECTOR, "input[type='file']")
-    file_input.send_keys(os.path.abspath(pdf_path))
-    time.sleep(2)
+        # Prompt for a message
+        # Find the message input box and send the message
+        msg_box = driver.find_element(By.XPATH, '//div[@contenteditable="true"][@aria-placeholder="Add a caption"]')
+        msg_box.click()
+        msg_box.send_keys(message)
+        msg_box.send_keys(u'\ue007')  # Press Enter
 
-    # Prompt for a message
-    # Find the message input box and send the message
-    msg_box = driver.find_element(By.XPATH, '//div[@contenteditable="true"][@aria-placeholder="Add a caption"]')
-    msg_box.click()
-    msg_box.send_keys(message)
-    msg_box.send_keys(u'\ue007')  # Press Enter
-
-    print("✅ PDF sent to WhatsApp group.")
-    time.sleep(5)
-    driver.quit()
+        print("✅ PDF sent to WhatsApp group.")
+        time.sleep(5)
+        driver.quit()
+    except Exception as e:
+        print(f"❌ Error sending PDF to WhatsApp group. Please check if the group name is correct and you are logged in to WhatsApp Web. Error: {e}")
+        try:
+            driver.quit()
+        except:
+            print("❌ Failed to close the browser driver. Something really went wrong.")
 
 # Function to send the weather briefing to a WhatsApp group
-def send_weather_briefing_to_whatsapp(group_name, message):
+def menu_send_whatsapp(group_name, message):
+    print(f"⚙️  Creating PDF from ODP file...")
+    
     odp_path = get_latest_weather_briefing_fullPath()
     if not os.path.exists(odp_path):
         print("❌ ODP file not found.")
@@ -560,55 +572,178 @@ def send_weather_briefing_to_whatsapp(group_name, message):
     if pdf_path:
         send_pdf_to_whatsapp_group(group_name, message, pdf_path)
 
-# --- MAIN LOOP ---
-# TODO Make output directories if not exist
-if not os.path.exists(task_output_dir):
-    os.makedirs(task_output_dir)
-if not os.path.exists(glider_output_dir):
-    os.makedirs(glider_output_dir)
+# # --- MAIN LOOP ---
+# # TODO Make output directories if not exist
+# if not os.path.exists(task_output_dir):
+#     os.makedirs(task_output_dir)
+# if not os.path.exists(glider_output_dir):
+#     os.makedirs(glider_output_dir)
 
-# Print a welcome message
-print("⚙️  Welcome to the Team Captain Script!")
+# # Print a welcome message
+# print("⚙️  Welcome to the Team Captain Script!")
 
-# --- TASK AND GLIDER FILES ---
-# Ask user if they want to update task and glider files
-choice = input("\n❓ Do you want to update the task and glider files? (Y/N)?").strip().lower()
+# # --- TASK AND GLIDER FILES ---
+# # Ask user if they want to update task and glider files
+# choice = input("\n❓ Do you want to update the task and glider files? (Y/N)?").strip().lower()
 
-if choice == "y":
-    # Prompt user for task ID selection
-    selected_task_ids = select_task_id_for_classes()
+# if choice == "y":
+#     # Prompt user for task ID selection
+#     selected_task_ids = menu_select_task_ids()
 
-    # Iterate over each class and create task and glider files
-    for class_name in classes:
-        print(f"\n⚙️  Processing class: {class_name}")
-        create_task_files(class_name)
-        create_glider_files(class_name)
+#     # Iterate over each class and create task and glider files
+#     for class_name in classes:
+#         print(f"\n⚙️  Processing class: {class_name}")
+#         create_task_files(class_name)
+#         create_glider_files(class_name)
 
-    # Create glider files for all classes combined
-    print(f"\n⚙️  Processing for all classes combined")
-    create_glider_files('all')  # Create a glider file for all classes combined
+#     # Create glider files for all classes combined
+#     print(f"\n⚙️  Processing for all classes combined")
+#     create_glider_files('all')  # Create a glider file for all classes combined
 
-    # Commit and push task and glider files
-    commit_and_push_task_and_glider_files()
-elif choice == "n": 
-    selected_task_ids = return_latest_task_ids_for_classes()
-    print("ℹ️  Skipping task and glider file updates.")
-else:
-    selected_task_ids = return_latest_task_ids_for_classes()
-    print('ℹ️  Invalid choice, skipping task and glider file updates.')
+#     # Commit and push task and glider files
+#     commit_and_push_task_and_glider_files()
+# elif choice == "n": 
+#     selected_task_ids = return_latest_task_ids_for_classes()
+#     print("ℹ️  Skipping task and glider file updates.")
+# else:
+#     selected_task_ids = return_latest_task_ids_for_classes()
+#     print('ℹ️  Invalid choice, skipping task and glider file updates.')
 
-# --- WEATHER BRIEFING ---
-# Ask user if they want to create a weather briefing
-choice = input("\n❓ Do you want to create/update the weather briefing? (Y/N)?").strip().lower()
-if choice == "y":
-    # Ensure the metbrief.py script exists
+# # --- WEATHER BRIEFING ---
+# # Ask user if they want to create a weather briefing
+# choice = input("\n❓ Do you want to create/update the weather briefing? (Y/N)?").strip().lower()
+# if choice == "y":
+#     # Ensure the metbrief.py script exists
+#     metbrief_script = os.path.join("externals", "metbrief", "metbrief.py")
+#     if not os.path.exists(metbrief_script):
+#         print(f"❌ metbrief.py script not found at '{metbrief_script}'. Please ensure it exists.")
+#     else:
+#         #Create the weather briefing
+#         print(f"⚙️  Creating weather briefing")
+#         # Call metbrief.py
+#         try:
+#             subprocess.run(
+#                 ["python", "metbrief.py"],
+#                 cwd="externals/metbrief",
+#                 check=True,
+#                 stdout=subprocess.DEVNULL,
+#                 stderr=subprocess.DEVNULL
+#             )
+#             print("✅ Weather briefing created successfully.")
+#         except subprocess.CalledProcessError as e:
+#             print(f"❌ Weather briefing creation failed (exit code {e.returncode}).")
+# elif choice == "n": 
+#     print("ℹ️  Skipping weather briefing creation.")
+# else:
+#     print('ℹ️  Invalid choice, skipping weather briefing creation.')
+
+# # --- OPEN CHROME TABS ---
+# choice = input("\n❓ Do you want to open tabs from the URL file and the latest weather briefing? (Y/N)?").strip().lower()
+
+# if choice == "y":
+#     # Ensure the URL file exists
+#     if not os.path.exists(url_file):
+#         print(f"❌ URL file '{url_file}' does not exist. Skipping opening tabs and latest weather briefing.")
+#     else:
+#         # Open Chrome tabs from the URL file
+#         print(f"⚙️  Opening tabs from URL file and latest weather briefing")
+#         menu_open_chrome_tabs()
+#         menu_open_weather_briefing()
+# elif choice == "n":
+#     print("ℹ️  Skipping opening tabs and latest weather presentation.")
+# else:   
+#     print('ℹ️  Invalid choice, skipping opening tabs and latest weather presentation.')
+
+# # Send latest weather briefing via WhatsappWeb
+
+# # --- OPEN CHROME TABS ---
+# choice = input("\n❓ Do you want to send the weather briefing to the WhatsApp Group? (Y/N)?").strip().lower()
+
+# if choice == "y":
+#     # Open Chrome tabs from the URL file
+#     print(f"⚙️  Sending latest weather briefing to WhatsApp group '{whatsAppGroup}'")
+#     send_weather_briefing_to_whatsapp(whatsAppGroup, whatsappMessage)
+# elif choice == "n":
+#     print("ℹ️  Skipping sending weather briefing to WhatsApp group.")
+# else:   
+#     print('ℹ️  Invalid choice, skipping sending weather briefing to WhatsApp group.')
+# # --- END OF MAIN LOOP ---
+# # --- END OF SCRIPT ---
+
+
+# def menu_update_and_push():
+#     choice = input("\n❓ Do you want to update the task and glider files? (Y/N)?").strip().lower()
+#     # --- TASK AND GLIDER FILES ---
+#     if choice == "y":
+#         selected_task_ids = menu_select_task_ids()
+#         for class_name in classes:
+#             print(f"\n⚙️  Processing class: {class_name}")
+#             create_task_files(class_name)
+#             create_glider_files(class_name)
+#         print(f"\n⚙️  Processing for all classes combined")
+#         create_glider_files('all')
+#         commit_and_push_task_and_glider_files()
+#     elif choice == "n":
+#         selected_task_ids = return_latest_task_ids_for_classes()
+#         print("ℹ️  Skipping task and glider file updates.")
+#     else:
+#         selected_task_ids = return_latest_task_ids_for_classes()
+#         print('ℹ️  Invalid choice, skipping task and glider file updates.')
+
+#     # --- WEATHER BRIEFING ---
+#     choice = input("\n❓ Do you want to create/update the weather briefing? (Y/N)?").strip().lower()
+#     if choice == "y":
+#         metbrief_script = os.path.join("externals", "metbrief", "metbrief.py")
+#         if not os.path.exists(metbrief_script):
+#             print(f"❌ metbrief.py script not found at '{metbrief_script}'. Please ensure it exists.")
+#         else:
+#             print(f"⚙️  Creating weather briefing")
+#             try:
+#                 subprocess.run(
+#                     ["python", "metbrief.py"],
+#                     cwd="externals/metbrief",
+#                     check=True,
+#                     stdout=subprocess.DEVNULL,
+#                     stderr=subprocess.DEVNULL
+#                 )
+#                 print("✅ Weather briefing created successfully.")
+#             except subprocess.CalledProcessError as e:
+#                 print(f"❌ Weather briefing creation failed (exit code {e.returncode}).")
+#     elif choice == "n":
+#         print("ℹ️  Skipping weather briefing creation.")
+#     else:
+#         print('ℹ️  Invalid choice, skipping weather briefing creation.')
+
+#     # --- OPEN CHROME TABS ---
+#     choice = input("\n❓ Do you want to open tabs from the URL file and the latest weather briefing? (Y/N)?").strip().lower()
+#     if choice == "y":
+#         if not os.path.exists(url_file):
+#             print(f"❌ URL file '{url_file}' does not exist. Skipping opening tabs and latest weather briefing.")
+#         else:
+#             print(f"⚙️  Opening tabs from URL file and latest weather briefing")
+#             menu_open_chrome_tabs()
+#             menu_open_weather_briefing()
+#     elif choice == "n":
+#         print("ℹ️  Skipping opening tabs and latest weather presentation.")
+#     else:
+#         print('ℹ️  Invalid choice, skipping opening tabs and latest weather presentation.')
+
+# Update and open latest weather briefing
+def menu_update_weather_briefing():
+    # Update the weather briefing
+    update_weather_briefing()
+    # Close all LibreOffice windows before opening the latest weather briefing
+    close_libreoffice_windows()
+    # Open the latest weather briefing
+    menu_open_weather_briefing()
+
+
+def update_weather_briefing():
+    print("⚙️  Updating weather briefing...")
     metbrief_script = os.path.join("externals", "metbrief", "metbrief.py")
     if not os.path.exists(metbrief_script):
         print(f"❌ metbrief.py script not found at '{metbrief_script}'. Please ensure it exists.")
     else:
-        #Create the weather briefing
-        print(f"⚙️  Creating weather briefing")
-        # Call metbrief.py
         try:
             subprocess.run(
                 ["python", "metbrief.py"],
@@ -617,43 +752,216 @@ if choice == "y":
                 stdout=subprocess.DEVNULL,
                 stderr=subprocess.DEVNULL
             )
-            print("✅ Weather briefing created successfully.")
+            print("✅ Weather briefing updated successfully.")
         except subprocess.CalledProcessError as e:
-            print(f"❌ Weather briefing creation failed (exit code {e.returncode}).")
-elif choice == "n": 
-    print("ℹ️  Skipping weather briefing creation.")
-else:
-    print('ℹ️  Invalid choice, skipping weather briefing creation.')
+            print(f"❌ Weather briefing update failed (exit code {e.returncode}).")
 
-# --- OPEN CHROME TABS ---
-choice = input("\n❓ Do you want to open tabs from the URL file and the latest weather briefing? (Y/N)?").strip().lower()
+def create_glider_files(class_name):
+    print(f"\t🔍 Fetching glider data")
+    create_glider_txt_file(class_name)
+    create_glider_json_file(class_name)
 
-if choice == "y":
-    # Ensure the URL file exists
-    if not os.path.exists(url_file):
-        print(f"❌ URL file '{url_file}' does not exist. Skipping opening tabs and latest weather briefing.")
+def updateGliderFiles():
+    print("⚙️  Updating glider files...")
+    for class_name in classes:
+        print(f"\t⚙️  Updating glider files for class: {class_name}")
+        create_glider_files(class_name)
+    print(f"\t⚙️  Updating glider files for all classes combined")
+    create_glider_files('all')
+
+def updateTaskFiles():
+    print("⚙️  Updating task files...")
+    for class_name in classes:
+        print(f"\t⚙️  Updating task files for class: {class_name}")
+        # Create task files for each class
+        task_data = fetch_task_data(class_name)
+        if task_data:
+            soaringspot_json_data = extract_json_from_html(task_data)
+            create_task_json_file(soaringspot_json_data, class_name)
+            create_task_tsk_file(soaringspot_json_data, class_name)
+            create_task_cup_file(class_name)
+
+def menu_day_preparation():
+    # --- TASK AND GLIDER FILES ---
+    print("⚙️  Preparing for the day...")
+
+    # Update task files
+    menu_update_task_and_glider_files()
+
+    # Update weather briefing
+    menu_update_weather_briefing()
+
+    # Open Chrome tabs from the URL file and latest weather briefing
+    menu_open_chrome_tabs()
+    # Open the latest weather briefing
+    menu_open_weather_briefing()
+
+def menu_continuous_mode():
+    global selected_task_ids
+    print("🔄 Entering continuous update mode. Press Ctrl+C to stop. \n")
+    last_task_ids = return_latest_task_ids_for_classes()
+    try:
+        while True:
+            # Check for new tasks every 30 seconds
+            current_task_ids = return_latest_task_ids_for_classes()
+            if current_task_ids != last_task_ids:
+                print("🆕 New tasks detected! Updating and pushing...")
+                # Load the latest task IDs for each class
+                selected_task_ids = current_task_ids
+                # Update task files
+                menu_update_task_and_glider_files()
+            else:
+                print("⏳ No new tasks. Checking again in 30 seconds... Press Ctrl+C to stop.")
+            time.sleep(30)
+    except KeyboardInterrupt:
+        print("\n⏹️  Continuous update stopped by user.")
+
+def menu_close_all_windows():
+    close_all_chrome_windows()
+    close_libreoffice_windows()
+
+def close_libreoffice_windows():
+    print("⚠️  Closing all LibreOffice windows...")
+    closed = 0
+    for proc in psutil.process_iter(['name']):
+        try:
+            if proc.info['name'] and 'soffice' in proc.info['name'].lower():
+                proc.terminate()
+                closed += 1
+        except (psutil.NoSuchProcess, psutil.AccessDenied):
+            continue
+    if closed:
+        print(f"✅ Closed {closed} LibreOffice process(es).")
     else:
-        # Open Chrome tabs from the URL file
-        print(f"⚙️  Opening tabs from URL file and latest weather briefing")
-        open_chrome_tabs_from_file()
-        open_latest_weather_briefing()
-elif choice == "n":
-    print("ℹ️  Skipping opening tabs and latest weather presentation.")
-else:   
-    print('ℹ️  Invalid choice, skipping opening tabs and latest weather presentation.')
+        print("ℹ️  No LibreOffice processes found.")
 
-# Send latest weather briefing via WhatsappWeb
+def initialize():
+    #Initialize global variables
+    #global task_output_dir, glider_output_dir, selected_task_ids, commitAndPushToGit, classes, url_map, filename_map, cupURL, base_url, database, weatherBriefingPath, whatsAppGroup, whatsappMessage
+    global selected_task_ids
+    global commitAndPushToGit
+    global whatsAppGroup, whatsappMessage
+    
+    # Ensure output directories exist
+    if not os.path.exists(task_output_dir):
+        os.makedirs(task_output_dir)
+    if not os.path.exists(glider_output_dir):
+        os.makedirs(glider_output_dir)
 
-# --- OPEN CHROME TABS ---
-choice = input("\n❓ Do you want to send the weather briefing to the WhatsApp Group? (Y/N)?").strip().lower()
+    # Load the latest task IDs for each class
+    selected_task_ids = return_latest_task_ids_for_classes()
 
-if choice == "y":
-    # Open Chrome tabs from the URL file
-    print(f"⚙️  Sending latest weather briefing to WhatsApp group '{whatsAppGroup}'")
-    send_weather_briefing_to_whatsapp(whatsAppGroup, whatsappMessage)
-elif choice == "n":
-    print("ℹ️  Skipping sending weather briefing to WhatsApp group.")
-else:   
-    print('ℹ️  Invalid choice, skipping sending weather briefing to WhatsApp group.')
-# --- END OF MAIN LOOP ---
-# --- END OF SCRIPT ---
+    # Initialize the commit and push setting
+    commitAndPushToGit = True  # Set to True to enable git push after updates
+
+def menu_updateGitSettings():
+    global commitAndPushToGit
+    print("\n="*100)
+    print("⚙️  Git Settings")
+    print("\n="*100)
+    print("Current setting: Automatic git commit and push after updates is", "enabled" if commitAndPushToGit else "disabled")
+    print("="*100)
+    choice = input("❓ Do you want to enable automatic git commit and push after updates? (Y/N)? ").strip().lower()
+    if choice == "y":
+        commitAndPushToGit = True
+        print("✅ Automatic git commit and push enabled.")
+    elif choice == "n":
+        commitAndPushToGit = False
+        print("ℹ️  Automatic git commit and push disabled.")
+    else:
+        print("❌ Invalid choice. No changes made.")
+
+def menu_update_task_and_glider_files():
+    # Update task files
+    updateTaskFiles()
+    # Update glider files
+    updateGliderFiles()
+
+    # Commit and push task and glider files if enabled
+    if commitAndPushToGit == True:
+        commit_and_push_task_and_glider_files()
+
+def print_welcome_message():
+    print("="*100 + "\n" + "="*100)
+    print("⚙️  Welcome to the Team Captain Script!")
+    print("📅 Today's date:", datetime.date.today().strftime('%Y-%m-%d'))
+    print("This script helps you manage tasks, gliders, and weather briefings for your team.")
+    print("Please follow the prompts to prepare for the day and manage your workflow.")
+    print("Let's get started!")
+    print("="*100 + "\n" + "="*100)
+
+def print_menu_header():
+    print("\n" + "="*100)
+    print("⚙️  Main Menu ⚙️")
+    print("="*100)
+    print("Please choose an option from the menu below:")
+    print("="*100)
+    print('1. Prepare for the day (update tasks, gliders, weather briefing, and open all tabs)')
+    print("2. Run continuously, checking for new tasks every 30 seconds and updating if needed")
+    print('3. Select task IDs for classes (only to activate old tasks)')
+    print("4. Update glider and task files")
+    print("5. Update and open weather briefing (no WhatsApp send)")
+    print("6. Open Chrome tabs from the URL file")
+    print("7. Open the latest weather briefing")
+    print("8. Send latest weather briefing via WhatsApp")
+    print("9. Close all open Chrome and LibreOffice windows")
+    print("0. Update git settings (enable/disable automatic commit and push after updates)")
+    print("Q. Quit")
+    print("="*100)
+
+def menu_quit():
+
+    try:
+        choice = input('\nDo you want to close all open windows? (Y/N): ').strip().lower()
+
+        # Close all Chrome and LibreOffice windows if the user chooses to do so
+        if choice == "y":
+            menu_close_all_windows()
+        elif choice == "n":
+            print("ℹ️  Not closing any windows.")
+        else:
+            print("ℹ️  Invalid choice. Not closing any windows.")
+
+        print("\n👋 Exiting the script. Thank you for using the Team Captain Script!")
+    except KeyboardInterrupt:
+        print("\n\n👋  Fine - be like that. Exiting without closing windows.")
+    exit(0)
+
+def main_menu():
+    print_welcome_message()
+    print_menu_header()
+    while True:
+        try:
+            choice = input("\nEnter your choice: ").strip().lower()
+            if choice == "1":
+                menu_day_preparation()
+            elif choice == "2":
+                menu_continuous_mode()
+            elif choice == "3":
+                menu_select_task_ids()
+            elif choice == "4":
+                menu_update_task_and_glider_files()
+            elif choice == "5":
+                menu_update_weather_briefing()
+            elif choice == "6":
+                menu_open_chrome_tabs()
+            elif choice == "7":
+                menu_open_weather_briefing()
+            elif choice == "8":
+                menu_send_whatsapp(whatsAppGroup, whatsappMessage)
+            elif choice == "9":
+                menu_close_all_windows()
+            elif choice == "0":
+                menu_updateGitSettings()
+            elif choice == "q":
+                menu_quit()
+                break
+            else:
+                print("❌ Invalid choice. Please enter 1, 2, 3, 4, or Q.")
+            print_menu_header()
+        except KeyboardInterrupt:
+            menu_quit()
+
+if __name__ == "__main__":
+    initialize()
+    main_menu()
