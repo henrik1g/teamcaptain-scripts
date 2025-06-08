@@ -3,35 +3,35 @@
     "points": [
         {
             "type": "Next",
-            "name": "005SPRATIBOR",
-            "altitude": 500.0,
-            "lat": 49.46361666666691,
-            "lng": 14.768616666666482,
+            "name": "002SPZELEC",
+            "altitude": 477.0,
+            "lat": 49.316116666666424,
+            "lng": 14.64416666666688,
             "radius": 7500
         },
         {
             "type": "AAT Sector",
-            "name": "047BITOV",
-            "altitude": 428.0,
-            "lat": 48.94304999999996,
-            "lng": 15.702216666666537,
-            "radius": 20000
+            "name": "448PROTIVIN",
+            "altitude": 403.0,
+            "lat": 49.20083333333314,
+            "lng": 14.213616666666399,
+            "radius": 15000
         },
         {
             "type": "AAT Sector",
-            "name": "314LITSCHAU",
-            "altitude": 530.0,
-            "lat": 48.94249999999973,
-            "lng": 15.045000000000181,
-            "radius": 20000
+            "name": "545SVIHOV",
+            "altitude": 450.0,
+            "lat": 49.473616666666935,
+            "lng": 13.290833333333351,
+            "radius": 30000
         },
         {
             "type": "AAT Sector",
-            "name": "566TREST",
-            "altitude": 572.0,
-            "lat": 49.29361666666692,
-            "lng": 15.476116666666488,
-            "radius": 20000
+            "name": "657KRASNAHORA",
+            "altitude": 579.0,
+            "lat": 49.57236666666668,
+            "lng": 14.293300000000258,
+            "radius": 15000
         },
         {
             "type": "Cylinder",
