@@ -12,24 +12,35 @@ from xml.etree.ElementTree import Element, SubElement, ElementTree, tostring
 import subprocess
 import webbrowser
 from git import Repo, GitCommandError
-import shutil
 import sys
 import re
 import datetime
+from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.common.by import By
+import psutil
+import time
 
 # --- CONFIG ---
 base_url = 'https://www.soaringspot.com/en_gb/39th-fai-world-gliding-championships-tabor-2025'
-task_output_dir = 'data/tasks'
-glider_output_dir = 'data/gliders'
 url_file = 'data/urls.txt'
-compName = 'tabor_25'  # Competition name for weather briefing (as used in metbrief.py)
+whatsappMessage = "Chatty ist der Beste! Hier ist die aktuelle Wettervorhersage für Tabor 2025."
+whatsAppGroup = 'Ich mache hier nur Notize'  # WhatsApp group name to send the weather briefing to
+weatherBriefingPath = os.path.join('externals', 'metbrief', 'briefings', 'tabor_25')  # Competition name for weather briefing (as used in metbrief.py)
 
 # TODO: Set up your git credentials if not already configured. Create ssh config file
 os.environ['GIT_SSH_COMMAND'] = 'ssh -i ~/.ssh/id_rsa'
 soffice_path = r"C:\Program Files\LibreOffice\program\soffice.exe" # Adjust this path if needed (libreoffice path)
 
+# Output directories for tasks and gliders
+task_output_dir = 'data/tasks'
+glider_output_dir = 'data/gliders'
+chromedriver_user_data_dir = 'data/.chromedriver_user_data'
+
 # Load the Excel file
 database = "data/database.xlsx"  # Adjust the path if needed
+
 
 # Url for downloading .cup files from SoaringSpot links
 cupURL = 'https://xlxjz3geasj4wiei7n5vzt7zzu0qibmm.lambda-url.eu-central-1.on.aws/?url='
@@ -368,52 +379,66 @@ def commit_and_push_task_and_glider_files():
     else:
         print(f"ℹ️  No changes were committed or pushed.")
 
-def get_chrome_browser():
-    # Try the system's registered "chrome"
-    try:
-        return webbrowser.get('chrome')
-    except webbrowser.Error:
-        pass
+def open_chrome(userData, runHeadless):
+    # Close previous Chrome instances with the same user data directory
+    close_chrome_with_userdata(chromedriver_user_data_dir)
 
-    # Try Windows default install path
-    if sys.platform.startswith('win'):
-        chrome_paths = [
-            os.path.join(os.environ.get("PROGRAMFILES", ""), "Google/Chrome/Application/chrome.exe"),
-            os.path.join(os.environ.get("PROGRAMFILES(X86)", ""), "Google/Chrome/Application/chrome.exe"),
-            os.path.expandvars(r"%LOCALAPPDATA%\Google\Chrome\Application\chrome.exe"),
-        ]
-        for path in chrome_paths:
-            if os.path.exists(path):
-                webbrowser.register('chrome', None, webbrowser.BackgroundBrowser(path))
-                return webbrowser.get('chrome')
+    # Set up Chrome options
+    chrome_options = Options()
+    chrome_options.add_argument("--new-window")  # Open in a new window
+    chrome_options.add_experimental_option("detach", True)  # <-- This keeps Chrome open
+    chrome_options.add_argument("--log-level=3")  # Suppress most Chrome logs
+    chrome_options.add_experimental_option("excludeSwitches", ["enable-logging"])  # Suppress DevTools and other logs
+    chrome_options.add_argument("--disable-logging")
+    chrome_options.add_argument("--disable-gpu")  # Sometimes helps with GPU-related warnings
 
-    # Try macOS default install path
-    if sys.platform == "darwin":
-        path = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
-        if os.path.exists(path):
-            webbrowser.register('chrome', None, webbrowser.BackgroundBrowser(path))
-            return webbrowser.get('chrome')
+    # Add user data directory if provided
+    if userData not in [None, ""]:
+        chrome_options.add_argument("user-data-dir=" + os.path.join(os.path.dirname(sys.argv[0]), userData))  # Use a custom user data directory
 
-    # Try Linux
-    if shutil.which("google-chrome"):
-        webbrowser.register('chrome', None, webbrowser.BackgroundBrowser("google-chrome"))
-        return webbrowser.get('chrome')
-    if shutil.which("chromium-browser"):
-        webbrowser.register('chrome', None, webbrowser.BackgroundBrowser("chromium-browser"))
-        return webbrowser.get('chrome')
+    # Check if running headless
+    if runHeadless == True:
+        # If running headless, add the headless argument
+        chrome_options.add_argument("--headless")
+        
+    driver = webdriver.Chrome(options=chrome_options)
+    return driver
 
-    # Fallback to default browser
-    return webbrowser
+def close_chrome_with_userdata(chromedriver_user_data_dir):
+    user_data_dir = os.path.join(os.path.dirname(sys.argv[0]), chromedriver_user_data_dir)
+    for proc in psutil.process_iter(['name', 'cmdline']):
+        try:
+            if proc.info['name'] and 'chrome' in proc.info['name'].lower():
+                cmdline = ' '.join(proc.info['cmdline'])
+                if user_data_dir in cmdline:
+                    proc.terminate()
+        except (psutil.NoSuchProcess, psutil.AccessDenied):
+            continue
 
+# Function to open a URL in Chrome, handling the first tab differently
+def open_tab_in_chrome(driver, url, first_tab):
+    if first_tab:
+        try:
+            driver.get(url)
+        except Exception as e:
+            print(f"❌ Could not open URL '{url}' - Check if it is valid.")
+        first_tab = False
+    else:
+        driver.execute_script(f"window.open('{url}', '_blank');")
+        
+    return first_tab
+
+# Function to open Chrome tabs from the url file
 def open_chrome_tabs_from_file():
-    chrome = get_chrome_browser()
+    # Open Chrome and load URLs from the file
+    driver = open_chrome(None, False)  # Set to True if you want to run in headless mode
 
     with open(url_file, "r", encoding="utf-8") as f:
         urls = [line.strip() for line in f if line.strip() and not line.strip().startswith("#")]
 
+    first_tab = True
     for url in urls:
         if "{taskID}" in url or "{classURL}" in url or "{classFile}" in url:
-            # Fill in the placeholders with the selected task IDs and URLs
             for class_name in classes:
                 task_id = selected_task_ids.get(class_name, False)
                 classURL = url_map.get(class_name, False)
@@ -421,17 +446,28 @@ def open_chrome_tabs_from_file():
                 url_filled = url.replace("{taskID}", task_id)
                 url_filled = url_filled.replace("{classURL}", classURL)
                 url_filled = url_filled.replace("{classFile}", fileURL)
-                chrome.open_new_tab(url_filled)
+                first_tab = open_tab_in_chrome(driver, url_filled, first_tab)
         else:
-            #print(f"Opening: {url}")
-            chrome.open_new_tab(url)
+            first_tab = open_tab_in_chrome(driver, url, first_tab)
 
+# Get the folgder path for the latest weather briefing
+def get_latest_weather_briefing_folderPath():
+    today = datetime.date.today().strftime('%m%d')
+    folderPath = os.path.join(weatherBriefingPath, today)
+    return os.path.normpath(folderPath)
+
+# Get the full path of the latest weather briefing file
+def get_latest_weather_briefing_fullPath():
+    today = datetime.date.today().strftime('%m%d')
+    fullFilepath = os.path.join(get_latest_weather_briefing_folderPath(), str(today) + "_" + str(os.path.basename(weatherBriefingPath)) + ".odp")
+    return fullFilepath
+
+# Function to open the latest weather briefing
 def open_latest_weather_briefing():
     # Open the latest weather briefing
-    today = datetime.date.today().strftime('%m%d')
-    filepath = os.path.join("externals", "metbrief", "briefings", str(compName), str(today))
-    fullFilepath = os.path.join(filepath, str(today) + "_" + str(compName) + ".odp")
-    if os.path.exists(fullFilepath):
+    filepath = get_latest_weather_briefing_folderPath()
+    fullFilepath = get_latest_weather_briefing_fullPath()
+    if os.path.exists(filepath):
         open_in_libreoffice(fullFilepath)
     else:
         print("❌ Latest weather briefing not found. Please generate it first.")
@@ -442,6 +478,66 @@ def open_in_libreoffice(filepath):
     except Exception as e:
         print(f"❌ Could not open file in LibreOffice: {e}")
 
+def convert_odp_to_pdf(odp_path):
+    output_dir = os.path.dirname(odp_path)
+    try:
+        subprocess.run([
+            soffice_path, "--headless", "--convert-to", "pdf", odp_path, "--outdir", output_dir
+        ], check=True)
+        pdf_path = odp_path.replace('.odp', '.pdf')
+        if os.path.exists(pdf_path):
+            print(f"✅ PDF created at {pdf_path}")
+            return pdf_path
+        else:
+            print("❌ PDF conversion failed.")
+            return None
+    except Exception as e:
+        print(f"❌ PDF conversion error: {e}")
+        return None
+
+def send_pdf_to_whatsapp_group(group_name, message, pdf_path):
+    driver = open_chrome(chromedriver_user_data_dir, True)  # Set to True if you want to run in headless mode
+    driver.get("https://web.whatsapp.com/")
+    time.sleep(10)
+
+    # Search for the group
+    search_box = driver.find_element(By.XPATH, '//div[@contenteditable="true"][@data-tab="3"]')
+    search_box.click()
+    search_box.send_keys(group_name)
+    time.sleep(2)
+    group = driver.find_element(By.XPATH, f'//span[@title="{group_name}"]')
+    group.click()
+    time.sleep(1)
+
+    # Attach file
+    attach_btn = driver.find_element(By.CSS_SELECTOR, "span[data-icon='plus-rounded']")
+    attach_btn.click()
+    time.sleep(1)
+    file_input = driver.find_element(By.CSS_SELECTOR, "input[type='file']")
+    file_input.send_keys(os.path.abspath(pdf_path))
+    time.sleep(2)
+
+    # Prompt for a message
+    # Find the message input box and send the message
+    msg_box = driver.find_element(By.XPATH, '//div[@contenteditable="true"][@aria-placeholder="Add a caption"]')
+    msg_box.click()
+    msg_box.send_keys(message)
+    msg_box.send_keys(u'\ue007')  # Press Enter
+
+    print("✅ PDF sent to WhatsApp group.")
+    time.sleep(5)
+    driver.quit()
+
+# Function to send the weather briefing to a WhatsApp group
+def send_weather_briefing_to_whatsapp(group_name, message):
+    odp_path = get_latest_weather_briefing_fullPath()
+    if not os.path.exists(odp_path):
+        print("❌ ODP file not found.")
+        return
+    pdf_path = convert_odp_to_pdf(odp_path)
+    if pdf_path:
+        send_pdf_to_whatsapp_group(group_name, message, pdf_path)
+
 # --- MAIN LOOP ---
 # TODO Make output directories if not exist
 if not os.path.exists(task_output_dir):
@@ -450,7 +546,7 @@ if not os.path.exists(glider_output_dir):
     os.makedirs(glider_output_dir)
 
 # Print a welcome message
-print("⚙️  Welcome to the Team Captain Script for Tabor 2025!")
+print("⚙️  Welcome to the Team Captain Script!")
 
 # --- TASK AND GLIDER FILES ---
 # Ask user if they want to update task and glider files
@@ -523,4 +619,19 @@ elif choice == "n":
     print("ℹ️  Skipping opening tabs and latest weather presentation.")
 else:   
     print('ℹ️  Invalid choice, skipping opening tabs and latest weather presentation.')
+
+# Send latest weather briefing via WhatsappWeb
+
+# --- OPEN CHROME TABS ---
+choice = input("\n❓ Do you want to send the weather briefing to the WhatsApp Group? (Y/N)?").strip().lower()
+
+if choice == "y":
+    # Open Chrome tabs from the URL file
+    print(f"⚙️  Sending latest weather briefing to WhatsApp group '{whatsAppGroup}'")
+    send_weather_briefing_to_whatsapp(whatsAppGroup, whatsappMessage)
+elif choice == "n":
+    print("ℹ️  Skipping sending weather briefing to WhatsApp group.")
+else:   
+    print('ℹ️  Invalid choice, skipping sending weather briefing to WhatsApp group.')
+# --- END OF MAIN LOOP ---
 # --- END OF SCRIPT ---
