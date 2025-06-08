@@ -380,11 +380,21 @@ def commit_and_push_task_and_glider_files():
         print(f"ℹ️  No changes were committed or pushed.")
 
 def open_chrome(userData, runHeadless):
-    # Close previous Chrome instances with the same user data directory
-    close_chrome_with_userdata(chromedriver_user_data_dir)
-
+    
     # Set up Chrome options
     chrome_options = Options()
+
+    # Add user data directory if provided
+    if userData not in [None, ""]:
+        # Close previous Chrome instances with the same user data directory
+        close_chrome_with_userdata(chromedriver_user_data_dir)
+        chrome_options.add_argument("user-data-dir=" + os.path.join(os.path.dirname(sys.argv[0]), userData))  # Use a custom user data directory
+
+    # Check if running headless
+    if runHeadless == True:
+        # If running headless, add the headless argument
+        chrome_options.add_argument("--headless")
+
     chrome_options.add_argument("--new-window")  # Open in a new window
     chrome_options.add_experimental_option("detach", True)  # <-- This keeps Chrome open
     chrome_options.add_argument("--log-level=3")  # Suppress most Chrome logs
@@ -392,15 +402,6 @@ def open_chrome(userData, runHeadless):
     chrome_options.add_argument("--disable-logging")
     chrome_options.add_argument("--disable-gpu")  # Sometimes helps with GPU-related warnings
 
-    # Add user data directory if provided
-    if userData not in [None, ""]:
-        chrome_options.add_argument("user-data-dir=" + os.path.join(os.path.dirname(sys.argv[0]), userData))  # Use a custom user data directory
-
-    # Check if running headless
-    if runHeadless == True:
-        # If running headless, add the headless argument
-        chrome_options.add_argument("--headless")
-        
     driver = webdriver.Chrome(options=chrome_options)
     return driver
 
@@ -498,7 +499,7 @@ def convert_odp_to_pdf(odp_path):
 def send_pdf_to_whatsapp_group(group_name, message, pdf_path):
     driver = open_chrome(chromedriver_user_data_dir, True)  # Set to True if you want to run in headless mode
     driver.get("https://web.whatsapp.com/")
-    time.sleep(10)
+    time.sleep(5)
 
     # Search for the group
     search_box = driver.find_element(By.XPATH, '//div[@contenteditable="true"][@data-tab="3"]')
