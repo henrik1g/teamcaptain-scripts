@@ -14,7 +14,7 @@ D004BF,,🇩🇪 JK,🇩🇪 Jan Kretzschmar
 DDFA01,,🇩🇪 GP,🇩🇪 Philipp Lauer
 DD8750,,🇩🇪 AR,🇩🇪 Max Maslak
 D025E0,,🇩🇰 EC,🇩🇰 Uffe Edslev
-D02C3E,,🇩🇰 CE,🇩🇰 Lasse Edslev
+D01CCE,,🇩🇰 CE,🇩🇰 Lasse Edslev
 D00CB7,,🇫🇮 JS,🇫🇮 Antti Koskiniemi
 D00413,,🇫🇮 AA,🇫🇮 Kristian Roine
 DDF12C,,🇫🇷 ET,🇫🇷 Louis Bouderlique

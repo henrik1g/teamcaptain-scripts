@@ -42,7 +42,7 @@ D0103C,,🇩🇪 L7,🇩🇪 Steffen Schwarzer
 ,,🇩🇰 YC,🇩🇰 Filip Bojanowski
 DDEDF9,,🇩🇰 W,🇩🇰 Michael Mix
 D025E0,,🇩🇰 EC,🇩🇰 Uffe Edslev
-D02C3E,,🇩🇰 CE,🇩🇰 Lasse Edslev
+D01CCE,,🇩🇰 CE,🇩🇰 Lasse Edslev
 D009CF,,🇩🇰 14,🇩🇰 Henrik Breidahl
 45A308,,🇩🇰 RJ,🇩🇰 Jonathan Bülow-Olsen
 DF1882,,🇪🇸 44,🇪🇸 Jaume Prats
