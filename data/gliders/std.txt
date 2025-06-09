@@ -31,7 +31,7 @@ DDEFEB,,🇱🇹 H8,🇱🇹 Gvidas Sabeckis
 D01DCA,,🇱🇹 MG,🇱🇹 Joris Vainius
 D01F20,,🇳🇱 CM,🇳🇱 Robbie Seton
 484C82,,🇳🇱 SX,🇳🇱 Hadriaan van Nes
-,,🇵🇱 LOT,🇵🇱 Jakub Barszcz
+D02AAE,,🇵🇱 LOT,🇵🇱 Jakub Barszcz
 DDEE69,,🇵🇱 I,🇵🇱 Łukasz Błaszczyk
 ,,🇷🇴 YB,🇷🇴 Norbert Scarlat
 ,,🇷🇴 YA,🇷🇴 Ionut Tudor

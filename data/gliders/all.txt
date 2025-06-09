@@ -96,7 +96,7 @@ DDF0F9,,🇳🇱 MM,🇳🇱 Peter Millenaar
 4404BE,,🇳🇿 T5,🇳🇿 Michael Strathern
 D01CB6,,🇵🇱 FLS,🇵🇱 Jacek Flis
 D03425,,🇵🇱 PP,🇵🇱 Mikołaj Zdun
-,,🇵🇱 LOT,🇵🇱 Jakub Barszcz
+D02AAE,,🇵🇱 LOT,🇵🇱 Jakub Barszcz
 DDEE69,,🇵🇱 I,🇵🇱 Łukasz Błaszczyk
 ,,🇵🇱 RP,🇵🇱 Łukasz Grabowski
 101211,,🇵🇱 ZJ,🇵🇱 Paweł Wojciechowski
