@@ -1,36 +1,36 @@
 ID,CALL,CN,TYPE,NAME
-D02A46,,FE,🇦🇷 Damian Goldenzweig
-D02953,,EY,🇦🇷 Lucas Goldenzweig
-DF0EC9,,XK,🇦🇹 Paul Bernhard
-45ACB8,,EK,🇦🇺 David Jansen
-D021CA,,WX,🇦🇺 Matthew Scutter
-DDEBBE,,LX,🇧🇪 Thomas Leduc
-D00C86,,MMI,🇧🇪 André-Emmanuel Litt
-D009BF,,VV,🇧🇷 Henrique Navarro
-D02D23,,EMI,🇧🇷 Gustavo Shigueno
-4B4E94,,LR,🇨🇭 Yves Gerster
-DDEFB9,,AX,🇨🇿 Karel Novák
-,,ZE,🇨🇿 Pavel Trybenekr
-DF14A3,,🇩🇪SG,🇩🇪 Steffen Göttler
-D0103C,,🇩🇪L7,🇩🇪 Steffen Schwarzer
-D009CF,,14,🇩🇰 Henrik Breidahl
-45A308,,RJ,🇩🇰 Jonathan Bülow-Olsen
-D01387,,3J,🇫🇮 Sami Rissanen
-D01CE6,,3F,🇫🇮 Tapio Tourula
-D00900,,LB,🇫🇷 Jean-Denis Barrois
-,,KW,🇫🇷 Maximilian SEIS
-D009DF,,DW,🇬🇧 Tom Arscott
-D00CA4,,LE,🇬🇧 Leigh Wells
-,,HAB,🇭🇺 Kornél Negro
-D001C4,,V8,🇭🇺 Tamás Vámosi
-,,AI,🇮🇹 Lucio Bordin
-D00C04,,RY,🇮🇹 Roberto Pinato
-,,M7,🇱🇹 Vladas Motuza
-D02B81,,BB,🇱🇹 Marius Pluščauskas
-DDF0F9,,MM,🇳🇱 Peter Millenaar
-3E7D9A,,JV,🇳🇱 Jeroen Verkuijl
-,,RP,🇵🇱 Łukasz Grabowski
-101211,,ZJ,🇵🇱 Paweł Wojciechowski
-,,3,🇸🇰 Vladimir Foltin
-D00DE8,,73,🇺🇸 Jared Granzow
-DDEFD0,,AF,🇺🇸 Mike Sorenson
+D02A46,,🇦🇷 FE,🇦🇷 Damian Goldenzweig
+D02953,,🇦🇷 EY,🇦🇷 Lucas Goldenzweig
+DF0EC9,,🇦🇹 XK,🇦🇹 Paul Bernhard
+45ACB8,,🇦🇺 EK,🇦🇺 David Jansen
+D021CA,,🇦🇺 WX,🇦🇺 Matthew Scutter
+DDEBBE,,🇧🇪 LX,🇧🇪 Thomas Leduc
+D00C86,,🇧🇪 MMI,🇧🇪 André-Emmanuel Litt
+D009BF,,🇧🇷 VV,🇧🇷 Henrique Navarro
+D02D23,,🇧🇷 EMI,🇧🇷 Gustavo Shigueno
+4B4E94,,🇨🇭 LR,🇨🇭 Yves Gerster
+DDEFB9,,🇨🇿 AX,🇨🇿 Karel Novák
+,,🇨🇿 ZE,🇨🇿 Pavel Trybenekr
+DF14A3,,🇩🇪 SG,🇩🇪 Steffen Göttler
+D0103C,,🇩🇪 L7,🇩🇪 Steffen Schwarzer
+D009CF,,🇩🇰 14,🇩🇰 Henrik Breidahl
+45A308,,🇩🇰 RJ,🇩🇰 Jonathan Bülow-Olsen
+D01387,,🇫🇮 3J,🇫🇮 Sami Rissanen
+D01CE6,,🇫🇮 3F,🇫🇮 Tapio Tourula
+D00900,,🇫🇷 LB,🇫🇷 Jean-Denis Barrois
+,,🇫🇷 KW,🇫🇷 Maximilian SEIS
+D009DF,,🇬🇧 DW,🇬🇧 Tom Arscott
+D00CA4,,🇬🇧 LE,🇬🇧 Leigh Wells
+,,🇭🇺 HAB,🇭🇺 Kornél Negro
+D001C4,,🇭🇺 V8,🇭🇺 Tamás Vámosi
+,,🇮🇹 AI,🇮🇹 Lucio Bordin
+D00C04,,🇮🇹 RY,🇮🇹 Roberto Pinato
+,,🇱🇹 M7,🇱🇹 Vladas Motuza
+D02B81,,🇱🇹 BB,🇱🇹 Marius Pluščauskas
+DDF0F9,,🇳🇱 MM,🇳🇱 Peter Millenaar
+3E7D9A,,🇳🇱 JV,🇳🇱 Jeroen Verkuijl
+,,🇵🇱 RP,🇵🇱 Łukasz Grabowski
+101211,,🇵🇱 ZJ,🇵🇱 Paweł Wojciechowski
+,,🇸🇰 3,🇸🇰 Vladimir Foltin
+D00DE8,,🇺🇸 73,🇺🇸 Jared Granzow
+DDEFD0,,🇺🇸 AF,🇺🇸 Mike Sorenson
