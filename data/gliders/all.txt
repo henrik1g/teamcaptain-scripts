@@ -115,7 +115,6 @@ DF2858,,FP,🇺🇸 Sylvia Grandstaff
 D00DE8,,73,🇺🇸 Jared Granzow
 DDEFD0,,AF,🇺🇸 Mike Sorenson
 D00CF4,,?,Unknown
-,,?,Unknown
 617239,,?,Unknown
 D214B1,,?,Unknown
 C5AFCC,,?,Unknown
