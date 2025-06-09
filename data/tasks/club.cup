@@ -1,14 +1,16 @@
 name,code,country,lat,lon,elev,style,rwdir,rwlen,freq,desc
 "012SPSMOLEC","","", 4918.500N, 01432.767E, 461m,1,,,,,""
-"047BITOV","","", 4856.583N, 01542.133E, 428m,1,,,,,""
-"314LITSCHAU","","", 4856.550N, 01502.700E, 530m,1,,,,,""
-"566TREST","","", 4917.617N, 01528.567E, 572m,1,,,,,""
+"405PAVLOVA","","", 4950.467N, 01228.383E, 688m,1,,,,,""
+"612WAIDHAUS","","", 4938.250N, 01229.517E, 600m,1,,,,,""
+"590VETRNYJENIKOV","","", 4928.417N, 01528.683E, 650m,1,,,,,""
+"537STUDENA","","", 4912.000N, 01518.150E, 500m,1,,,,,""
 "001SPTABOR","","", 4923.650N, 01442.167E, 428m,1,,,,,""
 -----Related Tasks-----
-"Task on 2025-06-06","","012SPSMOLEC","047BITOV","314LITSCHAU","566TREST","001SPTABOR",""
+"Task on 2025-06-09","","012SPSMOLEC","405PAVLOVA","612WAIDHAUS","590VETRNYJENIKOV","537STUDENA","001SPTABOR",""
 Options
 ObsZone=0,Style=2,R1=7500m,A1=180,Line=1
-ObsZone=1,Style=3,R1=20000m,A1=180
-ObsZone=2,Style=3,R1=20000m,A1=180
-ObsZone=3,Style=3,R1=20000m,A1=180
-ObsZone=4,Style=3,R1=5000m,A1=180
+ObsZone=1,Style=3,R1=500m,A1=180
+ObsZone=2,Style=3,R1=500m,A1=180
+ObsZone=3,Style=3,R1=500m,A1=180
+ObsZone=4,Style=3,R1=500m,A1=180
+ObsZone=5,Style=3,R1=5000m,A1=180
