@@ -4,21 +4,39 @@ import os
 # General Configuration
 # =========================
 
+# Competition name (should match name used for metbrief folder, otherwise update below.)
+comp_name = "tabor_25"
+
 # Base URL for SoaringSpot event
-base_url = 'https://www.soaringspot.com/en_gb/39th-fai-world-gliding-championships-tabor-2025'
-
-# Path to the file containing URLs to open in Chrome
-url_file = 'data/urls.txt'
-
-# Path to the Excel database file (pilot, glider, etc.)
-database_path = "data/database.xlsx"  # Adjust the path if needed
+base_url = 'https://www.SoaringSpot.com/en_gb/39th-fai-world-gliding-championships-tabor-2025'
 
 # =========================
-# Weather Briefing Settings
+# Competition Classes & Mappings
 # =========================
 
-# Path to the weather briefing folder (used by metbrief.py)
-weather_briefing_path = os.path.join('externals', 'metbrief', 'briefings', 'tabor_25')
+# List of competition classes
+classes = ['Club', 'Standard', '15 Meter']
+
+# Mapping from class name to file prefix (these are the names that files for classes will receive in the /data/.. path)
+filename_map = {
+    'Club': 'club',
+    'Standard': 'std',
+    '15 Meter': '15m'
+}
+
+# Mapping from class name to URL segment on SoaringSpot (check URL when looking at a task to update)
+url_map = {
+    'Club': 'club',
+    'Standard': 'standard',
+    '15 Meter': '-15-meter'
+}
+
+# Mapping from class name to SoaringSpot results table name (input names written the the results table on SoaringSpot)
+results_table_map = {
+    'Club': 'Club Class',
+    'Standard': 'Standard Class',
+    '15 Meter': '15 meter Class'
+}
 
 # =========================
 # WhatsApp Integration
@@ -34,11 +52,31 @@ whatsapp_group = 'Ich mache hier nur Notize'
 # Git & LibreOffice Settings
 # =========================
 
+# Path to github repo
+github_path = "nilsschlautmann/wgc2025"
+
 # Set up your git credentials if not already configured
 os.environ['GIT_SSH_COMMAND'] = 'ssh -i ~/.ssh/id_rsa'
 
 # Path to the LibreOffice executable (adjust if needed)
 soffice_path = r"C:\Program Files\LibreOffice\program\soffice.exe"
+
+# =========================
+# File Locations
+# =========================
+
+# Path to the file containing URLs to open in Chrome
+url_file = 'data/urls.txt'
+
+# Path to the Excel database file (pilot, glider, etc.)
+database_path = "data/database.xlsx"  # Adjust the path if needed
+
+# =========================
+# Weather Briefing Settings
+# =========================
+
+# Path to the weather briefing folder (used by metbrief.py)
+weather_briefing_path = os.path.join('externals', 'metbrief', 'briefings', comp_name)
 
 # =========================
 # Output Directories
@@ -59,34 +97,6 @@ chromedriver_user_data_dir = 'data/.chromedriver_user_data'
 
 # URL for downloading .cup files from SoaringSpot links
 cup_url = 'https://xlxjz3geasj4wiei7n5vzt7zzu0qibmm.lambda-url.eu-central-1.on.aws/?url='
-
-# =========================
-# Competition Classes & Mappings
-# =========================
-
-# List of competition classes
-classes = ['Club', 'Standard', '15 Meter']
-
-# Mapping from class name to file prefix
-filename_map = {
-    'Club': 'club',
-    'Standard': 'std',
-    '15 Meter': '15m'
-}
-
-# Mapping from class name to URL segment
-url_map = {
-    'Club': 'club',
-    'Standard': 'standard',
-    '15 Meter': '-15-meter'
-}
-
-# Mapping from class name to results table name
-results_table_map = {
-    'Club': 'Club Class',
-    'Standard': 'Standard Class',
-    '15 Meter': '15 meter Class'
-}
 
 # =========================
 # Shared State Variables

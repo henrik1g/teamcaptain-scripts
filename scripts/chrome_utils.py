@@ -102,15 +102,17 @@ def open_tabs():
             first_tab = True
             for url in urls:
                 # Placeholder replacement logic
-                if "{taskID}" in url or "{classURL}" in url or "{classFile}" in url:
+                if "{taskID}" in url or "{classURL}" in url or "{classFile}" or "{gitHubPath}" in url:
                     for class_name in config.classes:
                         task_id = config.selected_task_ids.get(class_name, False)
-                        classURL = config.url_map.get(class_name, False)
-                        fileURL = config.filename_map.get(class_name, False)
+                        class_url = config.url_map.get(class_name, False)
+                        file_url = config.filename_map.get(class_name, False)
+                        github_path = config.github_path
                         replacements = {
                             "{taskID}": task_id,
-                            "{classURL}": classURL,
-                            "{classFile}": fileURL
+                            "{classURL}": class_url,
+                            "{classFile}": file_url,
+                            "{gitHubPath}": github_path
                         }
                         url_filled = url
                         for key, value in replacements.items():
