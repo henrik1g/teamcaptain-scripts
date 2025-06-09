@@ -8,7 +8,7 @@ D0016B,,🇦🇺 GX,🇦🇺 Adam Woolley
 DDEA4B,,🇧🇪 LT,🇧🇪 Jeroen Jennen
 DDDF5F,,🇧🇪 5F,🇧🇪 Robin Selfslagh
 D01CEF,,🇨🇿 JB,🇨🇿 Miloslav Cink
-,,🇨🇿 EU,🇨🇿 Barbora Moravcová
+D0018B,,🇨🇿 EU,🇨🇿 Barbora Moravcová
 D02AE6,,🇨🇿 FX,🇨🇿 Jan Pavlík
 D004BF,,🇩🇪 JK,🇩🇪 Jan Kretzschmar
 DDFA01,,🇩🇪 GP,🇩🇪 Philipp Lauer
@@ -34,7 +34,7 @@ D01F20,,🇳🇱 CM,🇳🇱 Robbie Seton
 D02AAE,,🇵🇱 LOT,🇵🇱 Jakub Barszcz
 DDEE69,,🇵🇱 I,🇵🇱 Łukasz Błaszczyk
 ,,🇷🇴 YB,🇷🇴 Norbert Scarlat
-,,🇷🇴 YA,🇷🇴 Ionut Tudor
+D0132B,,🇷🇴 YA,🇷🇴 Ionut Tudor
 D00EBA,,🇸🇪 1,🇸🇪 Elias Severholt Fourati
 D003CD,,🇸🇰 SI,🇸🇰 Tomáš Bobok
 D018D8,,?,Unknown
