@@ -9,30 +9,30 @@
     <Waypoint altitude="688" name="405PAVLOVA">
       <Location latitude="49.841116666666416" longitude="12.473050000000073"/>
     </Waypoint>
-    <ObservationZone radius="1000" type="Cylinder"/>
+    <ObservationZone radius="500" type="Cylinder"/>
   </Point>
   <Point type="Turn">
     <Waypoint altitude="600" name="612WAIDHAUS">
       <Location latitude="49.63750000000027" longitude="12.49195000000025"/>
     </Waypoint>
-    <ObservationZone radius="1000" type="Cylinder"/>
+    <ObservationZone radius="500" type="Cylinder"/>
   </Point>
   <Point type="Turn">
     <Waypoint altitude="650" name="590VETRNYJENIKOV">
       <Location latitude="49.473616666666935" longitude="15.478050000000096"/>
     </Waypoint>
-    <ObservationZone radius="1000" type="Cylinder"/>
+    <ObservationZone radius="500" type="Cylinder"/>
   </Point>
   <Point type="Turn">
     <Waypoint altitude="500" name="537STUDENA">
       <Location latitude="49.199999999999996" longitude="15.302499999999869"/>
     </Waypoint>
-    <ObservationZone radius="1000" type="Cylinder"/>
+    <ObservationZone radius="500" type="Cylinder"/>
   </Point>
   <Point type="Finish">
     <Waypoint altitude="428" name="001SPTABOR">
       <Location latitude="49.39416666666691" longitude="14.702783333333127"/>
     </Waypoint>
-    <ObservationZone radius="10000" type="Cylinder"/>
+    <ObservationZone radius="5000" type="Cylinder"/>
   </Point>
 </Task>

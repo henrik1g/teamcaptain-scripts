@@ -9,30 +9,30 @@
     <Waypoint altitude="700" name="479ROZVADOV">
       <Location latitude="49.67195000000015" longitude="12.556666666666974"/>
     </Waypoint>
-    <ObservationZone radius="1000" type="Cylinder"/>
+    <ObservationZone radius="500" type="Cylinder"/>
   </Point>
   <Point type="Turn">
     <Waypoint altitude="663" name="496SCHONSEE">
       <Location latitude="49.50833333333357" longitude="12.550000000000095"/>
     </Waypoint>
-    <ObservationZone radius="1000" type="Cylinder"/>
+    <ObservationZone radius="500" type="Cylinder"/>
   </Point>
   <Point type="Turn">
     <Waypoint altitude="688" name="688MALONTY">
       <Location latitude="48.68576666666679" longitude="14.57916666666667"/>
     </Waypoint>
-    <ObservationZone radius="1000" type="Cylinder"/>
+    <ObservationZone radius="500" type="Cylinder"/>
   </Point>
   <Point type="Turn">
     <Waypoint altitude="565" name="646ZIROVNICE">
       <Location latitude="49.25388333333354" longitude="15.193333333333229"/>
     </Waypoint>
-    <ObservationZone radius="1000" type="Cylinder"/>
+    <ObservationZone radius="500" type="Cylinder"/>
   </Point>
   <Point type="Finish">
     <Waypoint altitude="428" name="001SPTABOR">
       <Location latitude="49.39416666666691" longitude="14.702783333333127"/>
     </Waypoint>
-    <ObservationZone radius="10000" type="Cylinder"/>
+    <ObservationZone radius="5000" type="Cylinder"/>
   </Point>
 </Task>
