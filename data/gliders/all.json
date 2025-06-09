@@ -833,7 +833,7 @@
         "glider": "",
         "comp": "MM",
         "flarm": [
-            "D00C86"
+            "DDF0F9"
         ]
     },
     {
@@ -1365,15 +1365,6 @@
         "comp": "?",
         "flarm": [
             "CDCDCD"
-        ]
-    },
-    {
-        "name": "",
-        "cn": "?",
-        "glider": "",
-        "comp": "?",
-        "flarm": [
-            "DDF0F9"
         ]
     }
 ]

@@ -37,3 +37,5 @@ DDEE69,,I,🇵🇱 Łukasz Błaszczyk
 ,,YA,🇷🇴 Ionut Tudor
 D00EBA,,1,🇸🇪 Elias Severholt Fourati
 D003CD,,SI,🇸🇰 Tomáš Bobok
+D018D8,,?,Unknown
+D01CCE,,?,Unknown

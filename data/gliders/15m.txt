@@ -27,7 +27,7 @@ D001C4,,V8,🇭🇺 Tamás Vámosi
 D00C04,,RY,🇮🇹 Roberto Pinato
 ,,M7,🇱🇹 Vladas Motuza
 D02B81,,BB,🇱🇹 Marius Pluščauskas
-D00C86,,MM,🇳🇱 Peter Millenaar
+DDF0F9,,MM,🇳🇱 Peter Millenaar
 3E7D9A,,JV,🇳🇱 Jeroen Verkuijl
 ,,RP,🇵🇱 Łukasz Grabowski
 101211,,ZJ,🇵🇱 Paweł Wojciechowski

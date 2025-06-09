@@ -340,5 +340,23 @@
         "flarm": [
             "D003CD"
         ]
+    },
+    {
+        "name": "",
+        "cn": "?",
+        "glider": "",
+        "comp": "?",
+        "flarm": [
+            "D018D8"
+        ]
+    },
+    {
+        "name": "",
+        "cn": "?",
+        "glider": "",
+        "comp": "?",
+        "flarm": [
+            "D01CCE"
+        ]
     }
 ]
