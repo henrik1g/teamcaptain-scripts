@@ -5,12 +5,12 @@ DF0EC9,,🇦🇹 XK,🇦🇹 Paul Bernhard
 45ACB8,,🇦🇺 EK,🇦🇺 David Jansen
 D021CA,,🇦🇺 WX,🇦🇺 Matthew Scutter
 DDEBBE,,🇧🇪 LX,🇧🇪 Thomas Leduc
-D00C86,,🇧🇪 MMI,🇧🇪 André-Emmanuel Litt
+DDF0F9,,🇧🇪 MMI,🇧🇪 André-Emmanuel Litt
 D009BF,,🇧🇷 VV,🇧🇷 Henrique Navarro
 D02D23,,🇧🇷 EMI,🇧🇷 Gustavo Shigueno
-4B4E94,,🇨🇭 LR,🇨🇭 Yves Gerster
+4B4E94,,🇨🇭 IR,🇨🇭 Yves Gerster
 DDEFB9,,🇨🇿 AX,🇨🇿 Karel Novák
-,,🇨🇿 ZE,🇨🇿 Pavel Trybenekr
+D01F45,,🇨🇿 ZE,🇨🇿 Pavel Trybenekr
 DF14A3,,🇩🇪 SG,🇩🇪 Steffen Göttler
 D0103C,,🇩🇪 L7,🇩🇪 Steffen Schwarzer
 D009CF,,🇩🇰 14,🇩🇰 Henrik Breidahl
@@ -27,9 +27,9 @@ D00E16,,🇮🇹 AI,🇮🇹 Lucio Bordin
 D00C04,,🇮🇹 RY,🇮🇹 Roberto Pinato
 DDD93F,,🇱🇹 M7,🇱🇹 Vladas Motuza
 D02B81,,🇱🇹 BB,🇱🇹 Marius Pluščauskas
-DDF0F9,,🇳🇱 MM,🇳🇱 Peter Millenaar
+D00C86,,🇳🇱 MM,🇳🇱 Peter Millenaar
 3E7D9A,,🇳🇱 JV,🇳🇱 Jeroen Verkuijl
-,,🇵🇱 RP,🇵🇱 Łukasz Grabowski
+101212,,🇵🇱 RP,🇵🇱 Łukasz Grabowski
 101211,,🇵🇱 ZJ,🇵🇱 Paweł Wojciechowski
 D00992,,🇸🇰 3,🇸🇰 Vladimir Foltin
 D00DE8,,🇺🇸 73,🇺🇸 Jared Granzow

@@ -1,23 +1,23 @@
 ID,CALL,CN,TYPE,NAME
 D02CE8,,🇦🇷 6L,🇦🇷 Javier Gaude
 D00158,,🇦🇷 IX,🇦🇷 Felipe Girado
-,,🇦🇺 1A,🇦🇺 James Nugent
-,,🇦🇺 RZ,🇦🇺 Daniel Summers
+D00819,,🇦🇺 1A,🇦🇺 James Nugent
+D004F1,,🇦🇺 RZ,🇦🇺 Daniel Summers
 DDAECB,,🇧🇪 B4,🇧🇪 Thomas De Bruyn
 D02A1A,,🇧🇪 FY,🇧🇪 Alexandre Mélot
 4B4BD2,,🇨🇭 MN,🇨🇭 Simon Gantner
 4B5067,,🇨🇭 CRN,🇨🇭 Yves Müller
-,,🇨🇿 A3,🇨🇿 Ivan Harašta
+D0291F,,🇨🇿 A3,🇨🇿 Ivan Harašta
 D01C39,,🇨🇿 CX,🇨🇿 Tomas Suchanek
 DF2044,,🇩🇪 SF,🇩🇪 Stefan Langer
 3EEB98,,🇩🇪 SN,🇩🇪 Uwe Wahlig
-,,🇩🇰 YC,🇩🇰 Filip Bojanowski
+D02C19,,🇩🇰 YC,🇩🇰 Filip Bojanowski
 DDEDF9,,🇩🇰 W,🇩🇰 Michael Mix
 DF1882,,🇪🇸 44,🇪🇸 Jaume Prats
-DDA659,,🇫🇮 KT,🇫🇮 Kim Toppari
+D00D2F,,🇫🇮 KT,🇫🇮 Kim Toppari
 D0054A,,🇫🇮 GE,🇫🇮 Mikko Ylihärsilä
 D012D5,,🇫🇷 HG,🇫🇷 Hugo Corbillé
-D02720,,🇫🇷 AG,🇫🇷 Alexandre Fierain
+D01971,,🇫🇷 AG,🇫🇷 Alexandre Fierain
 D02B30,,🇫🇷 XI,🇫🇷 Louise Rodriguez
 D01063,,🇬🇧 194,🇬🇧 Timothy Fletcher
 4055BE,,🇬🇧 NW,🇬🇧 George White
@@ -28,7 +28,7 @@ DF2125,,🇭🇺 XW,🇭🇺 Ferenc TAMÁS
 D026A3,,🇮🇹 LAB,🇮🇹 Lapo Alessandro Busi
 0D8014,,🇮🇹 B6,🇮🇹 Giacomo Dall'Olio
 D0105A,,🇱🇹 FL,🇱🇹 Darius Gudziunas
-28455E,,🇱🇹 AM,🇱🇹 Karolis Mikalauskas
+D00179,,🇱🇹 AM,🇱🇹 Karolis Mikalauskas
 484977,,🇳🇱 RSM,🇳🇱 Robin Smit
 485222,,🇳🇱 KM,🇳🇱 Jeroen van Dijk
 4404BE,,🇳🇿 T5,🇳🇿 Michael Strathern
@@ -41,4 +41,3 @@ D00081,,🇸🇮 CF,🇸🇮 Mark Travner
 DDDD0F,,🇸🇰 ZS,🇸🇰 Edmund Schuller
 485A0B,,🇺🇸 S5,🇺🇸 Tony Condon
 DF2858,,🇺🇸 FP,🇺🇸 Sylvia Grandstaff
-D00CF4,,?,Unknown

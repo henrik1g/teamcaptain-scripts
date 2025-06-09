@@ -59,7 +59,7 @@
         "glider": "",
         "comp": "\ud83c\udde7\ud83c\uddea MMI",
         "flarm": [
-            "D00C86"
+            "DDF0F9"
         ]
     },
     {
@@ -82,9 +82,9 @@
     },
     {
         "name": "",
-        "cn": "\ud83c\udde8\ud83c\udded LR",
+        "cn": "\ud83c\udde8\ud83c\udded IR",
         "glider": "",
-        "comp": "\ud83c\udde8\ud83c\udded LR",
+        "comp": "\ud83c\udde8\ud83c\udded IR",
         "flarm": [
             "4B4E94"
         ]
@@ -104,7 +104,7 @@
         "glider": "",
         "comp": "\ud83c\udde8\ud83c\uddff ZE",
         "flarm": [
-            ""
+            "D01F45"
         ]
     },
     {
@@ -257,7 +257,7 @@
         "glider": "",
         "comp": "\ud83c\uddf3\ud83c\uddf1 MM",
         "flarm": [
-            "DDF0F9"
+            "D00C86"
         ]
     },
     {
@@ -275,7 +275,7 @@
         "glider": "",
         "comp": "\ud83c\uddf5\ud83c\uddf1 RP",
         "flarm": [
-            ""
+            "101212"
         ]
     },
     {

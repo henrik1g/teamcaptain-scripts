@@ -140,7 +140,7 @@
         "glider": "",
         "comp": "\ud83c\udde9\ud83c\uddf0 CE",
         "flarm": [
-            "D01CCE"
+            "D02C3E"
         ]
     },
     {
@@ -185,7 +185,7 @@
         "glider": "",
         "comp": "\ud83c\uddec\ud83c\udde7 352",
         "flarm": [
-            "7C7235"
+            "D018D8"
         ]
     },
     {
@@ -208,9 +208,9 @@
     },
     {
         "name": "",
-        "cn": "\ud83c\udded\ud83c\uddfa \ud83c\udded\ud83c\uddfa",
+        "cn": "\ud83c\udded\ud83c\uddfa HUN",
         "glider": "",
-        "comp": "\ud83c\udded\ud83c\uddfa \ud83c\udded\ud83c\uddfa",
+        "comp": "\ud83c\udded\ud83c\uddfa HUN",
         "flarm": [
             "D00165"
         ]
@@ -235,11 +235,11 @@
     },
     {
         "name": "",
-        "cn": "\ud83c\uddee\ud83c\uddf9 RB",
+        "cn": "\ud83c\uddee\ud83c\uddf9 AB",
         "glider": "",
-        "comp": "\ud83c\uddee\ud83c\uddf9 RB",
+        "comp": "\ud83c\uddee\ud83c\uddf9 AB",
         "flarm": [
-            ""
+            "CA7374"
         ]
     },
     {
@@ -293,6 +293,15 @@
         "glider": "",
         "comp": "\ud83c\uddf5\ud83c\uddf1 LOT",
         "flarm": [
+            "A10926"
+        ]
+    },
+    {
+        "name": "",
+        "cn": "\ud83c\uddf5\ud83c\uddf1 LOT",
+        "glider": "",
+        "comp": "\ud83c\uddf5\ud83c\uddf1 LOT",
+        "flarm": [
             "D02AAE"
         ]
     },
@@ -311,7 +320,7 @@
         "glider": "",
         "comp": "\ud83c\uddf7\ud83c\uddf4 YB",
         "flarm": [
-            ""
+            "D01074"
         ]
     },
     {
@@ -339,24 +348,6 @@
         "comp": "\ud83c\uddf8\ud83c\uddf0 SI",
         "flarm": [
             "D003CD"
-        ]
-    },
-    {
-        "name": "",
-        "cn": "?",
-        "glider": "",
-        "comp": "?",
-        "flarm": [
-            "D018D8"
-        ]
-    },
-    {
-        "name": "",
-        "cn": "?",
-        "glider": "",
-        "comp": "?",
-        "flarm": [
-            "D01CCE"
         ]
     }
 ]

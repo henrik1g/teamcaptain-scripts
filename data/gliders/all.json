@@ -86,7 +86,7 @@
         "glider": "",
         "comp": "\ud83c\udde6\ud83c\uddfa 1A",
         "flarm": [
-            ""
+            "D00819"
         ]
     },
     {
@@ -95,7 +95,7 @@
         "glider": "",
         "comp": "\ud83c\udde6\ud83c\uddfa RZ",
         "flarm": [
-            ""
+            "D004F1"
         ]
     },
     {
@@ -185,7 +185,7 @@
         "glider": "",
         "comp": "\ud83c\udde7\ud83c\uddea MMI",
         "flarm": [
-            "D00C86"
+            "DDF0F9"
         ]
     },
     {
@@ -226,9 +226,9 @@
     },
     {
         "name": "",
-        "cn": "\ud83c\udde8\ud83c\udded LR",
+        "cn": "\ud83c\udde8\ud83c\udded IR",
         "glider": "",
-        "comp": "\ud83c\udde8\ud83c\udded LR",
+        "comp": "\ud83c\udde8\ud83c\udded IR",
         "flarm": [
             "4B4E94"
         ]
@@ -239,7 +239,7 @@
         "glider": "",
         "comp": "\ud83c\udde8\ud83c\uddff A3",
         "flarm": [
-            ""
+            "D0291F"
         ]
     },
     {
@@ -293,7 +293,7 @@
         "glider": "",
         "comp": "\ud83c\udde8\ud83c\uddff ZE",
         "flarm": [
-            ""
+            "D01F45"
         ]
     },
     {
@@ -365,7 +365,7 @@
         "glider": "",
         "comp": "\ud83c\udde9\ud83c\uddf0 YC",
         "flarm": [
-            ""
+            "D02C19"
         ]
     },
     {
@@ -392,7 +392,7 @@
         "glider": "",
         "comp": "\ud83c\udde9\ud83c\uddf0 CE",
         "flarm": [
-            "D01CCE"
+            "D02C3E"
         ]
     },
     {
@@ -428,7 +428,7 @@
         "glider": "",
         "comp": "\ud83c\uddeb\ud83c\uddee KT",
         "flarm": [
-            "DDA659"
+            "D00D2F"
         ]
     },
     {
@@ -491,7 +491,7 @@
         "glider": "",
         "comp": "\ud83c\uddeb\ud83c\uddf7 AG",
         "flarm": [
-            "D02720"
+            "D01971"
         ]
     },
     {
@@ -563,7 +563,7 @@
         "glider": "",
         "comp": "\ud83c\uddec\ud83c\udde7 352",
         "flarm": [
-            "7C7235"
+            "D018D8"
         ]
     },
     {
@@ -640,9 +640,9 @@
     },
     {
         "name": "",
-        "cn": "\ud83c\udded\ud83c\uddfa \ud83c\udded\ud83c\uddfa",
+        "cn": "\ud83c\udded\ud83c\uddfa HUN",
         "glider": "",
-        "comp": "\ud83c\udded\ud83c\uddfa \ud83c\udded\ud83c\uddfa",
+        "comp": "\ud83c\udded\ud83c\uddfa HUN",
         "flarm": [
             "D00165"
         ]
@@ -703,11 +703,11 @@
     },
     {
         "name": "",
-        "cn": "\ud83c\uddee\ud83c\uddf9 RB",
+        "cn": "\ud83c\uddee\ud83c\uddf9 AB",
         "glider": "",
-        "comp": "\ud83c\uddee\ud83c\uddf9 RB",
+        "comp": "\ud83c\uddee\ud83c\uddf9 AB",
         "flarm": [
-            ""
+            "CA7374"
         ]
     },
     {
@@ -752,7 +752,7 @@
         "glider": "",
         "comp": "\ud83c\uddf1\ud83c\uddf9 AM",
         "flarm": [
-            "28455E"
+            "D00179"
         ]
     },
     {
@@ -833,7 +833,7 @@
         "glider": "",
         "comp": "\ud83c\uddf3\ud83c\uddf1 MM",
         "flarm": [
-            "DDF0F9"
+            "D00C86"
         ]
     },
     {
@@ -878,6 +878,15 @@
         "glider": "",
         "comp": "\ud83c\uddf5\ud83c\uddf1 LOT",
         "flarm": [
+            "A10926"
+        ]
+    },
+    {
+        "name": "",
+        "cn": "\ud83c\uddf5\ud83c\uddf1 LOT",
+        "glider": "",
+        "comp": "\ud83c\uddf5\ud83c\uddf1 LOT",
+        "flarm": [
             "D02AAE"
         ]
     },
@@ -896,7 +905,7 @@
         "glider": "",
         "comp": "\ud83c\uddf5\ud83c\uddf1 RP",
         "flarm": [
-            ""
+            "101212"
         ]
     },
     {
@@ -932,7 +941,7 @@
         "glider": "",
         "comp": "\ud83c\uddf7\ud83c\uddf4 YB",
         "flarm": [
-            ""
+            "D01074"
         ]
     },
     {
@@ -1032,15 +1041,6 @@
         "comp": "\ud83c\uddfa\ud83c\uddf8 AF",
         "flarm": [
             "DDEFD0"
-        ]
-    },
-    {
-        "name": "",
-        "cn": "?",
-        "glider": "",
-        "comp": "?",
-        "flarm": [
-            "D00CF4"
         ]
     },
     {
@@ -1338,24 +1338,6 @@
         "comp": "?",
         "flarm": [
             "524435"
-        ]
-    },
-    {
-        "name": "",
-        "cn": "?",
-        "glider": "",
-        "comp": "?",
-        "flarm": [
-            "D018D8"
-        ]
-    },
-    {
-        "name": "",
-        "cn": "?",
-        "glider": "",
-        "comp": "?",
-        "flarm": [
-            "D01CCE"
         ]
     },
     {

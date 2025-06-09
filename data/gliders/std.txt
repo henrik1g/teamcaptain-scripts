@@ -14,28 +14,27 @@ D004BF,,🇩🇪 JK,🇩🇪 Jan Kretzschmar
 DDFA01,,🇩🇪 GP,🇩🇪 Philipp Lauer
 DD8750,,🇩🇪 AR,🇩🇪 Max Maslak
 D025E0,,🇩🇰 EC,🇩🇰 Uffe Edslev
-D01CCE,,🇩🇰 CE,🇩🇰 Lasse Edslev
+D02C3E,,🇩🇰 CE,🇩🇰 Lasse Edslev
 D00CB7,,🇫🇮 JS,🇫🇮 Antti Koskiniemi
 D00413,,🇫🇮 AA,🇫🇮 Kristian Roine
 DDF12C,,🇫🇷 ET,🇫🇷 Louis Bouderlique
 D02C3D,,🇫🇷 JPA,🇫🇷 Julien Duboc
-7C7235,,🇬🇧 352,🇬🇧 Jez Hood
+D018D8,,🇬🇧 352,🇬🇧 Jez Hood
 D0049F,,🇬🇧 6,🇬🇧 Howard Jones
 D02B5E,,🇭🇺 WD,🇭🇺 Balázs Endrődi
-D00165,,🇭🇺 🇭🇺,🇭🇺 Szabolcs Veigli
+D00165,,🇭🇺 HUN,🇭🇺 Szabolcs Veigli
 DDECE7,,🇮🇱 TC,🇮🇱 Raphael Luski
 D0271F,,🇮🇱 BE,🇮🇱 Anton Minskii
-,,🇮🇹 RB,🇮🇹 Riccardo Brigliadori
+CA7374,,🇮🇹 AB,🇮🇹 Riccardo Brigliadori
 DD893C,,🇮🇹 LR,🇮🇹 Luca Urbani
 DDEFEB,,🇱🇹 H8,🇱🇹 Gvidas Sabeckis
 D01DCA,,🇱🇹 MG,🇱🇹 Joris Vainius
 D01F20,,🇳🇱 CM,🇳🇱 Robbie Seton
 484C82,,🇳🇱 SX,🇳🇱 Hadriaan van Nes
+A10926,,🇵🇱 LOT,🇵🇱 Jakub Barszcz
 D02AAE,,🇵🇱 LOT,🇵🇱 Jakub Barszcz
 DDEE69,,🇵🇱 I,🇵🇱 Łukasz Błaszczyk
-,,🇷🇴 YB,🇷🇴 Norbert Scarlat
+D01074,,🇷🇴 YB,🇷🇴 Norbert Scarlat
 D0132B,,🇷🇴 YA,🇷🇴 Ionut Tudor
 D00EBA,,🇸🇪 1,🇸🇪 Elias Severholt Fourati
 D003CD,,🇸🇰 SI,🇸🇰 Tomáš Bobok
-D018D8,,?,Unknown
-D01CCE,,?,Unknown

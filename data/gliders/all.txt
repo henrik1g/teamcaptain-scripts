@@ -8,8 +8,8 @@ D02953,,🇦🇷 EY,🇦🇷 Lucas Goldenzweig
 3E6294,,🇦🇹 KN,🇦🇹 Friedrich Hofinger
 440326,,🇦🇹 ZL,🇦🇹 Philipp Wittwer
 DF0EC9,,🇦🇹 XK,🇦🇹 Paul Bernhard
-,,🇦🇺 1A,🇦🇺 James Nugent
-,,🇦🇺 RZ,🇦🇺 Daniel Summers
+D00819,,🇦🇺 1A,🇦🇺 James Nugent
+D004F1,,🇦🇺 RZ,🇦🇺 Daniel Summers
 DDDE35,,🇦🇺 SE,🇦🇺 Allan Barnes
 D0016B,,🇦🇺 GX,🇦🇺 Adam Woolley
 45ACB8,,🇦🇺 EK,🇦🇺 David Jansen
@@ -19,19 +19,19 @@ D02A1A,,🇧🇪 FY,🇧🇪 Alexandre Mélot
 DDEA4B,,🇧🇪 LT,🇧🇪 Jeroen Jennen
 DDDF5F,,🇧🇪 5F,🇧🇪 Robin Selfslagh
 DDEBBE,,🇧🇪 LX,🇧🇪 Thomas Leduc
-D00C86,,🇧🇪 MMI,🇧🇪 André-Emmanuel Litt
+DDF0F9,,🇧🇪 MMI,🇧🇪 André-Emmanuel Litt
 D009BF,,🇧🇷 VV,🇧🇷 Henrique Navarro
 D02D23,,🇧🇷 EMI,🇧🇷 Gustavo Shigueno
 4B4BD2,,🇨🇭 MN,🇨🇭 Simon Gantner
 4B5067,,🇨🇭 CRN,🇨🇭 Yves Müller
-4B4E94,,🇨🇭 LR,🇨🇭 Yves Gerster
-,,🇨🇿 A3,🇨🇿 Ivan Harašta
+4B4E94,,🇨🇭 IR,🇨🇭 Yves Gerster
+D0291F,,🇨🇿 A3,🇨🇿 Ivan Harašta
 D01C39,,🇨🇿 CX,🇨🇿 Tomas Suchanek
 D01CEF,,🇨🇿 JB,🇨🇿 Miloslav Cink
 D0018B,,🇨🇿 EU,🇨🇿 Barbora Moravcová
 D02AE6,,🇨🇿 FX,🇨🇿 Jan Pavlík
 DDEFB9,,🇨🇿 AX,🇨🇿 Karel Novák
-,,🇨🇿 ZE,🇨🇿 Pavel Trybenekr
+D01F45,,🇨🇿 ZE,🇨🇿 Pavel Trybenekr
 DF2044,,🇩🇪 SF,🇩🇪 Stefan Langer
 3EEB98,,🇩🇪 SN,🇩🇪 Uwe Wahlig
 D004BF,,🇩🇪 JK,🇩🇪 Jan Kretzschmar
@@ -39,21 +39,21 @@ DDFA01,,🇩🇪 GP,🇩🇪 Philipp Lauer
 DD8750,,🇩🇪 AR,🇩🇪 Max Maslak
 DF14A3,,🇩🇪 SG,🇩🇪 Steffen Göttler
 D0103C,,🇩🇪 L7,🇩🇪 Steffen Schwarzer
-,,🇩🇰 YC,🇩🇰 Filip Bojanowski
+D02C19,,🇩🇰 YC,🇩🇰 Filip Bojanowski
 DDEDF9,,🇩🇰 W,🇩🇰 Michael Mix
 D025E0,,🇩🇰 EC,🇩🇰 Uffe Edslev
-D01CCE,,🇩🇰 CE,🇩🇰 Lasse Edslev
+D02C3E,,🇩🇰 CE,🇩🇰 Lasse Edslev
 D009CF,,🇩🇰 14,🇩🇰 Henrik Breidahl
 45A308,,🇩🇰 RJ,🇩🇰 Jonathan Bülow-Olsen
 DF1882,,🇪🇸 44,🇪🇸 Jaume Prats
-DDA659,,🇫🇮 KT,🇫🇮 Kim Toppari
+D00D2F,,🇫🇮 KT,🇫🇮 Kim Toppari
 D0054A,,🇫🇮 GE,🇫🇮 Mikko Ylihärsilä
 D00CB7,,🇫🇮 JS,🇫🇮 Antti Koskiniemi
 D00413,,🇫🇮 AA,🇫🇮 Kristian Roine
 D01387,,🇫🇮 3J,🇫🇮 Sami Rissanen
 D01CE6,,🇫🇮 3F,🇫🇮 Tapio Tourula
 D012D5,,🇫🇷 HG,🇫🇷 Hugo Corbillé
-D02720,,🇫🇷 AG,🇫🇷 Alexandre Fierain
+D01971,,🇫🇷 AG,🇫🇷 Alexandre Fierain
 D02B30,,🇫🇷 XI,🇫🇷 Louise Rodriguez
 DDF12C,,🇫🇷 ET,🇫🇷 Louis Bouderlique
 D02C3D,,🇫🇷 JPA,🇫🇷 Julien Duboc
@@ -61,7 +61,7 @@ D00900,,🇫🇷 LB,🇫🇷 Jean-Denis Barrois
 D00E2E,,🇫🇷 KW,🇫🇷 Maximilian SEIS
 D01063,,🇬🇧 194,🇬🇧 Timothy Fletcher
 4055BE,,🇬🇧 NW,🇬🇧 George White
-7C7235,,🇬🇧 352,🇬🇧 Jez Hood
+D018D8,,🇬🇧 352,🇬🇧 Jez Hood
 D0049F,,🇬🇧 6,🇬🇧 Howard Jones
 D009DF,,🇬🇧 DW,🇬🇧 Tom Arscott
 D00CA4,,🇬🇧 LE,🇬🇧 Leigh Wells
@@ -70,19 +70,19 @@ D01354,,🇭🇷 GM,🇭🇷 Grozdan Meglaj
 D017E9,,🇭🇺 AD,🇭🇺 György Gulyás
 DF2125,,🇭🇺 XW,🇭🇺 Ferenc TAMÁS
 D02B5E,,🇭🇺 WD,🇭🇺 Balázs Endrődi
-D00165,,🇭🇺 🇭🇺,🇭🇺 Szabolcs Veigli
+D00165,,🇭🇺 HUN,🇭🇺 Szabolcs Veigli
 D012AC,,🇭🇺 BK,🇭🇺 Kornél Negro
 D001C4,,🇭🇺 V8,🇭🇺 Tamás Vámosi
 DDECE7,,🇮🇱 TC,🇮🇱 Raphael Luski
 D0271F,,🇮🇱 BE,🇮🇱 Anton Minskii
 D026A3,,🇮🇹 LAB,🇮🇹 Lapo Alessandro Busi
 0D8014,,🇮🇹 B6,🇮🇹 Giacomo Dall'Olio
-,,🇮🇹 RB,🇮🇹 Riccardo Brigliadori
+CA7374,,🇮🇹 AB,🇮🇹 Riccardo Brigliadori
 DD893C,,🇮🇹 LR,🇮🇹 Luca Urbani
 D00E16,,🇮🇹 AI,🇮🇹 Lucio Bordin
 D00C04,,🇮🇹 RY,🇮🇹 Roberto Pinato
 D0105A,,🇱🇹 FL,🇱🇹 Darius Gudziunas
-28455E,,🇱🇹 AM,🇱🇹 Karolis Mikalauskas
+D00179,,🇱🇹 AM,🇱🇹 Karolis Mikalauskas
 DDEFEB,,🇱🇹 H8,🇱🇹 Gvidas Sabeckis
 D01DCA,,🇱🇹 MG,🇱🇹 Joris Vainius
 DDD93F,,🇱🇹 M7,🇱🇹 Vladas Motuza
@@ -91,18 +91,19 @@ D02B81,,🇱🇹 BB,🇱🇹 Marius Pluščauskas
 485222,,🇳🇱 KM,🇳🇱 Jeroen van Dijk
 D01F20,,🇳🇱 CM,🇳🇱 Robbie Seton
 484C82,,🇳🇱 SX,🇳🇱 Hadriaan van Nes
-DDF0F9,,🇳🇱 MM,🇳🇱 Peter Millenaar
+D00C86,,🇳🇱 MM,🇳🇱 Peter Millenaar
 3E7D9A,,🇳🇱 JV,🇳🇱 Jeroen Verkuijl
 4404BE,,🇳🇿 T5,🇳🇿 Michael Strathern
 D01CB6,,🇵🇱 FLS,🇵🇱 Jacek Flis
 D03425,,🇵🇱 PP,🇵🇱 Mikołaj Zdun
+A10926,,🇵🇱 LOT,🇵🇱 Jakub Barszcz
 D02AAE,,🇵🇱 LOT,🇵🇱 Jakub Barszcz
 DDEE69,,🇵🇱 I,🇵🇱 Łukasz Błaszczyk
-,,🇵🇱 RP,🇵🇱 Łukasz Grabowski
+101212,,🇵🇱 RP,🇵🇱 Łukasz Grabowski
 101211,,🇵🇱 ZJ,🇵🇱 Paweł Wojciechowski
 DDF0BD,,🇷🇴 Y3,🇷🇴 Tudor Bajenaru
 D00C74,,🇷🇴 Y2,🇷🇴 Alin Simion
-,,🇷🇴 YB,🇷🇴 Norbert Scarlat
+D01074,,🇷🇴 YB,🇷🇴 Norbert Scarlat
 D0132B,,🇷🇴 YA,🇷🇴 Ionut Tudor
 D00EBA,,🇸🇪 1,🇸🇪 Elias Severholt Fourati
 D015EE,,🇸🇮 CP,🇸🇮 Viktor Becan
@@ -114,7 +115,6 @@ D00992,,🇸🇰 3,🇸🇰 Vladimir Foltin
 DF2858,,🇺🇸 FP,🇺🇸 Sylvia Grandstaff
 D00DE8,,🇺🇸 73,🇺🇸 Jared Granzow
 DDEFD0,,🇺🇸 AF,🇺🇸 Mike Sorenson
-D00CF4,,?,Unknown
 617239,,?,Unknown
 D214B1,,?,Unknown
 C5AFCC,,?,Unknown
@@ -148,6 +148,4 @@ DBBDD7,,?,Unknown
 4D5F2E,,?,Unknown
 0EFC96,,?,Unknown
 524435,,?,Unknown
-D018D8,,?,Unknown
-D01CCE,,?,Unknown
 CDCDCD,,?,Unknown
