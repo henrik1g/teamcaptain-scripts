@@ -18,7 +18,7 @@ D009CF,,14,🇩🇰 Henrik Breidahl
 D01387,,3J,🇫🇮 Sami Rissanen
 D01CE6,,3F,🇫🇮 Tapio Tourula
 D00900,,LB,🇫🇷 Jean-Denis Barrois
-DDEDF9,,KW,🇫🇷 Maximilian SEIS
+,,KW,🇫🇷 Maximilian SEIS
 D009DF,,DW,🇬🇧 Tom Arscott
 D00CA4,,LE,🇬🇧 Leigh Wells
 ,,HAB,🇭🇺 Kornél Negro

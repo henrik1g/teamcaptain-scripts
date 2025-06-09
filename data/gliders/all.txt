@@ -40,7 +40,7 @@ DD8750,,🇩🇪AR,🇩🇪 Max Maslak
 DF14A3,,🇩🇪SG,🇩🇪 Steffen Göttler
 D0103C,,🇩🇪L7,🇩🇪 Steffen Schwarzer
 ,,YC,🇩🇰 Filip Bojanowski
-,,W,🇩🇰 Michael Mix
+DDEDF9,,W,🇩🇰 Michael Mix
 D025E0,,EC,🇩🇰 Uffe Edslev
 D02C3E,,CE,🇩🇰 Lasse Edslev
 D009CF,,14,🇩🇰 Henrik Breidahl
@@ -58,7 +58,7 @@ D02B30,,XI,🇫🇷 Louise Rodriguez
 DDF12C,,ET,🇫🇷 Louis Bouderlique
 D02C3D,,JPA,🇫🇷 Julien Duboc
 D00900,,LB,🇫🇷 Jean-Denis Barrois
-DDEDF9,,KW,🇫🇷 Maximilian SEIS
+,,KW,🇫🇷 Maximilian SEIS
 D01063,,194,🇬🇧 Timothy Fletcher
 4055BE,,NW,🇬🇧 George White
 7C7235,,352,🇬🇧 Jez Hood

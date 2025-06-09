@@ -12,7 +12,7 @@ D02A1A,,FY,🇧🇪 Alexandre Mélot
 DF2044,,🇩🇪SF,🇩🇪 Stefan Langer
 3EEB98,,🇩🇪SN,🇩🇪 Uwe Wahlig
 ,,YC,🇩🇰 Filip Bojanowski
-,,W,🇩🇰 Michael Mix
+DDEDF9,,W,🇩🇰 Michael Mix
 DF1882,,44,🇪🇸 Jaume Prats
 DDA659,,KT,🇫🇮 Kim Toppari
 ,,GE,🇫🇮 Mikko Ylihärsilä
