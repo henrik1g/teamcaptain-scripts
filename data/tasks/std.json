@@ -1,37 +1,37 @@
 {
-    "type": "AAT",
+    "type": "RT",
     "points": [
         {
             "type": "Next",
-            "name": "005SPRATIBOR",
-            "altitude": 500.0,
-            "lat": 49.46361666666691,
-            "lng": 14.768616666666482,
+            "name": "011SPBOROTIN",
+            "altitude": 516.0,
+            "lat": 49.504450000000176,
+            "lng": 14.614166666666783,
             "radius": 7500
         },
         {
-            "type": "AAT Sector",
-            "name": "047BITOV",
-            "altitude": 428.0,
-            "lat": 48.94304999999996,
-            "lng": 15.702216666666537,
-            "radius": 20000
+            "type": "Symmetric",
+            "name": "040BELA",
+            "altitude": 500.0,
+            "lat": 49.588333333333246,
+            "lng": 12.721383333333451,
+            "radius": 500
         },
         {
-            "type": "AAT Sector",
-            "name": "314LITSCHAU",
-            "altitude": 530.0,
-            "lat": 48.94249999999973,
-            "lng": 15.045000000000181,
-            "radius": 20000
+            "type": "Symmetric",
+            "name": "426POHORINASUMAVE",
+            "altitude": 700.0,
+            "lat": 48.6036166666664,
+            "lng": 14.696949999999964,
+            "radius": 500
         },
         {
-            "type": "AAT Sector",
-            "name": "566TREST",
-            "altitude": 572.0,
-            "lat": 49.29361666666692,
-            "lng": 15.476116666666488,
-            "radius": 20000
+            "type": "Symmetric",
+            "name": "701UOBRAZKU",
+            "altitude": 663.0,
+            "lat": 49.18190000000005,
+            "lng": 15.6336833333334,
+            "radius": 500
         },
         {
             "type": "Cylinder",
