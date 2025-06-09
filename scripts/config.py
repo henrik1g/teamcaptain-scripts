@@ -8,7 +8,7 @@ import os
 comp_name = "tabor_25"
 
 # Base URL for SoaringSpot event
-base_url = 'https://www.SoaringSpot.com/en_gb/39th-fai-world-gliding-championships-tabor-2025'
+base_url = 'https://www.soaringspot.com/en_gb/39th-fai-world-gliding-championships-tabor-2025'
 
 # =========================
 # Competition Classes & Mappings
@@ -43,10 +43,10 @@ results_table_map = {
 # =========================
 
 # Default WhatsApp message to send with the weather briefing
-whatsapp_message = "Chatty ist der Beste! Hier ist die aktuelle Wettervorhersage für Tabor 2025."
+whatsapp_message = "Chatty ist der Beste! Hier ist die heutige Wettervorhersage für Tabor 2025."
 
-# WhatsApp group name to send the weather briefing to
-whatsapp_group = 'Ich mache hier nur Notize'
+# WhatsApp group name to send the weather briefing to (Emojis are not allowed in the string here, but may be included in the actual group name! Looking for the closes match!)
+whatsapp_group = 'Piloten WGC Tabor'
 
 # =========================
 # Git & LibreOffice Settings

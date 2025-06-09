@@ -10,7 +10,7 @@ import time
 def send_pdf_to_whatsapp_group(pdf_path):
     print(f"⚙️  Sending latest weather briefing to WhatsApp group '{config.whatsapp_group}'")
     try:
-        driver = chrome_utils.open_chrome(config.chromedriver_user_data_dir, True)
+        driver = chrome_utils.open_chrome(config.chromedriver_user_data_dir, False)
         driver.get("https://web.whatsapp.com/")
 
         # Wait for WhatsApp Web to load (minimized sleep, responsive)
@@ -22,10 +22,21 @@ def send_pdf_to_whatsapp_group(pdf_path):
 
         search_box.click()
         search_box.send_keys(config.whatsapp_group)
+        time.sleep(1)
 
-        group = utils.wait_for_element(driver, By.XPATH, f'//span[@title="{config.whatsapp_group}"]', timeout=10, poll_frequency=0.2)
+        # Re-find all chat titles after the DOM update
+        chat_spans = driver.find_elements(By.XPATH, '//span[@title]')
+        group = None
+        for span in chat_spans:
+            try:
+                title = span.get_attribute("title")
+                if config.whatsapp_group in title and span.is_displayed():
+                    group = span
+                    break
+            except Exception:
+                continue
         if not group:
-            print(f"❌ Could not find WhatsApp group '{config.whatsapp_group}'.")
+            print(f"❌ Could not find WhatsApp group containing '{search_substring}'.")
             driver.quit()
             return
         group.click()
