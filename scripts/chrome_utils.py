@@ -102,7 +102,7 @@ def open_tabs():
             first_tab = True
             for url in urls:
                 # Placeholder replacement logic
-                if "{taskID}" in url or "{classURL}" in url or "{classFile}" or "{gitHubPath}" in url:
+                if "{taskID}" in url or "{classURL}" in url or "{classFile}" in url or "{gitHubPath}" in url:
                     for class_name in config.classes:
                         task_id = config.selected_task_ids.get(class_name, False)
                         class_url = config.url_map.get(class_name, False)
