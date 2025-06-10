@@ -67,7 +67,7 @@ def send_pdf_to_whatsapp_group(pdf_path):
         msg_box.send_keys(u'\ue007')  # Press Enter
 
         # Wait for the message to be sent
-        time.sleep(5)  # Wait for a few seconds to ensure the message is sent
+        time.sleep(10)  # Wait for a few seconds to ensure the message is sent
         driver.quit()
         print("✅ PDF sent to WhatsApp group.")
     except Exception as e:
