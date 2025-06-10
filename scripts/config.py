@@ -48,6 +48,10 @@ whatsapp_message = "Chatty ist der Beste! Hier ist die heutige Wettervorhersage 
 # WhatsApp group name to send the weather briefing to (Emojis are not allowed in the string here, but may be included in the actual group name! Looking for the closes match!)
 whatsapp_group = 'Piloten WGC Tabor'
 
+# WhatsApp timeout for sending the message. This is the time the app waits between adding the presentation to the chat and closing the window
+# Increase time if internet connection is weak or file is large
+whatsapp_wait = 7
+
 # =========================
 # Git & LibreOffice Settings
 # =========================
@@ -107,3 +111,6 @@ selected_task_ids = {}
 
 # Whether to automatically commit and push to git after updates
 commit_and_push_to_git = True
+
+# Whether to automatically commit and push to git after updates
+driver = None
