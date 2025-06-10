@@ -28,7 +28,7 @@ def create_glider_txt_file(class_name):
     df[['FlarmID', 'COMP', 'Flag', 'Name']] = df[['FlarmID', 'COMP', 'Flag', 'Name']].fillna('')
     
     # Build the string using the specified format
-    df['String'] = df.apply(lambda row: f"{row['FlarmID']},,{row['COMP']},{row['Flag'] + ' ' if row['Flag'] else ''}{row['Name']}", axis=1)
+    df['String'] = df.apply(lambda row: f"{row['FlarmID']},,{row['Flag'] + ' ' if row['Flag'] else ''}{row['COMP']},{row['Flag'] + ' ' if row['Flag'] else ''}{row['Name']}", axis=1)
 
     # Write lines manually to avoid any escaping
     with open(filepath, "w", encoding="utf-8") as f:
