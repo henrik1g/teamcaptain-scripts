@@ -73,11 +73,11 @@ def open_tab(driver, url, first_tab):
 
 # Function to open Chrome tabs from the url file
 def open_tabs():
-    # Parse URLs and their desired window numbers
     if not os.path.exists(config.url_file):
         print(f"❌ URL file '{config.url_file}' does not exist. Skipping opening tabs and latest weather briefing.")
-    else:
-        print("⚙️  Opening Chrome tabs from URL file...")
+        return
+    print("⚙️  Opening Chrome tabs from URL file...")
+
     try:
         win_urls = {}  # {window_number: [url1, url2, ...]}
         with open(config.url_file, "r", encoding="utf-8") as f:
@@ -89,44 +89,91 @@ def open_tabs():
                     try:
                         win_part, url = line.split("}", 1)
                         url = url.strip()
-                        win_num = int(win_part.replace("{WIN:", ""))
+                        win_key = win_part.replace("{WIN:", "")
+                        if win_key == "I":
+                            # {WIN:I} - one window per class
+                            github_path = getattr(config, "github_path", "")
+                            base_replacements = {"{gitHubPath}": github_path}
+                            if any(ph in url for ph in ("{taskID}", "{classURL}", "{classFile}")):
+                                for class_name in config.classes:
+                                    task_id = config.selected_task_ids.get(class_name, "")
+                                    class_url = config.url_map.get(class_name, "")
+                                    file_url = config.filename_map.get(class_name, "")
+                                    if not all([task_id, class_url, file_url]):
+                                        continue
+                                    replacements = {
+                                        **base_replacements,
+                                        "{taskID}": task_id,
+                                        "{classURL}": class_url,
+                                        "{classFile}": file_url,
+                                    }
+                                    url_filled = url
+                                    for key, value in replacements.items():
+                                        url_filled = url_filled.replace(key, value)
+                                    # Use a unique window number for each class window
+                                    win_urls.setdefault(f"I_{class_name}", []).append(url_filled)
+                            else:
+                                # If no class placeholders, treat as a normal window
+                                win_urls.setdefault("I", []).append(url)
+                        else:
+                            win_num = int(win_key)
+                            github_path = getattr(config, "github_path", "")
+                            base_replacements = {"{gitHubPath}": github_path}
+                            if any(ph in url for ph in ("{taskID}", "{classURL}", "{classFile}")):
+                                for class_name in config.classes:
+                                    task_id = config.selected_task_ids.get(class_name, "")
+                                    class_url = config.url_map.get(class_name, "")
+                                    file_url = config.filename_map.get(class_name, "")
+                                    if not all([task_id, class_url, file_url]):
+                                        continue
+                                    replacements = {
+                                        **base_replacements,
+                                        "{taskID}": task_id,
+                                        "{classURL}": class_url,
+                                        "{classFile}": file_url,
+                                    }
+                                    url_filled = url
+                                    for key, value in replacements.items():
+                                        url_filled = url_filled.replace(key, value)
+                                    win_urls.setdefault(win_num, []).append(url_filled)
+                            else:
+                                url_filled = url
+                                for key, value in base_replacements.items():
+                                    url_filled = url_filled.replace(key, value)
+                                win_urls.setdefault(win_num, []).append(url_filled)
                     except Exception:
                         print(f"❌ URL '{line}' has an invalid window ID.")
                         continue
                 else:
-                    #urls.setdefault(0, []).append(line)
-                    win_num = 0
+                    # No {WIN:} - default to window 0
                     url = line
+                    github_path = getattr(config, "github_path", "")
+                    base_replacements = {"{gitHubPath}": github_path}
+                    if any(ph in url for ph in ("{taskID}", "{classURL}", "{classFile}")):
+                        for class_name in config.classes:
+                            task_id = config.selected_task_ids.get(class_name, "")
+                            class_url = config.url_map.get(class_name, "")
+                            file_url = config.filename_map.get(class_name, "")
+                            if not all([task_id, class_url, file_url]):
+                                continue
+                            replacements = {
+                                **base_replacements,
+                                "{taskID}": task_id,
+                                "{classURL}": class_url,
+                                "{classFile}": file_url,
+                            }
+                            url_filled = url
+                            for key, value in replacements.items():
+                                url_filled = url_filled.replace(key, value)
+                            win_urls.setdefault(0, []).append(url_filled)
+                    else:
+                        url_filled = url
+                        for key, value in base_replacements.items():
+                            url_filled = url_filled.replace(key, value)
+                        win_urls.setdefault(0, []).append(url_filled)
 
-                # Replace placeholders
-                if "{gitHubPath}" in url:
-                    github_path = config.github_path
-                    replacements = {
-                            "{gitHubPath}": github_path
-                        }
-                    for key, value in replacements.items():
-                            url = url.replace(key, value)
-                # Replace 
-                if "{taskID}" in url or "{classURL}" in url or "{classFile}" in url:
-                    for class_name in config.classes:
-                        task_id = config.selected_task_ids.get(class_name, False)
-                        class_url = config.url_map.get(class_name, False)
-                        file_url = config.filename_map.get(class_name, False)
-                        
-                        replacements = {
-                            "{taskID}": task_id,
-                            "{classURL}": class_url,
-                            "{classFile}": file_url,
-                        }
-                        url_class = url
-                        for key, value in replacements.items():
-                            url_class = url_class.replace(key, value)
-                        win_urls.setdefault(win_num, []).append(url_class)
-                else:
-                    win_urls.setdefault(win_num, []).append(url)
-
-        # Open each window and load its URLs (each URL in a new tab in that window)
-        for win_num in sorted(win_urls.keys()):
+        # Step 2: Open each window and load its URLs (each URL in a new tab in that window)
+        for win_num in win_urls:
             driver = open_chrome(None, False)
             urls = win_urls[win_num]
             first_tab = True
@@ -134,4 +181,4 @@ def open_tabs():
                 first_tab = open_tab(driver, url, first_tab)
         print("✅ Chrome tabs opened successfully.")
     except Exception as e:
-        print(f"❌ Error opening Chrome tabs: {e}") 
+        print(f"❌ Error opening Chrome tabs: {e}")

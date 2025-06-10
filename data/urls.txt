@@ -1,6 +1,17 @@
+# URL list for Team Captain Script
+# Each line can start with {WIN:N} to open the URL in window N (numbered in the order they appear).
+# Use {WIN:I} to open one window per competition class (if the URL contains class placeholders).
+# Supported placeholders: {taskID}, {classURL}, {classFile}, {gitHubPath}
+# Lines starting with # are ignored.
+#
+# Examples:
+# {WIN:0}https://www.weglide.org/live
+# {WIN:I}https://ogn.cloud/?tsk=.../{classFile}.tsk&lst=.../{classFile}.txt
+# https://www.meteoblue.com/de/wetter/heute/t%c3%a1bor_tschechien_3064379
+
 {WIN:0}https://www.weglide.org/live
-{WIN:0}https://copilot.weglide.org/
+{WIN:1}https://copilot.weglide.org/
 https://www.meteoblue.com/de/wetter/heute/t%c3%a1bor_tschechien_3064379
-{WIN:1}https://www.soaringspot.com/en_gb/39th-fai-world-gliding-championships-tabor-2025/tasks/{classURL}/{taskID}
-{WIN:2}https://glideandseek.com/?taskOneUrl=https://raw.githubusercontent.com/nilsschlautmann/wgc2025/main/data/tasks/{classFile}.json&viewport=49.16885,15.12417,10&aircraftDataUrl=https://raw.githubusercontent.com/nilsschlautmann/wgc2025/main/data/gliders/{classFile}.json
-{WIN:4}https://ogn.cloud/?tsk=https://raw.githubusercontent.com/nilsschlautmann/wgc2025/main/data/tasks/{classFile}.tsk&lst=https://raw.githubusercontent.com/nilsschlautmann/wgc2025/main/data/gliders/{classFile}.txt
+#{WIN:1}https://www.soaringspot.com/en_gb/39th-fai-world-gliding-championships-tabor-2025/tasks/{classURL}/{taskID}
+#{WIN:2}https://glideandseek.com/?taskOneUrl=https://raw.githubusercontent.com/nilsschlautmann/wgc2025/main/data/tasks/{classFile}.json&viewport=49.16885,15.12417,10&aircraftDataUrl=https://raw.githubusercontent.com/nilsschlautmann/wgc2025/main/data/gliders/{classFile}.json
+{WIN:I}https://ogn.cloud/?tsk=https://raw.githubusercontent.com/nilsschlautmann/wgc2025/main/data/tasks/{classFile}.tsk&lst=https://raw.githubusercontent.com/nilsschlautmann/wgc2025/main/data/gliders/{classFile}.txt

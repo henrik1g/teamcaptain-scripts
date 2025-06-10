@@ -102,13 +102,18 @@ Choose options to update tasks, generate files, open browser tabs, send WhatsApp
 ## 📄 URL File Format
 
 - Place URLs in `data/urls.txt`.
-- Use `{WIN:N}` to open URLs in specific Chrome windows.
 - Use placeholders like `{taskID}`, `{classURL}`, `{classFile}` for dynamic replacement.
+- Use `{WIN:N}` to open URLs in specific windows. If no window is specified, {WIN:0} is the default choice
+- `{WIN:I}` tells the script to open **one window per competition class** for the given URL.
+- If the URL contains class placeholders (like `{taskID}`, `{classURL}`, `{classFile}`), the script will generate a separate URL for each class, replacing the placeholders accordingly.
+- Each generated URL will be opened in its own window, in the order classes are defined in your configuration.
+- This is useful for tracking or visualization sites where you want a dedicated window for each class.
 
 **Example:**
 ```
 https://www.example.com
 {WIN:2} https://another.com/{taskID}
+{WIN:I}https://ogn.cloud/?tsk=https://raw.githubusercontent.com/nilsschlautmann/wgc2025/main/data/tasks/{classFile}.tsk&lst=https://raw.githubusercontent.com/nilsschlautmann/wgc2025/main/data/gliders/{classFile}.txt
 ```
 
 ---
