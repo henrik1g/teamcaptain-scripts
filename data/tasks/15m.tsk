@@ -1,4 +1,4 @@
-<Task type="RT">
+<Task aat_min_time="6300" type="AAT">
   <Point type="Start">
     <Waypoint altitude="534" name="006SPCHYNOV">
       <Location latitude="49.41166666666697" longitude="14.832216666666575"/>
@@ -6,28 +6,22 @@
     <ObservationZone length="15000" type="Line"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="700" name="479ROZVADOV">
-      <Location latitude="49.67195000000015" longitude="12.556666666666974"/>
+    <Waypoint altitude="510" name="676SEDLICE">
+      <Location latitude="49.37590000000011" longitude="13.941533333333517"/>
     </Waypoint>
-    <ObservationZone radius="500" type="Cylinder"/>
+    <ObservationZone radius="40000" type="Cylinder"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="663" name="496SCHONSEE">
-      <Location latitude="49.50833333333357" longitude="12.550000000000095"/>
+    <Waypoint altitude="576" name="710WETZELSBERG">
+      <Location latitude="48.916216666666735" longitude="15.42679999999993"/>
     </Waypoint>
-    <ObservationZone radius="500" type="Cylinder"/>
+    <ObservationZone radius="30000" type="Cylinder"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="688" name="688MALONTY">
-      <Location latitude="48.68576666666679" longitude="14.57916666666667"/>
+    <Waypoint altitude="650" name="608VYSKYTNA">
+      <Location latitude="49.427783333333075" longitude="15.364166666666929"/>
     </Waypoint>
-    <ObservationZone radius="500" type="Cylinder"/>
-  </Point>
-  <Point type="Turn">
-    <Waypoint altitude="565" name="646ZIROVNICE">
-      <Location latitude="49.25388333333354" longitude="15.193333333333229"/>
-    </Waypoint>
-    <ObservationZone radius="500" type="Cylinder"/>
+    <ObservationZone radius="25000" type="Cylinder"/>
   </Point>
   <Point type="Finish">
     <Waypoint altitude="428" name="001SPTABOR">

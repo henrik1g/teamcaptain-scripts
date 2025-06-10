@@ -1,33 +1,27 @@
-<Task type="RT">
+<Task aat_min_time="8100" type="AAT">
   <Point type="Start">
-    <Waypoint altitude="461" name="012SPSMOLEC">
-      <Location latitude="49.308333333333486" longitude="14.546116666666906"/>
+    <Waypoint altitude="477" name="002SPZELEC">
+      <Location latitude="49.316116666666424" longitude="14.64416666666688"/>
     </Waypoint>
     <ObservationZone length="15000" type="Line"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="688" name="405PAVLOVA">
-      <Location latitude="49.841116666666416" longitude="12.473050000000073"/>
+    <Waypoint altitude="510" name="676SEDLICE">
+      <Location latitude="49.37590000000011" longitude="13.941533333333517"/>
     </Waypoint>
-    <ObservationZone radius="500" type="Cylinder"/>
+    <ObservationZone radius="40000" type="Cylinder"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="600" name="612WAIDHAUS">
-      <Location latitude="49.63750000000027" longitude="12.49195000000025"/>
+    <Waypoint altitude="576" name="710WETZELSBERG">
+      <Location latitude="48.916216666666735" longitude="15.42679999999993"/>
     </Waypoint>
-    <ObservationZone radius="500" type="Cylinder"/>
+    <ObservationZone radius="30000" type="Cylinder"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="650" name="590VETRNYJENIKOV">
-      <Location latitude="49.473616666666935" longitude="15.478050000000096"/>
+    <Waypoint altitude="650" name="608VYSKYTNA">
+      <Location latitude="49.427783333333075" longitude="15.364166666666929"/>
     </Waypoint>
-    <ObservationZone radius="500" type="Cylinder"/>
-  </Point>
-  <Point type="Turn">
-    <Waypoint altitude="500" name="537STUDENA">
-      <Location latitude="49.199999999999996" longitude="15.302499999999869"/>
-    </Waypoint>
-    <ObservationZone radius="500" type="Cylinder"/>
+    <ObservationZone radius="25000" type="Cylinder"/>
   </Point>
   <Point type="Finish">
     <Waypoint altitude="428" name="001SPTABOR">

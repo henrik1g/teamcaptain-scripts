@@ -1,14 +1,14 @@
 name,code,country,lat,lon,elev,style,rwdir,rwlen,freq,desc
 "011SPBOROTIN","","", 4930.267N, 01436.850E, 516m,1,,,,,""
-"040BELA","","", 4935.300N, 01243.283E, 500m,1,,,,,""
-"426POHORINASUMAVE","","", 4836.217N, 01441.817E, 700m,1,,,,,""
-"701UOBRAZKU","","", 4910.914N, 01538.021E, 663m,1,,,,,""
+"676SEDLICE","","", 4922.554N, 01356.492E, 510m,1,,,,,""
+"710WETZELSBERG","","", 4854.973N, 01525.608E, 576m,1,,,,,""
+"608VYSKYTNA","","", 4925.667N, 01521.850E, 650m,1,,,,,""
 "001SPTABOR","","", 4923.650N, 01442.167E, 428m,1,,,,,""
 -----Related Tasks-----
-"Task on 2025-06-09","","011SPBOROTIN","040BELA","426POHORINASUMAVE","701UOBRAZKU","001SPTABOR",""
+"Task on 2025-06-10","","011SPBOROTIN","676SEDLICE","710WETZELSBERG","608VYSKYTNA","001SPTABOR",""
 Options
 ObsZone=0,Style=2,R1=7500m,A1=180,Line=1
-ObsZone=1,Style=3,R1=500m,A1=180
-ObsZone=2,Style=3,R1=500m,A1=180
-ObsZone=3,Style=3,R1=500m,A1=180
+ObsZone=1,Style=3,R1=40000m,A1=180
+ObsZone=2,Style=3,R1=30000m,A1=180
+ObsZone=3,Style=3,R1=25000m,A1=180
 ObsZone=4,Style=3,R1=5000m,A1=180

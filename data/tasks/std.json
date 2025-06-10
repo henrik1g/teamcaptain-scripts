@@ -1,5 +1,5 @@
 {
-    "type": "RT",
+    "type": "AAT",
     "points": [
         {
             "type": "Next",
@@ -10,28 +10,28 @@
             "radius": 7500
         },
         {
-            "type": "Symmetric",
-            "name": "040BELA",
-            "altitude": 500.0,
-            "lat": 49.588333333333246,
-            "lng": 12.721383333333451,
-            "radius": 500
+            "type": "AAT Sector",
+            "name": "676SEDLICE",
+            "altitude": 510.0,
+            "lat": 49.37590000000011,
+            "lng": 13.941533333333517,
+            "radius": 40000
         },
         {
-            "type": "Symmetric",
-            "name": "426POHORINASUMAVE",
-            "altitude": 700.0,
-            "lat": 48.6036166666664,
-            "lng": 14.696949999999964,
-            "radius": 500
+            "type": "AAT Sector",
+            "name": "710WETZELSBERG",
+            "altitude": 576.0,
+            "lat": 48.916216666666735,
+            "lng": 15.42679999999993,
+            "radius": 30000
         },
         {
-            "type": "Symmetric",
-            "name": "701UOBRAZKU",
-            "altitude": 663.0,
-            "lat": 49.18190000000005,
-            "lng": 15.6336833333334,
-            "radius": 500
+            "type": "AAT Sector",
+            "name": "608VYSKYTNA",
+            "altitude": 650.0,
+            "lat": 49.427783333333075,
+            "lng": 15.364166666666929,
+            "radius": 25000
         },
         {
             "type": "Cylinder",

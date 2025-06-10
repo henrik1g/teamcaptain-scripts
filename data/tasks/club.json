@@ -1,45 +1,37 @@
 {
-    "type": "RT",
+    "type": "AAT",
     "points": [
         {
             "type": "Next",
-            "name": "012SPSMOLEC",
-            "altitude": 461.0,
-            "lat": 49.308333333333486,
-            "lng": 14.546116666666906,
+            "name": "002SPZELEC",
+            "altitude": 477.0,
+            "lat": 49.316116666666424,
+            "lng": 14.64416666666688,
             "radius": 7500
         },
         {
-            "type": "Symmetric",
-            "name": "405PAVLOVA",
-            "altitude": 688.0,
-            "lat": 49.841116666666416,
-            "lng": 12.473050000000073,
-            "radius": 500
+            "type": "AAT Sector",
+            "name": "676SEDLICE",
+            "altitude": 510.0,
+            "lat": 49.37590000000011,
+            "lng": 13.941533333333517,
+            "radius": 40000
         },
         {
-            "type": "Symmetric",
-            "name": "612WAIDHAUS",
-            "altitude": 600.0,
-            "lat": 49.63750000000027,
-            "lng": 12.49195000000025,
-            "radius": 500
+            "type": "AAT Sector",
+            "name": "710WETZELSBERG",
+            "altitude": 576.0,
+            "lat": 48.916216666666735,
+            "lng": 15.42679999999993,
+            "radius": 30000
         },
         {
-            "type": "Symmetric",
-            "name": "590VETRNYJENIKOV",
+            "type": "AAT Sector",
+            "name": "608VYSKYTNA",
             "altitude": 650.0,
-            "lat": 49.473616666666935,
-            "lng": 15.478050000000096,
-            "radius": 500
-        },
-        {
-            "type": "Symmetric",
-            "name": "537STUDENA",
-            "altitude": 500.0,
-            "lat": 49.199999999999996,
-            "lng": 15.302499999999869,
-            "radius": 500
+            "lat": 49.427783333333075,
+            "lng": 15.364166666666929,
+            "radius": 25000
         },
         {
             "type": "Cylinder",

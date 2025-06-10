@@ -1,5 +1,5 @@
 {
-    "type": "RT",
+    "type": "AAT",
     "points": [
         {
             "type": "Next",
@@ -10,36 +10,28 @@
             "radius": 7500
         },
         {
-            "type": "Symmetric",
-            "name": "479ROZVADOV",
-            "altitude": 700.0,
-            "lat": 49.67195000000015,
-            "lng": 12.556666666666974,
-            "radius": 500
+            "type": "AAT Sector",
+            "name": "676SEDLICE",
+            "altitude": 510.0,
+            "lat": 49.37590000000011,
+            "lng": 13.941533333333517,
+            "radius": 40000
         },
         {
-            "type": "Symmetric",
-            "name": "496SCHONSEE",
-            "altitude": 663.0,
-            "lat": 49.50833333333357,
-            "lng": 12.550000000000095,
-            "radius": 500
+            "type": "AAT Sector",
+            "name": "710WETZELSBERG",
+            "altitude": 576.0,
+            "lat": 48.916216666666735,
+            "lng": 15.42679999999993,
+            "radius": 30000
         },
         {
-            "type": "Symmetric",
-            "name": "688MALONTY",
-            "altitude": 688.0,
-            "lat": 48.68576666666679,
-            "lng": 14.57916666666667,
-            "radius": 500
-        },
-        {
-            "type": "Symmetric",
-            "name": "646ZIROVNICE",
-            "altitude": 565.0,
-            "lat": 49.25388333333354,
-            "lng": 15.193333333333229,
-            "radius": 500
+            "type": "AAT Sector",
+            "name": "608VYSKYTNA",
+            "altitude": 650.0,
+            "lat": 49.427783333333075,
+            "lng": 15.364166666666929,
+            "radius": 25000
         },
         {
             "type": "Cylinder",
