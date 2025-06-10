@@ -88,12 +88,42 @@ def open_tabs():
                 if line.startswith("{WIN:"):
                     try:
                         win_part, url = line.split("}", 1)
+                        url = url.strip()
                         win_num = int(win_part.replace("{WIN:", ""))
-                        win_urls.setdefault(win_num, []).append(url.strip())
                     except Exception:
+                        print(f"❌ URL '{line}' has an invalid window ID.")
                         continue
                 else:
-                    win_urls.setdefault(0, []).append(line)
+                    #urls.setdefault(0, []).append(line)
+                    win_num = 0
+                    url = line
+
+                # Replace placeholders
+                if "{gitHubPath}" in url:
+                    github_path = config.github_path
+                    replacements = {
+                            "{gitHubPath}": github_path
+                        }
+                    for key, value in replacements.items():
+                            url = url.replace(key, value)
+                # Replace 
+                if "{taskID}" in url or "{classURL}" in url or "{classFile}" in url:
+                    for class_name in config.classes:
+                        task_id = config.selected_task_ids.get(class_name, False)
+                        class_url = config.url_map.get(class_name, False)
+                        file_url = config.filename_map.get(class_name, False)
+                        
+                        replacements = {
+                            "{taskID}": task_id,
+                            "{classURL}": class_url,
+                            "{classFile}": file_url,
+                        }
+                        url_class = url
+                        for key, value in replacements.items():
+                            url_class = url_class.replace(key, value)
+                        win_urls.setdefault(win_num, []).append(url_class)
+                else:
+                    win_urls.setdefault(win_num, []).append(url)
 
         # Open each window and load its URLs (each URL in a new tab in that window)
         for win_num in sorted(win_urls.keys()):
@@ -101,25 +131,7 @@ def open_tabs():
             urls = win_urls[win_num]
             first_tab = True
             for url in urls:
-                # Placeholder replacement logic
-                if "{taskID}" in url or "{classURL}" in url or "{classFile}" in url or "{gitHubPath}" in url:
-                    for class_name in config.classes:
-                        task_id = config.selected_task_ids.get(class_name, False)
-                        class_url = config.url_map.get(class_name, False)
-                        file_url = config.filename_map.get(class_name, False)
-                        github_path = config.github_path
-                        replacements = {
-                            "{taskID}": task_id,
-                            "{classURL}": class_url,
-                            "{classFile}": file_url,
-                            "{gitHubPath}": github_path
-                        }
-                        url_filled = url
-                        for key, value in replacements.items():
-                            url_filled = url_filled.replace(key, value)
-                        first_tab = open_tab(driver, url_filled, first_tab)
-                else:
-                    first_tab = open_tab(driver, url, first_tab)
+                first_tab = open_tab(driver, url, first_tab)
         print("✅ Chrome tabs opened successfully.")
     except Exception as e:
         print(f"❌ Error opening Chrome tabs: {e}") 
