@@ -115,7 +115,7 @@ def create_waypoint(parent, point):
     SubElement(wp_elem, 'Location', latitude=str(np.rad2deg(point['latitude'])), longitude=str(np.rad2deg(point['longitude'])))
     
     if point_type == 'Start':
-        SubElement(point_elem, 'ObservationZone', length=str(point['oz_radius1']), type="Line")
+        SubElement(point_elem, 'ObservationZone', length=str(2*point['oz_radius1']), type="Line")
     else:
         SubElement(point_elem, 'ObservationZone', radius=str(point['oz_radius1']), type="Cylinder")
 
