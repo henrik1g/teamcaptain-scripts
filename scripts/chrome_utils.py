@@ -173,12 +173,21 @@ def open_tabs():
                         win_urls.setdefault(0, []).append(url_filled)
 
         # Step 2: Open each window and load its URLs (each URL in a new tab in that window)
+        first_window = True
         for win_num in win_urls:
-            driver = open_chrome(None, False)
-            urls = win_urls[win_num]
             first_tab = True
-            for url in urls:
-                first_tab = open_tab(driver, url, first_tab)
+            urls = win_urls[win_num]
+
+            if first_window:
+                config.driver = open_chrome(config.chromedriver_user_data_dir, False)
+                first_window = False
+                for url in urls:
+                    first_tab = open_tab(config.driver, url, first_tab)
+            else:
+                driver = open_chrome(None, False)
+                for url in urls:
+                    first_tab = open_tab(driver, url, first_tab)
+            
         print("✅ Chrome tabs opened successfully.")
     except Exception as e:
         print(f"❌ Error opening Chrome tabs: {e}")
