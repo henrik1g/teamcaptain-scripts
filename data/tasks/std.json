@@ -1,37 +1,45 @@
 {
-    "type": "AAT",
+    "type": "RT",
     "points": [
         {
             "type": "Next",
-            "name": "011SPBOROTIN",
-            "altitude": 516.0,
-            "lat": 49.504450000000176,
-            "lng": 14.614166666666783,
+            "name": "009SPCHOTOVINY",
+            "altitude": 533.0,
+            "lat": 49.47749999999974,
+            "lng": 14.676116666666756,
             "radius": 7500
         },
         {
-            "type": "AAT Sector",
-            "name": "676SEDLICE",
-            "altitude": 510.0,
-            "lat": 49.37590000000011,
-            "lng": 13.941533333333517,
-            "radius": 40000
+            "type": "Symmetric",
+            "name": "565TREMSIN",
+            "altitude": 827.0,
+            "lat": 49.56666666666689,
+            "lng": 13.76750000000004,
+            "radius": 500
         },
         {
-            "type": "AAT Sector",
-            "name": "710WETZELSBERG",
-            "altitude": 576.0,
-            "lat": 48.916216666666735,
-            "lng": 15.42679999999993,
-            "radius": 30000
+            "type": "Symmetric",
+            "name": "433PRAHA",
+            "altitude": 800.0,
+            "lat": 49.66166666666663,
+            "lng": 13.811383333333552,
+            "radius": 500
         },
         {
-            "type": "AAT Sector",
-            "name": "608VYSKYTNA",
-            "altitude": 650.0,
-            "lat": 49.427783333333075,
-            "lng": 15.364166666666929,
-            "radius": 25000
+            "type": "Symmetric",
+            "name": "198HUMPOLEC",
+            "altitude": 520.0,
+            "lat": 49.52638333333328,
+            "lng": 15.349166666666878,
+            "radius": 500
+        },
+        {
+            "type": "Symmetric",
+            "name": "245KAMENICE",
+            "altitude": 563.0,
+            "lat": 49.30138333333312,
+            "lng": 15.068333333333396,
+            "radius": 500
         },
         {
             "type": "Cylinder",

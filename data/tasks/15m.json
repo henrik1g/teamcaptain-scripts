@@ -1,5 +1,5 @@
 {
-    "type": "AAT",
+    "type": "RT",
     "points": [
         {
             "type": "Next",
@@ -10,28 +10,44 @@
             "radius": 7500
         },
         {
-            "type": "AAT Sector",
-            "name": "676SEDLICE",
-            "altitude": 510.0,
-            "lat": 49.37590000000011,
-            "lng": 13.941533333333517,
-            "radius": 40000
+            "type": "Symmetric",
+            "name": "602VOTICE",
+            "altitude": 500.0,
+            "lat": 49.63778333333318,
+            "lng": 14.651116666666674,
+            "radius": 500
         },
         {
-            "type": "AAT Sector",
-            "name": "710WETZELSBERG",
-            "altitude": 576.0,
-            "lat": 48.916216666666735,
-            "lng": 15.42679999999993,
-            "radius": 30000
+            "type": "Symmetric",
+            "name": "337MELECHOV",
+            "altitude": 721.0,
+            "lat": 49.638616666666906,
+            "lng": 15.318333333333062,
+            "radius": 500
         },
         {
-            "type": "AAT Sector",
-            "name": "608VYSKYTNA",
-            "altitude": 650.0,
-            "lat": 49.427783333333075,
-            "lng": 15.364166666666929,
-            "radius": 25000
+            "type": "Symmetric",
+            "name": "633ZADNIZHOR",
+            "altitude": 656.0,
+            "lat": 49.451383333333034,
+            "lng": 15.874166666666865,
+            "radius": 500
+        },
+        {
+            "type": "Symmetric",
+            "name": "678CERINEK",
+            "altitude": 740.0,
+            "lat": 49.37406666666638,
+            "lng": 15.436899999999849,
+            "radius": 500
+        },
+        {
+            "type": "Symmetric",
+            "name": "096DACICE",
+            "altitude": 577.0,
+            "lat": 49.07916666666646,
+            "lng": 15.433616666666925,
+            "radius": 500
         },
         {
             "type": "Cylinder",

@@ -1,4 +1,4 @@
-<Task aat_min_time="6300" type="AAT">
+<Task type="RT">
   <Point type="Start">
     <Waypoint altitude="534" name="006SPCHYNOV">
       <Location latitude="49.41166666666697" longitude="14.832216666666575"/>
@@ -6,22 +6,34 @@
     <ObservationZone length="15000" type="Line"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="510" name="676SEDLICE">
-      <Location latitude="49.37590000000011" longitude="13.941533333333517"/>
+    <Waypoint altitude="500" name="602VOTICE">
+      <Location latitude="49.63778333333318" longitude="14.651116666666674"/>
     </Waypoint>
-    <ObservationZone radius="40000" type="Cylinder"/>
+    <ObservationZone radius="500" type="Cylinder"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="576" name="710WETZELSBERG">
-      <Location latitude="48.916216666666735" longitude="15.42679999999993"/>
+    <Waypoint altitude="721" name="337MELECHOV">
+      <Location latitude="49.638616666666906" longitude="15.318333333333062"/>
     </Waypoint>
-    <ObservationZone radius="30000" type="Cylinder"/>
+    <ObservationZone radius="500" type="Cylinder"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="650" name="608VYSKYTNA">
-      <Location latitude="49.427783333333075" longitude="15.364166666666929"/>
+    <Waypoint altitude="656" name="633ZADNIZHOR">
+      <Location latitude="49.451383333333034" longitude="15.874166666666865"/>
     </Waypoint>
-    <ObservationZone radius="25000" type="Cylinder"/>
+    <ObservationZone radius="500" type="Cylinder"/>
+  </Point>
+  <Point type="Turn">
+    <Waypoint altitude="740" name="678CERINEK">
+      <Location latitude="49.37406666666638" longitude="15.436899999999849"/>
+    </Waypoint>
+    <ObservationZone radius="500" type="Cylinder"/>
+  </Point>
+  <Point type="Turn">
+    <Waypoint altitude="577" name="096DACICE">
+      <Location latitude="49.07916666666646" longitude="15.433616666666925"/>
+    </Waypoint>
+    <ObservationZone radius="500" type="Cylinder"/>
   </Point>
   <Point type="Finish">
     <Waypoint altitude="428" name="001SPTABOR">

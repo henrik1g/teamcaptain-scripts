@@ -1,5 +1,5 @@
 {
-    "type": "AAT",
+    "type": "RT",
     "points": [
         {
             "type": "Next",
@@ -10,28 +10,44 @@
             "radius": 7500
         },
         {
-            "type": "AAT Sector",
-            "name": "676SEDLICE",
-            "altitude": 510.0,
-            "lat": 49.37590000000011,
-            "lng": 13.941533333333517,
-            "radius": 40000
+            "type": "Symmetric",
+            "name": "706RASY",
+            "altitude": 651.0,
+            "lat": 49.07860000000006,
+            "lng": 15.066049999999903,
+            "radius": 500
         },
         {
-            "type": "AAT Sector",
-            "name": "710WETZELSBERG",
-            "altitude": 576.0,
-            "lat": 48.916216666666735,
-            "lng": 15.42679999999993,
-            "radius": 30000
+            "type": "Symmetric",
+            "name": "186HORNICEREKEV",
+            "altitude": 586.0,
+            "lat": 49.31111666666641,
+            "lng": 15.324166666666796,
+            "radius": 500
         },
         {
-            "type": "AAT Sector",
-            "name": "608VYSKYTNA",
-            "altitude": 650.0,
-            "lat": 49.427783333333075,
-            "lng": 15.364166666666929,
-            "radius": 25000
+            "type": "Symmetric",
+            "name": "343MILEVSKO",
+            "altitude": 400.0,
+            "lat": 49.441666666666485,
+            "lng": 14.37749999999973,
+            "radius": 500
+        },
+        {
+            "type": "Symmetric",
+            "name": "642ZELIV",
+            "altitude": 406.0,
+            "lat": 49.522499999999894,
+            "lng": 15.218616666666797,
+            "radius": 500
+        },
+        {
+            "type": "Symmetric",
+            "name": "691KAMEN",
+            "altitude": 660.0,
+            "lat": 49.376283333333475,
+            "lng": 14.994316666666416,
+            "radius": 500
         },
         {
             "type": "Cylinder",

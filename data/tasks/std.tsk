@@ -1,27 +1,33 @@
-<Task aat_min_time="7200" type="AAT">
+<Task type="RT">
   <Point type="Start">
-    <Waypoint altitude="516" name="011SPBOROTIN">
-      <Location latitude="49.504450000000176" longitude="14.614166666666783"/>
+    <Waypoint altitude="533" name="009SPCHOTOVINY">
+      <Location latitude="49.47749999999974" longitude="14.676116666666756"/>
     </Waypoint>
     <ObservationZone length="15000" type="Line"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="510" name="676SEDLICE">
-      <Location latitude="49.37590000000011" longitude="13.941533333333517"/>
+    <Waypoint altitude="827" name="565TREMSIN">
+      <Location latitude="49.56666666666689" longitude="13.76750000000004"/>
     </Waypoint>
-    <ObservationZone radius="40000" type="Cylinder"/>
+    <ObservationZone radius="500" type="Cylinder"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="576" name="710WETZELSBERG">
-      <Location latitude="48.916216666666735" longitude="15.42679999999993"/>
+    <Waypoint altitude="800" name="433PRAHA">
+      <Location latitude="49.66166666666663" longitude="13.811383333333552"/>
     </Waypoint>
-    <ObservationZone radius="30000" type="Cylinder"/>
+    <ObservationZone radius="500" type="Cylinder"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="650" name="608VYSKYTNA">
-      <Location latitude="49.427783333333075" longitude="15.364166666666929"/>
+    <Waypoint altitude="520" name="198HUMPOLEC">
+      <Location latitude="49.52638333333328" longitude="15.349166666666878"/>
     </Waypoint>
-    <ObservationZone radius="25000" type="Cylinder"/>
+    <ObservationZone radius="500" type="Cylinder"/>
+  </Point>
+  <Point type="Turn">
+    <Waypoint altitude="563" name="245KAMENICE">
+      <Location latitude="49.30138333333312" longitude="15.068333333333396"/>
+    </Waypoint>
+    <ObservationZone radius="500" type="Cylinder"/>
   </Point>
   <Point type="Finish">
     <Waypoint altitude="428" name="001SPTABOR">
