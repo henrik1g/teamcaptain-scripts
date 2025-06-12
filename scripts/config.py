@@ -50,7 +50,7 @@ whatsapp_group = 'Piloten WGC Tabor'
 
 # WhatsApp timeout for sending the message. This is the time the app waits between adding the presentation to the chat and closing the window
 # Increase time if internet connection is weak or file is large
-whatsapp_wait = 7
+whatsapp_wait = 10
 
 # =========================
 # Git & LibreOffice Settings
