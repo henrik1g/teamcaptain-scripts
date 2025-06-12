@@ -81,7 +81,7 @@ def day_preparation():
 
 def menu_continuous_mode():
     print("🔄 Entering continuous update mode. Press Ctrl+C to stop. \n")
-    last_task_ids = task_utils.return_latest_task_ids_for_classes()
+    last_task_ids =  config.selected_task_ids
     try:
         while True:
             # Check for new tasks every 30 seconds
