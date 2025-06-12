@@ -3,50 +3,34 @@
     "points": [
         {
             "type": "Next",
-            "name": "006SPCHYNOV",
-            "altitude": 534.0,
-            "lat": 49.41166666666697,
-            "lng": 14.832216666666575,
+            "name": "009SPCHOTOVINY",
+            "altitude": 533.0,
+            "lat": 49.47749999999974,
+            "lng": 14.676116666666756,
             "radius": 7500
         },
         {
             "type": "Symmetric",
-            "name": "602VOTICE",
-            "altitude": 500.0,
-            "lat": 49.63778333333318,
-            "lng": 14.651116666666674,
+            "name": "186HORNICEREKEV",
+            "altitude": 586.0,
+            "lat": 49.31111666666641,
+            "lng": 15.324166666666796,
             "radius": 500
         },
         {
             "type": "Symmetric",
-            "name": "337MELECHOV",
-            "altitude": 721.0,
-            "lat": 49.638616666666906,
-            "lng": 15.318333333333062,
+            "name": "429POLNA",
+            "altitude": 490.0,
+            "lat": 49.486666666666636,
+            "lng": 15.703333333333168,
             "radius": 500
         },
         {
             "type": "Symmetric",
-            "name": "633ZADNIZHOR",
-            "altitude": 656.0,
-            "lat": 49.451383333333034,
-            "lng": 15.874166666666865,
-            "radius": 500
-        },
-        {
-            "type": "Symmetric",
-            "name": "678CERINEK",
-            "altitude": 740.0,
-            "lat": 49.37406666666638,
-            "lng": 15.436899999999849,
-            "radius": 500
-        },
-        {
-            "type": "Symmetric",
-            "name": "096DACICE",
-            "altitude": 577.0,
-            "lat": 49.07916666666646,
-            "lng": 15.433616666666925,
+            "name": "659CEPEL",
+            "altitude": 510.0,
+            "lat": 49.65566666666661,
+            "lng": 14.20468333333334,
             "radius": 500
         },
         {

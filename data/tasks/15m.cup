@@ -1,18 +1,14 @@
 name,code,country,lat,lon,elev,style,rwdir,rwlen,freq,desc
-"006SPCHYNOV","","", 4924.700N, 01449.933E, 534m,1,,,,,""
-"602VOTICE","","", 4938.267N, 01439.067E, 500m,1,,,,,""
-"337MELECHOV","","", 4938.317N, 01519.100E, 721m,1,,,,,""
-"633ZADNIZHOR","","", 4927.083N, 01552.450E, 656m,1,,,,,""
-"678CERINEK","","", 4922.444N, 01526.214E, 740m,1,,,,,""
-"096DACICE","","", 4904.750N, 01526.017E, 577m,1,,,,,""
+"009SPCHOTOVINY","","", 4928.650N, 01440.567E, 533m,1,,,,,""
+"186HORNICEREKEV","","", 4918.667N, 01519.450E, 586m,1,,,,,""
+"429POLNA","","", 4929.200N, 01542.200E, 490m,1,,,,,""
+"659CEPEL","","", 4939.340N, 01412.281E, 510m,1,,,,,""
 "001SPTABOR","","", 4923.650N, 01442.167E, 428m,1,,,,,""
 -----Related Tasks-----
-"Task on 2025-06-11","","006SPCHYNOV","602VOTICE","337MELECHOV","633ZADNIZHOR","678CERINEK","096DACICE","001SPTABOR",""
+"Task on 2025-06-12","","009SPCHOTOVINY","186HORNICEREKEV","429POLNA","659CEPEL","001SPTABOR",""
 Options
 ObsZone=0,Style=2,R1=7500m,A1=180,Line=1
 ObsZone=1,Style=3,R1=500m,A1=180
 ObsZone=2,Style=3,R1=500m,A1=180
 ObsZone=3,Style=3,R1=500m,A1=180
-ObsZone=4,Style=3,R1=500m,A1=180
-ObsZone=5,Style=3,R1=500m,A1=180
-ObsZone=6,Style=3,R1=5000m,A1=180
+ObsZone=4,Style=3,R1=5000m,A1=180

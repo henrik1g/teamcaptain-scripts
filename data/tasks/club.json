@@ -11,42 +11,34 @@
         },
         {
             "type": "Symmetric",
-            "name": "706RASY",
-            "altitude": 651.0,
-            "lat": 49.07860000000006,
-            "lng": 15.066049999999903,
+            "name": "165HAUGSHLAG",
+            "altitude": 585.0,
+            "lat": 48.99888333333328,
+            "lng": 15.058883333333595,
             "radius": 500
         },
         {
             "type": "Symmetric",
-            "name": "186HORNICEREKEV",
-            "altitude": 586.0,
-            "lat": 49.31111666666641,
-            "lng": 15.324166666666796,
+            "name": "538SUCHDOL",
+            "altitude": 350.0,
+            "lat": 48.902500000000174,
+            "lng": 14.882216666666737,
             "radius": 500
         },
         {
             "type": "Symmetric",
-            "name": "343MILEVSKO",
-            "altitude": 400.0,
-            "lat": 49.441666666666485,
-            "lng": 14.37749999999973,
+            "name": "477ROZMITAL",
+            "altitude": 500.0,
+            "lat": 49.602500000000155,
+            "lng": 13.881950000000183,
             "radius": 500
         },
         {
             "type": "Symmetric",
-            "name": "642ZELIV",
-            "altitude": 406.0,
-            "lat": 49.522499999999894,
-            "lng": 15.218616666666797,
-            "radius": 500
-        },
-        {
-            "type": "Symmetric",
-            "name": "691KAMEN",
-            "altitude": 660.0,
-            "lat": 49.376283333333475,
-            "lng": 14.994316666666416,
+            "name": "344MILIN",
+            "altitude": 420.0,
+            "lat": 49.63778333333318,
+            "lng": 14.04999999999981,
             "radius": 500
         },
         {

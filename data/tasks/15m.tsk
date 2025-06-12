@@ -1,37 +1,25 @@
 <Task type="RT">
   <Point type="Start">
-    <Waypoint altitude="534" name="006SPCHYNOV">
-      <Location latitude="49.41166666666697" longitude="14.832216666666575"/>
+    <Waypoint altitude="533" name="009SPCHOTOVINY">
+      <Location latitude="49.47749999999974" longitude="14.676116666666756"/>
     </Waypoint>
     <ObservationZone length="15000" type="Line"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="500" name="602VOTICE">
-      <Location latitude="49.63778333333318" longitude="14.651116666666674"/>
+    <Waypoint altitude="586" name="186HORNICEREKEV">
+      <Location latitude="49.31111666666641" longitude="15.324166666666796"/>
     </Waypoint>
     <ObservationZone radius="500" type="Cylinder"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="721" name="337MELECHOV">
-      <Location latitude="49.638616666666906" longitude="15.318333333333062"/>
+    <Waypoint altitude="490" name="429POLNA">
+      <Location latitude="49.486666666666636" longitude="15.703333333333168"/>
     </Waypoint>
     <ObservationZone radius="500" type="Cylinder"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="656" name="633ZADNIZHOR">
-      <Location latitude="49.451383333333034" longitude="15.874166666666865"/>
-    </Waypoint>
-    <ObservationZone radius="500" type="Cylinder"/>
-  </Point>
-  <Point type="Turn">
-    <Waypoint altitude="740" name="678CERINEK">
-      <Location latitude="49.37406666666638" longitude="15.436899999999849"/>
-    </Waypoint>
-    <ObservationZone radius="500" type="Cylinder"/>
-  </Point>
-  <Point type="Turn">
-    <Waypoint altitude="577" name="096DACICE">
-      <Location latitude="49.07916666666646" longitude="15.433616666666925"/>
+    <Waypoint altitude="510" name="659CEPEL">
+      <Location latitude="49.65566666666661" longitude="14.20468333333334"/>
     </Waypoint>
     <ObservationZone radius="500" type="Cylinder"/>
   </Point>

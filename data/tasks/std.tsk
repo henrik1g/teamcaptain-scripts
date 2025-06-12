@@ -1,31 +1,31 @@
 <Task type="RT">
   <Point type="Start">
-    <Waypoint altitude="533" name="009SPCHOTOVINY">
-      <Location latitude="49.47749999999974" longitude="14.676116666666756"/>
+    <Waypoint altitude="445" name="010SPDLOUHALHOTA">
+      <Location latitude="49.354449999999694" longitude="14.78916666666678"/>
     </Waypoint>
     <ObservationZone length="15000" type="Line"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="827" name="565TREMSIN">
-      <Location latitude="49.56666666666689" longitude="13.76750000000004"/>
+    <Waypoint altitude="525" name="251KAUTZEN">
+      <Location latitude="48.93138333333364" longitude="15.240549999999898"/>
     </Waypoint>
     <ObservationZone radius="500" type="Cylinder"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="800" name="433PRAHA">
-      <Location latitude="49.66166666666663" longitude="13.811383333333552"/>
+    <Waypoint altitude="530" name="497SCHREMS">
+      <Location latitude="48.79416666666668" longitude="15.06945000000003"/>
     </Waypoint>
     <ObservationZone radius="500" type="Cylinder"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="520" name="198HUMPOLEC">
-      <Location latitude="49.52638333333328" longitude="15.349166666666878"/>
+    <Waypoint altitude="400" name="300LETY">
+      <Location latitude="49.51945000000023" longitude="14.072783333333371"/>
     </Waypoint>
     <ObservationZone radius="500" type="Cylinder"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="563" name="245KAMENICE">
-      <Location latitude="49.30138333333312" longitude="15.068333333333396"/>
+    <Waypoint altitude="579" name="657KRASNAHORA">
+      <Location latitude="49.57236666666668" longitude="14.293300000000258"/>
     </Waypoint>
     <ObservationZone radius="500" type="Cylinder"/>
   </Point>
