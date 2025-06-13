@@ -21,19 +21,19 @@ def main_menu():
             elif choice == "2":
                 menu_continuous_mode()
             elif choice == "3":
-                select_task_ids()
-            elif choice == "4":
                 update_task_and_glider_files()
-            elif choice == "5":
+            elif choice == "4":
                 update_open_metbrief()
-            elif choice == "6":
+            elif choice == "5":
                 open_tabs()
-            elif choice == "7":
+            elif choice == "6":
                 open_metbrief()
-            elif choice == "8":
+            elif choice == "7":
                 send_whatsapp()
-            elif choice == "9":
+            elif choice == "8":
                 close_windows()
+            elif choice == "9":
+                select_task_ids()
             elif choice == "0":
                 update_Git_Settings()
             elif choice == "q":
@@ -55,13 +55,13 @@ def print_menu_header():
     print("="*100)
     print('1. Prepare for the day (update tasks, gliders, weather briefing, and open all tabs)')
     print("2. Run continuously, checking for new tasks every 30 seconds and updating if needed")
-    print('3. Select task IDs for classes (only to activate old tasks)')
-    print("4. Update glider and task files")
-    print("5. Update and open weather briefing (no WhatsApp send)")
-    print("6. Open Chrome tabs from the URL file")
-    print("7. Open the latest weather briefing")
-    print("8. Send latest weather briefing via WhatsApp")
-    print("9. Close all open Chrome and LibreOffice windows")
+    print("3. Update glider and task files (newest files)")
+    print("4. Update and open weather briefing (no WhatsApp send)")
+    print("5. Open Chrome tabs from the URL file")
+    print("6. Open the latest weather briefing")
+    print("7. Send latest weather briefing via WhatsApp")
+    print("8. Close all open Chrome and LibreOffice windows")
+    print('9. Load previous task for classes')
     print("0. Update git settings (enable/disable automatic commit and push after updates)")
     print("Q. Quit")
     print("="*100)
@@ -88,9 +88,7 @@ def menu_continuous_mode():
             current_task_ids = task_utils.return_latest_task_ids_for_classes()
             if current_task_ids != last_task_ids:
                 print("🆕 New tasks detected! Updating and pushing...")
-                # Load the latest task IDs for each class
-                config.selected_task_ids = current_task_ids
-                # Update task files
+                # Update task files with latest version
                 update_task_and_glider_files()
             else:
                 print("⏳ No new tasks. Checking again in 30 seconds... Press Ctrl+C to stop.")
@@ -102,8 +100,21 @@ def menu_continuous_mode():
 def select_task_ids():
     task_utils.select_task_ids()
 
+    # Update task files
+    task_utils.update_task_files()
+
+    # Commit and push task and glider files if enabled
+    if config.commit_and_push_to_git == True:
+        utils.commit_and_push_task_and_glider_files()
+
+    # Go back to original tasks
+    config.selected_task_ids = task_utils.return_latest_task_ids_for_classes()
+
 # Function to update task and glider files
 def update_task_and_glider_files():
+    # Find newest tasks
+    config.selected_task_ids = task_utils.return_latest_task_ids_for_classes()
+
     # Update task files
     task_utils.update_task_files()
     # Update glider files
