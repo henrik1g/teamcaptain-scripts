@@ -8,7 +8,7 @@ D02953,,🇦🇷 EY,🇦🇷 Lucas Goldenzweig
 3E6294,,🇦🇹 KN,🇦🇹 Friedrich Hofinger
 440326,,🇦🇹 ZL,🇦🇹 Philipp Wittwer
 DF0EC9,,🇦🇹 XK,🇦🇹 Paul Bernhard
-D00819,,🇦🇺 1A,🇦🇺 James Nugent
+5ADD1E,,🇦🇺 1A,🇦🇺 James Nugent
 D004F1,,🇦🇺 RZ,🇦🇺 Daniel Summers
 DDDE35,,🇦🇺 SE,🇦🇺 Allan Barnes
 D0016B,,🇦🇺 GX,🇦🇺 Adam Woolley
