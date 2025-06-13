@@ -1,33 +1,27 @@
-<Task type="RT">
+<Task aat_min_time="9000" type="AAT">
   <Point type="Start">
-    <Waypoint altitude="477" name="002SPZELEC">
-      <Location latitude="49.316116666666424" longitude="14.64416666666688"/>
+    <Waypoint altitude="538" name="206CHOUSTNIK">
+      <Location latitude="49.32583333333355" longitude="14.840283333333574"/>
     </Waypoint>
     <ObservationZone length="15000" type="Line"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="585" name="165HAUGSHLAG">
-      <Location latitude="48.99888333333328" longitude="15.058883333333595"/>
+    <Waypoint altitude="380" name="651ZRUCNADSAZAVOU">
+      <Location latitude="49.73805000000025" longitude="15.104166666666655"/>
     </Waypoint>
-    <ObservationZone radius="500" type="Cylinder"/>
+    <ObservationZone radius="10000" type="Cylinder"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="350" name="538SUCHDOL">
-      <Location latitude="48.902500000000174" longitude="14.882216666666737"/>
+    <Waypoint altitude="490" name="429POLNA">
+      <Location latitude="49.486666666666636" longitude="15.703333333333168"/>
     </Waypoint>
-    <ObservationZone radius="500" type="Cylinder"/>
+    <ObservationZone radius="20000" type="Cylinder"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="500" name="477ROZMITAL">
-      <Location latitude="49.602500000000155" longitude="13.881950000000183"/>
+    <Waypoint altitude="400" name="300LETY">
+      <Location latitude="49.51945000000023" longitude="14.072783333333371"/>
     </Waypoint>
-    <ObservationZone radius="500" type="Cylinder"/>
-  </Point>
-  <Point type="Turn">
-    <Waypoint altitude="420" name="344MILIN">
-      <Location latitude="49.63778333333318" longitude="14.04999999999981"/>
-    </Waypoint>
-    <ObservationZone radius="500" type="Cylinder"/>
+    <ObservationZone radius="20000" type="Cylinder"/>
   </Point>
   <Point type="Finish">
     <Waypoint altitude="428" name="001SPTABOR">

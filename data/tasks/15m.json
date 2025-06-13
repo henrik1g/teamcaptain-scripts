@@ -1,37 +1,45 @@
 {
-    "type": "RT",
+    "type": "AAT",
     "points": [
         {
             "type": "Next",
-            "name": "009SPCHOTOVINY",
-            "altitude": 533.0,
-            "lat": 49.47749999999974,
-            "lng": 14.676116666666756,
+            "name": "011SPBOROTIN",
+            "altitude": 516.0,
+            "lat": 49.504450000000176,
+            "lng": 14.614166666666783,
             "radius": 7500
         },
         {
-            "type": "Symmetric",
-            "name": "186HORNICEREKEV",
-            "altitude": 586.0,
-            "lat": 49.31111666666641,
-            "lng": 15.324166666666796,
-            "radius": 500
+            "type": "AAT Sector",
+            "name": "658SOUDNY",
+            "altitude": 473.0,
+            "lat": 49.577949999999845,
+            "lng": 14.1390666666665,
+            "radius": 25000
         },
         {
-            "type": "Symmetric",
-            "name": "429POLNA",
-            "altitude": 490.0,
-            "lat": 49.486666666666636,
-            "lng": 15.703333333333168,
-            "radius": 500
+            "type": "AAT Sector",
+            "name": "251KAUTZEN",
+            "altitude": 525.0,
+            "lat": 48.93138333333364,
+            "lng": 15.240549999999898,
+            "radius": 25000
         },
         {
-            "type": "Symmetric",
-            "name": "659CEPEL",
-            "altitude": 510.0,
-            "lat": 49.65566666666661,
-            "lng": 14.20468333333334,
-            "radius": 500
+            "type": "AAT Sector",
+            "name": "642ZELIV",
+            "altitude": 406.0,
+            "lat": 49.522499999999894,
+            "lng": 15.218616666666797,
+            "radius": 25000
+        },
+        {
+            "type": "AAT Sector",
+            "name": "487SEDLCANY",
+            "altitude": 400.0,
+            "lat": 49.65361666666637,
+            "lng": 14.426666666666748,
+            "radius": 10000
         },
         {
             "type": "Cylinder",

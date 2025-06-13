@@ -1,45 +1,45 @@
 {
-    "type": "RT",
+    "type": "AAT",
     "points": [
         {
             "type": "Next",
-            "name": "010SPDLOUHALHOTA",
-            "altitude": 445.0,
-            "lat": 49.354449999999694,
-            "lng": 14.78916666666678,
+            "name": "510SOBESLAV",
+            "altitude": 407.0,
+            "lat": 49.25054999999981,
+            "lng": 14.714716666666764,
             "radius": 7500
         },
         {
-            "type": "Symmetric",
-            "name": "251KAUTZEN",
-            "altitude": 525.0,
-            "lat": 48.93138333333364,
-            "lng": 15.240549999999898,
-            "radius": 500
+            "type": "AAT Sector",
+            "name": "537STUDENA",
+            "altitude": 500.0,
+            "lat": 49.199999999999996,
+            "lng": 15.302499999999869,
+            "radius": 25000
         },
         {
-            "type": "Symmetric",
-            "name": "497SCHREMS",
-            "altitude": 530.0,
-            "lat": 48.79416666666668,
-            "lng": 15.06945000000003,
-            "radius": 500
+            "type": "AAT Sector",
+            "name": "059BOHDANEC",
+            "altitude": 450.0,
+            "lat": 49.77721666666666,
+            "lng": 15.22388333333356,
+            "radius": 20000
         },
         {
-            "type": "Symmetric",
-            "name": "300LETY",
-            "altitude": 400.0,
-            "lat": 49.51945000000023,
-            "lng": 14.072783333333371,
-            "radius": 500
+            "type": "AAT Sector",
+            "name": "448PROTIVIN",
+            "altitude": 403.0,
+            "lat": 49.20083333333314,
+            "lng": 14.213616666666399,
+            "radius": 20000
         },
         {
-            "type": "Symmetric",
-            "name": "657KRASNAHORA",
-            "altitude": 579.0,
-            "lat": 49.57236666666668,
-            "lng": 14.293300000000258,
-            "radius": 500
+            "type": "AAT Sector",
+            "name": "659CEPEL",
+            "altitude": 510.0,
+            "lat": 49.65566666666661,
+            "lng": 14.20468333333334,
+            "radius": 20000
         },
         {
             "type": "Cylinder",

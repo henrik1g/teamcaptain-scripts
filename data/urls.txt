@@ -16,4 +16,4 @@
 {WIN:2}https://glideandseek.com/?taskOneUrl=https://raw.githubusercontent.com/nilsschlautmann/wgc2025/main/data/tasks/{classFile}.json&viewport=49.16885,15.12417,10&aircraftDataUrl=https://raw.githubusercontent.com/nilsschlautmann/wgc2025/main/data/gliders/{classFile}.json
 {WIN:I}https://ogn.cloud/?tsk=https://raw.githubusercontent.com/nilsschlautmann/wgc2025/main/data/tasks/{classFile}.tsk&lst=https://raw.githubusercontent.com/nilsschlautmann/wgc2025/main/data/gliders/{classFile}.txt
 {WIN:3}https://ogn.cloud/&lst=https://raw.githubusercontent.com/nilsschlautmann/wgc2025/main/data/gliders/all.txt
-{WIN:4}https://glideandseek.com/&viewport=49.16885,15.12417,10&aircraftDataUrl=https://raw.githubusercontent.com/nilsschlautmann/wgc2025/main/data/gliders/all.json
+{WIN:4}https://glideandseek.com/&?viewport=49.16885,15.12417,10&aircraftDataUrl=https://raw.githubusercontent.com/nilsschlautmann/wgc2025/main/data/gliders/all.json

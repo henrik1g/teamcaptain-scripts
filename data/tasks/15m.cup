@@ -1,14 +1,16 @@
 name,code,country,lat,lon,elev,style,rwdir,rwlen,freq,desc
-"009SPCHOTOVINY","","", 4928.650N, 01440.567E, 533m,1,,,,,""
-"186HORNICEREKEV","","", 4918.667N, 01519.450E, 586m,1,,,,,""
-"429POLNA","","", 4929.200N, 01542.200E, 490m,1,,,,,""
-"659CEPEL","","", 4939.340N, 01412.281E, 510m,1,,,,,""
+"011SPBOROTIN","","", 4930.267N, 01436.850E, 516m,1,,,,,""
+"658SOUDNY","","", 4934.677N, 01408.344E, 473m,1,,,,,""
+"251KAUTZEN","","", 4855.883N, 01514.433E, 525m,1,,,,,""
+"642ZELIV","","", 4931.350N, 01513.117E, 406m,1,,,,,""
+"487SEDLCANY","","", 4939.217N, 01425.600E, 400m,1,,,,,""
 "001SPTABOR","","", 4923.650N, 01442.167E, 428m,1,,,,,""
 -----Related Tasks-----
-"Task on 2025-06-12","","009SPCHOTOVINY","186HORNICEREKEV","429POLNA","659CEPEL","001SPTABOR",""
+"Task on 2025-06-13","","011SPBOROTIN","658SOUDNY","251KAUTZEN","642ZELIV","487SEDLCANY","001SPTABOR",""
 Options
 ObsZone=0,Style=2,R1=7500m,A1=180,Line=1
-ObsZone=1,Style=3,R1=500m,A1=180
-ObsZone=2,Style=3,R1=500m,A1=180
-ObsZone=3,Style=3,R1=500m,A1=180
-ObsZone=4,Style=3,R1=5000m,A1=180
+ObsZone=1,Style=3,R1=25000m,A1=180
+ObsZone=2,Style=3,R1=25000m,A1=180
+ObsZone=3,Style=3,R1=25000m,A1=180
+ObsZone=4,Style=3,R1=10000m,A1=180
+ObsZone=5,Style=3,R1=5000m,A1=180

@@ -1,27 +1,33 @@
-<Task type="RT">
+<Task aat_min_time="8100" type="AAT">
   <Point type="Start">
-    <Waypoint altitude="533" name="009SPCHOTOVINY">
-      <Location latitude="49.47749999999974" longitude="14.676116666666756"/>
+    <Waypoint altitude="516" name="011SPBOROTIN">
+      <Location latitude="49.504450000000176" longitude="14.614166666666783"/>
     </Waypoint>
     <ObservationZone length="15000" type="Line"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="586" name="186HORNICEREKEV">
-      <Location latitude="49.31111666666641" longitude="15.324166666666796"/>
+    <Waypoint altitude="473" name="658SOUDNY">
+      <Location latitude="49.577949999999845" longitude="14.1390666666665"/>
     </Waypoint>
-    <ObservationZone radius="500" type="Cylinder"/>
+    <ObservationZone radius="25000" type="Cylinder"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="490" name="429POLNA">
-      <Location latitude="49.486666666666636" longitude="15.703333333333168"/>
+    <Waypoint altitude="525" name="251KAUTZEN">
+      <Location latitude="48.93138333333364" longitude="15.240549999999898"/>
     </Waypoint>
-    <ObservationZone radius="500" type="Cylinder"/>
+    <ObservationZone radius="25000" type="Cylinder"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="510" name="659CEPEL">
-      <Location latitude="49.65566666666661" longitude="14.20468333333334"/>
+    <Waypoint altitude="406" name="642ZELIV">
+      <Location latitude="49.522499999999894" longitude="15.218616666666797"/>
     </Waypoint>
-    <ObservationZone radius="500" type="Cylinder"/>
+    <ObservationZone radius="25000" type="Cylinder"/>
+  </Point>
+  <Point type="Turn">
+    <Waypoint altitude="400" name="487SEDLCANY">
+      <Location latitude="49.65361666666637" longitude="14.426666666666748"/>
+    </Waypoint>
+    <ObservationZone radius="10000" type="Cylinder"/>
   </Point>
   <Point type="Finish">
     <Waypoint altitude="428" name="001SPTABOR">
