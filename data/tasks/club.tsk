@@ -1,4 +1,4 @@
-<Task aat_min_time="9000" type="AAT">
+<Task aat_min_time="7200" type="AAT">
   <Point type="Start">
     <Waypoint altitude="477" name="002SPZELEC">
       <Location latitude="49.316116666666424" longitude="14.64416666666688"/>

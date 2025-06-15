@@ -1,4 +1,4 @@
-<Task aat_min_time="7200" type="AAT">
+<Task aat_min_time="5400" type="AAT">
   <Point type="Start">
     <Waypoint altitude="534" name="006SPCHYNOV">
       <Location latitude="49.41166666666697" longitude="14.832216666666575"/>
