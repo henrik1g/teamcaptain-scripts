@@ -1,31 +1,25 @@
 <Task aat_min_time="7200" type="AAT">
   <Point type="Start">
-    <Waypoint altitude="407" name="510SOBESLAV">
-      <Location latitude="49.25054999999981" longitude="14.714716666666764"/>
+    <Waypoint altitude="534" name="006SPCHYNOV">
+      <Location latitude="49.41166666666697" longitude="14.832216666666575"/>
     </Waypoint>
     <ObservationZone length="15000" type="Line"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="500" name="537STUDENA">
-      <Location latitude="49.199999999999996" longitude="15.302499999999869"/>
-    </Waypoint>
-    <ObservationZone radius="25000" type="Cylinder"/>
-  </Point>
-  <Point type="Turn">
-    <Waypoint altitude="450" name="059BOHDANEC">
-      <Location latitude="49.77721666666666" longitude="15.22388333333356"/>
+    <Waypoint altitude="550" name="365NACERADEC">
+      <Location latitude="49.61000000000018" longitude="14.904450000000066"/>
     </Waypoint>
     <ObservationZone radius="20000" type="Cylinder"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="403" name="448PROTIVIN">
-      <Location latitude="49.20083333333314" longitude="14.213616666666399"/>
+    <Waypoint altitude="600" name="093CIZKOV">
+      <Location latitude="49.54166666666681" longitude="13.681950000000105"/>
     </Waypoint>
-    <ObservationZone radius="20000" type="Cylinder"/>
+    <ObservationZone radius="35000" type="Cylinder"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="510" name="659CEPEL">
-      <Location latitude="49.65566666666661" longitude="14.20468333333334"/>
+    <Waypoint altitude="494" name="411PELHRIMOV">
+      <Location latitude="49.418883333333504" longitude="15.220549999999832"/>
     </Waypoint>
     <ObservationZone radius="20000" type="Cylinder"/>
   </Point>

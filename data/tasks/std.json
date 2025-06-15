@@ -3,42 +3,34 @@
     "points": [
         {
             "type": "Next",
-            "name": "510SOBESLAV",
-            "altitude": 407.0,
-            "lat": 49.25054999999981,
-            "lng": 14.714716666666764,
+            "name": "006SPCHYNOV",
+            "altitude": 534.0,
+            "lat": 49.41166666666697,
+            "lng": 14.832216666666575,
             "radius": 7500
         },
         {
             "type": "AAT Sector",
-            "name": "537STUDENA",
-            "altitude": 500.0,
-            "lat": 49.199999999999996,
-            "lng": 15.302499999999869,
-            "radius": 25000
-        },
-        {
-            "type": "AAT Sector",
-            "name": "059BOHDANEC",
-            "altitude": 450.0,
-            "lat": 49.77721666666666,
-            "lng": 15.22388333333356,
+            "name": "365NACERADEC",
+            "altitude": 550.0,
+            "lat": 49.61000000000018,
+            "lng": 14.904450000000066,
             "radius": 20000
         },
         {
             "type": "AAT Sector",
-            "name": "448PROTIVIN",
-            "altitude": 403.0,
-            "lat": 49.20083333333314,
-            "lng": 14.213616666666399,
-            "radius": 20000
+            "name": "093CIZKOV",
+            "altitude": 600.0,
+            "lat": 49.54166666666681,
+            "lng": 13.681950000000105,
+            "radius": 35000
         },
         {
             "type": "AAT Sector",
-            "name": "659CEPEL",
-            "altitude": 510.0,
-            "lat": 49.65566666666661,
-            "lng": 14.20468333333334,
+            "name": "411PELHRIMOV",
+            "altitude": 494.0,
+            "lat": 49.418883333333504,
+            "lng": 15.220549999999832,
             "radius": 20000
         },
         {

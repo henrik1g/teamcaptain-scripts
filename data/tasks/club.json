@@ -3,35 +3,27 @@
     "points": [
         {
             "type": "Next",
-            "name": "206CHOUSTNIK",
-            "altitude": 538.0,
-            "lat": 49.32583333333355,
-            "lng": 14.840283333333574,
+            "name": "002SPZELEC",
+            "altitude": 477.0,
+            "lat": 49.316116666666424,
+            "lng": 14.64416666666688,
             "radius": 7500
         },
         {
             "type": "AAT Sector",
-            "name": "651ZRUCNADSAZAVOU",
-            "altitude": 380.0,
-            "lat": 49.73805000000025,
-            "lng": 15.104166666666655,
-            "radius": 10000
+            "name": "565TREMSIN",
+            "altitude": 827.0,
+            "lat": 49.56666666666689,
+            "lng": 13.76750000000004,
+            "radius": 35000
         },
         {
             "type": "AAT Sector",
-            "name": "429POLNA",
-            "altitude": 490.0,
-            "lat": 49.486666666666636,
-            "lng": 15.703333333333168,
-            "radius": 20000
-        },
-        {
-            "type": "AAT Sector",
-            "name": "300LETY",
-            "altitude": 400.0,
-            "lat": 49.51945000000023,
-            "lng": 14.072783333333371,
-            "radius": 20000
+            "name": "102DOBERSBERG",
+            "altitude": 520.0,
+            "lat": 48.92221666666675,
+            "lng": 15.2852833333333,
+            "radius": 35000
         },
         {
             "type": "Cylinder",
