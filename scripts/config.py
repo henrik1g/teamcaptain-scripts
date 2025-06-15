@@ -46,14 +46,16 @@ results_table_map = {
 whatsapp_message = "Chatty ist der Beste! Hier ist die heutige Wettervorhersage für Tabor 2025."
 
 # WhatsApp group name to send the weather briefing to (Emojis are not allowed in the string here, but may be included in the actual group name! Looking for the closes match!)
-whatsapp_group = 'Piloten WGC Tabor'
+#whatsapp_group = 'Piloten WGC Tabor'
+whatsapp_group = 'Ich mache hier nur Notize'
 
 # WhatsApp timeout for sending the message. This is the time the app waits between adding the presentation to the chat and closing the window
 # Increase time if internet connection is weak or file is large
-whatsapp_wait = 10
+whatsapp_timeout = 30
+whatsapp_group_send_time = 15
 
 # =========================
-# Git & LibreOffice Settings
+# Git, Browser, and LibreOffice Settings
 # =========================
 
 # Path to github repo
@@ -64,6 +66,9 @@ os.environ['GIT_SSH_COMMAND'] = 'ssh -i ~/.ssh/id_rsa'
 
 # Path to the LibreOffice executable (adjust if needed)
 soffice_path = r"C:\Program Files\LibreOffice\program\soffice.exe"
+
+# scripts/config.py
+browser = "firefox"  # "chrome" or "firefox" 
 
 # =========================
 # File Locations
@@ -95,6 +100,9 @@ glider_output_dir = 'data/gliders'
 # Directory for Chrome user data (used by Selenium)
 chromedriver_user_data_dir = 'data/.chromedriver_user_data'
 
+# Directory for Chrome user data (used by Selenium)
+firefoxdriver_user_data_dir = 'data/.firefoxdriver_user_data'
+
 # =========================
 # SoaringSpot & CUP Download
 # =========================
@@ -112,5 +120,8 @@ selected_task_ids = {}
 # Whether to automatically commit and push to git after updates
 commit_and_push_to_git = True
 
-# Whether to automatically commit and push to git after updates
-driver = None
+# UserData Driver (there can only be one in chrome)
+whatsapp_driver = None
+
+# All browser drivers
+all_drivers = []

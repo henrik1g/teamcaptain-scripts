@@ -1,38 +1,49 @@
-# Import necessary libraries
 from scripts import config
-from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.firefox.options import Options as FirefoxOptions
+from selenium.webdriver.chrome.options import Options as ChromeOptions
+from selenium.webdriver.firefox.firefox_profile import FirefoxProfile
 from selenium import webdriver
 import psutil
 import sys
 import os
 
-# Open Chrome with specified user data and headless mode
-def open_chrome(userData, runHeadless):
-    # Set up Chrome options
-    chrome_options = Options()
-
-    # Add user data directory if provided
-    if userData not in [None, ""]:
-        # Close previous Chrome instances with the same user data directory
-        close_driver_with_userdata(config.chromedriver_user_data_dir)
-        chrome_options.add_argument("user-data-dir=" + os.path.join(os.path.dirname(sys.argv[0]), userData))  # Use a custom user data directory
-
-    # Check if running headless
-    if runHeadless == True:
-        # If running headless, add the headless argument
-        chrome_options.add_argument("--headless")
-
-    chrome_options.add_argument("--new-window")  # Open in a new window
-    chrome_options.add_experimental_option("detach", True)  # <-- This keeps Chrome open
-    chrome_options.add_argument("--log-level=3")  # Suppress most Chrome logs
-    chrome_options.add_experimental_option("excludeSwitches", ["enable-logging"])  # Suppress DevTools and other logs
-    chrome_options.add_argument("--disable-logging")
-    chrome_options.add_argument("--disable-gpu")  # Sometimes helps with GPU-related warnings
-
-    driver = webdriver.Chrome(options=chrome_options)
+def open_browser(userData=False, runHeadless=False, whatsAppBrowser=False):
+    if whatsAppBrowser:
+        browser = "chrome"
+    else:
+        browser = getattr(config, "browser", "firefox").lower()
+    if browser == "chrome":
+        chrome_options = ChromeOptions()
+        if userData:
+            close_chrome_with_userdata(config.chromedriver_user_data_dir)
+            chrome_options.add_argument("user-data-dir=" + os.path.join(os.path.dirname(sys.argv[0]), config.chromedriver_user_data_dir))
+        if runHeadless:
+            chrome_options.add_argument("--headless=new")
+        chrome_options.add_argument("--new-window")
+        chrome_options.add_experimental_option("detach", True)
+        chrome_options.add_argument("--log-level=3")
+        chrome_options.add_experimental_option("excludeSwitches", ["enable-logging"])
+        chrome_options.add_argument("--disable-logging")
+        chrome_options.add_argument("--disable-gpu")
+        driver = webdriver.Chrome(options=chrome_options)
+    elif browser == "firefox":
+        firefox_options = FirefoxOptions()
+        if runHeadless:
+            firefox_options.add_argument("--headless")
+        profile = None
+        if userData:
+            # userData should be the path to the Firefox profile directory
+            firefox_options.profile = config.firefoxdriver_user_data_dir
+        driver = webdriver.Firefox(options=firefox_options)
+    else:
+        raise ValueError(f"Unsupported browser: {browser}")
+    if whatsAppBrowser:
+        config.whatsapp_driver = driver
+    else:
+        config.all_drivers.append(driver)
     return driver
 
-def close_driver_with_userdata(chromedriver_user_data_dir):
+def close_chrome_with_userdata(chromedriver_user_data_dir):
     user_data_dir = os.path.join(os.path.dirname(sys.argv[0]), chromedriver_user_data_dir)
     for proc in psutil.process_iter(['name', 'cmdline']):
         try:
@@ -44,21 +55,29 @@ def close_driver_with_userdata(chromedriver_user_data_dir):
             continue
 
 def close_windows():
-    print("⚠️  Closing all Chrome windows...")
+    print("⚠️  Closing all browser windows...")
+    # Close all tracked browser windows
     closed = 0
-    for proc in psutil.process_iter(['name']):
+    for driver in getattr(config, "all_drivers", []):
         try:
-            if proc.info['name'] and 'chrome' in proc.info['name'].lower():
-                proc.terminate()
-                closed += 1
-        except (psutil.NoSuchProcess, psutil.AccessDenied):
-            continue
+            driver.quit()
+            closed += 1
+        except Exception:
+            pass
     if closed:
-        print(f"✅ Closed {closed} Chrome process(es).")
+        print(f"✅ Closed {closed} browser process(es).")
     else:
-        print("ℹ️  No Chrome processes found.")
+        print("ℹ️  No browser processes found.")
+    config.all_drivers.clear()
 
-# Function to open a URL in Chrome, handling the first tab differently
+def close_whatsapp_driver():
+    try:
+        config.whatsapp_driver.quit()
+        config.whatsapp_driver = None
+    except:
+        print("❌ Failed to close the browser config.whatsapp_driver. Something really went wrong.")
+
+# Function to open a URL in browser, handling the first tab differently
 def open_tab(driver, url, first_tab):
     if first_tab:
         try:
@@ -68,7 +87,8 @@ def open_tab(driver, url, first_tab):
         first_tab = False
     else:
         driver.execute_script(f"window.open('{url}', '_blank');")
-        
+    # Always switch to the newest tab (works for both Chrome and Firefox)
+    driver.switch_to.window(driver.window_handles[-1])
     return first_tab
 
 # Function to open Chrome tabs from the url file
@@ -76,7 +96,7 @@ def open_tabs():
     if not os.path.exists(config.url_file):
         print(f"❌ URL file '{config.url_file}' does not exist. Skipping opening tabs and latest weather briefing.")
         return
-    print("⚙️  Opening Chrome tabs from URL file...")
+    print("⚙️  Opening browser tabs from URL file...")
 
     try:
         win_urls = {}  # {window_number: [url1, url2, ...]}
@@ -179,15 +199,15 @@ def open_tabs():
             urls = win_urls[win_num]
 
             if first_window:
-                config.driver = open_chrome(config.chromedriver_user_data_dir, False)
+                config.driver = open_browser(True, False, False)
                 first_window = False
                 for url in urls:
                     first_tab = open_tab(config.driver, url, first_tab)
             else:
-                driver = open_chrome(None, False)
+                driver = open_browser(None, False, False)
                 for url in urls:
                     first_tab = open_tab(driver, url, first_tab)
             
-        print("✅ Chrome tabs opened successfully.")
+        print("✅ Browser tabs opened successfully.")
     except Exception as e:
-        print(f"❌ Error opening Chrome tabs: {e}")
+        print(f"❌ Error opening browser tabs: {e}")

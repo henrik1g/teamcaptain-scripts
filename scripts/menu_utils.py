@@ -2,7 +2,7 @@
 from scripts import libreoffice_utils
 from scripts import whatsapp_utils
 from scripts import weather_utils
-from scripts import chrome_utils
+from scripts import browser_utils
 from scripts import glider_utils
 from scripts import task_utils
 from scripts import config
@@ -57,10 +57,10 @@ def print_menu_header():
     print("2. Run continuously, checking for new tasks every 30 seconds and updating if needed")
     print("3. Update glider and task files (newest files)")
     print("4. Update and open weather briefing (no WhatsApp send)")
-    print("5. Open Chrome tabs from the URL file")
+    print("5. Open tabs from the URL file")
     print("6. Open the latest weather briefing")
     print("7. Send latest weather briefing via WhatsApp")
-    print("8. Close all open Chrome and LibreOffice windows")
+    print("8. Close all open tabs and LibreOffice windows")
     print('9. Load previous task for classes')
     print("0. Update git settings (enable/disable automatic commit and push after updates)")
     print("Q. Quit")
@@ -74,19 +74,29 @@ def day_preparation():
     update_task_and_glider_files()
     # Update weather briefing
     weather_utils.update_metbrief()
-    # Open Chrome tabs from the URL file and latest weather briefing
+    # Open browser tabs from the URL file and latest weather briefing
     open_tabs()
     # Open the latest weather briefing
     open_metbrief()
 
 def menu_continuous_mode():
+    # Find newest tasks
+    config.selected_task_ids = task_utils.return_latest_task_ids_for_classes()
+
+    # Update task files
+    task_utils.update_task_files()
+
+    # Commit and push task and glider files if enabled
+    if config.commit_and_push_to_git == True:
+        utils.commit_and_push_task_and_glider_files()
+
     print("🔄 Entering continuous update mode. Press Ctrl+C to stop. \n")
-    last_task_ids =  config.selected_task_ids
+    
     try:
         while True:
             # Check for new tasks every 30 seconds
             current_task_ids = task_utils.return_latest_task_ids_for_classes()
-            if current_task_ids != last_task_ids:
+            if current_task_ids != config.selected_task_ids:
                 print("🆕 New tasks detected! Updating and pushing...")
                 # Update task files with latest version
                 update_task_and_glider_files()
@@ -123,13 +133,13 @@ def update_task_and_glider_files():
     if config.commit_and_push_to_git == True:
         utils.commit_and_push_task_and_glider_files()
 
-# Function to close all Chrome windows
+# Function to close all browser windows
 def open_tabs():
-    chrome_utils.open_tabs()
+    browser_utils.open_tabs()
 
-# Function to close all chrome and LibreOffice windows
+# Function to close all browser and LibreOffice windows
 def close_windows():
-    chrome_utils.close_windows()
+    browser_utils.close_windows()
     libreoffice_utils.close_windows()
 
 def open_metbrief():
@@ -185,7 +195,7 @@ def menu_quit():
     try:
         choice = input('\nDo you want to close all open windows? (Y/N): ').strip().lower()
 
-        # Close all Chrome and LibreOffice windows if the user chooses to do so
+        # Close all browser and LibreOffice windows if the user chooses to do so
         if choice == "y":
             close_windows()
         elif choice == "n":
