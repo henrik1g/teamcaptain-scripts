@@ -86,6 +86,31 @@ Edit `scripts/config.py` to match your event, file locations, and preferences.
 
 ---
 
+## 🦊 Creating a New Firefox User Profile
+
+To use a persistent Firefox profile for automation (for example, to keep logins or settings), you should create a dedicated Firefox user profile:
+
+1. **Open Firefox.**
+2. In the address bar, enter:
+   ```
+   about:profiles
+   ```
+   and press Enter.
+3. Click **"Create a New Profile"** and follow the instructions.
+   - Give your profile a name (e.g., `selenium-profile`).
+   - After creation, note the **Root Directory** path shown for your new profile—this is the folder you will use in your configuration. Alternatively, adapt the the standard path: "data/.firefoxdriver_user_data"
+4. (Optional) Launch Firefox with this profile to set up logins or preferences as needed.
+5. (Optional, if profile path was not modified to default) In your `scripts/config.py`, set the profile path:
+   ```python
+   firefoxdriver_user_data_dir = r"C:\Path\To\Your\New\Profile"
+   ```
+   Replace the path with the **Root Directory** you copied in step 3.
+
+**Tip:**  
+Never use your main/default Firefox profile for automation, as it may cause conflicts or data loss. Always create and use a dedicated profile for Selenium.
+
+---
+
 ## 📝 Usage
 
 From the project root, run:
