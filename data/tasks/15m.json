@@ -11,35 +11,19 @@
         },
         {
             "type": "AAT Sector",
-            "name": "658SOUDNY",
-            "altitude": 473.0,
-            "lat": 49.577949999999845,
-            "lng": 14.1390666666665,
-            "radius": 25000
+            "name": "545SVIHOV",
+            "altitude": 450.0,
+            "lat": 49.473616666666935,
+            "lng": 13.290833333333351,
+            "radius": 50000
         },
         {
             "type": "AAT Sector",
-            "name": "251KAUTZEN",
-            "altitude": 525.0,
-            "lat": 48.93138333333364,
-            "lng": 15.240549999999898,
-            "radius": 25000
-        },
-        {
-            "type": "AAT Sector",
-            "name": "642ZELIV",
-            "altitude": 406.0,
-            "lat": 49.522499999999894,
-            "lng": 15.218616666666797,
-            "radius": 25000
-        },
-        {
-            "type": "AAT Sector",
-            "name": "487SEDLCANY",
-            "altitude": 400.0,
-            "lat": 49.65361666666637,
-            "lng": 14.426666666666748,
-            "radius": 10000
+            "name": "186HORNICEREKEV",
+            "altitude": 586.0,
+            "lat": 49.31111666666641,
+            "lng": 15.324166666666796,
+            "radius": 30000
         },
         {
             "type": "Cylinder",
