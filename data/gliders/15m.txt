@@ -34,6 +34,5 @@ D00C86,,🇳🇱 MM,🇳🇱 Peter Millenaar
 D00992,,🇸🇰 3,🇸🇰 Vladimir Foltin
 D00DE8,,🇺🇸 73,🇺🇸 Jared Granzow
 DDEFD0,,🇺🇸 AF,🇺🇸 Mike Sorenson
-5AD6AD,,?,Unknown
-3EEE8D,,?,Unknown
-111111,,?,Unknown
+5AD6AD,,🇵🇱 ?,🇵🇱 Unknown
+3EEE8D,,🇵🇱 ?,🇵🇱 Unknown
