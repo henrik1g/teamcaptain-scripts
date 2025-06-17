@@ -1,27 +1,33 @@
-<Task aat_min_time="5400" type="AAT">
+<Task type="RT">
   <Point type="Start">
-    <Waypoint altitude="534" name="006SPCHYNOV">
-      <Location latitude="49.41166666666697" longitude="14.832216666666575"/>
+    <Waypoint altitude="516" name="011SPBOROTIN">
+      <Location latitude="49.504450000000176" longitude="14.614166666666783"/>
     </Waypoint>
     <ObservationZone length="15000" type="Line"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="550" name="365NACERADEC">
-      <Location latitude="49.61000000000018" longitude="14.904450000000066"/>
+    <Waypoint altitude="397" name="053BLOVICE">
+      <Location latitude="49.58166666666637" longitude="13.533333333333566"/>
     </Waypoint>
-    <ObservationZone radius="20000" type="Cylinder"/>
+    <ObservationZone radius="500" type="Cylinder"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="600" name="093CIZKOV">
-      <Location latitude="49.54166666666681" longitude="13.681950000000105"/>
+    <Waypoint altitude="544" name="346MIROSOV">
+      <Location latitude="49.67361666666644" longitude="13.636666666666471"/>
     </Waypoint>
-    <ObservationZone radius="35000" type="Cylinder"/>
+    <ObservationZone radius="500" type="Cylinder"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="494" name="411PELHRIMOV">
-      <Location latitude="49.418883333333504" longitude="15.220549999999832"/>
+    <Waypoint altitude="600" name="595VIR">
+      <Location latitude="49.564166666666885" longitude="16.308883333333075"/>
     </Waypoint>
-    <ObservationZone radius="20000" type="Cylinder"/>
+    <ObservationZone radius="500" type="Cylinder"/>
+  </Point>
+  <Point type="Turn">
+    <Waypoint altitude="328" name="367NEDVEDICE">
+      <Location latitude="49.456383333333626" longitude="16.333883333333155"/>
+    </Waypoint>
+    <ObservationZone radius="500" type="Cylinder"/>
   </Point>
   <Point type="Finish">
     <Waypoint altitude="428" name="001SPTABOR">

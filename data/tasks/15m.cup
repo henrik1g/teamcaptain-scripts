@@ -1,12 +1,20 @@
 name,code,country,lat,lon,elev,style,rwdir,rwlen,freq,desc
-"011SPBOROTIN","","", 4930.267N, 01436.850E, 516m,1,,,,,""
-"545SVIHOV","","", 4928.417N, 01317.450E, 450m,1,,,,,""
-"186HORNICEREKEV","","", 4918.667N, 01519.450E, 586m,1,,,,,""
+"397OTA","","", 4915.867N, 01447.917E, 400m,1,,,,,""
+"672NEURAZY","","", 4924.865N, 01333.085E, 690m,1,,,,,""
+"542SUSICE","","", 4914.033N, 01329.217E, 670m,1,,,,,""
+"707COUDKUV","","", 4901.822N, 01452.762E, 444m,1,,,,,""
+"088CESKEVELENICE","","", 4846.517N, 01456.983E, 498m,1,,,,,""
+"682KUHBERG","","", 4849.144N, 01548.189E, 473m,1,,,,,""
+"701UOBRAZKU","","", 4910.914N, 01538.021E, 663m,1,,,,,""
 "001SPTABOR","","", 4923.650N, 01442.167E, 428m,1,,,,,""
 -----Related Tasks-----
-"Task on 2025-06-15","","011SPBOROTIN","545SVIHOV","186HORNICEREKEV","001SPTABOR",""
+"Task on 2025-06-17","","397OTA","672NEURAZY","542SUSICE","707COUDKUV","088CESKEVELENICE","682KUHBERG","701UOBRAZKU","001SPTABOR",""
 Options
 ObsZone=0,Style=2,R1=7500m,A1=180,Line=1
-ObsZone=1,Style=3,R1=50000m,A1=180
-ObsZone=2,Style=3,R1=30000m,A1=180
-ObsZone=3,Style=3,R1=5000m,A1=180
+ObsZone=1,Style=3,R1=500m,A1=180
+ObsZone=2,Style=3,R1=500m,A1=180
+ObsZone=3,Style=3,R1=500m,A1=180
+ObsZone=4,Style=3,R1=500m,A1=180
+ObsZone=5,Style=3,R1=500m,A1=180
+ObsZone=6,Style=3,R1=500m,A1=180
+ObsZone=7,Style=3,R1=5000m,A1=180

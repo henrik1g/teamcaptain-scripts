@@ -1,21 +1,33 @@
-<Task aat_min_time="7200" type="AAT">
+<Task type="RT">
   <Point type="Start">
-    <Waypoint altitude="477" name="002SPZELEC">
-      <Location latitude="49.316116666666424" longitude="14.64416666666688"/>
+    <Waypoint altitude="433" name="003SPBECICE">
+      <Location latitude="49.38305000000024" longitude="14.554166666666587"/>
     </Waypoint>
     <ObservationZone length="15000" type="Line"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="827" name="565TREMSIN">
-      <Location latitude="49.56666666666689" longitude="13.76750000000004"/>
+    <Waypoint altitude="500" name="040BELA">
+      <Location latitude="49.588333333333246" longitude="12.721383333333451"/>
     </Waypoint>
-    <ObservationZone radius="35000" type="Cylinder"/>
+    <ObservationZone radius="500" type="Cylinder"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="520" name="102DOBERSBERG">
-      <Location latitude="48.92221666666675" longitude="15.2852833333333"/>
+    <Waypoint altitude="400" name="535STRIBRO">
+      <Location latitude="49.740550000000255" longitude="12.999999999999837"/>
     </Waypoint>
-    <ObservationZone radius="35000" type="Cylinder"/>
+    <ObservationZone radius="500" type="Cylinder"/>
+  </Point>
+  <Point type="Turn">
+    <Waypoint altitude="460" name="167HAVLICKUVBROD">
+      <Location latitude="49.60000000000014" longitude="15.551383333333476"/>
+    </Waypoint>
+    <ObservationZone radius="500" type="Cylinder"/>
+  </Point>
+  <Point type="Turn">
+    <Waypoint altitude="586" name="186HORNICEREKEV">
+      <Location latitude="49.31111666666641" longitude="15.324166666666796"/>
+    </Waypoint>
+    <ObservationZone radius="500" type="Cylinder"/>
   </Point>
   <Point type="Finish">
     <Waypoint altitude="428" name="001SPTABOR">

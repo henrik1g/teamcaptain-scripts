@@ -1,29 +1,45 @@
 {
-    "type": "AAT",
+    "type": "RT",
     "points": [
         {
             "type": "Next",
-            "name": "002SPZELEC",
-            "altitude": 477.0,
-            "lat": 49.316116666666424,
-            "lng": 14.64416666666688,
+            "name": "003SPBECICE",
+            "altitude": 433.0,
+            "lat": 49.38305000000024,
+            "lng": 14.554166666666587,
             "radius": 7500
         },
         {
-            "type": "AAT Sector",
-            "name": "565TREMSIN",
-            "altitude": 827.0,
-            "lat": 49.56666666666689,
-            "lng": 13.76750000000004,
-            "radius": 35000
+            "type": "Symmetric",
+            "name": "040BELA",
+            "altitude": 500.0,
+            "lat": 49.588333333333246,
+            "lng": 12.721383333333451,
+            "radius": 500
         },
         {
-            "type": "AAT Sector",
-            "name": "102DOBERSBERG",
-            "altitude": 520.0,
-            "lat": 48.92221666666675,
-            "lng": 15.2852833333333,
-            "radius": 35000
+            "type": "Symmetric",
+            "name": "535STRIBRO",
+            "altitude": 400.0,
+            "lat": 49.740550000000255,
+            "lng": 12.999999999999837,
+            "radius": 500
+        },
+        {
+            "type": "Symmetric",
+            "name": "167HAVLICKUVBROD",
+            "altitude": 460.0,
+            "lat": 49.60000000000014,
+            "lng": 15.551383333333476,
+            "radius": 500
+        },
+        {
+            "type": "Symmetric",
+            "name": "186HORNICEREKEV",
+            "altitude": 586.0,
+            "lat": 49.31111666666641,
+            "lng": 15.324166666666796,
+            "radius": 500
         },
         {
             "type": "Cylinder",

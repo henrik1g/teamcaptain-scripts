@@ -1,14 +1,16 @@
 name,code,country,lat,lon,elev,style,rwdir,rwlen,freq,desc
-"006SPCHYNOV","","", 4924.700N, 01449.933E, 534m,1,,,,,""
-"365NACERADEC","","", 4936.600N, 01454.267E, 550m,1,,,,,""
-"093CIZKOV","","", 4932.500N, 01340.917E, 600m,1,,,,,""
-"411PELHRIMOV","","", 4925.133N, 01513.233E, 494m,1,,,,,""
+"011SPBOROTIN","","", 4930.267N, 01436.850E, 516m,1,,,,,""
+"053BLOVICE","","", 4934.900N, 01332.000E, 397m,1,,,,,""
+"346MIROSOV","","", 4940.417N, 01338.200E, 544m,1,,,,,""
+"595VIR","","", 4933.850N, 01618.533E, 600m,1,,,,,""
+"367NEDVEDICE","","", 4927.383N, 01620.033E, 328m,1,,,,,""
 "001SPTABOR","","", 4923.650N, 01442.167E, 428m,1,,,,,""
 -----Related Tasks-----
-"Task on 2025-06-15","","006SPCHYNOV","365NACERADEC","093CIZKOV","411PELHRIMOV","001SPTABOR",""
+"Task on 2025-06-17","","011SPBOROTIN","053BLOVICE","346MIROSOV","595VIR","367NEDVEDICE","001SPTABOR",""
 Options
 ObsZone=0,Style=2,R1=7500m,A1=180,Line=1
-ObsZone=1,Style=3,R1=20000m,A1=180
-ObsZone=2,Style=3,R1=35000m,A1=180
-ObsZone=3,Style=3,R1=20000m,A1=180
-ObsZone=4,Style=3,R1=5000m,A1=180
+ObsZone=1,Style=3,R1=500m,A1=180
+ObsZone=2,Style=3,R1=500m,A1=180
+ObsZone=3,Style=3,R1=500m,A1=180
+ObsZone=4,Style=3,R1=500m,A1=180
+ObsZone=5,Style=3,R1=5000m,A1=180

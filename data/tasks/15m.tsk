@@ -1,21 +1,45 @@
-<Task aat_min_time="6300" type="AAT">
+<Task type="RT">
   <Point type="Start">
-    <Waypoint altitude="516" name="011SPBOROTIN">
-      <Location latitude="49.504450000000176" longitude="14.614166666666783"/>
+    <Waypoint altitude="400" name="397OTA">
+      <Location latitude="49.26444999999997" longitude="14.798616666666579"/>
     </Waypoint>
     <ObservationZone length="15000" type="Line"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="450" name="545SVIHOV">
-      <Location latitude="49.473616666666935" longitude="13.290833333333351"/>
+    <Waypoint altitude="690" name="672NEURAZY">
+      <Location latitude="49.41441666666697" longitude="13.551416666666768"/>
     </Waypoint>
-    <ObservationZone radius="50000" type="Cylinder"/>
+    <ObservationZone radius="500" type="Cylinder"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="586" name="186HORNICEREKEV">
-      <Location latitude="49.31111666666641" longitude="15.324166666666796"/>
+    <Waypoint altitude="670" name="542SUSICE">
+      <Location latitude="49.23388333333347" longitude="13.486950000000045"/>
     </Waypoint>
-    <ObservationZone radius="30000" type="Cylinder"/>
+    <ObservationZone radius="500" type="Cylinder"/>
+  </Point>
+  <Point type="Turn">
+    <Waypoint altitude="444" name="707COUDKUV">
+      <Location latitude="49.030366666666644" longitude="14.879366666666842"/>
+    </Waypoint>
+    <ObservationZone radius="500" type="Cylinder"/>
+  </Point>
+  <Point type="Turn">
+    <Waypoint altitude="498" name="088CESKEVELENICE">
+      <Location latitude="48.77528333333324" longitude="14.949716666666957"/>
+    </Waypoint>
+    <ObservationZone radius="500" type="Cylinder"/>
+  </Point>
+  <Point type="Turn">
+    <Waypoint altitude="473" name="682KUHBERG">
+      <Location latitude="48.81906666666688" longitude="15.803149999999892"/>
+    </Waypoint>
+    <ObservationZone radius="500" type="Cylinder"/>
+  </Point>
+  <Point type="Turn">
+    <Waypoint altitude="663" name="701UOBRAZKU">
+      <Location latitude="49.18190000000005" longitude="15.6336833333334"/>
+    </Waypoint>
+    <ObservationZone radius="500" type="Cylinder"/>
   </Point>
   <Point type="Finish">
     <Waypoint altitude="428" name="001SPTABOR">

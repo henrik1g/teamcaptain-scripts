@@ -1,29 +1,61 @@
 {
-    "type": "AAT",
+    "type": "RT",
     "points": [
         {
             "type": "Next",
-            "name": "011SPBOROTIN",
-            "altitude": 516.0,
-            "lat": 49.504450000000176,
-            "lng": 14.614166666666783,
+            "name": "397OTA",
+            "altitude": 400.0,
+            "lat": 49.26444999999997,
+            "lng": 14.798616666666579,
             "radius": 7500
         },
         {
-            "type": "AAT Sector",
-            "name": "545SVIHOV",
-            "altitude": 450.0,
-            "lat": 49.473616666666935,
-            "lng": 13.290833333333351,
-            "radius": 50000
+            "type": "Symmetric",
+            "name": "672NEURAZY",
+            "altitude": 690.0,
+            "lat": 49.41441666666697,
+            "lng": 13.551416666666768,
+            "radius": 500
         },
         {
-            "type": "AAT Sector",
-            "name": "186HORNICEREKEV",
-            "altitude": 586.0,
-            "lat": 49.31111666666641,
-            "lng": 15.324166666666796,
-            "radius": 30000
+            "type": "Symmetric",
+            "name": "542SUSICE",
+            "altitude": 670.0,
+            "lat": 49.23388333333347,
+            "lng": 13.486950000000045,
+            "radius": 500
+        },
+        {
+            "type": "Symmetric",
+            "name": "707COUDKUV",
+            "altitude": 444.0,
+            "lat": 49.030366666666644,
+            "lng": 14.879366666666842,
+            "radius": 500
+        },
+        {
+            "type": "Symmetric",
+            "name": "088CESKEVELENICE",
+            "altitude": 498.0,
+            "lat": 48.77528333333324,
+            "lng": 14.949716666666957,
+            "radius": 500
+        },
+        {
+            "type": "Symmetric",
+            "name": "682KUHBERG",
+            "altitude": 473.0,
+            "lat": 48.81906666666688,
+            "lng": 15.803149999999892,
+            "radius": 500
+        },
+        {
+            "type": "Symmetric",
+            "name": "701UOBRAZKU",
+            "altitude": 663.0,
+            "lat": 49.18190000000005,
+            "lng": 15.6336833333334,
+            "radius": 500
         },
         {
             "type": "Cylinder",
