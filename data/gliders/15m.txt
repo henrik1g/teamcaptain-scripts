@@ -19,8 +19,8 @@ D01387,,🇫🇮 3J,🇫🇮 Sami Rissanen
 D01CE6,,🇫🇮 3F,🇫🇮 Tapio Tourula
 D00900,,🇫🇷 LB,🇫🇷 Jean-Denis Barrois
 D00E2E,,🇫🇷 KW,🇫🇷 Maximilian SEIS
-D009DF,,🇬🇧 DW,🇬🇧 Tom Arscott
-D00CA4,,🇬🇧 LE,🇬🇧 Leigh Wells
+3EEE8D,,🇬🇧 DW,🇬🇧 Tom Arscott
+5AD6AD,,🇬🇧 LE,🇬🇧 Leigh Wells
 D012AC,,🇭🇺 BK,🇭🇺 Kornél Negro
 D001C4,,🇭🇺 V8,🇭🇺 Tamás Vámosi
 D00E16,,🇮🇹 AI,🇮🇹 Lucio Bordin
