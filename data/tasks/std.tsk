@@ -6,26 +6,32 @@
     <ObservationZone length="15000" type="Line"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="397" name="053BLOVICE">
-      <Location latitude="49.58166666666637" longitude="13.533333333333566"/>
+    <Waypoint altitude="457" name="711CHVALENICE">
+      <Location latitude="49.642950000000056" longitude="13.47589999999978"/>
     </Waypoint>
     <ObservationZone radius="500" type="Cylinder"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="544" name="346MIROSOV">
-      <Location latitude="49.67361666666644" longitude="13.636666666666471"/>
+    <Waypoint altitude="418" name="298LETKOV">
+      <Location latitude="49.7230500000002" longitude="13.452216666666674"/>
     </Waypoint>
     <ObservationZone radius="500" type="Cylinder"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="600" name="595VIR">
-      <Location latitude="49.564166666666885" longitude="16.308883333333075"/>
+    <Waypoint altitude="600" name="309LIPNICE">
+      <Location latitude="49.610833333333325" longitude="15.409166666666502"/>
     </Waypoint>
     <ObservationZone radius="500" type="Cylinder"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="328" name="367NEDVEDICE">
-      <Location latitude="49.456383333333626" longitude="16.333883333333155"/>
+    <Waypoint altitude="650" name="590VETRNYJENIKOV">
+      <Location latitude="49.473616666666935" longitude="15.478050000000096"/>
+    </Waypoint>
+    <ObservationZone radius="500" type="Cylinder"/>
+  </Point>
+  <Point type="Turn">
+    <Waypoint altitude="579" name="657KRASNAHORA">
+      <Location latitude="49.57236666666668" longitude="14.293300000000258"/>
     </Waypoint>
     <ObservationZone radius="500" type="Cylinder"/>
   </Point>

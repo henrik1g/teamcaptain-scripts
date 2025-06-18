@@ -1,43 +1,25 @@
 <Task type="RT">
   <Point type="Start">
-    <Waypoint altitude="400" name="397OTA">
-      <Location latitude="49.26444999999997" longitude="14.798616666666579"/>
+    <Waypoint altitude="534" name="006SPCHYNOV">
+      <Location latitude="49.41166666666697" longitude="14.832216666666575"/>
     </Waypoint>
     <ObservationZone length="15000" type="Line"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="690" name="672NEURAZY">
-      <Location latitude="49.41441666666697" longitude="13.551416666666768"/>
+    <Waypoint altitude="380" name="440PRESTICE">
+      <Location latitude="49.575833333333215" longitude="13.322216666666826"/>
     </Waypoint>
     <ObservationZone radius="500" type="Cylinder"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="670" name="542SUSICE">
-      <Location latitude="49.23388333333347" longitude="13.486950000000045"/>
+    <Waypoint altitude="663" name="496SCHONSEE">
+      <Location latitude="49.50833333333357" longitude="12.550000000000095"/>
     </Waypoint>
     <ObservationZone radius="500" type="Cylinder"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="444" name="707COUDKUV">
-      <Location latitude="49.030366666666644" longitude="14.879366666666842"/>
-    </Waypoint>
-    <ObservationZone radius="500" type="Cylinder"/>
-  </Point>
-  <Point type="Turn">
-    <Waypoint altitude="498" name="088CESKEVELENICE">
-      <Location latitude="48.77528333333324" longitude="14.949716666666957"/>
-    </Waypoint>
-    <ObservationZone radius="500" type="Cylinder"/>
-  </Point>
-  <Point type="Turn">
-    <Waypoint altitude="473" name="682KUHBERG">
-      <Location latitude="48.81906666666688" longitude="15.803149999999892"/>
-    </Waypoint>
-    <ObservationZone radius="500" type="Cylinder"/>
-  </Point>
-  <Point type="Turn">
-    <Waypoint altitude="663" name="701UOBRAZKU">
-      <Location latitude="49.18190000000005" longitude="15.6336833333334"/>
+    <Waypoint altitude="602" name="131FLOSSENBUERG">
+      <Location latitude="49.73278333333349" longitude="12.33861666666661"/>
     </Waypoint>
     <ObservationZone radius="500" type="Cylinder"/>
   </Point>

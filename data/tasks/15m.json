@@ -3,58 +3,34 @@
     "points": [
         {
             "type": "Next",
-            "name": "397OTA",
-            "altitude": 400.0,
-            "lat": 49.26444999999997,
-            "lng": 14.798616666666579,
+            "name": "006SPCHYNOV",
+            "altitude": 534.0,
+            "lat": 49.41166666666697,
+            "lng": 14.832216666666575,
             "radius": 7500
         },
         {
             "type": "Symmetric",
-            "name": "672NEURAZY",
-            "altitude": 690.0,
-            "lat": 49.41441666666697,
-            "lng": 13.551416666666768,
+            "name": "440PRESTICE",
+            "altitude": 380.0,
+            "lat": 49.575833333333215,
+            "lng": 13.322216666666826,
             "radius": 500
         },
         {
             "type": "Symmetric",
-            "name": "542SUSICE",
-            "altitude": 670.0,
-            "lat": 49.23388333333347,
-            "lng": 13.486950000000045,
-            "radius": 500
-        },
-        {
-            "type": "Symmetric",
-            "name": "707COUDKUV",
-            "altitude": 444.0,
-            "lat": 49.030366666666644,
-            "lng": 14.879366666666842,
-            "radius": 500
-        },
-        {
-            "type": "Symmetric",
-            "name": "088CESKEVELENICE",
-            "altitude": 498.0,
-            "lat": 48.77528333333324,
-            "lng": 14.949716666666957,
-            "radius": 500
-        },
-        {
-            "type": "Symmetric",
-            "name": "682KUHBERG",
-            "altitude": 473.0,
-            "lat": 48.81906666666688,
-            "lng": 15.803149999999892,
-            "radius": 500
-        },
-        {
-            "type": "Symmetric",
-            "name": "701UOBRAZKU",
+            "name": "496SCHONSEE",
             "altitude": 663.0,
-            "lat": 49.18190000000005,
-            "lng": 15.6336833333334,
+            "lat": 49.50833333333357,
+            "lng": 12.550000000000095,
+            "radius": 500
+        },
+        {
+            "type": "Symmetric",
+            "name": "131FLOSSENBUERG",
+            "altitude": 602.0,
+            "lat": 49.73278333333349,
+            "lng": 12.33861666666661,
             "radius": 500
         },
         {

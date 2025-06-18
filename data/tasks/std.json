@@ -11,34 +11,42 @@
         },
         {
             "type": "Symmetric",
-            "name": "053BLOVICE",
-            "altitude": 397.0,
-            "lat": 49.58166666666637,
-            "lng": 13.533333333333566,
+            "name": "711CHVALENICE",
+            "altitude": 457.0,
+            "lat": 49.642950000000056,
+            "lng": 13.47589999999978,
             "radius": 500
         },
         {
             "type": "Symmetric",
-            "name": "346MIROSOV",
-            "altitude": 544.0,
-            "lat": 49.67361666666644,
-            "lng": 13.636666666666471,
+            "name": "298LETKOV",
+            "altitude": 418.0,
+            "lat": 49.7230500000002,
+            "lng": 13.452216666666674,
             "radius": 500
         },
         {
             "type": "Symmetric",
-            "name": "595VIR",
+            "name": "309LIPNICE",
             "altitude": 600.0,
-            "lat": 49.564166666666885,
-            "lng": 16.308883333333075,
+            "lat": 49.610833333333325,
+            "lng": 15.409166666666502,
             "radius": 500
         },
         {
             "type": "Symmetric",
-            "name": "367NEDVEDICE",
-            "altitude": 328.0,
-            "lat": 49.456383333333626,
-            "lng": 16.333883333333155,
+            "name": "590VETRNYJENIKOV",
+            "altitude": 650.0,
+            "lat": 49.473616666666935,
+            "lng": 15.478050000000096,
+            "radius": 500
+        },
+        {
+            "type": "Symmetric",
+            "name": "657KRASNAHORA",
+            "altitude": 579.0,
+            "lat": 49.57236666666668,
+            "lng": 14.293300000000258,
             "radius": 500
         },
         {
