@@ -11,34 +11,18 @@
         },
         {
             "type": "Symmetric",
-            "name": "040BELA",
-            "altitude": 500.0,
-            "lat": 49.588333333333246,
-            "lng": 12.721383333333451,
+            "name": "212IMUNTEREN",
+            "altitude": 490.0,
+            "lat": 49.87499999999989,
+            "lng": 12.326383333333313,
             "radius": 500
         },
         {
             "type": "Symmetric",
-            "name": "535STRIBRO",
-            "altitude": 400.0,
-            "lat": 49.740550000000255,
-            "lng": 12.999999999999837,
-            "radius": 500
-        },
-        {
-            "type": "Symmetric",
-            "name": "167HAVLICKUVBROD",
-            "altitude": 460.0,
-            "lat": 49.60000000000014,
-            "lng": 15.551383333333476,
-            "radius": 500
-        },
-        {
-            "type": "Symmetric",
-            "name": "186HORNICEREKEV",
-            "altitude": 586.0,
-            "lat": 49.31111666666641,
-            "lng": 15.324166666666796,
+            "name": "095CUPRINA",
+            "altitude": 864.0,
+            "lat": 49.95194999999992,
+            "lng": 12.485550000000115,
             "radius": 500
         },
         {
