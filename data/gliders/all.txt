@@ -99,8 +99,8 @@ D03425,,🇵🇱 PP,🇵🇱 Mikołaj Zdun
 A10926,,🇵🇱 LOT,🇵🇱 Jakub Barszcz
 D02AAE,,🇵🇱 LOT,🇵🇱 Jakub Barszcz
 DDEE69,,🇵🇱 I,🇵🇱 Łukasz Błaszczyk
-4DE92A,,🇵🇱 RP,🇵🇱 Łukasz Grabowski
-4DEACE,,🇵🇱 ZJ,🇵🇱 Paweł Wojciechowski
+101212,,🇵🇱 RP,🇵🇱 Łukasz Grabowski
+101211,,🇵🇱 ZJ,🇵🇱 Paweł Wojciechowski
 DDF0BD,,🇷🇴 Y3,🇷🇴 Tudor Bajenaru
 D00C74,,🇷🇴 Y2,🇷🇴 Alin Simion
 D01074,,🇷🇴 YB,🇷🇴 Norbert Scarlat

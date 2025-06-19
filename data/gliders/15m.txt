@@ -29,8 +29,8 @@ DDD93F,,🇱🇹 M7,🇱🇹 Vladas Motuza
 D02B81,,🇱🇹 BB,🇱🇹 Marius Pluščauskas
 D00C86,,🇳🇱 MM,🇳🇱 Peter Millenaar
 3E7D9A,,🇳🇱 JV,🇳🇱 Jeroen Verkuijl
-4DE92A,,🇵🇱 RP,🇵🇱 Łukasz Grabowski
-4DEACE,,🇵🇱 ZJ,🇵🇱 Paweł Wojciechowski
+101212,,🇵🇱 RP,🇵🇱 Łukasz Grabowski
+101211,,🇵🇱 ZJ,🇵🇱 Paweł Wojciechowski
 D00992,,🇸🇰 3,🇸🇰 Vladimir Foltin
 D00DE8,,🇺🇸 73,🇺🇸 Jared Granzow
 DDEFD0,,🇺🇸 AF,🇺🇸 Mike Sorenson
