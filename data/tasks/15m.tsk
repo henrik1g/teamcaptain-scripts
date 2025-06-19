@@ -1,25 +1,37 @@
 <Task type="RT">
   <Point type="Start">
-    <Waypoint altitude="534" name="006SPCHYNOV">
-      <Location latitude="49.41166666666697" longitude="14.832216666666575"/>
+    <Waypoint altitude="516" name="011SPBOROTIN">
+      <Location latitude="49.504450000000176" longitude="14.614166666666783"/>
     </Waypoint>
     <ObservationZone length="15000" type="Line"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="380" name="440PRESTICE">
-      <Location latitude="49.575833333333215" longitude="13.322216666666826"/>
+    <Waypoint altitude="827" name="565TREMSIN">
+      <Location latitude="49.56666666666689" longitude="13.76750000000004"/>
     </Waypoint>
     <ObservationZone radius="500" type="Cylinder"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="663" name="496SCHONSEE">
-      <Location latitude="49.50833333333357" longitude="12.550000000000095"/>
+    <Waypoint altitude="544" name="346MIROSOV">
+      <Location latitude="49.67361666666644" longitude="13.636666666666471"/>
     </Waypoint>
     <ObservationZone radius="500" type="Cylinder"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="602" name="131FLOSSENBUERG">
-      <Location latitude="49.73278333333349" longitude="12.33861666666661"/>
+    <Waypoint altitude="445" name="679SLAPANOV">
+      <Location latitude="49.54081666666635" longitude="15.654833333333585"/>
+    </Waypoint>
+    <ObservationZone radius="500" type="Cylinder"/>
+  </Point>
+  <Point type="Turn">
+    <Waypoint altitude="350" name="538SUCHDOL">
+      <Location latitude="48.902500000000174" longitude="14.882216666666737"/>
+    </Waypoint>
+    <ObservationZone radius="500" type="Cylinder"/>
+  </Point>
+  <Point type="Turn">
+    <Waypoint altitude="619" name="680HOLUBI">
+      <Location latitude="48.99286666666652" longitude="15.472700000000193"/>
     </Waypoint>
     <ObservationZone radius="500" type="Cylinder"/>
   </Point>

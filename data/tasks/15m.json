@@ -3,34 +3,50 @@
     "points": [
         {
             "type": "Next",
-            "name": "006SPCHYNOV",
-            "altitude": 534.0,
-            "lat": 49.41166666666697,
-            "lng": 14.832216666666575,
+            "name": "011SPBOROTIN",
+            "altitude": 516.0,
+            "lat": 49.504450000000176,
+            "lng": 14.614166666666783,
             "radius": 7500
         },
         {
             "type": "Symmetric",
-            "name": "440PRESTICE",
-            "altitude": 380.0,
-            "lat": 49.575833333333215,
-            "lng": 13.322216666666826,
+            "name": "565TREMSIN",
+            "altitude": 827.0,
+            "lat": 49.56666666666689,
+            "lng": 13.76750000000004,
             "radius": 500
         },
         {
             "type": "Symmetric",
-            "name": "496SCHONSEE",
-            "altitude": 663.0,
-            "lat": 49.50833333333357,
-            "lng": 12.550000000000095,
+            "name": "346MIROSOV",
+            "altitude": 544.0,
+            "lat": 49.67361666666644,
+            "lng": 13.636666666666471,
             "radius": 500
         },
         {
             "type": "Symmetric",
-            "name": "131FLOSSENBUERG",
-            "altitude": 602.0,
-            "lat": 49.73278333333349,
-            "lng": 12.33861666666661,
+            "name": "679SLAPANOV",
+            "altitude": 445.0,
+            "lat": 49.54081666666635,
+            "lng": 15.654833333333585,
+            "radius": 500
+        },
+        {
+            "type": "Symmetric",
+            "name": "538SUCHDOL",
+            "altitude": 350.0,
+            "lat": 48.902500000000174,
+            "lng": 14.882216666666737,
+            "radius": 500
+        },
+        {
+            "type": "Symmetric",
+            "name": "680HOLUBI",
+            "altitude": 619.0,
+            "lat": 48.99286666666652,
+            "lng": 15.472700000000193,
             "radius": 500
         },
         {

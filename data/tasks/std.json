@@ -3,50 +3,42 @@
     "points": [
         {
             "type": "Next",
-            "name": "011SPBOROTIN",
-            "altitude": 516.0,
-            "lat": 49.504450000000176,
-            "lng": 14.614166666666783,
+            "name": "206CHOUSTNIK",
+            "altitude": 538.0,
+            "lat": 49.32583333333355,
+            "lng": 14.840283333333574,
             "radius": 7500
         },
         {
             "type": "Symmetric",
-            "name": "711CHVALENICE",
-            "altitude": 457.0,
-            "lat": 49.642950000000056,
-            "lng": 13.47589999999978,
+            "name": "462RETZ",
+            "altitude": 250.0,
+            "lat": 48.755833333333406,
+            "lng": 15.958883333333082,
             "radius": 500
         },
         {
             "type": "Symmetric",
-            "name": "298LETKOV",
-            "altitude": 418.0,
-            "lat": 49.7230500000002,
-            "lng": 13.452216666666674,
+            "name": "689REISENG",
+            "altitude": 878.0,
+            "lat": 48.590799999999966,
+            "lng": 14.536250000000244,
             "radius": 500
         },
         {
             "type": "Symmetric",
-            "name": "309LIPNICE",
-            "altitude": 600.0,
-            "lat": 49.610833333333325,
-            "lng": 15.409166666666502,
+            "name": "247KAPLICE",
+            "altitude": 550.0,
+            "lat": 48.738049999999866,
+            "lng": 14.496383333333489,
             "radius": 500
         },
         {
             "type": "Symmetric",
-            "name": "590VETRNYJENIKOV",
-            "altitude": 650.0,
-            "lat": 49.473616666666935,
-            "lng": 15.478050000000096,
-            "radius": 500
-        },
-        {
-            "type": "Symmetric",
-            "name": "657KRASNAHORA",
-            "altitude": 579.0,
-            "lat": 49.57236666666668,
-            "lng": 14.293300000000258,
+            "name": "603VRANOV",
+            "altitude": 400.0,
+            "lat": 48.90694999999995,
+            "lng": 15.818616666666456,
             "radius": 500
         },
         {

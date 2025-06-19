@@ -1,19 +1,37 @@
 <Task type="RT">
   <Point type="Start">
-    <Waypoint altitude="433" name="003SPBECICE">
-      <Location latitude="49.38305000000024" longitude="14.554166666666587"/>
+    <Waypoint altitude="477" name="002SPZELEC">
+      <Location latitude="49.316116666666424" longitude="14.64416666666688"/>
     </Waypoint>
     <ObservationZone length="15000" type="Line"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="490" name="212IMUNTEREN">
-      <Location latitude="49.87499999999989" longitude="12.326383333333313"/>
+    <Waypoint altitude="864" name="095CUPRINA">
+      <Location latitude="49.95194999999992" longitude="12.485550000000115"/>
     </Waypoint>
     <ObservationZone radius="500" type="Cylinder"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="864" name="095CUPRINA">
-      <Location latitude="49.95194999999992" longitude="12.485550000000115"/>
+    <Waypoint altitude="150" name="126ERPETSHOF">
+      <Location latitude="49.655549999999984" longitude="12.291666666666686"/>
+    </Waypoint>
+    <ObservationZone radius="500" type="Cylinder"/>
+  </Point>
+  <Point type="Turn">
+    <Waypoint altitude="700" name="385NYRSKO">
+      <Location latitude="49.260549999999846" longitude="13.145549999999966"/>
+    </Waypoint>
+    <ObservationZone radius="500" type="Cylinder"/>
+  </Point>
+  <Point type="Turn">
+    <Waypoint altitude="500" name="594VIMPERK">
+      <Location latitude="49.0522166666666" longitude="13.774716666666576"/>
+    </Waypoint>
+    <ObservationZone radius="500" type="Cylinder"/>
+  </Point>
+  <Point type="Turn">
+    <Waypoint altitude="480" name="084CERVENA">
+      <Location latitude="49.24694999999991" longitude="14.886116666666863"/>
     </Waypoint>
     <ObservationZone radius="500" type="Cylinder"/>
   </Point>

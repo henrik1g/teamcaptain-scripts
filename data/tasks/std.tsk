@@ -1,37 +1,31 @@
 <Task type="RT">
   <Point type="Start">
-    <Waypoint altitude="516" name="011SPBOROTIN">
-      <Location latitude="49.504450000000176" longitude="14.614166666666783"/>
+    <Waypoint altitude="538" name="206CHOUSTNIK">
+      <Location latitude="49.32583333333355" longitude="14.840283333333574"/>
     </Waypoint>
     <ObservationZone length="15000" type="Line"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="457" name="711CHVALENICE">
-      <Location latitude="49.642950000000056" longitude="13.47589999999978"/>
+    <Waypoint altitude="250" name="462RETZ">
+      <Location latitude="48.755833333333406" longitude="15.958883333333082"/>
     </Waypoint>
     <ObservationZone radius="500" type="Cylinder"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="418" name="298LETKOV">
-      <Location latitude="49.7230500000002" longitude="13.452216666666674"/>
+    <Waypoint altitude="878" name="689REISENG">
+      <Location latitude="48.590799999999966" longitude="14.536250000000244"/>
     </Waypoint>
     <ObservationZone radius="500" type="Cylinder"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="600" name="309LIPNICE">
-      <Location latitude="49.610833333333325" longitude="15.409166666666502"/>
+    <Waypoint altitude="550" name="247KAPLICE">
+      <Location latitude="48.738049999999866" longitude="14.496383333333489"/>
     </Waypoint>
     <ObservationZone radius="500" type="Cylinder"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="650" name="590VETRNYJENIKOV">
-      <Location latitude="49.473616666666935" longitude="15.478050000000096"/>
-    </Waypoint>
-    <ObservationZone radius="500" type="Cylinder"/>
-  </Point>
-  <Point type="Turn">
-    <Waypoint altitude="579" name="657KRASNAHORA">
-      <Location latitude="49.57236666666668" longitude="14.293300000000258"/>
+    <Waypoint altitude="400" name="603VRANOV">
+      <Location latitude="48.90694999999995" longitude="15.818616666666456"/>
     </Waypoint>
     <ObservationZone radius="500" type="Cylinder"/>
   </Point>

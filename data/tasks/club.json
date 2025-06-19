@@ -3,19 +3,11 @@
     "points": [
         {
             "type": "Next",
-            "name": "003SPBECICE",
-            "altitude": 433.0,
-            "lat": 49.38305000000024,
-            "lng": 14.554166666666587,
+            "name": "002SPZELEC",
+            "altitude": 477.0,
+            "lat": 49.316116666666424,
+            "lng": 14.64416666666688,
             "radius": 7500
-        },
-        {
-            "type": "Symmetric",
-            "name": "212IMUNTEREN",
-            "altitude": 490.0,
-            "lat": 49.87499999999989,
-            "lng": 12.326383333333313,
-            "radius": 500
         },
         {
             "type": "Symmetric",
@@ -23,6 +15,38 @@
             "altitude": 864.0,
             "lat": 49.95194999999992,
             "lng": 12.485550000000115,
+            "radius": 500
+        },
+        {
+            "type": "Symmetric",
+            "name": "126ERPETSHOF",
+            "altitude": 150.0,
+            "lat": 49.655549999999984,
+            "lng": 12.291666666666686,
+            "radius": 500
+        },
+        {
+            "type": "Symmetric",
+            "name": "385NYRSKO",
+            "altitude": 700.0,
+            "lat": 49.260549999999846,
+            "lng": 13.145549999999966,
+            "radius": 500
+        },
+        {
+            "type": "Symmetric",
+            "name": "594VIMPERK",
+            "altitude": 500.0,
+            "lat": 49.0522166666666,
+            "lng": 13.774716666666576,
+            "radius": 500
+        },
+        {
+            "type": "Symmetric",
+            "name": "084CERVENA",
+            "altitude": 480.0,
+            "lat": 49.24694999999991,
+            "lng": 14.886116666666863,
             "radius": 500
         },
         {
