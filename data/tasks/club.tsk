@@ -1,4 +1,4 @@
-<Task type="RT">
+<Task aat_min_time="10800" type="AAT">
   <Point type="Start">
     <Waypoint altitude="477" name="002SPZELEC">
       <Location latitude="49.316116666666424" longitude="14.64416666666688"/>
@@ -6,34 +6,22 @@
     <ObservationZone length="15000" type="Line"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="864" name="095CUPRINA">
-      <Location latitude="49.95194999999992" longitude="12.485550000000115"/>
+    <Waypoint altitude="400" name="300LETY">
+      <Location latitude="49.51945000000023" longitude="14.072783333333371"/>
     </Waypoint>
-    <ObservationZone radius="500" type="Cylinder"/>
+    <ObservationZone radius="35000" type="Cylinder"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="150" name="126ERPETSHOF">
-      <Location latitude="49.655549999999984" longitude="12.291666666666686"/>
+    <Waypoint altitude="520" name="198HUMPOLEC">
+      <Location latitude="49.52638333333328" longitude="15.349166666666878"/>
     </Waypoint>
-    <ObservationZone radius="500" type="Cylinder"/>
+    <ObservationZone radius="20000" type="Cylinder"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="700" name="385NYRSKO">
-      <Location latitude="49.260549999999846" longitude="13.145549999999966"/>
+    <Waypoint altitude="425" name="112DROSENDORF">
+      <Location latitude="48.86916666666692" longitude="15.620549999999986"/>
     </Waypoint>
-    <ObservationZone radius="500" type="Cylinder"/>
-  </Point>
-  <Point type="Turn">
-    <Waypoint altitude="500" name="594VIMPERK">
-      <Location latitude="49.0522166666666" longitude="13.774716666666576"/>
-    </Waypoint>
-    <ObservationZone radius="500" type="Cylinder"/>
-  </Point>
-  <Point type="Turn">
-    <Waypoint altitude="480" name="084CERVENA">
-      <Location latitude="49.24694999999991" longitude="14.886116666666863"/>
-    </Waypoint>
-    <ObservationZone radius="500" type="Cylinder"/>
+    <ObservationZone radius="30000" type="Cylinder"/>
   </Point>
   <Point type="Finish">
     <Waypoint altitude="428" name="001SPTABOR">

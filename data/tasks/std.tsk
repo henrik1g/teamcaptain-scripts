@@ -1,33 +1,27 @@
-<Task type="RT">
+<Task aat_min_time="10800" type="AAT">
   <Point type="Start">
-    <Waypoint altitude="538" name="206CHOUSTNIK">
-      <Location latitude="49.32583333333355" longitude="14.840283333333574"/>
+    <Waypoint altitude="453" name="350MLADAVOZICE">
+      <Location latitude="49.53221666666644" longitude="14.809166666666846"/>
     </Waypoint>
     <ObservationZone length="15000" type="Line"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="250" name="462RETZ">
-      <Location latitude="48.755833333333406" longitude="15.958883333333082"/>
+    <Waypoint altitude="550" name="234JIMRAMOV">
+      <Location latitude="49.63528333333318" longitude="16.22333333333314"/>
     </Waypoint>
-    <ObservationZone radius="500" type="Cylinder"/>
+    <ObservationZone radius="30000" type="Cylinder"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="878" name="689REISENG">
-      <Location latitude="48.590799999999966" longitude="14.536250000000244"/>
+    <Waypoint altitude="400" name="343MILEVSKO">
+      <Location latitude="49.441666666666485" longitude="14.37749999999973"/>
     </Waypoint>
-    <ObservationZone radius="500" type="Cylinder"/>
+    <ObservationZone radius="30000" type="Cylinder"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="550" name="247KAPLICE">
-      <Location latitude="48.738049999999866" longitude="14.496383333333489"/>
+    <Waypoint altitude="565" name="646ZIROVNICE">
+      <Location latitude="49.25388333333354" longitude="15.193333333333229"/>
     </Waypoint>
-    <ObservationZone radius="500" type="Cylinder"/>
-  </Point>
-  <Point type="Turn">
-    <Waypoint altitude="400" name="603VRANOV">
-      <Location latitude="48.90694999999995" longitude="15.818616666666456"/>
-    </Waypoint>
-    <ObservationZone radius="500" type="Cylinder"/>
+    <ObservationZone radius="20000" type="Cylinder"/>
   </Point>
   <Point type="Finish">
     <Waypoint altitude="428" name="001SPTABOR">

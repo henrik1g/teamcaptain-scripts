@@ -1,45 +1,37 @@
 {
-    "type": "RT",
+    "type": "AAT",
     "points": [
         {
             "type": "Next",
-            "name": "206CHOUSTNIK",
-            "altitude": 538.0,
-            "lat": 49.32583333333355,
-            "lng": 14.840283333333574,
+            "name": "350MLADAVOZICE",
+            "altitude": 453.0,
+            "lat": 49.53221666666644,
+            "lng": 14.809166666666846,
             "radius": 7500
         },
         {
-            "type": "Symmetric",
-            "name": "462RETZ",
-            "altitude": 250.0,
-            "lat": 48.755833333333406,
-            "lng": 15.958883333333082,
-            "radius": 500
-        },
-        {
-            "type": "Symmetric",
-            "name": "689REISENG",
-            "altitude": 878.0,
-            "lat": 48.590799999999966,
-            "lng": 14.536250000000244,
-            "radius": 500
-        },
-        {
-            "type": "Symmetric",
-            "name": "247KAPLICE",
+            "type": "AAT Sector",
+            "name": "234JIMRAMOV",
             "altitude": 550.0,
-            "lat": 48.738049999999866,
-            "lng": 14.496383333333489,
-            "radius": 500
+            "lat": 49.63528333333318,
+            "lng": 16.22333333333314,
+            "radius": 30000
         },
         {
-            "type": "Symmetric",
-            "name": "603VRANOV",
+            "type": "AAT Sector",
+            "name": "343MILEVSKO",
             "altitude": 400.0,
-            "lat": 48.90694999999995,
-            "lng": 15.818616666666456,
-            "radius": 500
+            "lat": 49.441666666666485,
+            "lng": 14.37749999999973,
+            "radius": 30000
+        },
+        {
+            "type": "AAT Sector",
+            "name": "646ZIROVNICE",
+            "altitude": 565.0,
+            "lat": 49.25388333333354,
+            "lng": 15.193333333333229,
+            "radius": 20000
         },
         {
             "type": "Cylinder",

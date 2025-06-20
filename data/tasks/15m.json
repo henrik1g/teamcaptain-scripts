@@ -1,53 +1,37 @@
 {
-    "type": "RT",
+    "type": "AAT",
     "points": [
         {
             "type": "Next",
-            "name": "011SPBOROTIN",
-            "altitude": 516.0,
-            "lat": 49.504450000000176,
-            "lng": 14.614166666666783,
+            "name": "206CHOUSTNIK",
+            "altitude": 538.0,
+            "lat": 49.32583333333355,
+            "lng": 14.840283333333574,
             "radius": 7500
         },
         {
-            "type": "Symmetric",
-            "name": "565TREMSIN",
-            "altitude": 827.0,
-            "lat": 49.56666666666689,
-            "lng": 13.76750000000004,
-            "radius": 500
-        },
-        {
-            "type": "Symmetric",
-            "name": "346MIROSOV",
-            "altitude": 544.0,
-            "lat": 49.67361666666644,
-            "lng": 13.636666666666471,
-            "radius": 500
-        },
-        {
-            "type": "Symmetric",
-            "name": "679SLAPANOV",
-            "altitude": 445.0,
-            "lat": 49.54081666666635,
-            "lng": 15.654833333333585,
-            "radius": 500
-        },
-        {
-            "type": "Symmetric",
-            "name": "538SUCHDOL",
+            "type": "AAT Sector",
+            "name": "519STARESEDLO",
             "altitude": 350.0,
-            "lat": 48.902500000000174,
-            "lng": 14.882216666666737,
-            "radius": 500
+            "lat": 49.504450000000176,
+            "lng": 14.183616666666873,
+            "radius": 15000
         },
         {
-            "type": "Symmetric",
-            "name": "680HOLUBI",
-            "altitude": 619.0,
-            "lat": 48.99286666666652,
-            "lng": 15.472700000000193,
-            "radius": 500
+            "type": "AAT Sector",
+            "name": "377NMNAMORAVE",
+            "altitude": 594.0,
+            "lat": 49.568333333333186,
+            "lng": 16.081949999999882,
+            "radius": 30000
+        },
+        {
+            "type": "AAT Sector",
+            "name": "231JHRADEC",
+            "altitude": 513.0,
+            "lat": 49.15028333333331,
+            "lng": 14.974999999999953,
+            "radius": 25000
         },
         {
             "type": "Cylinder",

@@ -1,5 +1,5 @@
 {
-    "type": "RT",
+    "type": "AAT",
     "points": [
         {
             "type": "Next",
@@ -10,44 +10,28 @@
             "radius": 7500
         },
         {
-            "type": "Symmetric",
-            "name": "095CUPRINA",
-            "altitude": 864.0,
-            "lat": 49.95194999999992,
-            "lng": 12.485550000000115,
-            "radius": 500
+            "type": "AAT Sector",
+            "name": "300LETY",
+            "altitude": 400.0,
+            "lat": 49.51945000000023,
+            "lng": 14.072783333333371,
+            "radius": 35000
         },
         {
-            "type": "Symmetric",
-            "name": "126ERPETSHOF",
-            "altitude": 150.0,
-            "lat": 49.655549999999984,
-            "lng": 12.291666666666686,
-            "radius": 500
+            "type": "AAT Sector",
+            "name": "198HUMPOLEC",
+            "altitude": 520.0,
+            "lat": 49.52638333333328,
+            "lng": 15.349166666666878,
+            "radius": 20000
         },
         {
-            "type": "Symmetric",
-            "name": "385NYRSKO",
-            "altitude": 700.0,
-            "lat": 49.260549999999846,
-            "lng": 13.145549999999966,
-            "radius": 500
-        },
-        {
-            "type": "Symmetric",
-            "name": "594VIMPERK",
-            "altitude": 500.0,
-            "lat": 49.0522166666666,
-            "lng": 13.774716666666576,
-            "radius": 500
-        },
-        {
-            "type": "Symmetric",
-            "name": "084CERVENA",
-            "altitude": 480.0,
-            "lat": 49.24694999999991,
-            "lng": 14.886116666666863,
-            "radius": 500
+            "type": "AAT Sector",
+            "name": "112DROSENDORF",
+            "altitude": 425.0,
+            "lat": 48.86916666666692,
+            "lng": 15.620549999999986,
+            "radius": 30000
         },
         {
             "type": "Cylinder",
