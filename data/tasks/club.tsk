@@ -6,10 +6,10 @@
     <ObservationZone length="15000" type="Line"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="400" name="300LETY">
-      <Location latitude="49.51945000000023" longitude="14.072783333333371"/>
+    <Waypoint altitude="355" name="652ZVIKOV">
+      <Location latitude="49.41778333333304" longitude="14.189999999999692"/>
     </Waypoint>
-    <ObservationZone radius="35000" type="Cylinder"/>
+    <ObservationZone radius="30000" type="Cylinder"/>
   </Point>
   <Point type="Turn">
     <Waypoint altitude="520" name="198HUMPOLEC">

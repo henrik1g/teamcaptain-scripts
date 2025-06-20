@@ -1,16 +1,14 @@
 name,code,country,lat,lon,elev,style,rwdir,rwlen,freq,desc
-"206CHOUSTNIK","","", 4919.550N, 01450.417E, 538m,1,,,,,""
-"462RETZ","","", 4845.350N, 01557.533E, 250m,1,,,,,""
-"689REISENG","","", 4835.448N, 01432.175E, 878m,1,,,,,""
-"247KAPLICE","","", 4844.283N, 01429.783E, 550m,1,,,,,""
-"603VRANOV","","", 4854.417N, 01549.117E, 400m,1,,,,,""
+"350MLADAVOZICE","","", 4931.933N, 01448.550E, 453m,1,,,,,""
+"234JIMRAMOV","","", 4938.117N, 01613.400E, 550m,1,,,,,""
+"343MILEVSKO","","", 4926.500N, 01422.650E, 400m,1,,,,,""
+"646ZIROVNICE","","", 4915.233N, 01511.600E, 565m,1,,,,,""
 "001SPTABOR","","", 4923.650N, 01442.167E, 428m,1,,,,,""
 -----Related Tasks-----
-"Task on 2025-06-19","","206CHOUSTNIK","462RETZ","689REISENG","247KAPLICE","603VRANOV","001SPTABOR",""
+"Task on 2025-06-20","","350MLADAVOZICE","234JIMRAMOV","343MILEVSKO","646ZIROVNICE","001SPTABOR",""
 Options
 ObsZone=0,Style=2,R1=7500m,A1=180,Line=1
-ObsZone=1,Style=3,R1=500m,A1=180
-ObsZone=2,Style=3,R1=500m,A1=180
-ObsZone=3,Style=3,R1=500m,A1=180
-ObsZone=4,Style=3,R1=500m,A1=180
-ObsZone=5,Style=3,R1=5000m,A1=180
+ObsZone=1,Style=3,R1=30000m,A1=180
+ObsZone=2,Style=3,R1=30000m,A1=180
+ObsZone=3,Style=3,R1=20000m,A1=180
+ObsZone=4,Style=3,R1=5000m,A1=180
