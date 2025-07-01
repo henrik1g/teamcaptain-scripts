@@ -68,8 +68,8 @@ Edit `scripts/config.py` to match your event, file locations, and preferences.
 
 2. **Clone the Repository:**
    ```bash
-   git clone https://github.com/nilsschlautmann/wgc2025
-   cd yourrepo
+   git clone https://github.com/FerreiraNuno/
+   cd teamcaptain-scripts
    ```
 
 3. **Set Up the Environment:**
@@ -138,7 +138,7 @@ Choose options to update tasks, generate files, open browser tabs, send WhatsApp
 ```
 https://www.example.com
 {WIN:2} https://another.com/{taskID}
-{WIN:I}https://ogn.cloud/?tsk=https://raw.githubusercontent.com/nilsschlautmann/wgc2025/main/data/tasks/{classFile}.tsk&lst=https://raw.githubusercontent.com/nilsschlautmann/wgc2025/main/data/gliders/{classFile}.txt
+{WIN:I}https://ogn.cloud/?tsk=https://raw.githubusercontent.com/FerreiraNuno/teamcaptain-scripts/main/data/tasks/{classFile}.tsk&lst=https://raw.githubusercontent.com/FerreiraNuno/teamcaptain-scripts/main/data/gliders/{classFile}.txt
 ```
 
 ---

@@ -47,7 +47,7 @@ whatsapp_message = "Chatty ist der Beste! Hier ist die heutige Wettervorhersage 
 
 # WhatsApp group name to send the weather briefing to (Emojis are not allowed in the string here, but may be included in the actual group name! Looking for the closes match!)
 #whatsapp_group = 'Piloten WGC Tabor'
-whatsapp_group = 'Ich mache hier nur Notize'
+whatsapp_group = 'Junioren EM'
 
 # WhatsApp timeout for sending the message. This is the time the app waits between adding the presentation to the chat and closing the window
 # Increase time if internet connection is weak or file is large
@@ -59,7 +59,7 @@ whatsapp_group_send_time = 15
 # =========================
 
 # Path to github repo
-github_path = "nilsschlautmann/wgc2025"
+github_path = "FerreiraNuno/teamcaptain-scripts"
 
 # Set up your git credentials if not already configured
 os.environ['GIT_SSH_COMMAND'] = 'ssh -i ~/.ssh/id_rsa'
@@ -78,7 +78,7 @@ browser = "firefox"  # "chrome" or "firefox"
 url_file = 'data/urls.txt'
 
 # Path to the Excel database file (pilot, glider, etc.)
-database_path = "data/database.xlsx"  # Adjust the path if needed
+database_path = "data/Database.csv"
 
 # =========================
 # Weather Briefing Settings

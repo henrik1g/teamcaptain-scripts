@@ -6,12 +6,13 @@ import pandas as pd
 import csv
 
 # Create .txt files out of database.xlsx
+# Now creates .txt files out of Database.csv
 def create_glider_txt_file(class_name):
     print(f"\t\t📄 Creating glider .txt file")
     filename = config.filename_map.get(class_name, "all")
     filepath = os.path.join(config.glider_output_dir, f"{filename}.txt")
     
-    df = pd.read_excel(config.database_path, sheet_name='WGC2025')
+    df = pd.read_csv(config.database_path)
 
     # Ensure all needed columns exist
     required_cols = ['COMP', 'Name', 'Flag', 'FlarmID']
