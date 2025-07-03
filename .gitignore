@@ -1,4 +1,5 @@
 .venv
+.firefox_user_data/
 .DS_Store
 data/.chromedriver_user_data/
 scripts/__pycache__/
