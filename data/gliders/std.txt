@@ -1,40 +1,20 @@
 ID,CALL,CN,TYPE,NAME
-D02B97,,🇦🇷 W8,🇦🇷 Dino Ghioni
-D028C8,,🇦🇷 AU,🇦🇷 Bruno Andres Quinteros
-3E6294,,🇦🇹 KN,🇦🇹 Friedrich Hofinger
-440326,,🇦🇹 ZL,🇦🇹 Philipp Wittwer
-DDDE35,,🇦🇺 SE,🇦🇺 Allan Barnes
-D0016B,,🇦🇺 GX,🇦🇺 Adam Woolley
-DDEA4B,,🇧🇪 LT,🇧🇪 Jeroen Jennen
-DDDF5F,,🇧🇪 5F,🇧🇪 Robin Selfslagh
-D01CEF,,🇨🇿 JB,🇨🇿 Miloslav Cink
-D0018B,,🇨🇿 EU,🇨🇿 Barbora Moravcová
-D02AE6,,🇨🇿 FX,🇨🇿 Jan Pavlík
-D004BF,,🇩🇪 JK,🇩🇪 Jan Kretzschmar
-DDFA01,,🇩🇪 GP,🇩🇪 Philipp Lauer
-DD8750,,🇩🇪 AR,🇩🇪 Max Maslak
-D025E0,,🇩🇰 EC,🇩🇰 Uffe Edslev
-D02C3E,,🇩🇰 CE,🇩🇰 Lasse Edslev
-D00CB7,,🇫🇮 JS,🇫🇮 Antti Koskiniemi
-D00413,,🇫🇮 AA,🇫🇮 Kristian Roine
-DDF12C,,🇫🇷 ET,🇫🇷 Louis Bouderlique
-D02C3D,,🇫🇷 JPA,🇫🇷 Julien Duboc
-D018D8,,🇬🇧 352,🇬🇧 Jez Hood
-D0049F,,🇬🇧 6,🇬🇧 Howard Jones
-D02B5E,,🇭🇺 WD,🇭🇺 Balázs Endrődi
-D00165,,🇭🇺 HUN,🇭🇺 Szabolcs Veigli
-DDECE7,,🇮🇱 TC,🇮🇱 Raphael Luski
-D0271F,,🇮🇱 BE,🇮🇱 Anton Minskii
-CA7374,,🇮🇹 AB,🇮🇹 Riccardo Brigliadori
-DD893C,,🇮🇹 LR,🇮🇹 Luca Urbani
-DDEFEB,,🇱🇹 H8,🇱🇹 Gvidas Sabeckis
-D01DCA,,🇱🇹 MG,🇱🇹 Joris Vainius
-D01F20,,🇳🇱 CM,🇳🇱 Robbie Seton
-484C82,,🇳🇱 SX,🇳🇱 Hadriaan van Nes
-A10926,,🇵🇱 LOT,🇵🇱 Jakub Barszcz
-D02AAE,,🇵🇱 LOT,🇵🇱 Jakub Barszcz
-DDEE69,,🇵🇱 I,🇵🇱 Łukasz Błaszczyk
-D01074,,🇷🇴 YB,🇷🇴 Norbert Scarlat
-D0132B,,🇷🇴 YA,🇷🇴 Ionut Tudor
-D00EBA,,🇸🇪 1,🇸🇪 Elias Severholt Fourati
-D003CD,,🇸🇰 SI,🇸🇰 Tomáš Bobok
+,,🇨🇿 ,🇨🇿 Tomáš Hynek
+,,🇨🇿 ,🇨🇿 Lukáš Kříž
+,,🇨🇿 ,🇨🇿 Michaela Rendlova
+D02C3E,,🇩🇰 LE,🇩🇰 Lasse Edslev
+,,🇩🇰 MK,🇩🇰 Jacob Bøgelund Lassen
+3EF1AF,,🇫🇷 2E,🇫🇷 Clément DE PECHY
+,,🇫🇷 ,🇫🇷 Theo Napoleon
+,,🇫🇷 ,🇫🇷 François-Xavier Poisson
+DF1273,,🇩🇪 PB,🇩🇪 Patrick Benoist
+DF17A7,,🇩🇪 FJ,🇩🇪 Nuno Ferreira
+DD859A,,🇩🇪 A8,🇩🇪 Paul Schwarz
+006569,,🇭🇺 HUN,🇭🇺 Máté Mészáros
+,,🇳🇱 71,🇳🇱 Noud Kaaij
+485F92,,🇳🇱 VNE,🇳🇱 Niels van Nieuwland
+DDEE69,,🇵🇱 I,🇵🇱 Maciej Kowalski
+E75198,,🇵🇱 Y,🇵🇱 Tomasz Kurowski
+D02AAE,,🇵🇱 LOT,🇵🇱 Antoni Zawirski
+D02958,,🇬🇧 D7,🇬🇧 Oscar Butlin
+D02E5E,,🇬🇧 302,🇬🇧 Oliver Ramsay

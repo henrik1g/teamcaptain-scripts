@@ -1,137 +1,47 @@
 [
     {
         "name": "",
-        "cn": "\ud83c\udde6\ud83c\uddf7 6L",
+        "cn": "\ud83c\udde8\ud83c\uddff ",
         "glider": "",
-        "comp": "\ud83c\udde6\ud83c\uddf7 6L",
-        "flarm": [
-            "D02CE8"
-        ]
-    },
-    {
-        "name": "",
-        "cn": "\ud83c\udde6\ud83c\uddf7 IX",
-        "glider": "",
-        "comp": "\ud83c\udde6\ud83c\uddf7 IX",
-        "flarm": [
-            "D00158"
-        ]
-    },
-    {
-        "name": "",
-        "cn": "\ud83c\udde6\ud83c\uddfa 1A",
-        "glider": "",
-        "comp": "\ud83c\udde6\ud83c\uddfa 1A",
-        "flarm": [
-            "5ADD1E"
-        ]
-    },
-    {
-        "name": "",
-        "cn": "\ud83c\udde6\ud83c\uddfa RZ",
-        "glider": "",
-        "comp": "\ud83c\udde6\ud83c\uddfa RZ",
-        "flarm": [
-            "D004F1"
-        ]
-    },
-    {
-        "name": "",
-        "cn": "\ud83c\udde7\ud83c\uddea B4",
-        "glider": "",
-        "comp": "\ud83c\udde7\ud83c\uddea B4",
-        "flarm": [
-            "DDAECB"
-        ]
-    },
-    {
-        "name": "",
-        "cn": "\ud83c\udde7\ud83c\uddea FY",
-        "glider": "",
-        "comp": "\ud83c\udde7\ud83c\uddea FY",
-        "flarm": [
-            "D02A1A"
-        ]
-    },
-    {
-        "name": "",
-        "cn": "\ud83c\udde8\ud83c\udded MN",
-        "glider": "",
-        "comp": "\ud83c\udde8\ud83c\udded MN",
-        "flarm": [
-            "4B4BD2"
-        ]
-    },
-    {
-        "name": "",
-        "cn": "\ud83c\udde8\ud83c\udded CRN",
-        "glider": "",
-        "comp": "\ud83c\udde8\ud83c\udded CRN",
-        "flarm": [
-            "4B5067"
-        ]
-    },
-    {
-        "name": "",
-        "cn": "\ud83c\udde8\ud83c\uddff A3",
-        "glider": "",
-        "comp": "\ud83c\udde8\ud83c\uddff A3",
+        "comp": "\ud83c\udde8\ud83c\uddff ",
         "flarm": [
             "D0291F"
         ]
     },
     {
         "name": "",
-        "cn": "\ud83c\udde8\ud83c\uddff CX",
+        "cn": "\ud83c\udde8\ud83c\uddff ",
         "glider": "",
-        "comp": "\ud83c\udde8\ud83c\uddff CX",
+        "comp": "\ud83c\udde8\ud83c\uddff ",
         "flarm": [
             "D01C39"
         ]
     },
     {
         "name": "",
-        "cn": "\ud83c\udde9\ud83c\uddea SF",
+        "cn": "\ud83c\udde8\ud83c\uddff ",
         "glider": "",
-        "comp": "\ud83c\udde9\ud83c\uddea SF",
+        "comp": "\ud83c\udde8\ud83c\uddff ",
         "flarm": [
-            "DF2044"
+            "D00CE4"
         ]
     },
     {
         "name": "",
-        "cn": "\ud83c\udde9\ud83c\uddea SN",
+        "cn": "\ud83c\udde9\ud83c\uddf0 OK",
         "glider": "",
-        "comp": "\ud83c\udde9\ud83c\uddea SN",
+        "comp": "\ud83c\udde9\ud83c\uddf0 OK",
         "flarm": [
-            "3EEB98"
+            "DDDCC7"
         ]
     },
     {
         "name": "",
-        "cn": "\ud83c\udde9\ud83c\uddf0 YC",
+        "cn": "\ud83c\udde9\ud83c\uddf0 ",
         "glider": "",
-        "comp": "\ud83c\udde9\ud83c\uddf0 YC",
+        "comp": "\ud83c\udde9\ud83c\uddf0 ",
         "flarm": [
-            "D02C19"
-        ]
-    },
-    {
-        "name": "",
-        "cn": "\ud83c\udde9\ud83c\uddf0 W",
-        "glider": "",
-        "comp": "\ud83c\udde9\ud83c\uddf0 W",
-        "flarm": [
-            "DDEDF9"
-        ]
-    },
-    {
-        "name": "",
-        "cn": "\ud83c\uddea\ud83c\uddf8 44",
-        "glider": "",
-        "comp": "\ud83c\uddea\ud83c\uddf8 44",
-        "flarm": [
-            "DF1882"
+            ""
         ]
     },
     {
@@ -145,236 +55,236 @@
     },
     {
         "name": "",
-        "cn": "\ud83c\uddeb\ud83c\uddee GE",
+        "cn": "\ud83c\uddeb\ud83c\uddf7 VL",
         "glider": "",
-        "comp": "\ud83c\uddeb\ud83c\uddee GE",
+        "comp": "\ud83c\uddeb\ud83c\uddf7 VL",
         "flarm": [
-            "D0054A"
+            ""
         ]
     },
     {
         "name": "",
-        "cn": "\ud83c\uddeb\ud83c\uddf7 HG",
+        "cn": "\ud83c\uddeb\ud83c\uddf7 9B",
         "glider": "",
-        "comp": "\ud83c\uddeb\ud83c\uddf7 HG",
+        "comp": "\ud83c\uddeb\ud83c\uddf7 9B",
         "flarm": [
-            "D012D5"
+            "3E7F9C"
         ]
     },
     {
         "name": "",
-        "cn": "\ud83c\uddeb\ud83c\uddf7 AG",
+        "cn": "\ud83c\uddeb\ud83c\uddf7 E10",
         "glider": "",
-        "comp": "\ud83c\uddeb\ud83c\uddf7 AG",
+        "comp": "\ud83c\uddeb\ud83c\uddf7 E10",
         "flarm": [
-            "D01971"
+            "DD8609"
         ]
     },
     {
         "name": "",
-        "cn": "\ud83c\uddeb\ud83c\uddf7 XI",
+        "cn": "\ud83c\udde9\ud83c\uddea PP",
         "glider": "",
-        "comp": "\ud83c\uddeb\ud83c\uddf7 XI",
+        "comp": "\ud83c\udde9\ud83c\uddea PP",
         "flarm": [
-            "D02B30"
+            "DDE252"
         ]
     },
     {
         "name": "",
-        "cn": "\ud83c\uddec\ud83c\udde7 194",
+        "cn": "\ud83c\udde9\ud83c\uddea V7",
         "glider": "",
-        "comp": "\ud83c\uddec\ud83c\udde7 194",
+        "comp": "\ud83c\udde9\ud83c\uddea V7",
         "flarm": [
-            "D01063"
+            "DDE2DB"
         ]
     },
     {
         "name": "",
-        "cn": "\ud83c\uddec\ud83c\udde7 NW",
+        "cn": "\ud83c\udde9\ud83c\uddea 3N",
         "glider": "",
-        "comp": "\ud83c\uddec\ud83c\udde7 NW",
+        "comp": "\ud83c\udde9\ud83c\uddea 3N",
         "flarm": [
-            "4055BE"
+            "DDDFDC"
         ]
     },
     {
         "name": "",
-        "cn": "\ud83c\udded\ud83c\uddf7 HR3",
+        "cn": "\ud83c\udded\ud83c\uddfa RH",
         "glider": "",
-        "comp": "\ud83c\udded\ud83c\uddf7 HR3",
+        "comp": "\ud83c\udded\ud83c\uddfa RH",
         "flarm": [
-            "D01854"
+            "D02A02"
         ]
     },
     {
         "name": "",
-        "cn": "\ud83c\udded\ud83c\uddf7 GM",
+        "cn": "\ud83c\udded\ud83c\uddfa 7T",
         "glider": "",
-        "comp": "\ud83c\udded\ud83c\uddf7 GM",
+        "comp": "\ud83c\udded\ud83c\uddfa 7T",
         "flarm": [
-            "D01354"
+            "ADDEF7"
         ]
     },
     {
         "name": "",
-        "cn": "\ud83c\udded\ud83c\uddfa AD",
+        "cn": "\ud83c\udded\ud83c\uddfa NY",
         "glider": "",
-        "comp": "\ud83c\udded\ud83c\uddfa AD",
+        "comp": "\ud83c\udded\ud83c\uddfa NY",
         "flarm": [
-            "D017E9"
+            "D012B6"
         ]
     },
     {
         "name": "",
-        "cn": "\ud83c\udded\ud83c\uddfa XW",
+        "cn": "\ud83c\uddee\ud83c\uddf9 5I",
         "glider": "",
-        "comp": "\ud83c\udded\ud83c\uddfa XW",
+        "comp": "\ud83c\uddee\ud83c\uddf9 5I",
         "flarm": [
-            "DF2125"
+            "DD9FD9"
         ]
     },
     {
         "name": "",
-        "cn": "\ud83c\uddee\ud83c\uddf9 LAB",
+        "cn": "\ud83c\uddee\ud83c\uddf9 RB",
         "glider": "",
-        "comp": "\ud83c\uddee\ud83c\uddf9 LAB",
+        "comp": "\ud83c\uddee\ud83c\uddf9 RB",
         "flarm": [
-            "D026A3"
+            "DDDEE7"
         ]
     },
     {
         "name": "",
-        "cn": "\ud83c\uddee\ud83c\uddf9 B6",
+        "cn": "\ud83c\uddf1\ud83c\uddfa LS",
         "glider": "",
-        "comp": "\ud83c\uddee\ud83c\uddf9 B6",
+        "comp": "\ud83c\uddf1\ud83c\uddfa LS",
         "flarm": [
-            "0D8014"
+            "DD84FD"
         ]
     },
     {
         "name": "",
-        "cn": "\ud83c\uddf1\ud83c\uddf9 FL",
+        "cn": "\ud83c\uddf3\ud83c\uddf1 Au",
         "glider": "",
-        "comp": "\ud83c\uddf1\ud83c\uddf9 FL",
+        "comp": "\ud83c\uddf3\ud83c\uddf1 Au",
         "flarm": [
-            "D0105A"
+            "485D93"
         ]
     },
     {
         "name": "",
-        "cn": "\ud83c\uddf1\ud83c\uddf9 AM",
+        "cn": "\ud83c\uddf3\ud83c\uddf1 S4",
         "glider": "",
-        "comp": "\ud83c\uddf1\ud83c\uddf9 AM",
+        "comp": "\ud83c\uddf3\ud83c\uddf1 S4",
         "flarm": [
-            "D00179"
+            "485DB0"
         ]
     },
     {
         "name": "",
-        "cn": "\ud83c\uddf3\ud83c\uddf1 RSM",
+        "cn": "\ud83c\uddf3\ud83c\uddf4 FB",
         "glider": "",
-        "comp": "\ud83c\uddf3\ud83c\uddf1 RSM",
+        "comp": "\ud83c\uddf3\ud83c\uddf4 FB",
         "flarm": [
-            "484977"
+            "47BB9E"
         ]
     },
     {
         "name": "",
-        "cn": "\ud83c\uddf3\ud83c\uddf1 KM",
+        "cn": "\ud83c\uddf3\ud83c\uddf4 NP",
         "glider": "",
-        "comp": "\ud83c\uddf3\ud83c\uddf1 KM",
+        "comp": "\ud83c\uddf3\ud83c\uddf4 NP",
         "flarm": [
-            "485222"
+            "47A7FF"
         ]
     },
     {
         "name": "",
-        "cn": "\ud83c\uddf3\ud83c\uddff T5",
+        "cn": "\ud83c\uddf5\ud83c\uddf1 ",
         "glider": "",
-        "comp": "\ud83c\uddf3\ud83c\uddff T5",
+        "comp": "\ud83c\uddf5\ud83c\uddf1 ",
         "flarm": [
-            "4404BE"
+            "DDEAF1"
         ]
     },
     {
         "name": "",
-        "cn": "\ud83c\uddf5\ud83c\uddf1 FLS",
+        "cn": "\ud83c\uddf5\ud83c\uddf1 ",
         "glider": "",
-        "comp": "\ud83c\uddf5\ud83c\uddf1 FLS",
+        "comp": "\ud83c\uddf5\ud83c\uddf1 ",
         "flarm": [
-            "D01CB6"
+            "DDD244"
         ]
     },
     {
         "name": "",
-        "cn": "\ud83c\uddf5\ud83c\uddf1 PP",
+        "cn": "\ud83c\uddf5\ud83c\uddf1 ",
         "glider": "",
-        "comp": "\ud83c\uddf5\ud83c\uddf1 PP",
+        "comp": "\ud83c\uddf5\ud83c\uddf1 ",
         "flarm": [
-            "D03425"
+            "DDE279"
         ]
     },
     {
         "name": "",
-        "cn": "\ud83c\uddf7\ud83c\uddf4 Y3",
+        "cn": "\ud83c\uddf8\ud83c\uddf0 3D",
         "glider": "",
-        "comp": "\ud83c\uddf7\ud83c\uddf4 Y3",
+        "comp": "\ud83c\uddf8\ud83c\uddf0 3D",
         "flarm": [
-            "DDF0BD"
+            "DDF058"
         ]
     },
     {
         "name": "",
-        "cn": "\ud83c\uddf7\ud83c\uddf4 Y2",
+        "cn": "\ud83c\uddf8\ud83c\uddf0 AK",
         "glider": "",
-        "comp": "\ud83c\uddf7\ud83c\uddf4 Y2",
+        "comp": "\ud83c\uddf8\ud83c\uddf0 AK",
         "flarm": [
-            "D00C74"
+            "DD89A3"
         ]
     },
     {
         "name": "",
-        "cn": "\ud83c\uddf8\ud83c\uddee CP",
+        "cn": "\ud83c\uddf8\ud83c\uddf0 LX",
         "glider": "",
-        "comp": "\ud83c\uddf8\ud83c\uddee CP",
+        "comp": "\ud83c\uddf8\ud83c\uddf0 LX",
         "flarm": [
-            "D015EE"
+            ""
         ]
     },
     {
         "name": "",
-        "cn": "\ud83c\uddf8\ud83c\uddee CF",
+        "cn": "\ud83c\udde8\ud83c\udded LH",
         "glider": "",
-        "comp": "\ud83c\uddf8\ud83c\uddee CF",
+        "comp": "\ud83c\udde8\ud83c\udded LH",
         "flarm": [
-            "D00081"
+            "4B50CB"
         ]
     },
     {
         "name": "",
-        "cn": "\ud83c\uddf8\ud83c\uddf0 ZS",
+        "cn": "\ud83c\udde8\ud83c\udded WG",
         "glider": "",
-        "comp": "\ud83c\uddf8\ud83c\uddf0 ZS",
+        "comp": "\ud83c\udde8\ud83c\udded WG",
         "flarm": [
-            "DDDD0F"
+            "4B4B30"
         ]
     },
     {
         "name": "",
-        "cn": "\ud83c\uddfa\ud83c\uddf8 S5",
+        "cn": "\ud83c\uddec\ud83c\udde7 LD",
         "glider": "",
-        "comp": "\ud83c\uddfa\ud83c\uddf8 S5",
+        "comp": "\ud83c\uddec\ud83c\udde7 LD",
         "flarm": [
-            "485A0B"
+            "D01309"
         ]
     },
     {
         "name": "",
-        "cn": "\ud83c\uddfa\ud83c\uddf8 FP",
+        "cn": "\ud83c\uddec\ud83c\udde7 196",
         "glider": "",
-        "comp": "\ud83c\uddfa\ud83c\uddf8 FP",
+        "comp": "\ud83c\uddec\ud83c\udde7 196",
         "flarm": [
-            "DF2858"
+            "40540F"
         ]
     }
 ]
