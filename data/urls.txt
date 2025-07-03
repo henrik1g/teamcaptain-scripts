@@ -10,6 +10,4 @@
 # https://www.meteoblue.com/de/wetter/heute/t%c3%a1bor_tschechien_3064379
 
 {WIN:0}https://glideandseek.com/?taskOneUrl=https://raw.githubusercontent.com/FerreiraNuno/teamcaptain-scripts/main/data/tasks/{classFile}.json&viewport=49.16885,15.12417,10&aircraftDataUrl=https://raw.githubusercontent.com/FerreiraNuno/teamcaptain-scripts/main/data/gliders/{classFile}.json
-{WIN:0}https://glideandseek.com/&?viewport=49.16885,15.12417,10&aircraftDataUrl=https://raw.githubusercontent.com/FerreiraNuno/teamcaptain-scripts/main/data/gliders/all.json
-{WIN:00}https://ogn.cloud/?tsk=https://raw.githubusercontent.com/FerreiraNuno/teamcaptain-scripts/main/data/tasks/{classFile}.tsk&lst=https://raw.githubusercontent.com/FerreiraNuno/teamcaptain-scripts/main/data/gliders/{classFile}.txt
-{WIN:0}https://ogn.cloud/?lst=https://raw.githubusercontent.com/FerreiraNuno/teamcaptain-scripts/main/data/gliders/all.txt
+{WIN:0}https://ogn.cloud/?tsk=https://raw.githubusercontent.com/FerreiraNuno/teamcaptain-scripts/main/data/tasks/{classFile}.tsk&lst=https://raw.githubusercontent.com/FerreiraNuno/teamcaptain-scripts/main/data/gliders/{classFile}.txt
