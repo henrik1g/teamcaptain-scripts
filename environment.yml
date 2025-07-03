@@ -12,6 +12,5 @@ dependencies:
   - lxml
   - numpy
   - pandas
-  - penpyxl
   - gitpython
   - psutil

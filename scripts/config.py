@@ -5,37 +5,34 @@ import os
 # =========================
 
 # Competition name (should match name used for metbrief folder, otherwise update below.)
-comp_name = "tabor_25"
+comp_name = "jegc_2025"
 
 # Base URL for SoaringSpot event
-base_url = 'https://www.soaringspot.com/en_gb/39th-fai-world-gliding-championships-tabor-2025'
+base_url = 'https://www.soaringspot.com/en_gb/7th-fai-junior-european-gliding-championships-prievidza-2025'
 
 # =========================
 # Competition Classes & Mappings
 # =========================
 
 # List of competition classes
-classes = ['Club', 'Standard', '15 Meter']
+classes = ['Club', 'Standard']
 
 # Mapping from class name to file prefix (these are the names that files for classes will receive in the /data/.. path)
 filename_map = {
     'Club': 'club',
     'Standard': 'std',
-    '15 Meter': '15m'
 }
 
 # Mapping from class name to URL segment on SoaringSpot (check URL when looking at a task to update)
 url_map = {
-    'Club': 'club',
+    'Club': 'unknown',
     'Standard': 'standard',
-    '15 Meter': '-15-meter'
 }
 
 # Mapping from class name to SoaringSpot results table name (input names written the the results table on SoaringSpot)
 results_table_map = {
-    'Club': 'Club Class',
-    'Standard': 'Standard Class',
-    '15 Meter': '15 meter Class'
+    'Club': 'Club',
+    'Standard': 'Standard',
 }
 
 # =========================
@@ -43,10 +40,9 @@ results_table_map = {
 # =========================
 
 # Default WhatsApp message to send with the weather briefing
-whatsapp_message = "Chatty ist der Beste! Hier ist die heutige Wettervorhersage für Tabor 2025."
+whatsapp_message = "Chatty ist der Beste! Hier ist die heutige Wettervorhersage für Prievidza 2025."
 
 # WhatsApp group name to send the weather briefing to (Emojis are not allowed in the string here, but may be included in the actual group name! Looking for the closes match!)
-#whatsapp_group = 'Piloten WGC Tabor'
 whatsapp_group = 'Junioren EM'
 
 # WhatsApp timeout for sending the message. This is the time the app waits between adding the presentation to the chat and closing the window
@@ -78,7 +74,7 @@ browser = "firefox"  # "chrome" or "firefox"
 url_file = 'data/urls.txt'
 
 # Path to the Excel database file (pilot, glider, etc.)
-database_path = "data/Database.csv"
+database_path = "data/Database.xlsx"
 
 # =========================
 # Weather Briefing Settings
