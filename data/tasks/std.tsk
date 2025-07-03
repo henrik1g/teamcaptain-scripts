@@ -1,31 +1,37 @@
-<Task aat_min_time="10800" type="AAT">
+<Task type="RT">
   <Point type="Start">
-    <Waypoint altitude="453" name="350MLADAVOZICE">
-      <Location latitude="49.53221666666644" longitude="14.809166666666846"/>
+    <Waypoint altitude="320.8" name="015NITR RUDNO">
+      <Location latitude="48.801616666666476" longitude="18.480399999999996"/>
     </Waypoint>
     <ObservationZone length="15000" type="Line"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="550" name="234JIMRAMOV">
-      <Location latitude="49.63528333333318" longitude="16.22333333333314"/>
+    <Waypoint altitude="269.8" name="060MOTESICE">
+      <Location latitude="48.83131666666691" longitude="18.185233333333326"/>
     </Waypoint>
-    <ObservationZone radius="30000" type="Cylinder"/>
+    <ObservationZone radius="500" type="Cylinder"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="400" name="343MILEVSKO">
-      <Location latitude="49.441666666666485" longitude="14.37749999999973"/>
+    <Waypoint altitude="1091" name="129FATRANSKA MAGURA">
+      <Location latitude="49.145833333333535" longitude="18.951116666666895"/>
     </Waypoint>
-    <ObservationZone radius="30000" type="Cylinder"/>
+    <ObservationZone radius="500" type="Cylinder"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="565" name="646ZIROVNICE">
-      <Location latitude="49.25388333333354" longitude="15.193333333333229"/>
+    <Waypoint altitude="607" name="058MALA LEHOTA">
+      <Location latitude="48.501533333333505" longitude="18.571083333333316"/>
     </Waypoint>
-    <ObservationZone radius="20000" type="Cylinder"/>
+    <ObservationZone radius="500" type="Cylinder"/>
+  </Point>
+  <Point type="Turn">
+    <Waypoint altitude="250" name="125LEFANTOVCE">
+      <Location latitude="48.42571666666685" longitude="18.166766666666753"/>
+    </Waypoint>
+    <ObservationZone radius="500" type="Cylinder"/>
   </Point>
   <Point type="Finish">
-    <Waypoint altitude="428" name="001SPTABOR">
-      <Location latitude="49.39416666666691" longitude="14.702783333333127"/>
+    <Waypoint altitude="260" name="001PRIEVIDZA">
+      <Location latitude="48.76611666666693" longitude="18.58666666666651"/>
     </Waypoint>
     <ObservationZone radius="5000" type="Cylinder"/>
   </Point>
