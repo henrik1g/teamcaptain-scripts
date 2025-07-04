@@ -1,17 +1,17 @@
 ID,CALL,CN,TYPE,NAME
-,,🇨🇿 ,🇨🇿 Tomáš Hynek
-,,🇨🇿 ,🇨🇿 Lukáš Kříž
-,,🇨🇿 ,🇨🇿 Michaela Rendlova
+D0018B,,🇨🇿 EU,🇨🇿 Tomáš Hynek
+,,🇨🇿 AU,🇨🇿 Lukáš Kříž
+,,🇨🇿 W8,🇨🇿 Michaela Rendlova
 D02C3E,,🇩🇰 LE,🇩🇰 Lasse Edslev
-,,🇩🇰 MK,🇩🇰 Jacob Bøgelund Lassen
+DF0E33,,🇩🇰 MK,🇩🇰 Jacob Bøgelund Lassen
 3EF1AF,,🇫🇷 2E,🇫🇷 Clément DE PECHY
-,,🇫🇷 ,🇫🇷 Theo Napoleon
-,,🇫🇷 ,🇫🇷 François-Xavier Poisson
+,,🇫🇷 S2,🇫🇷 Theo Napoleon
+,,🇫🇷 ET,🇫🇷 François-Xavier Poisson
 DF1273,,🇩🇪 PB,🇩🇪 Patrick Benoist
 DF17A7,,🇩🇪 FJ,🇩🇪 Nuno Ferreira
 DD859A,,🇩🇪 A8,🇩🇪 Paul Schwarz
 006569,,🇭🇺 HUN,🇭🇺 Máté Mészáros
-,,🇳🇱 71,🇳🇱 Noud Kaaij
+D004CA,,🇳🇱 71,🇳🇱 Noud Kaaij
 485F92,,🇳🇱 VNE,🇳🇱 Niels van Nieuwland
 DDEE69,,🇵🇱 I,🇵🇱 Maciej Kowalski
 E75198,,🇵🇱 Y,🇵🇱 Tomasz Kurowski

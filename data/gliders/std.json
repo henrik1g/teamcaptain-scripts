@@ -1,27 +1,27 @@
 [
     {
         "name": "",
-        "cn": "\ud83c\udde8\ud83c\uddff ",
+        "cn": "\ud83c\udde8\ud83c\uddff EU",
         "glider": "",
-        "comp": "\ud83c\udde8\ud83c\uddff ",
+        "comp": "\ud83c\udde8\ud83c\uddff EU",
+        "flarm": [
+            "D0018B"
+        ]
+    },
+    {
+        "name": "",
+        "cn": "\ud83c\udde8\ud83c\uddff AU",
+        "glider": "",
+        "comp": "\ud83c\udde8\ud83c\uddff AU",
         "flarm": [
             ""
         ]
     },
     {
         "name": "",
-        "cn": "\ud83c\udde8\ud83c\uddff ",
+        "cn": "\ud83c\udde8\ud83c\uddff W8",
         "glider": "",
-        "comp": "\ud83c\udde8\ud83c\uddff ",
-        "flarm": [
-            ""
-        ]
-    },
-    {
-        "name": "",
-        "cn": "\ud83c\udde8\ud83c\uddff ",
-        "glider": "",
-        "comp": "\ud83c\udde8\ud83c\uddff ",
+        "comp": "\ud83c\udde8\ud83c\uddff W8",
         "flarm": [
             ""
         ]
@@ -41,7 +41,7 @@
         "glider": "",
         "comp": "\ud83c\udde9\ud83c\uddf0 MK",
         "flarm": [
-            ""
+            "DF0E33"
         ]
     },
     {
@@ -55,18 +55,18 @@
     },
     {
         "name": "",
-        "cn": "\ud83c\uddeb\ud83c\uddf7 ",
+        "cn": "\ud83c\uddeb\ud83c\uddf7 S2",
         "glider": "",
-        "comp": "\ud83c\uddeb\ud83c\uddf7 ",
+        "comp": "\ud83c\uddeb\ud83c\uddf7 S2",
         "flarm": [
             ""
         ]
     },
     {
         "name": "",
-        "cn": "\ud83c\uddeb\ud83c\uddf7 ",
+        "cn": "\ud83c\uddeb\ud83c\uddf7 ET",
         "glider": "",
-        "comp": "\ud83c\uddeb\ud83c\uddf7 ",
+        "comp": "\ud83c\uddeb\ud83c\uddf7 ET",
         "flarm": [
             ""
         ]
@@ -113,7 +113,7 @@
         "glider": "",
         "comp": "\ud83c\uddf3\ud83c\uddf1 71",
         "flarm": [
-            ""
+            "D004CA"
         ]
     },
     {
