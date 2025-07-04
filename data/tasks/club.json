@@ -1,37 +1,29 @@
 {
-    "type": "RT",
+    "type": "AAT",
     "points": [
         {
             "type": "Next",
-            "name": "004BOJNICE",
-            "altitude": 320.0,
-            "lat": 48.77999999999978,
-            "lng": 18.577500000000196,
+            "name": "008SEVER",
+            "altitude": 319.0,
+            "lat": 48.78195000000012,
+            "lng": 18.64278333333332,
             "radius": 7500
         },
         {
-            "type": "Symmetric",
-            "name": "193LUCIVNA",
-            "altitude": 550.0,
-            "lat": 49.219166666666915,
-            "lng": 19.161950000000147,
-            "radius": 500
+            "type": "AAT Sector",
+            "name": "037CICMANY JAVORINKA",
+            "altitude": 972.0,
+            "lat": 48.945833333333454,
+            "lng": 18.530266666666787,
+            "radius": 13000
         },
         {
-            "type": "Symmetric",
-            "name": "074JEDLOVE KOSTOLANY",
-            "altitude": 386.9,
-            "lat": 48.47191666666678,
-            "lng": 18.49706666666691,
-            "radius": 500
-        },
-        {
-            "type": "Symmetric",
-            "name": "136ZIRANY",
-            "altitude": 250.2,
-            "lat": 48.3833166666666,
-            "lng": 18.163733333333255,
-            "radius": 500
+            "type": "AAT Sector",
+            "name": "214BESA",
+            "altitude": 161.8,
+            "lat": 48.14455000000023,
+            "lng": 18.40398333333346,
+            "radius": 20000
         },
         {
             "type": "Cylinder",
