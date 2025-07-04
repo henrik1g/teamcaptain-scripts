@@ -61,7 +61,7 @@ github_path = "FerreiraNuno/teamcaptain-scripts"
 os.environ['GIT_SSH_COMMAND'] = 'ssh -i ~/.ssh/id_rsa'
 
 # Path to the LibreOffice executable (adjust if needed)
-soffice_path = r"C:\Program Files\LibreOffice\program\soffice.exe"
+soffice_path = r"/usr/bin/libreoffice"
 
 # scripts/config.py
 browser = "firefox"  # "chrome" or "firefox" 
@@ -97,7 +97,7 @@ glider_output_dir = 'data/gliders'
 chromedriver_user_data_dir = 'data/.chromedriver_user_data'
 
 # Directory for Chrome user data (used by Selenium)
-firefoxdriver_user_data_dir = 'data/.firefoxdriver_user_data'
+firefoxdriver_user_data_dir = '/home/henrik/.mozilla/firefox/wnytyd2d.TC_JEGC'
 
 # =========================
 # SoaringSpot & CUP Download

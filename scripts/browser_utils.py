@@ -27,6 +27,8 @@ def open_browser(userData=False, runHeadless=False, whatsAppBrowser=False):
         chrome_options.add_argument("--disable-gpu")
         driver = webdriver.Chrome(options=chrome_options)
     elif browser == "firefox":
+        geckodriver_path = "/snap/bin/geckodriver"
+        driver_service = webdriver.FirefoxService(executable_path=geckodriver_path)
         firefox_options = FirefoxOptions()
         if runHeadless:
             firefox_options.add_argument("--headless")
@@ -34,7 +36,7 @@ def open_browser(userData=False, runHeadless=False, whatsAppBrowser=False):
         if userData:
             # userData should be the path to the Firefox profile directory
             firefox_options.profile = config.firefoxdriver_user_data_dir
-        driver = webdriver.Firefox(options=firefox_options)
+        driver = webdriver.Firefox(options=firefox_options,service=driver_service)
     else:
         raise ValueError(f"Unsupported browser: {browser}")
     if whatsAppBrowser:
