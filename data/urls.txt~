@@ -9,5 +9,5 @@
 # {WIN:I}https://ogn.cloud/?tsk=.../{classFile}.tsk&lst=.../{classFile}.txt
 # https://www.meteoblue.com/de/wetter/heute/t%c3%a1bor_tschechien_3064379
 
-{WIN:I}https://glideandseek.com/?taskOneUrl=https://raw.githubusercontent.com/henrik1g/teamcaptain-scripts/main/data/tasks/{classFile}.json&viewport=49.16885,15.12417,10&aircraftDataUrl=https://raw.githubusercontent.com/henrik1g/teamcaptain-scripts/main/data/gliders/{classFile}.json
-{WIN:I}https://ogn.cloud/?tsk=https://raw.githubusercontent.com/henrik1g/teamcaptain-scripts/main/data/tasks/{classFile}.tsk&lst=https://raw.githubusercontent.com/henrik1g/teamcaptain-scripts/main/data/gliders/{classFile}.txt
+{WIN:0}https://glideandseek.com/?taskOneUrl=https://raw.githubusercontent.com/henrik1g/teamcaptain-scripts/main/data/tasks/{classFile}.json&viewport=49.16885,15.12417,10&aircraftDataUrl=https://raw.githubusercontent.com/henrik1g/teamcaptain-scripts/main/data/gliders/{classFile}.json
+{WIN:0}https://ogn.cloud/?tsk=https://raw.githubusercontent.com/henrik1g/teamcaptain-scripts/main/data/tasks/{classFile}.tsk&lst=https://raw.githubusercontent.com/henrik1g/teamcaptain-scripts/main/data/gliders/{classFile}.txt
