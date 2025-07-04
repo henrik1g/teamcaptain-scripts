@@ -1,29 +1,45 @@
 {
-    "type": "AAT",
+    "type": "RT",
     "points": [
         {
             "type": "Next",
-            "name": "016NITR SUCANY",
-            "altitude": 280.1,
-            "lat": 48.726600000000055,
-            "lng": 18.470283333333334,
+            "name": "015NITR RUDNO",
+            "altitude": 320.8,
+            "lat": 48.801616666666476,
+            "lng": 18.480399999999996,
             "radius": 7500
         },
         {
-            "type": "AAT Sector",
-            "name": "100TRENCIN",
-            "altitude": 227.0,
-            "lat": 48.89333333333329,
-            "lng": 18.049449999999972,
-            "radius": 15000
+            "type": "Symmetric",
+            "name": "060MOTESICE",
+            "altitude": 269.8,
+            "lat": 48.83131666666691,
+            "lng": 18.185233333333326,
+            "radius": 500
         },
         {
-            "type": "AAT Sector",
-            "name": "214BESA",
-            "altitude": 161.8,
-            "lat": 48.14455000000023,
-            "lng": 18.40398333333346,
-            "radius": 20000
+            "type": "Symmetric",
+            "name": "129FATRANSKA MAGURA",
+            "altitude": 1091.0,
+            "lat": 49.145833333333535,
+            "lng": 18.951116666666895,
+            "radius": 500
+        },
+        {
+            "type": "Symmetric",
+            "name": "058MALA LEHOTA",
+            "altitude": 607.0,
+            "lat": 48.501533333333505,
+            "lng": 18.571083333333316,
+            "radius": 500
+        },
+        {
+            "type": "Symmetric",
+            "name": "125LEFANTOVCE",
+            "altitude": 250.0,
+            "lat": 48.42571666666685,
+            "lng": 18.166766666666753,
+            "radius": 500
         },
         {
             "type": "Cylinder",

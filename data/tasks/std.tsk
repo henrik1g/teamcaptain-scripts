@@ -1,21 +1,33 @@
-<Task aat_min_time="7200" type="AAT">
+<Task type="RT">
   <Point type="Start">
-    <Waypoint altitude="280.1" name="016NITR SUCANY">
-      <Location latitude="48.726600000000055" longitude="18.470283333333334"/>
+    <Waypoint altitude="320.8" name="015NITR RUDNO">
+      <Location latitude="48.801616666666476" longitude="18.480399999999996"/>
     </Waypoint>
     <ObservationZone length="15000" type="Line"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="227" name="100TRENCIN">
-      <Location latitude="48.89333333333329" longitude="18.049449999999972"/>
+    <Waypoint altitude="269.8" name="060MOTESICE">
+      <Location latitude="48.83131666666691" longitude="18.185233333333326"/>
     </Waypoint>
-    <ObservationZone radius="15000" type="Cylinder"/>
+    <ObservationZone radius="500" type="Cylinder"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="161.8" name="214BESA">
-      <Location latitude="48.14455000000023" longitude="18.40398333333346"/>
+    <Waypoint altitude="1091" name="129FATRANSKA MAGURA">
+      <Location latitude="49.145833333333535" longitude="18.951116666666895"/>
     </Waypoint>
-    <ObservationZone radius="20000" type="Cylinder"/>
+    <ObservationZone radius="500" type="Cylinder"/>
+  </Point>
+  <Point type="Turn">
+    <Waypoint altitude="607" name="058MALA LEHOTA">
+      <Location latitude="48.501533333333505" longitude="18.571083333333316"/>
+    </Waypoint>
+    <ObservationZone radius="500" type="Cylinder"/>
+  </Point>
+  <Point type="Turn">
+    <Waypoint altitude="250" name="125LEFANTOVCE">
+      <Location latitude="48.42571666666685" longitude="18.166766666666753"/>
+    </Waypoint>
+    <ObservationZone radius="500" type="Cylinder"/>
   </Point>
   <Point type="Finish">
     <Waypoint altitude="260" name="001PRIEVIDZA">
