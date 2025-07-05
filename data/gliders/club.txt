@@ -4,13 +4,13 @@ D01C39,,🇨🇿 CX,🇨🇿 Vít Mořkovský
 D00CE4,,🇨🇿 NW,🇨🇿 Jan Šťastný
 D00D2F,,🇫🇮 KT,🇫🇮 Kim Toppari
 DDAFEE,,🇫🇷 VL,🇫🇷 Nicolas Caudrelier
-3E7F9C,,🇫🇷 9B,🇫🇷 Nicolas Douchet
+DDEA6A,,🇫🇷 9B,🇫🇷 Nicolas Douchet
 DD8609,,🇫🇷 E10,🇫🇷 Gael PISCHEDDA
 DDE252,,🇩🇪 PP,🇩🇪 Jens Kammerer
 DDE2DB,,🇩🇪 V7,🇩🇪 Felix Kries
 DDDFDC,,🇩🇪 3N,🇩🇪 Goormann Maximilian
 D02A02,,🇭🇺 RH,🇭🇺 Hadi Barna
-ADDEF7,,🇭🇺 7T,🇭🇺 Molnár Géza
+ADF133,,🇭🇺 7T,🇭🇺 Molnár Géza
 D012B6,,🇭🇺 NY,🇭🇺 Roland Veronyák
 DD9FD9,,🇮🇹 5I,🇮🇹 Alessandro Bassalti
 DDDEE7,,🇮🇹 RB,🇮🇹 Andrea Paganin
@@ -19,7 +19,6 @@ DD84FD,,🇱🇺 LS,🇱🇺 Jules Mathay
 485DB0,,🇳🇱 S4,🇳🇱 Lars van Breemen
 47BB9E,,🇳🇴 FB,🇳🇴 Frida Bjørø
 47A7FF,,🇳🇴 NP,🇳🇴 Nikolai Pontoppidan
-DDEAF1,,🇵🇱 ,🇵🇱 Filip Durda
 DDD244,,🇵🇱 AN,🇵🇱 Julia Walowska
 DDE279,,🇵🇱 X56,🇵🇱 Jan Wojewoda
 DDF058,,🇸🇰 3D,🇸🇰 Viktória Divoková
