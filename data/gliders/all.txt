@@ -20,10 +20,10 @@ DD84FD,,🇱🇺 LS,🇱🇺 Jules Mathay
 47BB9E,,🇳🇴 FB,🇳🇴 Frida Bjørø
 47A7FF,,🇳🇴 NP,🇳🇴 Nikolai Pontoppidan
 DDD244,,🇵🇱 AN,🇵🇱 Julia Walowska
-DDE279,,🇵🇱 X56,🇵🇱 Jan Wojewoda
+DDE1DC,,🇵🇱 X56,🇵🇱 Jan Wojewoda
 DDF058,,🇸🇰 3D,🇸🇰 Viktória Divoková
 DD89A3,,🇸🇰 AK,🇸🇰 Antonio Rudolf Kalik
-,,🇸🇰 LX,🇸🇰 Michaela Šoltysová
+DD9E29,,🇸🇰 LX,🇸🇰 Michaela Šoltysová
 4B50CB,,🇨🇭 LH,🇨🇭 Manon Kuttel
 4B4B30,,🇨🇭 WG,🇨🇭 Matteo Merk
 D01309,,🇬🇧 212,🇬🇧 George Downing
@@ -46,4 +46,4 @@ DDEE69,,🇵🇱 I,🇵🇱 Maciej Kowalski
 E75198,,🇵🇱 Y,🇵🇱 Tomasz Kurowski
 D02AAE,,🇵🇱 LOT,🇵🇱 Antoni Zawirski
 D02958,,🇬🇧 D7,🇬🇧 Oscar Butlin
-D02E5E,,🇬🇧 302,🇬🇧 Oliver Ramsay
+D0333C,,🇬🇧 302,🇬🇧 Oliver Ramsay
