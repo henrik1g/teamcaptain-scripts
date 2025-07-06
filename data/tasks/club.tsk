@@ -1,4 +1,4 @@
-<Task aat_min_time="7200" type="AAT">
+<Task aat_min_time="10800" type="AAT">
   <Point type="Start">
     <Waypoint altitude="319" name="008SEVER">
       <Location latitude="48.78195000000012" longitude="18.64278333333332"/>
@@ -6,16 +6,22 @@
     <ObservationZone length="15000" type="Line"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="972" name="037CICMANY JAVORINKA">
-      <Location latitude="48.945833333333454" longitude="18.530266666666787"/>
+    <Waypoint altitude="620" name="132LIPTOVSKA KOKAVA">
+      <Location latitude="49.092799999999876" longitude="19.083299999999777"/>
     </Waypoint>
-    <ObservationZone radius="13000" type="Cylinder"/>
+    <ObservationZone radius="20000" type="Cylinder"/>
+  </Point>
+  <Point type="Turn">
+    <Waypoint altitude="414" name="144STIAVNIK">
+      <Location latitude="49.249449999999925" longitude="18.46416666666669"/>
+    </Waypoint>
+    <ObservationZone radius="20000" type="Cylinder"/>
   </Point>
   <Point type="Turn">
     <Waypoint altitude="161.8" name="214BESA">
       <Location latitude="48.14455000000023" longitude="18.40398333333346"/>
     </Waypoint>
-    <ObservationZone radius="20000" type="Cylinder"/>
+    <ObservationZone radius="25000" type="Cylinder"/>
   </Point>
   <Point type="Finish">
     <Waypoint altitude="260" name="001PRIEVIDZA">

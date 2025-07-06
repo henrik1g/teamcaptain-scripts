@@ -3,27 +3,35 @@
     "points": [
         {
             "type": "Next",
-            "name": "016NITR SUCANY",
-            "altitude": 280.1,
-            "lat": 48.726600000000055,
-            "lng": 18.470283333333334,
+            "name": "015NITR RUDNO",
+            "altitude": 320.8,
+            "lat": 48.801616666666476,
+            "lng": 18.480399999999996,
             "radius": 7500
         },
         {
             "type": "AAT Sector",
-            "name": "100TRENCIN",
-            "altitude": 227.0,
-            "lat": 48.89333333333329,
-            "lng": 18.049449999999972,
-            "radius": 15000
+            "name": "155KRIVANMF",
+            "altitude": 1709.0,
+            "lat": 49.18773333333321,
+            "lng": 19.031083333333093,
+            "radius": 25000
         },
         {
             "type": "AAT Sector",
-            "name": "214BESA",
-            "altitude": 161.8,
-            "lat": 48.14455000000023,
-            "lng": 18.40398333333346,
+            "name": "070SVINNA",
+            "altitude": 284.0,
+            "lat": 48.788616666666435,
+            "lng": 18.13666666666677,
             "radius": 20000
+        },
+        {
+            "type": "AAT Sector",
+            "name": "258CAKA",
+            "altitude": 174.6,
+            "lat": 48.04201666666699,
+            "lng": 18.475983333333126,
+            "radius": 25000
         },
         {
             "type": "Cylinder",

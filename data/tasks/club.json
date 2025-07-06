@@ -11,11 +11,19 @@
         },
         {
             "type": "AAT Sector",
-            "name": "037CICMANY JAVORINKA",
-            "altitude": 972.0,
-            "lat": 48.945833333333454,
-            "lng": 18.530266666666787,
-            "radius": 13000
+            "name": "132LIPTOVSKA KOKAVA",
+            "altitude": 620.0,
+            "lat": 49.092799999999876,
+            "lng": 19.083299999999777,
+            "radius": 20000
+        },
+        {
+            "type": "AAT Sector",
+            "name": "144STIAVNIK",
+            "altitude": 414.0,
+            "lat": 49.249449999999925,
+            "lng": 18.46416666666669,
+            "radius": 20000
         },
         {
             "type": "AAT Sector",
@@ -23,7 +31,7 @@
             "altitude": 161.8,
             "lat": 48.14455000000023,
             "lng": 18.40398333333346,
-            "radius": 20000
+            "radius": 25000
         },
         {
             "type": "Cylinder",

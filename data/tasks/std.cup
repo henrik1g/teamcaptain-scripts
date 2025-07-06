@@ -1,12 +1,14 @@
 name,code,country,lat,lon,elev,style,rwdir,rwlen,freq,desc
-"016NITR SUCANY","","", 4843.596N, 01828.217E, 280.1m,1,,,,,""
-"100TRENCIN","","", 4853.600N, 01802.967E, 227m,1,,,,,""
-"214BESA","","", 4808.673N, 01824.239E, 161.8m,1,,,,,""
+"015NITR RUDNO","","", 4848.097N, 01828.824E, 320.8m,1,,,,,""
+"155KRIVANMF","","", 4911.264N, 01901.865E, 1709m,1,,,,,""
+"070SVINNA","","", 4847.317N, 01808.200E, 284m,1,,,,,""
+"258CAKA","","", 4802.521N, 01828.559E, 174.6m,1,,,,,""
 "001PRIEVIDZA","","", 4845.967N, 01835.200E, 260m,1,,,,,""
 -----Related Tasks-----
-"Task on 2025-07-04","","016NITR SUCANY","100TRENCIN","214BESA","001PRIEVIDZA",""
+"Task on 2025-07-06","","015NITR RUDNO","155KRIVANMF","070SVINNA","258CAKA","001PRIEVIDZA",""
 Options
 ObsZone=0,Style=2,R1=7500m,A1=180,Line=1
-ObsZone=1,Style=3,R1=15000m,A1=180
+ObsZone=1,Style=3,R1=25000m,A1=180
 ObsZone=2,Style=3,R1=20000m,A1=180
-ObsZone=3,Style=3,R1=5000m,A1=180
+ObsZone=3,Style=3,R1=25000m,A1=180
+ObsZone=4,Style=3,R1=5000m,A1=180
