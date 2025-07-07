@@ -11,19 +11,11 @@
         },
         {
             "type": "AAT Sector",
-            "name": "132LIPTOVSKA KOKAVA",
-            "altitude": 620.0,
-            "lat": 49.092799999999876,
-            "lng": 19.083299999999777,
-            "radius": 20000
-        },
-        {
-            "type": "AAT Sector",
-            "name": "144STIAVNIK",
-            "altitude": 414.0,
-            "lat": 49.249449999999925,
-            "lng": 18.46416666666669,
-            "radius": 20000
+            "name": "064HULICKA KYCERA",
+            "altitude": 1217.0,
+            "lat": 49.025833333333146,
+            "lng": 18.74444999999994,
+            "radius": 18000
         },
         {
             "type": "AAT Sector",

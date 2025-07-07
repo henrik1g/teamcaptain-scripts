@@ -1,4 +1,4 @@
-<Task aat_min_time="10800" type="AAT">
+<Task aat_min_time="4500" type="AAT">
   <Point type="Start">
     <Waypoint altitude="320.8" name="015NITR RUDNO">
       <Location latitude="48.801616666666476" longitude="18.480399999999996"/>
@@ -6,22 +6,16 @@
     <ObservationZone length="15000" type="Line"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="1709" name="155KRIVANMF">
-      <Location latitude="49.18773333333321" longitude="19.031083333333093"/>
+    <Waypoint altitude="830" name="063VALCA PIVNICA">
+      <Location latitude="49.01096666666646" longitude="18.78968333333334"/>
     </Waypoint>
-    <ObservationZone radius="25000" type="Cylinder"/>
+    <ObservationZone radius="22000" type="Cylinder"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="284" name="070SVINNA">
-      <Location latitude="48.788616666666435" longitude="18.13666666666677"/>
+    <Waypoint altitude="119.7" name="252SURANY LAKE">
+      <Location latitude="48.0946666666667" longitude="18.19976666666686"/>
     </Waypoint>
-    <ObservationZone radius="20000" type="Cylinder"/>
-  </Point>
-  <Point type="Turn">
-    <Waypoint altitude="174.6" name="258CAKA">
-      <Location latitude="48.04201666666699" longitude="18.475983333333126"/>
-    </Waypoint>
-    <ObservationZone radius="25000" type="Cylinder"/>
+    <ObservationZone radius="27000" type="Cylinder"/>
   </Point>
   <Point type="Finish">
     <Waypoint altitude="260" name="001PRIEVIDZA">

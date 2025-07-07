@@ -11,27 +11,19 @@
         },
         {
             "type": "AAT Sector",
-            "name": "155KRIVANMF",
-            "altitude": 1709.0,
-            "lat": 49.18773333333321,
-            "lng": 19.031083333333093,
-            "radius": 25000
+            "name": "063VALCA PIVNICA",
+            "altitude": 830.0,
+            "lat": 49.01096666666646,
+            "lng": 18.78968333333334,
+            "radius": 22000
         },
         {
             "type": "AAT Sector",
-            "name": "070SVINNA",
-            "altitude": 284.0,
-            "lat": 48.788616666666435,
-            "lng": 18.13666666666677,
-            "radius": 20000
-        },
-        {
-            "type": "AAT Sector",
-            "name": "258CAKA",
-            "altitude": 174.6,
-            "lat": 48.04201666666699,
-            "lng": 18.475983333333126,
-            "radius": 25000
+            "name": "252SURANY LAKE",
+            "altitude": 119.7,
+            "lat": 48.0946666666667,
+            "lng": 18.19976666666686,
+            "radius": 27000
         },
         {
             "type": "Cylinder",

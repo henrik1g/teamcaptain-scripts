@@ -1,14 +1,12 @@
 name,code,country,lat,lon,elev,style,rwdir,rwlen,freq,desc
 "015NITR RUDNO","","", 4848.097N, 01828.824E, 320.8m,1,,,,,""
-"155KRIVANMF","","", 4911.264N, 01901.865E, 1709m,1,,,,,""
-"070SVINNA","","", 4847.317N, 01808.200E, 284m,1,,,,,""
-"258CAKA","","", 4802.521N, 01828.559E, 174.6m,1,,,,,""
+"063VALCA PIVNICA","","", 4900.658N, 01847.381E, 830m,1,,,,,""
+"252SURANY LAKE","","", 4805.680N, 01811.986E, 119.7m,1,,,,,""
 "001PRIEVIDZA","","", 4845.967N, 01835.200E, 260m,1,,,,,""
 -----Related Tasks-----
-"Task on 2025-07-06","","015NITR RUDNO","155KRIVANMF","070SVINNA","258CAKA","001PRIEVIDZA",""
+"Task on 2025-07-07","","015NITR RUDNO","063VALCA PIVNICA","252SURANY LAKE","001PRIEVIDZA",""
 Options
 ObsZone=0,Style=2,R1=7500m,A1=180,Line=1
-ObsZone=1,Style=3,R1=25000m,A1=180
-ObsZone=2,Style=3,R1=20000m,A1=180
-ObsZone=3,Style=3,R1=25000m,A1=180
-ObsZone=4,Style=3,R1=5000m,A1=180
+ObsZone=1,Style=3,R1=22000m,A1=180
+ObsZone=2,Style=3,R1=27000m,A1=180
+ObsZone=3,Style=3,R1=5000m,A1=180
