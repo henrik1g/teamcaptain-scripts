@@ -1,21 +1,21 @@
 <Task aat_min_time="5400" type="AAT">
   <Point type="Start">
-    <Waypoint altitude="319" name="008SEVER">
-      <Location latitude="48.78195000000012" longitude="18.64278333333332"/>
+    <Waypoint altitude="385.6" name="010CIGEL">
+      <Location latitude="48.732816666666594" longitude="18.63705000000005"/>
     </Waypoint>
     <ObservationZone length="15000" type="Line"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="1217" name="064HULICKA KYCERA">
-      <Location latitude="49.025833333333146" longitude="18.74444999999994"/>
+    <Waypoint altitude="499" name="119GYMES">
+      <Location latitude="48.411666666666584" longitude="18.22250000000019"/>
     </Waypoint>
-    <ObservationZone radius="18000" type="Cylinder"/>
+    <ObservationZone radius="13000" type="Cylinder"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="161.8" name="214BESA">
-      <Location latitude="48.14455000000023" longitude="18.40398333333346"/>
+    <Waypoint altitude="155.1" name="284JASOVA LAKE">
+      <Location latitude="47.992466666666594" longitude="18.41518333333327"/>
     </Waypoint>
-    <ObservationZone radius="25000" type="Cylinder"/>
+    <ObservationZone radius="22000" type="Cylinder"/>
   </Point>
   <Point type="Finish">
     <Waypoint altitude="260" name="001PRIEVIDZA">

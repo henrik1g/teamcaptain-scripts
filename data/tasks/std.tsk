@@ -1,4 +1,4 @@
-<Task aat_min_time="4500" type="AAT">
+<Task aat_min_time="5400" type="AAT">
   <Point type="Start">
     <Waypoint altitude="320.8" name="015NITR RUDNO">
       <Location latitude="48.801616666666476" longitude="18.480399999999996"/>
@@ -6,16 +6,16 @@
     <ObservationZone length="15000" type="Line"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="830" name="063VALCA PIVNICA">
-      <Location latitude="49.01096666666646" longitude="18.78968333333334"/>
+    <Waypoint altitude="364.2" name="085MOTOREST RADAR">
+      <Location latitude="48.81170000000022" longitude="18.087399999999867"/>
     </Waypoint>
-    <ObservationZone radius="22000" type="Cylinder"/>
+    <ObservationZone radius="17000" type="Cylinder"/>
   </Point>
   <Point type="Turn">
     <Waypoint altitude="119.7" name="252SURANY LAKE">
       <Location latitude="48.0946666666667" longitude="18.19976666666686"/>
     </Waypoint>
-    <ObservationZone radius="27000" type="Cylinder"/>
+    <ObservationZone radius="20000" type="Cylinder"/>
   </Point>
   <Point type="Finish">
     <Waypoint altitude="260" name="001PRIEVIDZA">

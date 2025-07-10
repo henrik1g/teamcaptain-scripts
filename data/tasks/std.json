@@ -11,11 +11,11 @@
         },
         {
             "type": "AAT Sector",
-            "name": "063VALCA PIVNICA",
-            "altitude": 830.0,
-            "lat": 49.01096666666646,
-            "lng": 18.78968333333334,
-            "radius": 22000
+            "name": "085MOTOREST RADAR",
+            "altitude": 364.2,
+            "lat": 48.81170000000022,
+            "lng": 18.087399999999867,
+            "radius": 17000
         },
         {
             "type": "AAT Sector",
@@ -23,7 +23,7 @@
             "altitude": 119.7,
             "lat": 48.0946666666667,
             "lng": 18.19976666666686,
-            "radius": 27000
+            "radius": 20000
         },
         {
             "type": "Cylinder",

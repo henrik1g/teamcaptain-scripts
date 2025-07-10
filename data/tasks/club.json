@@ -3,27 +3,27 @@
     "points": [
         {
             "type": "Next",
-            "name": "008SEVER",
-            "altitude": 319.0,
-            "lat": 48.78195000000012,
-            "lng": 18.64278333333332,
+            "name": "010CIGEL",
+            "altitude": 385.6,
+            "lat": 48.732816666666594,
+            "lng": 18.63705000000005,
             "radius": 7500
         },
         {
             "type": "AAT Sector",
-            "name": "064HULICKA KYCERA",
-            "altitude": 1217.0,
-            "lat": 49.025833333333146,
-            "lng": 18.74444999999994,
-            "radius": 18000
+            "name": "119GYMES",
+            "altitude": 499.0,
+            "lat": 48.411666666666584,
+            "lng": 18.22250000000019,
+            "radius": 13000
         },
         {
             "type": "AAT Sector",
-            "name": "214BESA",
-            "altitude": 161.8,
-            "lat": 48.14455000000023,
-            "lng": 18.40398333333346,
-            "radius": 25000
+            "name": "284JASOVA LAKE",
+            "altitude": 155.1,
+            "lat": 47.992466666666594,
+            "lng": 18.41518333333327,
+            "radius": 22000
         },
         {
             "type": "Cylinder",
