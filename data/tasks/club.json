@@ -11,19 +11,27 @@
         },
         {
             "type": "AAT Sector",
-            "name": "119GYMES",
-            "altitude": 499.0,
-            "lat": 48.411666666666584,
-            "lng": 18.22250000000019,
-            "radius": 13000
+            "name": "125LEFANTOVCE",
+            "altitude": 250.0,
+            "lat": 48.42571666666685,
+            "lng": 18.166766666666753,
+            "radius": 10000
         },
         {
             "type": "AAT Sector",
-            "name": "284JASOVA LAKE",
-            "altitude": 155.1,
-            "lat": 47.992466666666594,
-            "lng": 18.41518333333327,
-            "radius": 22000
+            "name": "500ZBOJNIKY",
+            "altitude": 145.0,
+            "lat": 48.11471666666642,
+            "lng": 18.705283333333526,
+            "radius": 15000
+        },
+        {
+            "type": "AAT Sector",
+            "name": "252SURANY LAKE",
+            "altitude": 119.7,
+            "lat": 48.0946666666667,
+            "lng": 18.19976666666686,
+            "radius": 15000
         },
         {
             "type": "Cylinder",

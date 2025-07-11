@@ -1,21 +1,27 @@
-<Task aat_min_time="5400" type="AAT">
+<Task aat_min_time="8100" type="AAT">
   <Point type="Start">
-    <Waypoint altitude="320.8" name="015NITR RUDNO">
-      <Location latitude="48.801616666666476" longitude="18.480399999999996"/>
+    <Waypoint altitude="426" name="012DLZIN">
+      <Location latitude="48.804450000000195" longitude="18.506666666666824"/>
     </Waypoint>
     <ObservationZone length="15000" type="Line"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="364.2" name="085MOTOREST RADAR">
-      <Location latitude="48.81170000000022" longitude="18.087399999999867"/>
+    <Waypoint altitude="269.8" name="060MOTESICE">
+      <Location latitude="48.83131666666691" longitude="18.185233333333326"/>
     </Waypoint>
-    <ObservationZone radius="17000" type="Cylinder"/>
+    <ObservationZone radius="15000" type="Cylinder"/>
+  </Point>
+  <Point type="Turn">
+    <Waypoint altitude="157.8" name="187KALINCIAKOVO">
+      <Location latitude="48.1890499999998" longitude="18.663550000000132"/>
+    </Waypoint>
+    <ObservationZone radius="15000" type="Cylinder"/>
   </Point>
   <Point type="Turn">
     <Waypoint altitude="119.7" name="252SURANY LAKE">
       <Location latitude="48.0946666666667" longitude="18.19976666666686"/>
     </Waypoint>
-    <ObservationZone radius="20000" type="Cylinder"/>
+    <ObservationZone radius="10000" type="Cylinder"/>
   </Point>
   <Point type="Finish">
     <Waypoint altitude="260" name="001PRIEVIDZA">

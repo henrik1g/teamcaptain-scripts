@@ -3,19 +3,27 @@
     "points": [
         {
             "type": "Next",
-            "name": "015NITR RUDNO",
-            "altitude": 320.8,
-            "lat": 48.801616666666476,
-            "lng": 18.480399999999996,
+            "name": "012DLZIN",
+            "altitude": 426.0,
+            "lat": 48.804450000000195,
+            "lng": 18.506666666666824,
             "radius": 7500
         },
         {
             "type": "AAT Sector",
-            "name": "085MOTOREST RADAR",
-            "altitude": 364.2,
-            "lat": 48.81170000000022,
-            "lng": 18.087399999999867,
-            "radius": 17000
+            "name": "060MOTESICE",
+            "altitude": 269.8,
+            "lat": 48.83131666666691,
+            "lng": 18.185233333333326,
+            "radius": 15000
+        },
+        {
+            "type": "AAT Sector",
+            "name": "187KALINCIAKOVO",
+            "altitude": 157.8,
+            "lat": 48.1890499999998,
+            "lng": 18.663550000000132,
+            "radius": 15000
         },
         {
             "type": "AAT Sector",
@@ -23,7 +31,7 @@
             "altitude": 119.7,
             "lat": 48.0946666666667,
             "lng": 18.19976666666686,
-            "radius": 20000
+            "radius": 10000
         },
         {
             "type": "Cylinder",
