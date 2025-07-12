@@ -1,4 +1,4 @@
-<Task aat_min_time="8100" type="AAT">
+<Task aat_min_time="7200" type="AAT">
   <Point type="Start">
     <Waypoint altitude="337" name="009DOLINA">
       <Location latitude="48.749716666666764" longitude="18.522783333333507"/>
@@ -6,10 +6,10 @@
     <ObservationZone length="15000" type="Line"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="115.3" name="345HURBANOVO">
-      <Location latitude="47.880733333333545" longitude="18.196816666666507"/>
+    <Waypoint altitude="115" name="310LZNZ">
+      <Location latitude="47.96083333333312" longitude="18.184449999999835"/>
     </Waypoint>
-    <ObservationZone radius="15000" type="Cylinder"/>
+    <ObservationZone radius="25000" type="Cylinder"/>
   </Point>
   <Point type="Turn">
     <Waypoint altitude="145" name="500ZBOJNIKY">

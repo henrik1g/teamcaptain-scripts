@@ -1,4 +1,4 @@
-<Task aat_min_time="9000" type="AAT">
+<Task aat_min_time="8100" type="AAT">
   <Point type="Start">
     <Waypoint altitude="319" name="008SEVER">
       <Location latitude="48.78195000000012" longitude="18.64278333333332"/>
@@ -15,13 +15,13 @@
     <Waypoint altitude="126" name="295DVORY NAD ZITAVOU">
       <Location latitude="47.99221666666659" longitude="18.263333333333463"/>
     </Waypoint>
-    <ObservationZone radius="15000" type="Cylinder"/>
+    <ObservationZone radius="22000" type="Cylinder"/>
   </Point>
   <Point type="Turn">
     <Waypoint altitude="157.8" name="187KALINCIAKOVO">
       <Location latitude="48.1890499999998" longitude="18.663550000000132"/>
     </Waypoint>
-    <ObservationZone radius="15000" type="Cylinder"/>
+    <ObservationZone radius="12000" type="Cylinder"/>
   </Point>
   <Point type="Turn">
     <Waypoint altitude="499" name="119GYMES">
