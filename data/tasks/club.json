@@ -3,35 +3,43 @@
     "points": [
         {
             "type": "Next",
-            "name": "010CIGEL",
-            "altitude": 385.6,
-            "lat": 48.732816666666594,
-            "lng": 18.63705000000005,
+            "name": "008SEVER",
+            "altitude": 319.0,
+            "lat": 48.78195000000012,
+            "lng": 18.64278333333332,
             "radius": 7500
         },
         {
             "type": "AAT Sector",
-            "name": "125LEFANTOVCE",
-            "altitude": 250.0,
-            "lat": 48.42571666666685,
-            "lng": 18.166766666666753,
+            "name": "048KLAK",
+            "altitude": 1353.0,
+            "lat": 48.979999999999855,
+            "lng": 18.639999999999826,
+            "radius": 15000
+        },
+        {
+            "type": "AAT Sector",
+            "name": "295DVORY NAD ZITAVOU",
+            "altitude": 126.0,
+            "lat": 47.99221666666659,
+            "lng": 18.263333333333463,
+            "radius": 15000
+        },
+        {
+            "type": "AAT Sector",
+            "name": "187KALINCIAKOVO",
+            "altitude": 157.8,
+            "lat": 48.1890499999998,
+            "lng": 18.663550000000132,
+            "radius": 15000
+        },
+        {
+            "type": "AAT Sector",
+            "name": "119GYMES",
+            "altitude": 499.0,
+            "lat": 48.411666666666584,
+            "lng": 18.22250000000019,
             "radius": 10000
-        },
-        {
-            "type": "AAT Sector",
-            "name": "500ZBOJNIKY",
-            "altitude": 145.0,
-            "lat": 48.11471666666642,
-            "lng": 18.705283333333526,
-            "radius": 15000
-        },
-        {
-            "type": "AAT Sector",
-            "name": "252SURANY LAKE",
-            "altitude": 119.7,
-            "lat": 48.0946666666667,
-            "lng": 18.19976666666686,
-            "radius": 15000
         },
         {
             "type": "Cylinder",

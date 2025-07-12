@@ -1,27 +1,27 @@
 <Task aat_min_time="8100" type="AAT">
   <Point type="Start">
-    <Waypoint altitude="426" name="012DLZIN">
-      <Location latitude="48.804450000000195" longitude="18.506666666666824"/>
+    <Waypoint altitude="337" name="009DOLINA">
+      <Location latitude="48.749716666666764" longitude="18.522783333333507"/>
     </Waypoint>
     <ObservationZone length="15000" type="Line"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="269.8" name="060MOTESICE">
-      <Location latitude="48.83131666666691" longitude="18.185233333333326"/>
+    <Waypoint altitude="115.3" name="345HURBANOVO">
+      <Location latitude="47.880733333333545" longitude="18.196816666666507"/>
     </Waypoint>
     <ObservationZone radius="15000" type="Cylinder"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="157.8" name="187KALINCIAKOVO">
-      <Location latitude="48.1890499999998" longitude="18.663550000000132"/>
+    <Waypoint altitude="145" name="500ZBOJNIKY">
+      <Location latitude="48.11471666666642" longitude="18.705283333333526"/>
     </Waypoint>
     <ObservationZone radius="15000" type="Cylinder"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="119.7" name="252SURANY LAKE">
-      <Location latitude="48.0946666666667" longitude="18.19976666666686"/>
+    <Waypoint altitude="178.3" name="149CELADICE">
+      <Location latitude="48.325733333333275" longitude="18.242166666666538"/>
     </Waypoint>
-    <ObservationZone radius="10000" type="Cylinder"/>
+    <ObservationZone radius="15000" type="Cylinder"/>
   </Point>
   <Point type="Finish">
     <Waypoint altitude="260" name="001PRIEVIDZA">

@@ -3,35 +3,35 @@
     "points": [
         {
             "type": "Next",
-            "name": "012DLZIN",
-            "altitude": 426.0,
-            "lat": 48.804450000000195,
-            "lng": 18.506666666666824,
+            "name": "009DOLINA",
+            "altitude": 337.0,
+            "lat": 48.749716666666764,
+            "lng": 18.522783333333507,
             "radius": 7500
         },
         {
             "type": "AAT Sector",
-            "name": "060MOTESICE",
-            "altitude": 269.8,
-            "lat": 48.83131666666691,
-            "lng": 18.185233333333326,
+            "name": "345HURBANOVO",
+            "altitude": 115.3,
+            "lat": 47.880733333333545,
+            "lng": 18.196816666666507,
             "radius": 15000
         },
         {
             "type": "AAT Sector",
-            "name": "187KALINCIAKOVO",
-            "altitude": 157.8,
-            "lat": 48.1890499999998,
-            "lng": 18.663550000000132,
+            "name": "500ZBOJNIKY",
+            "altitude": 145.0,
+            "lat": 48.11471666666642,
+            "lng": 18.705283333333526,
             "radius": 15000
         },
         {
             "type": "AAT Sector",
-            "name": "252SURANY LAKE",
-            "altitude": 119.7,
-            "lat": 48.0946666666667,
-            "lng": 18.19976666666686,
-            "radius": 10000
+            "name": "149CELADICE",
+            "altitude": 178.3,
+            "lat": 48.325733333333275,
+            "lng": 18.242166666666538,
+            "radius": 15000
         },
         {
             "type": "Cylinder",
