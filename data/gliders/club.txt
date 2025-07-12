@@ -1,30 +1,30 @@
 ID,CALL,CN,TYPE,NAME
-D0291F,,🇨🇿 A3,🇨🇿 Michaela Křížová
-D01C39,,🇨🇿 CX,🇨🇿 Vít Mořkovský
-D00CE4,,🇨🇿 NW,🇨🇿 Jan Šťastný
-D00D2F,,🇫🇮 KT,🇫🇮 Kim Toppari
-DDAFEE,,🇫🇷 VL,🇫🇷 Nicolas Caudrelier
-DDEA6A,,🇫🇷 9B,🇫🇷 Nicolas Douchet
-DD8609,,🇫🇷 E10,🇫🇷 Gael PISCHEDDA
-DDE252,,🇩🇪 PP,🇩🇪 Jens Kammerer
-DDE2DB,,🇩🇪 V7,🇩🇪 Felix Kries
-DDDFDC,,🇩🇪 3N,🇩🇪 Goormann Maximilian
-D02A02,,🇭🇺 RH,🇭🇺 Hadi Barna
-ADF133,,🇭🇺 7T,🇭🇺 Molnár Géza
-D012B6,,🇭🇺 NY,🇭🇺 Roland Veronyák
-DD9FD9,,🇮🇹 5I,🇮🇹 Alessandro Bassalti
-DDDEE7,,🇮🇹 RB,🇮🇹 Andrea Paganin
-DD84FD,,🇱🇺 LS,🇱🇺 Jules Mathay
-485D93,,🇳🇱 AO,🇳🇱 Jasper Jansen
-485DB0,,🇳🇱 S4,🇳🇱 Lars van Breemen
-47BB9E,,🇳🇴 FB,🇳🇴 Frida Bjørø
-47A7FF,,🇳🇴 NP,🇳🇴 Nikolai Pontoppidan
-DDD244,,🇵🇱 AN,🇵🇱 Julia Walowska
-DDE1DC,,🇵🇱 X56,🇵🇱 Jan Wojewoda
-DDF058,,🇸🇰 3D,🇸🇰 Viktória Divoková
-DD89A3,,🇸🇰 AK,🇸🇰 Antonio Rudolf Kalik
-DD9E29,,🇸🇰 LX,🇸🇰 Michaela Šoltysová
-4B50CB,,🇨🇭 LH,🇨🇭 Manon Kuttel
-4B4B30,,🇨🇭 WG,🇨🇭 Matteo Merk
-D01309,,🇬🇧 212,🇬🇧 George Downing
-,,🇯🇵 X11,🇯🇵 Kengo Matsumoto
+D0291F,,🇨🇿 A3,🇨🇿 ,ASW 20,Michaela Křížová
+D01C39,,🇨🇿 CX,🇨🇿 ,ASW 20,Vít Mořkovský
+D00CE4,,🇨🇿 NW,🇨🇿 ,ASW 20,Jan Šťastný
+D00D2F,,🇫🇮 KT,🇫🇮 ,LS 7 neo,Kim Toppari
+DDAFEE,,🇫🇷 VL,🇫🇷 ,ASW20,Nicolas Caudrelier
+DDEA6A,,🇫🇷 9B,🇫🇷 ,LS 3a,Nicolas Douchet
+DD8609,,🇫🇷 E10,🇫🇷 ,Ls4,Gael PISCHEDDA
+DDE252,,🇩🇪 PP,🇩🇪 ,DG300WL,Jens Kammerer
+DDE2DB,,🇩🇪 V7,🇩🇪 ,LS4 wl,Felix Kries
+DDDFDC,,🇩🇪 3N,🇩🇪 ,DG300 Neo,Goormann Maximilian
+D02A02,,🇭🇺 RH,🇭🇺 ,ASW-20,Hadi Barna
+ADF133,,🇭🇺 7T,🇭🇺 ,LS3,Molnár Géza
+D012B6,,🇭🇺 NY,🇭🇺 ,Asw 20,Roland Veronyák
+DD9FD9,,🇮🇹 5I,🇮🇹 ,Discus,Alessandro Bassalti
+DDDEE7,,🇮🇹 RB,🇮🇹 ,ASW 24,Andrea Paganin
+DD84FD,,🇱🇺 LS,🇱🇺 ,LS4 b,Jules Mathay
+485D93,,🇳🇱 AO,🇳🇱 ,LS4a,Jasper Jansen
+485DB0,,🇳🇱 S4,🇳🇱 ,LS4b neo,Lars van Breemen
+47BB9E,,🇳🇴 FB,🇳🇴 ,LS4,Frida Bjørø
+47A7FF,,🇳🇴 NP,🇳🇴 ,LS 4,Nikolai Pontoppidan
+DDD244,,🇵🇱 AN,🇵🇱 ,LS-3,Julia Walowska
+DDE1DC,,🇵🇱 X56,🇵🇱 ,ASW 20,Jan Wojewoda
+DDF058,,🇸🇰 3D,🇸🇰 ,Discus b,Viktória Divoková
+DD89A3,,🇸🇰 AK,🇸🇰 ,LS3,Antonio Rudolf Kalik
+DD9E29,,🇸🇰 LX,🇸🇰 ,Std. Cirrus WL,Michaela Šoltysová
+4B50CB,,🇨🇭 LH,🇨🇭 ,Discus b,Manon Kuttel
+4B4B30,,🇨🇭 WG,🇨🇭 ,LS 4,Matteo Merk
+D01309,,🇬🇧 212,🇬🇧 ,Asw20,George Downing
+,,🇯🇵 X11,🇯🇵 ,ASW20,Kengo Matsumoto
