@@ -1,37 +1,45 @@
 {
-    "type": "AAT",
+    "type": "RT",
     "points": [
         {
             "type": "Next",
-            "name": "009DOLINA",
-            "altitude": 337.0,
-            "lat": 48.749716666666764,
-            "lng": 18.522783333333507,
+            "name": "015NITR RUDNO",
+            "altitude": 320.8,
+            "lat": 48.801616666666476,
+            "lng": 18.480399999999996,
             "radius": 7500
         },
         {
-            "type": "AAT Sector",
-            "name": "310LZNZ",
-            "altitude": 115.0,
-            "lat": 47.96083333333312,
-            "lng": 18.184449999999835,
-            "radius": 25000
+            "type": "Symmetric",
+            "name": "160KRALOVANY",
+            "altitude": 434.6,
+            "lat": 49.15286666666647,
+            "lng": 19.130133333333646,
+            "radius": 500
         },
         {
-            "type": "AAT Sector",
-            "name": "500ZBOJNIKY",
-            "altitude": 145.0,
-            "lat": 48.11471666666642,
-            "lng": 18.705283333333526,
-            "radius": 15000
+            "type": "Symmetric",
+            "name": "144STIAVNIK",
+            "altitude": 414.0,
+            "lat": 49.249449999999925,
+            "lng": 18.46416666666669,
+            "radius": 500
         },
         {
-            "type": "AAT Sector",
-            "name": "149CELADICE",
-            "altitude": 178.3,
-            "lat": 48.325733333333275,
+            "type": "Symmetric",
+            "name": "137TLMACE",
+            "altitude": 174.0,
+            "lat": 48.28941666666676,
+            "lng": 18.53143333333365,
+            "radius": 500
+        },
+        {
+            "type": "Symmetric",
+            "name": "068BOSANY",
+            "altitude": 173.5,
+            "lat": 48.57858333333341,
             "lng": 18.242166666666538,
-            "radius": 15000
+            "radius": 500
         },
         {
             "type": "Cylinder",

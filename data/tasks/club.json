@@ -1,45 +1,45 @@
 {
-    "type": "AAT",
+    "type": "RT",
     "points": [
         {
             "type": "Next",
-            "name": "008SEVER",
-            "altitude": 319.0,
-            "lat": 48.78195000000012,
-            "lng": 18.64278333333332,
+            "name": "010CIGEL",
+            "altitude": 385.6,
+            "lat": 48.732816666666594,
+            "lng": 18.63705000000005,
             "radius": 7500
         },
         {
-            "type": "AAT Sector",
-            "name": "048KLAK",
-            "altitude": 1353.0,
-            "lat": 48.979999999999855,
-            "lng": 18.639999999999826,
-            "radius": 15000
+            "type": "Symmetric",
+            "name": "207HRCOVA KECKA",
+            "altitude": 1225.0,
+            "lat": 49.24413333333351,
+            "lng": 19.186450000000228,
+            "radius": 500
         },
         {
-            "type": "AAT Sector",
-            "name": "295DVORY NAD ZITAVOU",
-            "altitude": 126.0,
-            "lat": 47.99221666666659,
-            "lng": 18.263333333333463,
-            "radius": 22000
+            "type": "Symmetric",
+            "name": "032KSINNA",
+            "altitude": 316.3,
+            "lat": 48.80241666666671,
+            "lng": 18.349983333333288,
+            "radius": 500
         },
         {
-            "type": "AAT Sector",
-            "name": "187KALINCIAKOVO",
-            "altitude": 157.8,
-            "lat": 48.1890499999998,
-            "lng": 18.663550000000132,
-            "radius": 12000
+            "type": "Symmetric",
+            "name": "117HRONSKY BENADIK",
+            "altitude": 194.0,
+            "lat": 48.34333333333322,
+            "lng": 18.55804999999979,
+            "radius": 500
         },
         {
-            "type": "AAT Sector",
-            "name": "119GYMES",
-            "altitude": 499.0,
-            "lat": 48.411666666666584,
-            "lng": 18.22250000000019,
-            "radius": 10000
+            "type": "Symmetric",
+            "name": "125LEFANTOVCE",
+            "altitude": 250.0,
+            "lat": 48.42571666666685,
+            "lng": 18.166766666666753,
+            "radius": 500
         },
         {
             "type": "Cylinder",

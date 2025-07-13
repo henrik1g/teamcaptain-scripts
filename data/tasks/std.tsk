@@ -1,27 +1,33 @@
-<Task aat_min_time="7200" type="AAT">
+<Task type="RT">
   <Point type="Start">
-    <Waypoint altitude="337" name="009DOLINA">
-      <Location latitude="48.749716666666764" longitude="18.522783333333507"/>
+    <Waypoint altitude="320.8" name="015NITR RUDNO">
+      <Location latitude="48.801616666666476" longitude="18.480399999999996"/>
     </Waypoint>
     <ObservationZone length="15000" type="Line"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="115" name="310LZNZ">
-      <Location latitude="47.96083333333312" longitude="18.184449999999835"/>
+    <Waypoint altitude="434.6" name="160KRALOVANY">
+      <Location latitude="49.15286666666647" longitude="19.130133333333646"/>
     </Waypoint>
-    <ObservationZone radius="25000" type="Cylinder"/>
+    <ObservationZone radius="500" type="Cylinder"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="145" name="500ZBOJNIKY">
-      <Location latitude="48.11471666666642" longitude="18.705283333333526"/>
+    <Waypoint altitude="414" name="144STIAVNIK">
+      <Location latitude="49.249449999999925" longitude="18.46416666666669"/>
     </Waypoint>
-    <ObservationZone radius="15000" type="Cylinder"/>
+    <ObservationZone radius="500" type="Cylinder"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="178.3" name="149CELADICE">
-      <Location latitude="48.325733333333275" longitude="18.242166666666538"/>
+    <Waypoint altitude="174" name="137TLMACE">
+      <Location latitude="48.28941666666676" longitude="18.53143333333365"/>
     </Waypoint>
-    <ObservationZone radius="15000" type="Cylinder"/>
+    <ObservationZone radius="500" type="Cylinder"/>
+  </Point>
+  <Point type="Turn">
+    <Waypoint altitude="173.5" name="068BOSANY">
+      <Location latitude="48.57858333333341" longitude="18.242166666666538"/>
+    </Waypoint>
+    <ObservationZone radius="500" type="Cylinder"/>
   </Point>
   <Point type="Finish">
     <Waypoint altitude="260" name="001PRIEVIDZA">
