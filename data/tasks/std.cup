@@ -1,16 +1,18 @@
 name,code,country,lat,lon,elev,style,rwdir,rwlen,freq,desc
 "015NITR RUDNO","","", 4848.097N, 01828.824E, 320.8m,1,,,,,""
-"160KRALOVANY","","", 4909.172N, 01907.808E, 434.6m,1,,,,,""
-"144STIAVNIK","","", 4914.967N, 01827.850E, 414m,1,,,,,""
+"128STRECNO","","", 4910.500N, 01851.767E, 440m,1,,,,,""
+"289HUTY","","", 4913.151N, 01933.968E, 814m,1,,,,,""
+"035OSLANY","","", 4837.128N, 01826.046E, 207m,1,,,,,""
 "137TLMACE","","", 4817.365N, 01831.886E, 174m,1,,,,,""
-"068BOSANY","","", 4834.715N, 01814.530E, 173.5m,1,,,,,""
+"125LEFANTOVCE","","", 4825.543N, 01810.006E, 250m,1,,,,,""
 "001PRIEVIDZA","","", 4845.967N, 01835.200E, 260m,1,,,,,""
 -----Related Tasks-----
-"Task on 2025-07-13","","015NITR RUDNO","160KRALOVANY","144STIAVNIK","137TLMACE","068BOSANY","001PRIEVIDZA",""
+"Task on 2025-07-14","","015NITR RUDNO","128STRECNO","289HUTY","035OSLANY","137TLMACE","125LEFANTOVCE","001PRIEVIDZA",""
 Options
 ObsZone=0,Style=2,R1=7500m,A1=180,Line=1
 ObsZone=1,Style=3,R1=500m,A1=180
 ObsZone=2,Style=3,R1=500m,A1=180
 ObsZone=3,Style=3,R1=500m,A1=180
 ObsZone=4,Style=3,R1=500m,A1=180
-ObsZone=5,Style=3,R1=5000m,A1=180
+ObsZone=5,Style=3,R1=500m,A1=180
+ObsZone=6,Style=3,R1=5000m,A1=180

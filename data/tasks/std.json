@@ -11,18 +11,26 @@
         },
         {
             "type": "Symmetric",
-            "name": "160KRALOVANY",
-            "altitude": 434.6,
-            "lat": 49.15286666666647,
-            "lng": 19.130133333333646,
+            "name": "128STRECNO",
+            "altitude": 440.0,
+            "lat": 49.17499999999991,
+            "lng": 18.862783333333464,
             "radius": 500
         },
         {
             "type": "Symmetric",
-            "name": "144STIAVNIK",
-            "altitude": 414.0,
-            "lat": 49.249449999999925,
-            "lng": 18.46416666666669,
+            "name": "289HUTY",
+            "altitude": 814.0,
+            "lat": 49.21918333333365,
+            "lng": 19.56613333333334,
+            "radius": 500
+        },
+        {
+            "type": "Symmetric",
+            "name": "035OSLANY",
+            "altitude": 207.0,
+            "lat": 48.61880000000006,
+            "lng": 18.43410000000019,
             "radius": 500
         },
         {
@@ -35,10 +43,10 @@
         },
         {
             "type": "Symmetric",
-            "name": "068BOSANY",
-            "altitude": 173.5,
-            "lat": 48.57858333333341,
-            "lng": 18.242166666666538,
+            "name": "125LEFANTOVCE",
+            "altitude": 250.0,
+            "lat": 48.42571666666685,
+            "lng": 18.166766666666753,
             "radius": 500
         },
         {

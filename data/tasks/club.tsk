@@ -6,20 +6,26 @@
     <ObservationZone length="15000" type="Line"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="1225" name="207HRCOVA KECKA">
-      <Location latitude="49.24413333333351" longitude="19.186450000000228"/>
+    <Waypoint altitude="628" name="181HORNA LEHOTA">
+      <Location latitude="49.2513999999997" longitude="19.03919999999975"/>
     </Waypoint>
     <ObservationZone radius="500" type="Cylinder"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="316.3" name="032KSINNA">
-      <Location latitude="48.80241666666671" longitude="18.349983333333288"/>
+    <Waypoint altitude="1611" name="211CHOC">
+      <Location latitude="49.15091666666669" longitude="19.34353333333331"/>
     </Waypoint>
     <ObservationZone radius="500" type="Cylinder"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="194" name="117HRONSKY BENADIK">
-      <Location latitude="48.34333333333322" longitude="18.55804999999979"/>
+    <Waypoint altitude="245" name="039V UHERCE">
+      <Location latitude="48.59966666666662" longitude="18.451499999999786"/>
+    </Waypoint>
+    <ObservationZone radius="500" type="Cylinder"/>
+  </Point>
+  <Point type="Turn">
+    <Waypoint altitude="159" name="174LEVICE">
+      <Location latitude="48.21638333333361" longitude="18.603333333333424"/>
     </Waypoint>
     <ObservationZone radius="500" type="Cylinder"/>
   </Point>

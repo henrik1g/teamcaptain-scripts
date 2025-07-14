@@ -11,26 +11,34 @@
         },
         {
             "type": "Symmetric",
-            "name": "207HRCOVA KECKA",
-            "altitude": 1225.0,
-            "lat": 49.24413333333351,
-            "lng": 19.186450000000228,
+            "name": "181HORNA LEHOTA",
+            "altitude": 628.0,
+            "lat": 49.2513999999997,
+            "lng": 19.03919999999975,
             "radius": 500
         },
         {
             "type": "Symmetric",
-            "name": "032KSINNA",
-            "altitude": 316.3,
-            "lat": 48.80241666666671,
-            "lng": 18.349983333333288,
+            "name": "211CHOC",
+            "altitude": 1611.0,
+            "lat": 49.15091666666669,
+            "lng": 19.34353333333331,
             "radius": 500
         },
         {
             "type": "Symmetric",
-            "name": "117HRONSKY BENADIK",
-            "altitude": 194.0,
-            "lat": 48.34333333333322,
-            "lng": 18.55804999999979,
+            "name": "039V UHERCE",
+            "altitude": 245.0,
+            "lat": 48.59966666666662,
+            "lng": 18.451499999999786,
+            "radius": 500
+        },
+        {
+            "type": "Symmetric",
+            "name": "174LEVICE",
+            "altitude": 159.0,
+            "lat": 48.21638333333361,
+            "lng": 18.603333333333424,
             "radius": 500
         },
         {
