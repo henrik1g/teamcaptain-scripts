@@ -1,37 +1,31 @@
 <Task type="RT">
   <Point type="Start">
-    <Waypoint altitude="385.6" name="010CIGEL">
-      <Location latitude="48.732816666666594" longitude="18.63705000000005"/>
+    <Waypoint altitude="320.8" name="015NITR RUDNO">
+      <Location latitude="48.801616666666476" longitude="18.480399999999996"/>
     </Waypoint>
     <ObservationZone length="15000" type="Line"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="628" name="181HORNA LEHOTA">
-      <Location latitude="49.2513999999997" longitude="19.03919999999975"/>
+    <Waypoint altitude="324" name="088RADAR">
+      <Location latitude="48.81916666666676" longitude="18.077783333333205"/>
     </Waypoint>
     <ObservationZone radius="500" type="Cylinder"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="1611" name="211CHOC">
-      <Location latitude="49.15091666666669" longitude="19.34353333333331"/>
+    <Waypoint altitude="207" name="035OSLANY">
+      <Location latitude="48.61880000000006" longitude="18.43410000000019"/>
     </Waypoint>
     <ObservationZone radius="500" type="Cylinder"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="245" name="039V UHERCE">
-      <Location latitude="48.59966666666662" longitude="18.451499999999786"/>
+    <Waypoint altitude="155.1" name="284JASOVA LAKE">
+      <Location latitude="47.992466666666594" longitude="18.41518333333327"/>
     </Waypoint>
     <ObservationZone radius="500" type="Cylinder"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="159" name="174LEVICE">
-      <Location latitude="48.21638333333361" longitude="18.603333333333424"/>
-    </Waypoint>
-    <ObservationZone radius="500" type="Cylinder"/>
-  </Point>
-  <Point type="Turn">
-    <Waypoint altitude="250" name="125LEFANTOVCE">
-      <Location latitude="48.42571666666685" longitude="18.166766666666753"/>
+    <Waypoint altitude="115" name="310LZNZ">
+      <Location latitude="47.96083333333312" longitude="18.184449999999835"/>
     </Waypoint>
     <ObservationZone radius="500" type="Cylinder"/>
   </Point>

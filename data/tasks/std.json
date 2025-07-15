@@ -3,50 +3,34 @@
     "points": [
         {
             "type": "Next",
-            "name": "015NITR RUDNO",
-            "altitude": 320.8,
-            "lat": 48.801616666666476,
-            "lng": 18.480399999999996,
+            "name": "010CIGEL",
+            "altitude": 385.6,
+            "lat": 48.732816666666594,
+            "lng": 18.63705000000005,
             "radius": 7500
         },
         {
             "type": "Symmetric",
-            "name": "128STRECNO",
-            "altitude": 440.0,
-            "lat": 49.17499999999991,
-            "lng": 18.862783333333464,
+            "name": "393KOMARNO",
+            "altitude": 111.2,
+            "lat": 47.75655000000012,
+            "lng": 18.136300000000137,
             "radius": 500
         },
         {
             "type": "Symmetric",
-            "name": "289HUTY",
-            "altitude": 814.0,
-            "lat": 49.21918333333365,
-            "lng": 19.56613333333334,
+            "name": "497BATOROVE KOSIHY",
+            "altitude": 122.0,
+            "lat": 47.82611666666674,
+            "lng": 18.418616666666882,
             "radius": 500
         },
         {
             "type": "Symmetric",
-            "name": "035OSLANY",
-            "altitude": 207.0,
-            "lat": 48.61880000000006,
-            "lng": 18.43410000000019,
-            "radius": 500
-        },
-        {
-            "type": "Symmetric",
-            "name": "137TLMACE",
-            "altitude": 174.0,
-            "lat": 48.28941666666676,
-            "lng": 18.53143333333365,
-            "radius": 500
-        },
-        {
-            "type": "Symmetric",
-            "name": "125LEFANTOVCE",
-            "altitude": 250.0,
-            "lat": 48.42571666666685,
-            "lng": 18.166766666666753,
+            "name": "151STITARE",
+            "altitude": 268.0,
+            "lat": 48.34916666666638,
+            "lng": 18.15333333333311,
             "radius": 500
         },
         {

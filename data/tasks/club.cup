@@ -1,18 +1,16 @@
 name,code,country,lat,lon,elev,style,rwdir,rwlen,freq,desc
-"010CIGEL","","", 4843.969N, 01838.223E, 385.6m,1,,,,,""
-"181HORNA LEHOTA","","", 4915.084N, 01902.352E, 628m,1,,,,,""
-"211CHOC","","", 4909.055N, 01920.612E, 1611m,1,,,,,""
-"039V UHERCE","","", 4835.980N, 01827.090E, 245m,1,,,,,""
-"174LEVICE","","", 4812.983N, 01836.200E, 159m,1,,,,,""
-"125LEFANTOVCE","","", 4825.543N, 01810.006E, 250m,1,,,,,""
+"015NITR RUDNO","","", 4848.097N, 01828.824E, 320.8m,1,,,,,""
+"088RADAR","","", 4849.150N, 01804.667E, 324m,1,,,,,""
+"035OSLANY","","", 4837.128N, 01826.046E, 207m,1,,,,,""
+"284JASOVA LAKE","","", 4759.548N, 01824.911E, 155.1m,1,,,,,""
+"310LZNZ","","", 4757.650N, 01811.067E, 115m,1,,,,,""
 "001PRIEVIDZA","","", 4845.967N, 01835.200E, 260m,1,,,,,""
 -----Related Tasks-----
-"Task on 2025-07-14","","010CIGEL","181HORNA LEHOTA","211CHOC","039V UHERCE","174LEVICE","125LEFANTOVCE","001PRIEVIDZA",""
+"Task on 2025-07-15","","015NITR RUDNO","088RADAR","035OSLANY","284JASOVA LAKE","310LZNZ","001PRIEVIDZA",""
 Options
 ObsZone=0,Style=2,R1=7500m,A1=180,Line=1
 ObsZone=1,Style=3,R1=500m,A1=180
 ObsZone=2,Style=3,R1=500m,A1=180
 ObsZone=3,Style=3,R1=500m,A1=180
 ObsZone=4,Style=3,R1=500m,A1=180
-ObsZone=5,Style=3,R1=500m,A1=180
-ObsZone=6,Style=3,R1=5000m,A1=180
+ObsZone=5,Style=3,R1=5000m,A1=180

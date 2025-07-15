@@ -3,50 +3,42 @@
     "points": [
         {
             "type": "Next",
-            "name": "010CIGEL",
-            "altitude": 385.6,
-            "lat": 48.732816666666594,
-            "lng": 18.63705000000005,
+            "name": "015NITR RUDNO",
+            "altitude": 320.8,
+            "lat": 48.801616666666476,
+            "lng": 18.480399999999996,
             "radius": 7500
         },
         {
             "type": "Symmetric",
-            "name": "181HORNA LEHOTA",
-            "altitude": 628.0,
-            "lat": 49.2513999999997,
-            "lng": 19.03919999999975,
+            "name": "088RADAR",
+            "altitude": 324.0,
+            "lat": 48.81916666666676,
+            "lng": 18.077783333333205,
             "radius": 500
         },
         {
             "type": "Symmetric",
-            "name": "211CHOC",
-            "altitude": 1611.0,
-            "lat": 49.15091666666669,
-            "lng": 19.34353333333331,
+            "name": "035OSLANY",
+            "altitude": 207.0,
+            "lat": 48.61880000000006,
+            "lng": 18.43410000000019,
             "radius": 500
         },
         {
             "type": "Symmetric",
-            "name": "039V UHERCE",
-            "altitude": 245.0,
-            "lat": 48.59966666666662,
-            "lng": 18.451499999999786,
+            "name": "284JASOVA LAKE",
+            "altitude": 155.1,
+            "lat": 47.992466666666594,
+            "lng": 18.41518333333327,
             "radius": 500
         },
         {
             "type": "Symmetric",
-            "name": "174LEVICE",
-            "altitude": 159.0,
-            "lat": 48.21638333333361,
-            "lng": 18.603333333333424,
-            "radius": 500
-        },
-        {
-            "type": "Symmetric",
-            "name": "125LEFANTOVCE",
-            "altitude": 250.0,
-            "lat": 48.42571666666685,
-            "lng": 18.166766666666753,
+            "name": "310LZNZ",
+            "altitude": 115.0,
+            "lat": 47.96083333333312,
+            "lng": 18.184449999999835,
             "radius": 500
         },
         {

@@ -1,37 +1,25 @@
 <Task type="RT">
   <Point type="Start">
-    <Waypoint altitude="320.8" name="015NITR RUDNO">
-      <Location latitude="48.801616666666476" longitude="18.480399999999996"/>
+    <Waypoint altitude="385.6" name="010CIGEL">
+      <Location latitude="48.732816666666594" longitude="18.63705000000005"/>
     </Waypoint>
     <ObservationZone length="15000" type="Line"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="440" name="128STRECNO">
-      <Location latitude="49.17499999999991" longitude="18.862783333333464"/>
+    <Waypoint altitude="111.2" name="393KOMARNO">
+      <Location latitude="47.75655000000012" longitude="18.136300000000137"/>
     </Waypoint>
     <ObservationZone radius="500" type="Cylinder"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="814" name="289HUTY">
-      <Location latitude="49.21918333333365" longitude="19.56613333333334"/>
+    <Waypoint altitude="122" name="497BATOROVE KOSIHY">
+      <Location latitude="47.82611666666674" longitude="18.418616666666882"/>
     </Waypoint>
     <ObservationZone radius="500" type="Cylinder"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="207" name="035OSLANY">
-      <Location latitude="48.61880000000006" longitude="18.43410000000019"/>
-    </Waypoint>
-    <ObservationZone radius="500" type="Cylinder"/>
-  </Point>
-  <Point type="Turn">
-    <Waypoint altitude="174" name="137TLMACE">
-      <Location latitude="48.28941666666676" longitude="18.53143333333365"/>
-    </Waypoint>
-    <ObservationZone radius="500" type="Cylinder"/>
-  </Point>
-  <Point type="Turn">
-    <Waypoint altitude="250" name="125LEFANTOVCE">
-      <Location latitude="48.42571666666685" longitude="18.166766666666753"/>
+    <Waypoint altitude="268" name="151STITARE">
+      <Location latitude="48.34916666666638" longitude="18.15333333333311"/>
     </Waypoint>
     <ObservationZone radius="500" type="Cylinder"/>
   </Point>
