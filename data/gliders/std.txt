@@ -5,7 +5,7 @@ D02B97,,🇨🇿 W8,LS8,🇨🇿 Michaela Rendlova
 D02C3E,,🇩🇰 LE,LS8 neo,🇩🇰 Lasse Edslev
 DF0E33,,🇩🇰 MK,Discus 2a,🇩🇰 Jacob Bøgelund Lassen
 3EF1AF,,🇫🇷 2E,LS8,🇫🇷 Clément DE PECHY
-DDEB0D,,🇫🇷 S2,LS8,🇫🇷 Theo Napoleon
+DD96AC,,🇫🇷 S2,LS8,🇫🇷 Theo Napoleon
 DDF12C,,🇫🇷 ET,Discus2A,🇫🇷 François-Xavier Poisson
 DF1273,,🇩🇪 PB,Ls8-T Neo,🇩🇪 Patrick Benoist
 DF17A7,,🇩🇪 FJ,LS8,🇩🇪 Nuno Ferreira
