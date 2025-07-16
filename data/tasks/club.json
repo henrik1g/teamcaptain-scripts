@@ -1,5 +1,5 @@
 {
-    "type": "RT",
+    "type": "AAT",
     "points": [
         {
             "type": "Next",
@@ -10,36 +10,44 @@
             "radius": 7500
         },
         {
-            "type": "Symmetric",
-            "name": "088RADAR",
-            "altitude": 324.0,
-            "lat": 48.81916666666676,
-            "lng": 18.077783333333205,
-            "radius": 500
+            "type": "AAT Sector",
+            "name": "155KRIVANMF",
+            "altitude": 1709.0,
+            "lat": 49.18773333333321,
+            "lng": 19.031083333333093,
+            "radius": 20000
         },
         {
-            "type": "Symmetric",
-            "name": "035OSLANY",
-            "altitude": 207.0,
-            "lat": 48.61880000000006,
-            "lng": 18.43410000000019,
-            "radius": 500
+            "type": "AAT Sector",
+            "name": "066SKYCOV",
+            "altitude": 426.1,
+            "lat": 48.50419999999979,
+            "lng": 18.4205833333334,
+            "radius": 15000
         },
         {
-            "type": "Symmetric",
-            "name": "284JASOVA LAKE",
-            "altitude": 155.1,
-            "lat": 47.992466666666594,
-            "lng": 18.41518333333327,
-            "radius": 500
+            "type": "AAT Sector",
+            "name": "034VALASKA BELA",
+            "altitude": 482.0,
+            "lat": 48.88733333333327,
+            "lng": 18.397633333333555,
+            "radius": 15000
         },
         {
-            "type": "Symmetric",
-            "name": "310LZNZ",
-            "altitude": 115.0,
-            "lat": 47.96083333333312,
-            "lng": 18.184449999999835,
-            "radius": 500
+            "type": "AAT Sector",
+            "name": "217DUBRAVA",
+            "altitude": 1050.0,
+            "lat": 48.98701666666661,
+            "lng": 19.504899999999886,
+            "radius": 30000
+        },
+        {
+            "type": "AAT Sector",
+            "name": "029V VRCHPARTIZ",
+            "altitude": 456.0,
+            "lat": 48.6495666666669,
+            "lng": 18.451366666666416,
+            "radius": 5000
         },
         {
             "type": "Cylinder",

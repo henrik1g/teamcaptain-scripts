@@ -1,14 +1,18 @@
 name,code,country,lat,lon,elev,style,rwdir,rwlen,freq,desc
 "010CIGEL","","", 4843.969N, 01838.223E, 385.6m,1,,,,,""
-"393KOMARNO","","", 4745.393N, 01808.178E, 111.2m,1,,,,,""
-"497BATOROVE KOSIHY","","", 4749.567N, 01825.117E, 122m,1,,,,,""
-"151STITARE","","", 4820.950N, 01809.200E, 268m,1,,,,,""
+"180TERCHOVA","","", 4915.083N, 01902.350E, 628m,1,,,,,""
+"032KSINNA","","", 4848.145N, 01820.999E, 316.3m,1,,,,,""
+"209CHABENEC","","", 4856.474N, 01929.699E, 1955m,1,,,,,""
+"112SKLABINA","","", 4903.300N, 01901.121E, 631m,1,,,,,""
+"508VTAC UP","","", 4837.350N, 01832.133E, 593m,1,,,,,""
 "001PRIEVIDZA","","", 4845.967N, 01835.200E, 260m,1,,,,,""
 -----Related Tasks-----
-"Task on 2025-07-15","","010CIGEL","393KOMARNO","497BATOROVE KOSIHY","151STITARE","001PRIEVIDZA",""
+"Task on 2025-07-16","","010CIGEL","180TERCHOVA","032KSINNA","209CHABENEC","112SKLABINA","508VTAC UP","001PRIEVIDZA",""
 Options
 ObsZone=0,Style=2,R1=7500m,A1=180,Line=1
-ObsZone=1,Style=3,R1=500m,A1=180
-ObsZone=2,Style=3,R1=500m,A1=180
-ObsZone=3,Style=3,R1=500m,A1=180
-ObsZone=4,Style=3,R1=5000m,A1=180
+ObsZone=1,Style=3,R1=15000m,A1=180
+ObsZone=2,Style=3,R1=15000m,A1=180
+ObsZone=3,Style=3,R1=25000m,A1=180
+ObsZone=4,Style=3,R1=10000m,A1=180
+ObsZone=5,Style=3,R1=8000m,A1=180
+ObsZone=6,Style=3,R1=5000m,A1=180

@@ -1,16 +1,18 @@
 name,code,country,lat,lon,elev,style,rwdir,rwlen,freq,desc
 "015NITR RUDNO","","", 4848.097N, 01828.824E, 320.8m,1,,,,,""
-"088RADAR","","", 4849.150N, 01804.667E, 324m,1,,,,,""
-"035OSLANY","","", 4837.128N, 01826.046E, 207m,1,,,,,""
-"284JASOVA LAKE","","", 4759.548N, 01824.911E, 155.1m,1,,,,,""
-"310LZNZ","","", 4757.650N, 01811.067E, 115m,1,,,,,""
+"155KRIVANMF","","", 4911.264N, 01901.865E, 1709m,1,,,,,""
+"066SKYCOV","","", 4830.252N, 01825.235E, 426.1m,1,,,,,""
+"034VALASKA BELA","","", 4853.240N, 01823.858E, 482m,1,,,,,""
+"217DUBRAVA","","", 4859.221N, 01930.294E, 1050m,1,,,,,""
+"029V VRCHPARTIZ","","", 4838.974N, 01827.082E, 456m,1,,,,,""
 "001PRIEVIDZA","","", 4845.967N, 01835.200E, 260m,1,,,,,""
 -----Related Tasks-----
-"Task on 2025-07-15","","015NITR RUDNO","088RADAR","035OSLANY","284JASOVA LAKE","310LZNZ","001PRIEVIDZA",""
+"Task on 2025-07-16","","015NITR RUDNO","155KRIVANMF","066SKYCOV","034VALASKA BELA","217DUBRAVA","029V VRCHPARTIZ","001PRIEVIDZA",""
 Options
 ObsZone=0,Style=2,R1=7500m,A1=180,Line=1
-ObsZone=1,Style=3,R1=500m,A1=180
-ObsZone=2,Style=3,R1=500m,A1=180
-ObsZone=3,Style=3,R1=500m,A1=180
-ObsZone=4,Style=3,R1=500m,A1=180
+ObsZone=1,Style=3,R1=20000m,A1=180
+ObsZone=2,Style=3,R1=15000m,A1=180
+ObsZone=3,Style=3,R1=15000m,A1=180
+ObsZone=4,Style=3,R1=30000m,A1=180
 ObsZone=5,Style=3,R1=5000m,A1=180
+ObsZone=6,Style=3,R1=5000m,A1=180

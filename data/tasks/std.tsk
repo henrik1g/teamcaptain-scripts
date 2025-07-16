@@ -1,4 +1,4 @@
-<Task type="RT">
+<Task aat_min_time="12600" type="AAT">
   <Point type="Start">
     <Waypoint altitude="385.6" name="010CIGEL">
       <Location latitude="48.732816666666594" longitude="18.63705000000005"/>
@@ -6,22 +6,34 @@
     <ObservationZone length="15000" type="Line"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="111.2" name="393KOMARNO">
-      <Location latitude="47.75655000000012" longitude="18.136300000000137"/>
+    <Waypoint altitude="628" name="180TERCHOVA">
+      <Location latitude="49.25138333333353" longitude="19.039166666666837"/>
     </Waypoint>
-    <ObservationZone radius="500" type="Cylinder"/>
+    <ObservationZone radius="15000" type="Cylinder"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="122" name="497BATOROVE KOSIHY">
-      <Location latitude="47.82611666666674" longitude="18.418616666666882"/>
+    <Waypoint altitude="316.3" name="032KSINNA">
+      <Location latitude="48.80241666666671" longitude="18.349983333333288"/>
     </Waypoint>
-    <ObservationZone radius="500" type="Cylinder"/>
+    <ObservationZone radius="15000" type="Cylinder"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="268" name="151STITARE">
-      <Location latitude="48.34916666666638" longitude="18.15333333333311"/>
+    <Waypoint altitude="1955" name="209CHABENEC">
+      <Location latitude="48.94123333333356" longitude="19.49498333333357"/>
     </Waypoint>
-    <ObservationZone radius="500" type="Cylinder"/>
+    <ObservationZone radius="25000" type="Cylinder"/>
+  </Point>
+  <Point type="Turn">
+    <Waypoint altitude="631" name="112SKLABINA">
+      <Location latitude="49.0550000000001" longitude="19.018683333333513"/>
+    </Waypoint>
+    <ObservationZone radius="10000" type="Cylinder"/>
+  </Point>
+  <Point type="Turn">
+    <Waypoint altitude="593" name="508VTAC UP">
+      <Location latitude="48.62249999999984" longitude="18.535550000000292"/>
+    </Waypoint>
+    <ObservationZone radius="8000" type="Cylinder"/>
   </Point>
   <Point type="Finish">
     <Waypoint altitude="260" name="001PRIEVIDZA">

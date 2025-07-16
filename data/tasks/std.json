@@ -1,5 +1,5 @@
 {
-    "type": "RT",
+    "type": "AAT",
     "points": [
         {
             "type": "Next",
@@ -10,28 +10,44 @@
             "radius": 7500
         },
         {
-            "type": "Symmetric",
-            "name": "393KOMARNO",
-            "altitude": 111.2,
-            "lat": 47.75655000000012,
-            "lng": 18.136300000000137,
-            "radius": 500
+            "type": "AAT Sector",
+            "name": "180TERCHOVA",
+            "altitude": 628.0,
+            "lat": 49.25138333333353,
+            "lng": 19.039166666666837,
+            "radius": 15000
         },
         {
-            "type": "Symmetric",
-            "name": "497BATOROVE KOSIHY",
-            "altitude": 122.0,
-            "lat": 47.82611666666674,
-            "lng": 18.418616666666882,
-            "radius": 500
+            "type": "AAT Sector",
+            "name": "032KSINNA",
+            "altitude": 316.3,
+            "lat": 48.80241666666671,
+            "lng": 18.349983333333288,
+            "radius": 15000
         },
         {
-            "type": "Symmetric",
-            "name": "151STITARE",
-            "altitude": 268.0,
-            "lat": 48.34916666666638,
-            "lng": 18.15333333333311,
-            "radius": 500
+            "type": "AAT Sector",
+            "name": "209CHABENEC",
+            "altitude": 1955.0,
+            "lat": 48.94123333333356,
+            "lng": 19.49498333333357,
+            "radius": 25000
+        },
+        {
+            "type": "AAT Sector",
+            "name": "112SKLABINA",
+            "altitude": 631.0,
+            "lat": 49.0550000000001,
+            "lng": 19.018683333333513,
+            "radius": 10000
+        },
+        {
+            "type": "AAT Sector",
+            "name": "508VTAC UP",
+            "altitude": 593.0,
+            "lat": 48.62249999999984,
+            "lng": 18.535550000000292,
+            "radius": 8000
         },
         {
             "type": "Cylinder",
