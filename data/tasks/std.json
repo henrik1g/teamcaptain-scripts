@@ -1,5 +1,5 @@
 {
-    "type": "AAT",
+    "type": "RT",
     "points": [
         {
             "type": "Next",
@@ -10,44 +10,36 @@
             "radius": 7500
         },
         {
-            "type": "AAT Sector",
-            "name": "180TERCHOVA",
-            "altitude": 628.0,
-            "lat": 49.25138333333353,
-            "lng": 19.039166666666837,
-            "radius": 15000
+            "type": "Symmetric",
+            "name": "207HRCOVA KECKA",
+            "altitude": 1225.0,
+            "lat": 49.24413333333351,
+            "lng": 19.186450000000228,
+            "radius": 500
         },
         {
-            "type": "AAT Sector",
-            "name": "032KSINNA",
-            "altitude": 316.3,
-            "lat": 48.80241666666671,
-            "lng": 18.349983333333288,
-            "radius": 15000
+            "type": "Symmetric",
+            "name": "060MOTESICE",
+            "altitude": 269.8,
+            "lat": 48.83131666666691,
+            "lng": 18.185233333333326,
+            "radius": 500
         },
         {
-            "type": "AAT Sector",
-            "name": "209CHABENEC",
-            "altitude": 1955.0,
-            "lat": 48.94123333333356,
-            "lng": 19.49498333333357,
-            "radius": 25000
+            "type": "Symmetric",
+            "name": "036DOLN STUBNA XSTRIP",
+            "altitude": 533.0,
+            "lat": 48.834833333333094,
+            "lng": 18.84383333333306,
+            "radius": 500
         },
         {
-            "type": "AAT Sector",
-            "name": "112SKLABINA",
-            "altitude": 631.0,
-            "lat": 49.0550000000001,
-            "lng": 19.018683333333513,
-            "radius": 10000
-        },
-        {
-            "type": "AAT Sector",
-            "name": "508VTAC UP",
-            "altitude": 593.0,
-            "lat": 48.62249999999984,
-            "lng": 18.535550000000292,
-            "radius": 8000
+            "type": "Symmetric",
+            "name": "099V TRIBEC",
+            "altitude": 829.0,
+            "lat": 48.470283333333406,
+            "lng": 18.240883333333045,
+            "radius": 500
         },
         {
             "type": "Cylinder",

@@ -1,4 +1,4 @@
-<Task aat_min_time="12600" type="AAT">
+<Task type="RT">
   <Point type="Start">
     <Waypoint altitude="385.6" name="010CIGEL">
       <Location latitude="48.732816666666594" longitude="18.63705000000005"/>
@@ -6,34 +6,28 @@
     <ObservationZone length="15000" type="Line"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="628" name="180TERCHOVA">
-      <Location latitude="49.25138333333353" longitude="19.039166666666837"/>
+    <Waypoint altitude="1225" name="207HRCOVA KECKA">
+      <Location latitude="49.24413333333351" longitude="19.186450000000228"/>
     </Waypoint>
-    <ObservationZone radius="15000" type="Cylinder"/>
+    <ObservationZone radius="500" type="Cylinder"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="316.3" name="032KSINNA">
-      <Location latitude="48.80241666666671" longitude="18.349983333333288"/>
+    <Waypoint altitude="269.8" name="060MOTESICE">
+      <Location latitude="48.83131666666691" longitude="18.185233333333326"/>
     </Waypoint>
-    <ObservationZone radius="15000" type="Cylinder"/>
+    <ObservationZone radius="500" type="Cylinder"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="1955" name="209CHABENEC">
-      <Location latitude="48.94123333333356" longitude="19.49498333333357"/>
+    <Waypoint altitude="533" name="036DOLN STUBNA XSTRIP">
+      <Location latitude="48.834833333333094" longitude="18.84383333333306"/>
     </Waypoint>
-    <ObservationZone radius="25000" type="Cylinder"/>
+    <ObservationZone radius="500" type="Cylinder"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="631" name="112SKLABINA">
-      <Location latitude="49.0550000000001" longitude="19.018683333333513"/>
+    <Waypoint altitude="829" name="099V TRIBEC">
+      <Location latitude="48.470283333333406" longitude="18.240883333333045"/>
     </Waypoint>
-    <ObservationZone radius="10000" type="Cylinder"/>
-  </Point>
-  <Point type="Turn">
-    <Waypoint altitude="593" name="508VTAC UP">
-      <Location latitude="48.62249999999984" longitude="18.535550000000292"/>
-    </Waypoint>
-    <ObservationZone radius="8000" type="Cylinder"/>
+    <ObservationZone radius="500" type="Cylinder"/>
   </Point>
   <Point type="Finish">
     <Waypoint altitude="260" name="001PRIEVIDZA">
