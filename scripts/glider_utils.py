@@ -15,7 +15,7 @@ def create_glider_txt_file(class_name):
     df = pd.read_excel(config.database_path)
 
     # Ensure all needed columns exist
-    required_cols = ['COMP', 'Name', 'Flag', 'FlarmID']
+    required_cols = ['COMP', 'Name', 'Flag','Glider', 'FlarmID']
     if not all(col in df.columns for col in required_cols):
         raise ValueError("One or more required columns are missing in the Excel sheet.")
 
@@ -26,12 +26,13 @@ def create_glider_txt_file(class_name):
         df = df[df['Class'].isin([class_name])]
 
     # Replace NaN with empty string for relevant columns
-    df[['FlarmID', 'COMP', 'Flag', 'Name']] = df[['FlarmID', 'COMP', 'Flag', 'Name']].fillna('')
+    df[['FlarmID', 'COMP', 'Flag','Glider', 'Name']] = df[['FlarmID', 'COMP',
+                                                           'Flag','Glider', 'Name']].fillna('')
     
     # Build the string using the specified format
-    df['String'] = df.apply(lambda row: f"{row['FlarmID']},,{row['Flag'] + ' ' if row['Flag'] else ''}{row['COMP']},{row['Flag'] + ' ' if row['Flag'] else ''}{row['Name']}", axis=1)
+    df['String'] = df.apply(lambda row: f"{row['FlarmID']},,{row['Flag'] + ' ' if row['Flag'] else ''}{row['COMP']},{row['Glider']},{row['Flag'] + ' ' if row['Flag'] else ''}{row['Name']}", axis=1)
 
-    # Write lines manually to avoid any escaping
+# Write lines manually to avoid any escaping
     with open(filepath, "w", encoding="utf-8") as f:
         f.write("ID,CALL,CN,TYPE,NAME\n")
         for line in df['String']:
