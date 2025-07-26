@@ -1,36 +1,26 @@
 ID,CALL,CN,TYPE,NAME
-D02A46,,🇦🇷 FE,🇦🇷 Damian Goldenzweig
-D02953,,🇦🇷 EY,🇦🇷 Lucas Goldenzweig
-DF0EC9,,🇦🇹 XK,🇦🇹 Paul Bernhard
-45ACB8,,🇦🇺 EK,🇦🇺 David Jansen
-D021CA,,🇦🇺 WX,🇦🇺 Matthew Scutter
-DDEBBE,,🇧🇪 LX,🇧🇪 Thomas Leduc
-DDF0F9,,🇧🇪 MMI,🇧🇪 André-Emmanuel Litt
-D009BF,,🇧🇷 VV,🇧🇷 Henrique Navarro
-D02D23,,🇧🇷 EMI,🇧🇷 Gustavo Shigueno
-4B4E94,,🇨🇭 IR,🇨🇭 Yves Gerster
-DDEFB9,,🇨🇿 AX,🇨🇿 Karel Novák
-D01F45,,🇨🇿 ZE,🇨🇿 Pavel Trybenekr
-DF14A3,,🇩🇪 SG,🇩🇪 Steffen Göttler
-D0103C,,🇩🇪 L7,🇩🇪 Steffen Schwarzer
-D009CF,,🇩🇰 14,🇩🇰 Henrik Breidahl
-45A308,,🇩🇰 RJ,🇩🇰 Jonathan Bülow-Olsen
-D01387,,🇫🇮 3J,🇫🇮 Sami Rissanen
-D01CE6,,🇫🇮 3F,🇫🇮 Tapio Tourula
-D00900,,🇫🇷 LB,🇫🇷 Jean-Denis Barrois
-D00E2E,,🇫🇷 KW,🇫🇷 Maximilian SEIS
-3EEE8D,,🇬🇧 DW,🇬🇧 Tom Arscott
-5AD6AD,,🇬🇧 LE,🇬🇧 Leigh Wells
-D012AC,,🇭🇺 BK,🇭🇺 Kornél Negro
-D001C4,,🇭🇺 V8,🇭🇺 Tamás Vámosi
-D00E16,,🇮🇹 AI,🇮🇹 Lucio Bordin
-D00C04,,🇮🇹 RY,🇮🇹 Roberto Pinato
-DDD93F,,🇱🇹 M7,🇱🇹 Vladas Motuza
-D02B81,,🇱🇹 BB,🇱🇹 Marius Pluščauskas
-D00C86,,🇳🇱 MM,🇳🇱 Peter Millenaar
-3E7D9A,,🇳🇱 JV,🇳🇱 Jeroen Verkuijl
-101212,,🇵🇱 RP,🇵🇱 Łukasz Grabowski
-101211,,🇵🇱 ZJ,🇵🇱 Paweł Wojciechowski
-D00992,,🇸🇰 3,🇸🇰 Vladimir Foltin
-D00DE8,,🇺🇸 73,🇺🇸 Jared Granzow
-DDEFD0,,🇺🇸 AF,🇺🇸 Mike Sorenson
+D02CD6,,🇩🇪 GI,Ventus 2b,🇩🇪 Marc Schick
+3EEAA9,,. F3,ASW 27,. Frederic Weigert
+3EE3C7,,. SG,LS 6,. Viola Weigert
+DDAB65,,. LS,LS 6 neo,. Marcel Schön
+D008D7,,. X,JS3,. Achim Reuther
+3EC0F0,,. AI,JS3 TJ,. Burkhard Müller
+D02A46,,🇫🇷 FE,ASG 29,🇫🇷 Jan-Frederic Müller
+,,🇨🇿 4Z,Ventus 3T,🇨🇿 Stefan Lichtmannecker
+3ECCF6,,🇩🇪 TOY,ASG 29 E,🇩🇪 Thomas Kuhn
+3EDC07,,🇮🇹 HB,JS3,🇮🇹 Bernd Krimmer
+DDC37E,,. F6,LS 6,. Jonas Krautter
+,,. 4S,Ventus 2cT,. Mirja Klicks
+,,. WS,Ventus 2b,. Florian Karow
+D0050F,,🇳🇴 CT,JS3,🇳🇴 Klaus Kalmbach
+3EE45C,,. LF,LS 6 neo,. Jakob Tilman
+3EF94E,,🇵🇱 HH,ASW 27,🇵🇱 Felix Huttel
+D02953,,. EY,Ventus 2ax,. Bastian Hörber
+D01012,,. B,JS3,. Uwe Höfinghoff
+004D37,,. LV,ASG 29,. Wolfgang Gmeiner
+3EE104,,🇨🇭 SB,LS 8 neo,🇨🇭 Dirk Gintzel
+3EF25A,,. 47,Ventus 2a,. Hans Otto Edelhoff
+3EFF4C,,. IP,ASW 27,. Norbert Dellinger
+3EEDC9,,. BL,ASW 20,. Lukas Brune
+DD9CF0,,🇩🇪 1G,Ventus 2b,🇩🇪 Henrik Bieler
+,,🇨🇿 CO,AS 33,🇨🇿 Hanns-Günther Bauer
