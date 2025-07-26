@@ -55,7 +55,7 @@ whatsapp_group_send_time = 15
 # =========================
 
 # Path to github repo
-github_path = "FerreiraNuno/teamcaptain-scripts"
+github_path = "henrik1g/teamcaptain-scripts"
 
 # Set up your git credentials if not already configured
 os.environ['GIT_SSH_COMMAND'] = 'ssh -i ~/.ssh/id_rsa'
