@@ -5,34 +5,36 @@ import os
 # =========================
 
 # Competition name (should match name used for metbrief folder, otherwise update below.)
-comp_name = "jegc_2025"
+comp_name = "SSM_2025"
 
 # Base URL for SoaringSpot event
-base_url = 'https://www.soaringspot.com/en_gb/7th-fai-junior-european-gliding-championships-prievidza-2025'
-
+base_url = ' https://www.soaringspot.com/en_gb/suddeutsche-segelflugmeisterschaft-neresheim-2025'
 # =========================
 # Competition Classes & Mappings
 # =========================
 
 # List of competition classes
-classes = ['Club', 'Standard']
+#classes = ['Club', 'Standard']
+classes = ['Renn', 'Standard']
 
 # Mapping from class name to file prefix (these are the names that files for classes will receive in the /data/.. path)
 filename_map = {
-    'Club': 'club',
+#    'Club': 'club',
+    'Renn': '15m',
     'Standard': 'std',
 }
 
 # Mapping from class name to URL segment on SoaringSpot (check URL when looking at a task to update)
 url_map = {
-    'Club': 'unknown',
-    'Standard': 'standard',
+#    'Club': 'unknown',
+    'Renn': 'unknown',
+    'Standard': 'standardklasse',
 }
 
 # Mapping from class name to SoaringSpot results table name (input names written the the results table on SoaringSpot)
 results_table_map = {
-    'Club': 'Club',
-    'Standard': 'Standard',
+    'Renn': 'Rennklasse',
+    'Standard': 'Standardklasse',
 }
 
 # =========================
@@ -40,10 +42,10 @@ results_table_map = {
 # =========================
 
 # Default WhatsApp message to send with the weather briefing
-whatsapp_message = "Chatty ist der Beste! Hier ist die heutige Wettervorhersage für Prievidza 2025."
+whatsapp_message = "Chatty ist der Beste! Hier ist die heutige Wettervorhersage für Neresheim2025."
 
 # WhatsApp group name to send the weather briefing to (Emojis are not allowed in the string here, but may be included in the actual group name! Looking for the closes match!)
-whatsapp_group = 'Junioren EM'
+whatsapp_group = 'SSM25'
 
 # WhatsApp timeout for sending the message. This is the time the app waits between adding the presentation to the chat and closing the window
 # Increase time if internet connection is weak or file is large
