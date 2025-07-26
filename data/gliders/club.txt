@@ -1,30 +1,26 @@
 ID,CALL,CN,TYPE,NAME
-D0291F,,🇨🇿 A3,ASW 20,🇨🇿 Michaela Křížová
-D01C39,,🇨🇿 CX,ASW 20,🇨🇿 Vít Mořkovský
-D00CE4,,🇨🇿 NW,ASW 20,🇨🇿 Jan Šťastný
-D00D2F,,🇫🇮 KT,LS 7 neo,🇫🇮 Kim Toppari
-DDAFEE,,🇫🇷 VL,ASW20,🇫🇷 Nicolas Caudrelier
-DDEA6A,,🇫🇷 9B,LS 3a,🇫🇷 Nicolas Douchet
-DD8609,,🇫🇷 E10,Ls4,🇫🇷 Gael PISCHEDDA
-DDE252,,🇩🇪 PP,DG300WL,🇩🇪 Jens Kammerer
-DDE2DB,,🇩🇪 V7,LS4 wl,🇩🇪 Felix Kries
-DDDFDC,,🇩🇪 3N,DG300 Neo,🇩🇪 Goormann Maximilian
-D02A02,,🇭🇺 RH,ASW-20,🇭🇺 Hadi Barna
-ADF133,,🇭🇺 7T,LS3,🇭🇺 Molnár Géza
-D012B6,,🇭🇺 NY,Asw 20,🇭🇺 Roland Veronyák
-DD9FD9,,🇮🇹 5I,Discus,🇮🇹 Alessandro Bassalti
-DDDEE7,,🇮🇹 RB,ASW 24,🇮🇹 Andrea Paganin
-DD84FD,,🇱🇺 LS,LS4 b,🇱🇺 Jules Mathay
-485D93,,🇳🇱 AO,LS4a,🇳🇱 Jasper Jansen
-485DB0,,🇳🇱 S4,LS4b neo,🇳🇱 Lars van Breemen
-47BB9E,,🇳🇴 FB,LS4,🇳🇴 Frida Bjørø
-47A7FF,,🇳🇴 NP,LS 4,🇳🇴 Nikolai Pontoppidan
-DDD244,,🇵🇱 AN,LS-3,🇵🇱 Julia Walowska
-DDE1DC,,🇵🇱 X56,ASW 20,🇵🇱 Jan Wojewoda
-DDF058,,🇸🇰 3D,Discus b,🇸🇰 Viktória Divoková
-DD89A3,,🇸🇰 AK,LS3,🇸🇰 Antonio Rudolf Kalik
-DD9E29,,🇸🇰 LX,Std. Cirrus WL,🇸🇰 Michaela Šoltysová
-4B50CB,,🇨🇭 LH,Discus b,🇨🇭 Manon Kuttel
-4B4B30,,🇨🇭 WG,LS 4,🇨🇭 Matteo Merk
-D01309,,🇬🇧 212,Asw20,🇬🇧 George Downing
-,,🇯🇵 X11,ASW20,🇯🇵 Kengo Matsumoto
+D02CD6,,🇩🇪 GI,Ventus 2b,🇩🇪 Marc Schick
+3EEAA9,,. F3,ASW 27,. Frederic Weigert
+3EE3C7,,. SG,LS 6,. Viola Weigert
+DDAB65,,. LS,LS 6 neo,. Marcel Schön
+D008D7,,. X,JS3,. Achim Reuther
+3EC0F0,,. AI,JS3 TJ,. Burkhard Müller
+D02A46,,🇫🇷 FE,ASG 29,🇫🇷 Jan-Frederic Müller
+,,🇨🇿 4Z,Ventus 3T,🇨🇿 Stefan Lichtmannecker
+3ECCF6,,🇩🇪 TOY,ASG 29 E,🇩🇪 Thomas Kuhn
+3EDC07,,🇮🇹 HB,JS3,🇮🇹 Bernd Krimmer
+DDC37E,,. F6,LS 6,. Jonas Krautter
+,,. 4S,Ventus 2cT,. Mirja Klicks
+,,. WS,Ventus 2b,. Florian Karow
+D0050F,,🇳🇴 CT,JS3,🇳🇴 Klaus Kalmbach
+3EE45C,,. LF,LS 6 neo,. Jakob Tilman
+3EF94E,,🇵🇱 HH,ASW 27,🇵🇱 Felix Huttel
+D02953,,. EY,Ventus 2ax,. Bastian Hörber
+D01012,,. B,JS3,. Uwe Höfinghoff
+004D37,,. LV,ASG 29,. Wolfgang Gmeiner
+3EE104,,🇨🇭 SB,LS 8 neo,🇨🇭 Dirk Gintzel
+3EF25A,,. 47,Ventus 2a,. Hans Otto Edelhoff
+3EFF4C,,. IP,ASW 27,. Norbert Dellinger
+3EEDC9,,. BL,ASW 20,. Lukas Brune
+DD9CF0,,🇩🇪 1G,Ventus 2b,🇩🇪 Henrik Bieler
+,,🇨🇿 CO,AS 33,🇨🇿 Hanns-Günther Bauer

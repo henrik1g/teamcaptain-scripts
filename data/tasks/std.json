@@ -1,52 +1,44 @@
 {
-    "type": "RT",
+    "type": "AAT",
     "points": [
         {
             "type": "Next",
-            "name": "010CIGEL",
-            "altitude": 385.6,
-            "lat": 48.732816666666594,
-            "lng": 18.63705000000005,
-            "radius": 7500
+            "name": "001 Neresheim",
+            "altitude": 541.0,
+            "lat": 48.741667672030964,
+            "lng": 10.327633638294492,
+            "radius": 10000
         },
         {
-            "type": "Symmetric",
-            "name": "207HRCOVA KECKA",
-            "altitude": 1225.0,
-            "lat": 49.24413333333351,
-            "lng": 19.186450000000228,
-            "radius": 500
+            "type": "AAT Sector",
+            "name": "019 Arberg",
+            "altitude": 522.0,
+            "lat": 49.13805087032406,
+            "lng": 10.61028308784924,
+            "radius": 15000
         },
         {
-            "type": "Symmetric",
-            "name": "060MOTESICE",
-            "altitude": 269.8,
-            "lat": 48.83131666666691,
-            "lng": 18.185233333333326,
-            "radius": 500
+            "type": "AAT Sector",
+            "name": "102 Gaildorf",
+            "altitude": 345.0,
+            "lat": 48.99666595450429,
+            "lng": 9.768883183052496,
+            "radius": 15000
         },
         {
-            "type": "Symmetric",
-            "name": "036DOLN STUBNA XSTRIP",
-            "altitude": 533.0,
-            "lat": 48.834833333333094,
-            "lng": 18.84383333333306,
-            "radius": 500
-        },
-        {
-            "type": "Symmetric",
-            "name": "099V TRIBEC",
-            "altitude": 829.0,
-            "lat": 48.470283333333406,
-            "lng": 18.240883333333045,
-            "radius": 500
+            "type": "AAT Sector",
+            "name": "192 Rauhe Wanne",
+            "altitude": 610.0,
+            "lat": 48.765832881315006,
+            "lng": 10.5072163870474,
+            "radius": 5000
         },
         {
             "type": "Cylinder",
-            "name": "001PRIEVIDZA",
-            "altitude": 260.0,
-            "lat": 48.76611666666693,
-            "lng": 18.58666666666651,
+            "name": "001 Neresheim",
+            "altitude": 541.0,
+            "lat": 48.741667672030964,
+            "lng": 10.327633638294492,
             "radius": 5000
         }
     ]

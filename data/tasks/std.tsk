@@ -1,37 +1,31 @@
-<Task type="RT">
+<Task aat_min_time="5400" type="AAT">
   <Point type="Start">
-    <Waypoint altitude="385.6" name="010CIGEL">
-      <Location latitude="48.732816666666594" longitude="18.63705000000005"/>
+    <Waypoint altitude="541" name="001 Neresheim">
+      <Location latitude="48.741667672030964" longitude="10.327633638294492"/>
     </Waypoint>
-    <ObservationZone length="15000" type="Line"/>
+    <ObservationZone length="20000" type="Line"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="1225" name="207HRCOVA KECKA">
-      <Location latitude="49.24413333333351" longitude="19.186450000000228"/>
+    <Waypoint altitude="522" name="019 Arberg">
+      <Location latitude="49.13805087032406" longitude="10.61028308784924"/>
     </Waypoint>
-    <ObservationZone radius="500" type="Cylinder"/>
+    <ObservationZone radius="15000" type="Cylinder"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="269.8" name="060MOTESICE">
-      <Location latitude="48.83131666666691" longitude="18.185233333333326"/>
+    <Waypoint altitude="345" name="102 Gaildorf">
+      <Location latitude="48.99666595450429" longitude="9.768883183052496"/>
     </Waypoint>
-    <ObservationZone radius="500" type="Cylinder"/>
+    <ObservationZone radius="15000" type="Cylinder"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="533" name="036DOLN STUBNA XSTRIP">
-      <Location latitude="48.834833333333094" longitude="18.84383333333306"/>
+    <Waypoint altitude="610" name="192 Rauhe Wanne">
+      <Location latitude="48.765832881315006" longitude="10.5072163870474"/>
     </Waypoint>
-    <ObservationZone radius="500" type="Cylinder"/>
-  </Point>
-  <Point type="Turn">
-    <Waypoint altitude="829" name="099V TRIBEC">
-      <Location latitude="48.470283333333406" longitude="18.240883333333045"/>
-    </Waypoint>
-    <ObservationZone radius="500" type="Cylinder"/>
+    <ObservationZone radius="5000" type="Cylinder"/>
   </Point>
   <Point type="Finish">
-    <Waypoint altitude="260" name="001PRIEVIDZA">
-      <Location latitude="48.76611666666693" longitude="18.58666666666651"/>
+    <Waypoint altitude="541" name="001 Neresheim">
+      <Location latitude="48.741667672030964" longitude="10.327633638294492"/>
     </Waypoint>
     <ObservationZone radius="5000" type="Cylinder"/>
   </Point>

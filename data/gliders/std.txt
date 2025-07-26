@@ -1,20 +1,21 @@
 ID,CALL,CN,TYPE,NAME
-D0018B,,🇨🇿 EU,LS-8,🇨🇿 Tomáš Hynek
-D028C8,,🇨🇿 AU,LS8,🇨🇿 Lukáš Kříž
-D02B97,,🇨🇿 W8,LS8,🇨🇿 Michaela Rendlova
-D02C3E,,🇩🇰 LE,LS8 neo,🇩🇰 Lasse Edslev
-DF0E33,,🇩🇰 MK,Discus 2a,🇩🇰 Jacob Bøgelund Lassen
-3EF1AF,,🇫🇷 2E,LS8,🇫🇷 Clément DE PECHY
-DD96AC,,🇫🇷 S2,LS8,🇫🇷 Theo Napoleon
-DDF12C,,🇫🇷 ET,Discus2A,🇫🇷 François-Xavier Poisson
-DF1273,,🇩🇪 PB,Ls8-T Neo,🇩🇪 Patrick Benoist
-DF17A7,,🇩🇪 FJ,LS8,🇩🇪 Nuno Ferreira
-DD859A,,🇩🇪 A8,LS8 Neo,🇩🇪 Paul Schwarz
-D00165,,🇭🇺 HUN,Discus2A,🇭🇺 Máté Mészáros
-D004CA,,🇳🇱 71,LS8-e Neo,🇳🇱 Noud Kaaij
-485F92,,🇳🇱 VNE,LS8Neo,🇳🇱 Niels van Nieuwland
-DDEE69,,🇵🇱 I,Discus 2a,🇵🇱 Maciej Kowalski
-E75198,,🇵🇱 Y,Discus 2a,🇵🇱 Tomasz Kurowski
-D02AAE,,🇵🇱 LOT,LS8,🇵🇱 Antoni Zawirski
-D02958,,🇬🇧 D7,LS8,🇬🇧 Oscar Butlin
-D0333C,,🇬🇧 302,LS8,🇬🇧 Oliver Ramsay
+,,. K2,LS 4,. Felix Wolf
+,,. E1,ASW 28,. Florian Wagner
+,,. E2,Discus b WL,. Felix Wagner
+,,. 8A,Discus 2b,. Oliver Stehr
+,,. XO,LS 8 neo,. Alexander Scheuble
+DDEF10,,🇩🇰 TM,LS 8 neo,🇩🇰 Finn Schelter
+,,. W,Discus bT,. Bernd Sauter
+,,. O1,ASW 28,. Marcus Sagewitz
+DDEFA8,,🇳🇱 XN,Discus 2a,🇳🇱 Sebastian Nägel
+,,. TW,Discus 2cFES,. Dietmar Möller
+,,🇳🇱 GP,LS 8 neo,🇳🇱 Gerd Peter Lauer
+,,. GT2,LS 8,. Svenja Hund
+DD9E87,,🇳🇱 88,LS 8,🇳🇱 Chris Hiller
+DDA260,,🇳🇱 EO,LS 8T,🇳🇱 Jan Hertrich
+,,. MY,LS 8 neo,. Andreas Görmer
+,,. GQ,LS 8 neo,. Stefan Göldner
+,,. AF,LS 7 neo,. Alexander Franke
+,,. YP,Discus 2b,. Jannis Däuble
+,,. BG,LS 4,. Ferdinand Berger
+,,. C,LS 8 neo,. Frederic Backhaus
