@@ -138,7 +138,7 @@ def create_task_tsk_file(json_data, class_name):
 
     # Save to file
     filename = config.filename_map.get(class_name, class_name)
-    filepath = os.path.join(config.task_output_dir, f"{filename}.tsk")
+    filepath = os.path.join(config.task_output_dir, f"{config.comp_name}_{filename}.tsk")
     with open(filepath, "w", encoding='utf-8') as f:
         f.write(pretty_xml_no_decl)
     print(f"\t\t✅ Saved .tsk task file at '{filepath.replace(os.sep, '/')}'")
@@ -180,7 +180,7 @@ def convert_soaringspot_json_to_glideandseek_json(json_data):
 # Create and save a task .json file from the fetched data
 def create_task_json_file(soaringspot_json_data, class_name):
     filename = config.filename_map.get(class_name, class_name)
-    filepath = os.path.join(config.task_output_dir, f"{filename}.json")
+    filepath = os.path.join(config.task_output_dir, f"{config.comp_name}_{filename}.json")
     
     json_data = convert_soaringspot_json_to_glideandseek_json(soaringspot_json_data)
     if not json_data:
@@ -202,7 +202,7 @@ def create_task_cup_file(class_name):
     response = requests.get(full_url)
     if response.status_code == 200:
         filename = config.filename_map.get(class_name, class_name)
-        filepath = os.path.join(config.task_output_dir, f"{filename}.cup")
+        filepath = os.path.join(config.task_output_dir, f"{config.comp_name}_{filename}.cup")
         with open(filepath, 'wb') as f:
             f.write(response.content)
         print(f"\t\t✅ Saved .cup task file at '{filepath.replace(os.sep, '/')}'")

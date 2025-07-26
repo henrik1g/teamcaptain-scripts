@@ -120,7 +120,7 @@ def open_tabs():
                                 for class_name in config.classes:
                                     task_id = config.selected_task_ids.get(class_name, "")
                                     class_url = config.url_map.get(class_name, "")
-                                    file_url = config.filename_map.get(class_name, "")
+                                    file_url = f"{config.comp_name}_{config.filename_map.get(class_name, '')}"
                                     if not all([task_id, class_url, file_url]):
                                         continue
                                     replacements = {
@@ -175,7 +175,7 @@ def open_tabs():
                         for class_name in config.classes:
                             task_id = config.selected_task_ids.get(class_name, "")
                             class_url = config.url_map.get(class_name, "")
-                            file_url = config.filename_map.get(class_name, "")
+                            file_url = f"{config.comp_name}_{config.filename_map.get(class_name, '')}"
                             if not all([task_id, class_url, file_url]):
                                 continue
                             replacements = {

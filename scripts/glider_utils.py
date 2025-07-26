@@ -10,7 +10,7 @@ import csv
 def create_glider_txt_file(class_name):
     print(f"\t\t📄 Creating glider .txt file")
     filename = config.filename_map.get(class_name, "all")
-    filepath = os.path.join(config.glider_output_dir, f"{filename}.txt")
+    filepath = os.path.join(config.glider_output_dir, f"{config.comp_name}_{filename}.txt")
     
     df = pd.read_excel(config.database_path)
 
@@ -46,7 +46,7 @@ def create_glider_txt_file(class_name):
 # Create a glider .json file from the .txt file
 def create_glider_json_file(class_name):
     print(f"\t\t📄 Creating glider .json file")
-    filename = os.path.join(config.glider_output_dir, f"{config.filename_map.get(class_name, 'all')}.txt")
+    filename = os.path.join(config.glider_output_dir, f"{config.comp_name}_{config.filename_map.get(class_name, 'all')}.txt")
     outputfilename = filename.replace(".txt", ".json")
     # read as csv with ID,CALL,CN,TYPE,NAME
     lines = []
