@@ -1,0 +1,21 @@
+ID,CALL,CN,TYPE,NAME
+,,. K2,LS 4,. Felix Wolf
+,,. E1,ASW 28,. Florian Wagner
+,,. E2,Discus b WL,. Felix Wagner
+,,. 8A,Discus 2b,. Oliver Stehr
+,,. XO,LS 8 neo,. Alexander Scheuble
+DDEF10,,🇩🇰 TM,LS 8 neo,🇩🇰 Finn Schelter
+,,. W,Discus bT,. Bernd Sauter
+,,. O1,ASW 28,. Marcus Sagewitz
+DDEFA8,,🇳🇱 XN,Discus 2a,🇳🇱 Sebastian Nägel
+,,. TW,Discus 2cFES,. Dietmar Möller
+,,🇳🇱 GP,LS 8 neo,🇳🇱 Gerd Peter Lauer
+,,. GT2,LS 8,. Svenja Hund
+DD9E87,,🇳🇱 88,LS 8,🇳🇱 Chris Hiller
+DDA260,,🇳🇱 EO,LS 8T,🇳🇱 Jan Hertrich
+,,. MY,LS 8 neo,. Andreas Görmer
+,,. GQ,LS 8 neo,. Stefan Göldner
+,,. AF,LS 7 neo,. Alexander Franke
+,,. YP,Discus 2b,. Jannis Däuble
+,,. BG,LS 4,. Ferdinand Berger
+,,. C,LS 8 neo,. Frederic Backhaus
