@@ -4,6 +4,86 @@ import os
 import json
 import pandas as pd
 import csv
+import xml.etree.ElementTree as ET
+
+
+flarmnet = ET.Element('FLARMNET')
+def add_flarmdata(flarmid, user, fav=None, reg=None, compid=None,
+                  color="0x000000ff", size=None):
+    flarmdata = ET.SubElement(flarmnet, 'FLARMDATA', FlarmID=flarmid, user=str(user))
+    if fav is not None:
+        flarmdata.set('fav', str(fav))
+    
+    if reg:
+        reg_element = ET.SubElement(flarmdata, 'REG')
+        reg_element.text = reg
+        
+    if compid:
+        compid_element = ET.SubElement(flarmdata, 'COMPID')
+        compid_element.text = compid
+        
+    # Hinzufügen von <CUSTOM> mit COLOR und SIZE
+    custom = ET.SubElement(flarmdata, 'CUSTOM')
+    if color:
+        color_element = ET.SubElement(custom, 'COLOR')
+        color_element.text = color
+    if size:
+        size_element = ET.SubElement(custom, 'SIZE')
+        size_element.text = str(size)
+
+# Funktion zur XML Einrückung (Pretty Print)
+def indent(elem, level=0):
+    i = "\n" + level * "    "  # 4 Leerzeichen pro Ebene
+    if len(elem):
+        if not elem.text or not elem.text.strip():
+            elem.text = i + "    "
+        for child in elem:
+            indent(child, level + 1)
+        if not child.tail or not child.tail.strip():
+            child.tail = i
+    if level and (not elem.tail or not elem.tail.strip()):
+        elem.tail = i
+    return elem
+
+def create_glider_lx_xml_file(class_name):
+    print(f"\t\t📄 Creating glider userflarm.xml file")
+    filename = config.filename_map.get(class_name, "all")
+    filepath = os.path.join(config.glider_output_dir, f"{config.comp_name}_{filename}_userflarm.xml")
+    
+    df = pd.read_excel(config.database_path)
+
+    # Ensure all needed columns exist
+    required_cols = ['COMP', 'FlarmID']
+    if not all(col in df.columns for col in required_cols):
+        raise ValueError("One or more required columns are missing in the Excel sheet.")
+
+    # Drop rows where any required column is missing (i.e., end of table or incomplete rows)
+    df = df.dropna(subset=['COMP','FlarmID'])
+
+    if filename != 'all':
+        df = df[df['Class'].isin([class_name])]
+
+    # Replace NaN with empty string for relevant columns
+    df[['FlarmID', 'COMP', 'Flag','Glider', 'Name']] = df[['FlarmID', 'COMP',
+                                                           'Flag','Glider', 'Name']].fillna('')
+    # Neue Spalte 'color' mit den zugeordneten Farbwerten
+    df['color'] = df['Class'].map(config.color_map)
+
+    for index, row in df.iterrows():
+      add_flarmdata(f"{row['FlarmID']}",user=1, color=f"{row['color']}", size=30, compid=f"{row['COMP']}", fav=None)
+
+
+    #Baum erstellen und einrücken
+    indent(flarmnet)
+    tree = ET.ElementTree(flarmnet)
+
+    # Schreiben der XML-Datei
+    with open(filepath, "wb") as file:
+      file.write(b'<?xml version="1.0" encoding="UTF-8"?>\n')
+      tree.write(file, encoding='utf-8')
+      # Schreiben der XML-Datei
+
+    print(f"\t\t✅ Saved userflarm.xml glider file at '{filepath.replace(os.sep, '/')}'")
 
 # Create .txt files out of database.xlsx
 # Now creates .txt files out of Database.xlsx
@@ -111,6 +191,7 @@ def create_glider_files(class_name):
     create_glider_txt_file(class_name)
     create_glider_json_file(class_name)
     create_glider_xcsoar()
+    create_glider_lx_xml_file(class_name)
 
 # Update all glider files
 def update_glider_files():
