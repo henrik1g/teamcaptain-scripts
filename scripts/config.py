@@ -24,6 +24,12 @@ filename_map = {
     'Standard': 'std',
 }
 
+# Farbzuordnung für LX
+color_map = {
+    'Standard': '0x00000000',   # schwarz
+    'Club': '0x0000ff00',  # grün
+    'Renn': '0x00ff66e5'    # spezial
+}
 # Mapping from class name to URL segment on SoaringSpot (check URL when looking at a task to update)
 url_map = {
 #    'Club': 'unknown',
