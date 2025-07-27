@@ -43,6 +43,39 @@ def create_glider_txt_file(class_name):
 
     print(f"\t\t✅ Saved .txt glider file at '{filepath.replace(os.sep, '/')}'")
 
+
+def create_glider_xcsoar():
+    print(f"\t\t📄 Creating xcsoar-flarm.txt file")
+    filename = "xcsoar-flarm.txt"
+    filepath = os.path.join(config.glider_output_dir, filename)
+    
+    df = pd.read_excel(config.database_path)
+
+    # Ensure all needed columns exist
+    required_cols = ['COMP', 'FlarmID']
+    if not all(col in df.columns for col in required_cols):
+        raise ValueError("One or more required columns are missing in the Excel sheet.")
+
+    # Drop rows where any required column is missing (i.e., end of table or incomplete rows)
+    df = df.dropna(subset=['FlarmID','COMP'])
+
+    
+    # Build the string using the specified format
+    df['String'] = df.apply(lambda row: f"{row['FlarmID']}={row['COMP']}", axis=1)
+
+# Write lines manually to avoid any escaping
+    with open(filepath, "w", encoding="utf-8") as f:
+        for line in df['String']:
+            f.write(f"{line}\n")
+    
+    # Save only the "String" column to a .txt file
+    #df['String'].to_csv(filepath, index=False, header=False, quoting=csv.QUOTE_NONE, escapechar='\\')
+
+    print(f"\t\t✅ Saved xcsoar-flarm.txt glider file at '{filepath.replace(os.sep, '/')}'")
+
+
+
+
 # Create a glider .json file from the .txt file
 def create_glider_json_file(class_name):
     print(f"\t\t📄 Creating glider .json file")
@@ -77,6 +110,7 @@ def create_glider_files(class_name):
     print(f"\t🔍 Fetching glider data")
     create_glider_txt_file(class_name)
     create_glider_json_file(class_name)
+    create_glider_xcsoar()
 
 # Update all glider files
 def update_glider_files():
