@@ -3,35 +3,27 @@
     "points": [
         {
             "type": "Next",
-            "name": "001 Neresheim",
-            "altitude": 541.0,
-            "lat": 48.741667672030964,
-            "lng": 10.327633638294492,
+            "name": "002 Dehlingen",
+            "altitude": 590.0,
+            "lat": 48.80666716726797,
+            "lng": 10.35388290904879,
             "radius": 10000
         },
         {
             "type": "AAT Sector",
-            "name": "019 Arberg",
-            "altitude": 522.0,
-            "lat": 49.13805087032406,
-            "lng": 10.61028308784924,
-            "radius": 15000
+            "name": "205 Schillingsf\u00fcrst",
+            "altitude": 536.0,
+            "lat": 49.287215371607424,
+            "lng": 10.264166666753491,
+            "radius": 20000
         },
         {
             "type": "AAT Sector",
-            "name": "102 Gaildorf",
-            "altitude": 345.0,
-            "lat": 48.99666595450429,
-            "lng": 9.768883183052496,
+            "name": "155 Mainhard",
+            "altitude": 465.0,
+            "lat": 49.08111782849745,
+            "lng": 9.559449946306295,
             "radius": 15000
-        },
-        {
-            "type": "AAT Sector",
-            "name": "192 Rauhe Wanne",
-            "altitude": 610.0,
-            "lat": 48.765832881315006,
-            "lng": 10.5072163870474,
-            "radius": 5000
         },
         {
             "type": "Cylinder",

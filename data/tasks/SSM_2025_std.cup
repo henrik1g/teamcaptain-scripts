@@ -1,14 +1,12 @@
 name,code,country,lat,lon,elev,style,rwdir,rwlen,freq,desc
-"001 Neresheim","","", 4844.500N, 01019.658E, 541m,1,,,,,""
-"019 Arberg","","", 4908.283N, 01036.617E, 522m,1,,,,,""
-"102 Gaildorf","","", 4859.800N, 00946.133E, 345m,1,,,,,""
-"192 Rauhe Wanne","","", 4845.950N, 01030.433E, 610m,1,,,,,""
+"002 Dehlingen","","", 4848.400N, 01021.233E, 590m,1,,,,,""
+"205 Schillingsfürst","","", 4917.233N, 01015.850E, 536m,1,,,,,""
+"155 Mainhard","","", 4904.867N, 00933.567E, 465m,1,,,,,""
 "001 Neresheim","","", 4844.500N, 01019.658E, 541m,1,,,,,""
 -----Related Tasks-----
-"Task on 2025-07-26","","001 Neresheim","019 Arberg","102 Gaildorf","192 Rauhe Wanne","001 Neresheim",""
+"Task on 2025-07-28","","002 Dehlingen","205 Schillingsfürst","155 Mainhard","001 Neresheim",""
 Options
 ObsZone=0,Style=2,R1=10000m,A1=180,Line=1
-ObsZone=1,Style=3,R1=15000m,A1=180
+ObsZone=1,Style=3,R1=20000m,A1=180
 ObsZone=2,Style=3,R1=15000m,A1=180
 ObsZone=3,Style=3,R1=5000m,A1=180
-ObsZone=4,Style=3,R1=5000m,A1=180
