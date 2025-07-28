@@ -1,0 +1,37 @@
+{
+    "type": "AAT",
+    "points": [
+        {
+            "type": "Next",
+            "name": "006 Nattheim",
+            "altitude": 568.0,
+            "lat": 48.6994331972986,
+            "lng": 10.240883405646416,
+            "radius": 10000
+        },
+        {
+            "type": "AAT Sector",
+            "name": "019 Arberg",
+            "altitude": 522.0,
+            "lat": 49.13805087032406,
+            "lng": 10.61028308784924,
+            "radius": 20000
+        },
+        {
+            "type": "AAT Sector",
+            "name": "147 Langenburg",
+            "altitude": 439.0,
+            "lat": 49.25333421822995,
+            "lng": 9.850000217183007,
+            "radius": 15000
+        },
+        {
+            "type": "Cylinder",
+            "name": "001 Neresheim",
+            "altitude": 541.0,
+            "lat": 48.741667672030964,
+            "lng": 10.327633638294492,
+            "radius": 5000
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+name,code,country,lat,lon,elev,style,rwdir,rwlen,freq,desc
+"006 Nattheim","","", 4841.966N, 01014.453E, 568m,1,,,,,""
+"019 Arberg","","", 4908.283N, 01036.617E, 522m,1,,,,,""
+"147 Langenburg","","", 4915.200N, 00951.000E, 439m,1,,,,,""
+"001 Neresheim","","", 4844.500N, 01019.658E, 541m,1,,,,,""
+-----Related Tasks-----
+"Task on 2025-07-28","","006 Nattheim","019 Arberg","147 Langenburg","001 Neresheim",""
+Options
+ObsZone=0,Style=2,R1=10000m,A1=180,Line=1
+ObsZone=1,Style=3,R1=20000m,A1=180
+ObsZone=2,Style=3,R1=15000m,A1=180
+ObsZone=3,Style=3,R1=5000m,A1=180
