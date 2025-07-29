@@ -1,21 +1,21 @@
-<Task aat_min_time="5400" type="AAT">
+<Task aat_min_time="7200" type="AAT">
   <Point type="Start">
-    <Waypoint altitude="568" name="006 Nattheim">
-      <Location latitude="48.6994331972986" longitude="10.240883405646416"/>
+    <Waypoint altitude="541" name="001 Neresheim">
+      <Location latitude="48.741667672030964" longitude="10.327633638294492"/>
     </Waypoint>
     <ObservationZone length="20000" type="Line"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="522" name="019 Arberg">
-      <Location latitude="49.13805087032406" longitude="10.61028308784924"/>
+    <Waypoint altitude="496" name="098 Fronrot">
+      <Location latitude="49.033617277914075" longitude="9.954716408669606"/>
     </Waypoint>
     <ObservationZone radius="20000" type="Cylinder"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="439" name="147 Langenburg">
-      <Location latitude="49.25333421822995" longitude="9.850000217183007"/>
+    <Waypoint altitude="534" name="125 Hirnstetten">
+      <Location latitude="48.97028434883511" longitude="11.29138357546707"/>
     </Waypoint>
-    <ObservationZone radius="15000" type="Cylinder"/>
+    <ObservationZone radius="30000" type="Cylinder"/>
   </Point>
   <Point type="Finish">
     <Waypoint altitude="541" name="001 Neresheim">

@@ -3,27 +3,27 @@
     "points": [
         {
             "type": "Next",
-            "name": "002 Dehlingen",
-            "altitude": 590.0,
-            "lat": 48.80666716726797,
-            "lng": 10.35388290904879,
+            "name": "008 Ebnat",
+            "altitude": 616.0,
+            "lat": 48.79993260074617,
+            "lng": 10.184916835587279,
             "radius": 10000
         },
         {
             "type": "AAT Sector",
-            "name": "205 Schillingsf\u00fcrst",
-            "altitude": 536.0,
-            "lat": 49.287215371607424,
-            "lng": 10.264166666753491,
-            "radius": 20000
+            "name": "030 Bad Wimpfen",
+            "altitude": 200.0,
+            "lat": 49.230548707158874,
+            "lng": 9.161383106383042,
+            "radius": 30000
         },
         {
             "type": "AAT Sector",
-            "name": "155 Mainhard",
-            "altitude": 465.0,
-            "lat": 49.08111782849745,
-            "lng": 9.559449946306295,
-            "radius": 15000
+            "name": "234 Treuchtlingen",
+            "altitude": 424.0,
+            "lat": 48.96055132926783,
+            "lng": 10.908616359285004,
+            "radius": 25000
         },
         {
             "type": "Cylinder",

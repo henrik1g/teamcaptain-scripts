@@ -1,21 +1,21 @@
-<Task aat_min_time="5400" type="AAT">
+<Task aat_min_time="9000" type="AAT">
   <Point type="Start">
-    <Waypoint altitude="590" name="002 Dehlingen">
-      <Location latitude="48.80666716726797" longitude="10.35388290904879"/>
+    <Waypoint altitude="616" name="008 Ebnat">
+      <Location latitude="48.79993260074617" longitude="10.184916835587279"/>
     </Waypoint>
     <ObservationZone length="20000" type="Line"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="536" name="205 Schillingsfürst">
-      <Location latitude="49.287215371607424" longitude="10.264166666753491"/>
+    <Waypoint altitude="200" name="030 Bad Wimpfen">
+      <Location latitude="49.230548707158874" longitude="9.161383106383042"/>
     </Waypoint>
-    <ObservationZone radius="20000" type="Cylinder"/>
+    <ObservationZone radius="30000" type="Cylinder"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="465" name="155 Mainhard">
-      <Location latitude="49.08111782849745" longitude="9.559449946306295"/>
+    <Waypoint altitude="424" name="234 Treuchtlingen">
+      <Location latitude="48.96055132926783" longitude="10.908616359285004"/>
     </Waypoint>
-    <ObservationZone radius="15000" type="Cylinder"/>
+    <ObservationZone radius="25000" type="Cylinder"/>
   </Point>
   <Point type="Finish">
     <Waypoint altitude="541" name="001 Neresheim">
