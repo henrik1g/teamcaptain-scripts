@@ -147,6 +147,34 @@
             <SIZE>30</SIZE>
         </CUSTOM>
     </FLARMDATA>
+    <FLARMDATA FlarmID="DD8204" user="1">
+        <COMPID>E1</COMPID>
+        <CUSTOM>
+            <COLOR>0x00000000</COLOR>
+            <SIZE>30</SIZE>
+        </CUSTOM>
+    </FLARMDATA>
+    <FLARMDATA FlarmID="DD82B6" user="1">
+        <COMPID>E2</COMPID>
+        <CUSTOM>
+            <COLOR>0x00000000</COLOR>
+            <SIZE>30</SIZE>
+        </CUSTOM>
+    </FLARMDATA>
+    <FLARMDATA FlarmID="DF1597" user="1">
+        <COMPID>8A</COMPID>
+        <CUSTOM>
+            <COLOR>0x00000000</COLOR>
+            <SIZE>30</SIZE>
+        </CUSTOM>
+    </FLARMDATA>
+    <FLARMDATA FlarmID="8FFF2F" user="1">
+        <COMPID>XO</COMPID>
+        <CUSTOM>
+            <COLOR>0x00000000</COLOR>
+            <SIZE>30</SIZE>
+        </CUSTOM>
+    </FLARMDATA>
     <FLARMDATA FlarmID="DDEF10" user="1">
         <COMPID>TM</COMPID>
         <CUSTOM>
@@ -154,8 +182,29 @@
             <SIZE>30</SIZE>
         </CUSTOM>
     </FLARMDATA>
-    <FLARMDATA FlarmID="DDEFA8" user="1">
+    <FLARMDATA FlarmID="3EFEC8" user="1">
+        <COMPID>O1</COMPID>
+        <CUSTOM>
+            <COLOR>0x00000000</COLOR>
+            <SIZE>30</SIZE>
+        </CUSTOM>
+    </FLARMDATA>
+    <FLARMDATA FlarmID="D00CFE" user="1">
         <COMPID>XN</COMPID>
+        <CUSTOM>
+            <COLOR>0x00000000</COLOR>
+            <SIZE>30</SIZE>
+        </CUSTOM>
+    </FLARMDATA>
+    <FLARMDATA FlarmID="DF1219" user="1">
+        <COMPID>TW</COMPID>
+        <CUSTOM>
+            <COLOR>0x00000000</COLOR>
+            <SIZE>30</SIZE>
+        </CUSTOM>
+    </FLARMDATA>
+    <FLARMDATA FlarmID="3F015C" user="1">
+        <COMPID>GT2</COMPID>
         <CUSTOM>
             <COLOR>0x00000000</COLOR>
             <SIZE>30</SIZE>
@@ -170,6 +219,27 @@
     </FLARMDATA>
     <FLARMDATA FlarmID="DDA260" user="1">
         <COMPID>EO</COMPID>
+        <CUSTOM>
+            <COLOR>0x00000000</COLOR>
+            <SIZE>30</SIZE>
+        </CUSTOM>
+    </FLARMDATA>
+    <FLARMDATA FlarmID="DF0C70" user="1">
+        <COMPID>GQ</COMPID>
+        <CUSTOM>
+            <COLOR>0x00000000</COLOR>
+            <SIZE>30</SIZE>
+        </CUSTOM>
+    </FLARMDATA>
+    <FLARMDATA FlarmID="3EEDD9" user="1">
+        <COMPID>AF</COMPID>
+        <CUSTOM>
+            <COLOR>0x00000000</COLOR>
+            <SIZE>30</SIZE>
+        </CUSTOM>
+    </FLARMDATA>
+    <FLARMDATA FlarmID="D021F1" user="1">
+        <COMPID>C</COMPID>
         <CUSTOM>
             <COLOR>0x00000000</COLOR>
             <SIZE>30</SIZE>

@@ -239,7 +239,7 @@
         "glider": "",
         "comp": ". E1",
         "flarm": [
-            ""
+            "DD8204"
         ]
     },
     {
@@ -248,7 +248,7 @@
         "glider": "",
         "comp": ". E2",
         "flarm": [
-            ""
+            "DD82B6"
         ]
     },
     {
@@ -257,7 +257,7 @@
         "glider": "",
         "comp": ". 8A",
         "flarm": [
-            ""
+            "DF1597"
         ]
     },
     {
@@ -266,7 +266,7 @@
         "glider": "",
         "comp": ". XO",
         "flarm": [
-            ""
+            "8FFF2F"
         ]
     },
     {
@@ -293,7 +293,7 @@
         "glider": "",
         "comp": ". O1",
         "flarm": [
-            ""
+            "3EFEC8"
         ]
     },
     {
@@ -302,7 +302,7 @@
         "glider": "",
         "comp": "\ud83c\uddf3\ud83c\uddf1 XN",
         "flarm": [
-            "DDEFA8"
+            "D00CFE"
         ]
     },
     {
@@ -311,7 +311,7 @@
         "glider": "",
         "comp": ". TW",
         "flarm": [
-            ""
+            "DF1219"
         ]
     },
     {
@@ -329,7 +329,7 @@
         "glider": "",
         "comp": ". GT2",
         "flarm": [
-            ""
+            "3F015C"
         ]
     },
     {
@@ -365,7 +365,7 @@
         "glider": "",
         "comp": ". GQ",
         "flarm": [
-            ""
+            "DF0C70"
         ]
     },
     {
@@ -374,7 +374,7 @@
         "glider": "",
         "comp": ". AF",
         "flarm": [
-            ""
+            "3EEDD9"
         ]
     },
     {
@@ -401,7 +401,7 @@
         "glider": "",
         "comp": ". C",
         "flarm": [
-            ""
+            "D021F1"
         ]
     }
 ]
