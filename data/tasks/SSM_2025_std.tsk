@@ -1,4 +1,4 @@
-<Task aat_min_time="9000" type="AAT">
+<Task aat_min_time="10800" type="AAT">
   <Point type="Start">
     <Waypoint altitude="616" name="008 Ebnat">
       <Location latitude="48.79993260074617" longitude="10.184916835587279"/>
@@ -6,16 +6,16 @@
     <ObservationZone length="20000" type="Line"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="200" name="030 Bad Wimpfen">
-      <Location latitude="49.230548707158874" longitude="9.161383106383042"/>
-    </Waypoint>
-    <ObservationZone radius="30000" type="Cylinder"/>
-  </Point>
-  <Point type="Turn">
-    <Waypoint altitude="424" name="234 Treuchtlingen">
-      <Location latitude="48.96055132926783" longitude="10.908616359285004"/>
+    <Waypoint altitude="443" name="140 Kirchberg">
+      <Location latitude="49.17749862787544" longitude="9.958332993834718"/>
     </Waypoint>
     <ObservationZone radius="25000" type="Cylinder"/>
+  </Point>
+  <Point type="Turn">
+    <Waypoint altitude="366" name="070 Dietfurt">
+      <Location latitude="49.0355502214496" longitude="11.588333733596135"/>
+    </Waypoint>
+    <ObservationZone radius="30000" type="Cylinder"/>
   </Point>
   <Point type="Finish">
     <Waypoint altitude="541" name="001 Neresheim">

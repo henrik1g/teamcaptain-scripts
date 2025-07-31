@@ -1,4 +1,4 @@
-<Task aat_min_time="7200" type="AAT">
+<Task aat_min_time="9000" type="AAT">
   <Point type="Start">
     <Waypoint altitude="541" name="001 Neresheim">
       <Location latitude="48.741667672030964" longitude="10.327633638294492"/>
@@ -6,14 +6,14 @@
     <ObservationZone length="20000" type="Line"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="496" name="098 Fronrot">
-      <Location latitude="49.033617277914075" longitude="9.954716408669606"/>
+    <Waypoint altitude="536" name="205 Schillingsfürst">
+      <Location latitude="49.287215371607424" longitude="10.264166666753491"/>
     </Waypoint>
-    <ObservationZone radius="20000" type="Cylinder"/>
+    <ObservationZone radius="25000" type="Cylinder"/>
   </Point>
   <Point type="Turn">
-    <Waypoint altitude="534" name="125 Hirnstetten">
-      <Location latitude="48.97028434883511" longitude="11.29138357546707"/>
+    <Waypoint altitude="500" name="035 Beilngries">
+      <Location latitude="49.03695041022957" longitude="11.456949922269432"/>
     </Waypoint>
     <ObservationZone radius="30000" type="Cylinder"/>
   </Point>

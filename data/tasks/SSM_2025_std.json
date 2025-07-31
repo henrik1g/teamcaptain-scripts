@@ -11,19 +11,19 @@
         },
         {
             "type": "AAT Sector",
-            "name": "030 Bad Wimpfen",
-            "altitude": 200.0,
-            "lat": 49.230548707158874,
-            "lng": 9.161383106383042,
-            "radius": 30000
+            "name": "140 Kirchberg",
+            "altitude": 443.0,
+            "lat": 49.17749862787544,
+            "lng": 9.958332993834718,
+            "radius": 25000
         },
         {
             "type": "AAT Sector",
-            "name": "234 Treuchtlingen",
-            "altitude": 424.0,
-            "lat": 48.96055132926783,
-            "lng": 10.908616359285004,
-            "radius": 25000
+            "name": "070 Dietfurt",
+            "altitude": 366.0,
+            "lat": 49.0355502214496,
+            "lng": 11.588333733596135,
+            "radius": 30000
         },
         {
             "type": "Cylinder",

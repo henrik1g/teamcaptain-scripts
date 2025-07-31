@@ -11,18 +11,18 @@
         },
         {
             "type": "AAT Sector",
-            "name": "098 Fronrot",
-            "altitude": 496.0,
-            "lat": 49.033617277914075,
-            "lng": 9.954716408669606,
-            "radius": 20000
+            "name": "205 Schillingsf\u00fcrst",
+            "altitude": 536.0,
+            "lat": 49.287215371607424,
+            "lng": 10.264166666753491,
+            "radius": 25000
         },
         {
             "type": "AAT Sector",
-            "name": "125 Hirnstetten",
-            "altitude": 534.0,
-            "lat": 48.97028434883511,
-            "lng": 11.29138357546707,
+            "name": "035 Beilngries",
+            "altitude": 500.0,
+            "lat": 49.03695041022957,
+            "lng": 11.456949922269432,
             "radius": 30000
         },
         {

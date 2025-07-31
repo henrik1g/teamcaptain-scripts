@@ -1,12 +1,12 @@
 name,code,country,lat,lon,elev,style,rwdir,rwlen,freq,desc
 "001 Neresheim","","", 4844.500N, 01019.658E, 541m,1,,,,,""
-"098 Fronrot","","", 4902.017N, 00957.283E, 496m,1,,,,,""
-"125 Hirnstetten","","", 4858.217N, 01117.483E, 534m,1,,,,,""
+"205 Schillingsfürst","","", 4917.233N, 01015.850E, 536m,1,,,,,""
+"035 Beilngries","","", 4902.217N, 01127.417E, 500m,1,,,,,""
 "001 Neresheim","","", 4844.500N, 01019.658E, 541m,1,,,,,""
 -----Related Tasks-----
-"Task on 2025-07-29","","001 Neresheim","098 Fronrot","125 Hirnstetten","001 Neresheim",""
+"Task on 2025-07-31","","001 Neresheim","205 Schillingsfürst","035 Beilngries","001 Neresheim",""
 Options
 ObsZone=0,Style=2,R1=10000m,A1=180,Line=1
-ObsZone=1,Style=3,R1=20000m,A1=180
+ObsZone=1,Style=3,R1=25000m,A1=180
 ObsZone=2,Style=3,R1=30000m,A1=180
 ObsZone=3,Style=3,R1=5000m,A1=180

@@ -1,12 +1,12 @@
 name,code,country,lat,lon,elev,style,rwdir,rwlen,freq,desc
 "008 Ebnat","","", 4847.996N, 01011.095E, 616m,1,,,,,""
-"030 Bad Wimpfen","","", 4913.833N, 00909.683E, 200m,1,,,,,""
-"234 Treuchtlingen","","", 4857.633N, 01054.517E, 424m,1,,,,,""
+"140 Kirchberg","","", 4910.650N, 00957.500E, 443m,1,,,,,""
+"070 Dietfurt","","", 4902.133N, 01135.300E, 366m,1,,,,,""
 "001 Neresheim","","", 4844.500N, 01019.658E, 541m,1,,,,,""
 -----Related Tasks-----
-"Task on 2025-07-29","","008 Ebnat","030 Bad Wimpfen","234 Treuchtlingen","001 Neresheim",""
+"Task on 2025-07-31","","008 Ebnat","140 Kirchberg","070 Dietfurt","001 Neresheim",""
 Options
 ObsZone=0,Style=2,R1=10000m,A1=180,Line=1
-ObsZone=1,Style=3,R1=30000m,A1=180
-ObsZone=2,Style=3,R1=25000m,A1=180
+ObsZone=1,Style=3,R1=25000m,A1=180
+ObsZone=2,Style=3,R1=30000m,A1=180
 ObsZone=3,Style=3,R1=5000m,A1=180
